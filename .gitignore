@@ -1,0 +1,42 @@
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VSCode settings
+.vscode/
+
+# Local databases
+data/chroma_db/
+*.sqlite3
+
+# Logs
+*.log
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Raw PDFs (not to be uploaded)
+data/raw/*.pdf
+data/chunked_json/*.json
+data/raw_json/*.json
