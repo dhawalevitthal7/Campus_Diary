@@ -1,0 +1,98 @@
+[
+    {
+        "Name": "ALPHAWAVE SEMI",
+        "description": "ALPHAWAVE SEMIJob DescriptionLooking for self-driven, motivated and skilled engineers looking to get exposure to all sides of IC building processmore specifically DFT (Design for Testability) from high level architectural definition, through RTL coding,verification, Scan/MBIST/BSCAN insertion,pattern generation and validation, device bring-up for complex customsilicon and IP engagements.\u2022 As a DFT intern, candidate will have the opportunity to work in a fast-pacedenvironment on multiple projects in different design stages:\u2022 Develop RTL code for DFT components generation.\u2022 Integrate custom made DFT logic for complex SoCs (System-On-Chip) and CoWoS(Chip-On-Wafer-On-Substrate) designs.\u2022 Perform Scan/MBIST/BSCAN insertion.\u2022 Perform ATPG and coverage analysis, simulate zero delay and SDF annotated testsequences.\u2022 Build verification test benches and write verification sequences.\u2022 Review static timing analysis reports and SDCs generations.\u2022 Design and implement automation using Perl and/or Python.Why would you want to join our team:Ability to get exposure to all disciplines of TEST (DFT, ATPG, RTL, DV, Device Bring-up)in IC design process.No \"side kick\u201d tasks; you will be assigned a regular engineering scope of work.High possibility to get absorbed as the full-time engineer after internship subjectedto performance and open positions.QualificationsPursuing or Completed Bachelors or Master inElectronics/Electrical/Telecommunications/VLSI/Microelectronics Engineering onlywith 70% throughout in academics and zero active backlogs.Required skill set:o Strong Digital Fundamentalso Verilog and/or VHDL knowledgeo Basics of DFT and exposure to Tessent/Synopsys TEST tools is a plus.o Perl, Python, TCL experienceo C/C++, System Verilog is a plus.Desired Qualitieso Self-starter and curious to learn new things.o Target oriented and motivated to figure out solutions to new problems.o Collaborative, team playerInternship Details:\u2022 Eligibility:BTech/MTech in Electronics, Electrical, Telecommunications, VLSI, or Microelectronics Engineering\u2022 Minimum 70% academic score throughout No active backlogs\u2022 Position: Intern\u2022 Duration: 6 months to 1 year\u2022 Location: Bangalore/Pune\u2022 Stipend:INR 40,000 per month for BTech students\u25a0 INR 50,000 per month for MTech students",
+        "Keys": [
+            {
+                "key": "Job Description",
+                "value": "Looking for self-driven, motivated and skilled engineers looking to get exposure to all sides of IC building processmore specifically DFT (Design for Testability) from high level architectural definition, through RTL coding,verification, Scan/MBIST/BSCAN insertion,pattern generation and validation, device bring-up for complex customsilicon and IP engagements.\u2022 As a DFT intern, candidate will have the opportunity to work in a fast-pacedenvironment on multiple projects in different design stages:\u2022 Develop RTL code for DFT components generation.\u2022 Integrate custom made DFT logic for complex SoCs (System-On-Chip) and CoWoS(Chip-On-Wafer-On-Substrate) designs.\u2022 Perform Scan/MBIST/BSCAN insertion.\u2022 Perform ATPG and coverage analysis, simulate zero delay and SDF annotated testsequences.\u2022 Build verification test benches and write verification sequences.\u2022 Review static timing analysis reports and SDCs generations.\u2022 Design and implement automation using Perl and/or Python."
+            },
+            {
+                "key": "Qualifications",
+                "value": "Pursuing or Completed Bachelors or Master inElectronics/Electrical/Telecommunications/VLSI/Microelectronics Engineering onlywith 70% throughout in academics and zero active backlogs."
+            },
+            {
+                "key": "Skill set",
+                "value": "Strong Digital Fundamentalso Verilog and/or VHDL knowledgeo Basics of DFT and exposure to Tessent/Synopsys TEST tools is a plus.o Perl, Python, TCL experienceo C/C++, System Verilog is a plus."
+            },
+            {
+                "key": "Eligibility",
+                "value": "BTech/MTech in Electronics, Electrical, Telecommunications, VLSI, or Microelectronics Engineering\u2022 Minimum 70% academic score throughout No active backlogs"
+            },
+            {
+                "key": "Location",
+                "value": "Bangalore/Pune"
+            },
+            {
+                "key": "Stipend",
+                "value": 40000
+            }
+        ]
+    },
+    {
+        "Name": "Adani Group",
+        "description": "adaniTMAbout Adani Group:Adani Group is one of the largest and fastest growing Conglomerate catering to a billion aspirations. The Group is a diversified organization in India with a market cap of over $133 Bn comprising 6 publicly traded companies. The company is a market leader in multiple sectors like Ports and Logistics, Power, Transmission, Renewables and Gas.CTC: 6LPAEligibility Criteria:\u2022 Engineering graduates from disciplines across- (B.E./B.Tech.) from within the following different engineering streams (Civil, Electrical, Mechanical, Electronics (C&I), E&C, CS/IT, Industrial)\u2022 Minimum of 60% marks throughout in academics (10th, 12th, and Graduation level till third year) with no history of backlogs throughout the educationSelection Process:1. Online assessment to evaluate candidates on their cognitive2. Domain ability followed by a technical and HR interview",
+        "Keys": [
+            {
+                "key": "CTC",
+                "value": 600000
+            },
+            {
+                "key": "Eligibility",
+                "value": "Engineering graduates from disciplines across- (B.E./B.Tech.) from within the following different engineering streams (Civil, Electrical, Mechanical, Electronics (C&I), E&C, CS/IT, Industrial)\u2022 Minimum of 60% marks throughout in academics (10th, 12th, and Graduation level till third year) with no history of backlogs throughout the education"
+            },
+            {
+                "key": "B.E/B.Tech",
+                "value": "B.E./B.Tech."
+            },
+            {
+                "key": "Selection Process",
+                "value": "1. Online assessment to evaluate candidates on their cognitive2. Domain ability followed by a technical and HR interview"
+            }
+        ]
+    },
+    {
+        "Name": "CEAT Tyres",
+        "description": "CEATCEAT TyresAbout CEAT - Founded in 1958, CEAT is one of India's leading tyre brands and the flagship company of the RPGGROUP . Driven by the purpose of helping the world move safely and smartly, CEAT provides world-class productsand services across 110+ countries.Job Role: GET(Graduate Engineering Trainee)\u2022 Functions \u2013Manufacturing, Production\u2022 Package \u2013 6 LPA ( CTC will be revised post confirmation after 1 yr)",
+        "Keys": [
+            {
+                "key": "Job Role",
+                "value": "GET(Graduate Engineering Trainee)"
+            },
+            {
+                "key": "CTC",
+                "value": 600000
+            }
+        ]
+    },
+    {
+        "Name": "Hexaware",
+        "description": "tiHEXAWAREHexawareAbout Us:At Hexaware, we're not just a global technology and business process services company; we're acommunity of 31,600+ Hexawarians dedicated to one singular purpose: creating smiles through the power of greatpeople and technology. With a presence in 58 offices across 28 countries, weempower enterprises worldwide to embark on their digital transformation journey with unparalleled scale and speed.As an employer, we're more than just a workplace. We put our people first, foster diversity andinclusivity, and prioritize their growth through robust learning and development programs. OurCulture is a canvas for innovation as we work toward our shared vision of becoming the world's most loved digitaltransformation partner.Exciting, isn't it? Visit www.hexaware.com to join us in embracing the magic of technology, as we passionatelyadvocate for its potential to transform lives today and shape a brighter future. Together, we'll make the digital world abetter place.Role: Quality Assurance (Software Testing)CTC: 4,00,000 INR per annum on successful completion of Training.o Stipend of 15,000 INR per month for 6 months.o Service agreement for 3 years in lieu of 2 lakhs.What are we looking for?Good communication skills- Fluent in spoken & written EnglishTeam player and interpersonal relationship abilitiesHigh level of energyRight Attitude and the ability to thrive in a fast-paced environment\u2022 Location: Nagpur/MumbaiEligibility\u2022 Must have 60% throughout\u2022 B.E./B.Tech \u2013 Mechanical, Electronics, Electrical, Instrumentation, Industrial Engineering, or similarbackground\u2022 2022 pass outs / 2023 pass outs who have completed their academic credits only",
+        "Keys": [
+            {
+                "key": "Roles",
+                "value": "Quality Assurance (Software Testing)"
+            },
+            {
+                "key": "CTC",
+                "value": 400000
+            },
+            {
+                "key": "Stipend",
+                "value": 15000
+            },
+            {
+                "key": "Location",
+                "value": "Nagpur/Mumbai"
+            },
+            {
+                "key": "Eligibility",
+                "value": "Must have 60% throughout\u2022 B.E./B.Tech \u2013 Mechanical, Electronics, Electrical, Instrumentation, Industrial Engineering, or similar background\u2022 2022 pass outs / 2023 pass outs who have completed their academic credits only"
+            },
+            {
+                "key": "B.E/B.Tech",
+                "value": "B.E./B.Tech \u2013 Mechanical, Electronics, Electrical, Instrumentation, Industrial Engineering, or similar background"
+            }
+        ]
+    }
+]
