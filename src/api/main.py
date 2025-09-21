@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from src.retrieval.retriever import query_chroma
-from collection import init_chroma 
+from src.embedding.chroma_manager import init_chroma
 
 app = FastAPI(title="RAG Query API")
 
