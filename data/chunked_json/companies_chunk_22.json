@@ -1,0 +1,158 @@
+[
+    {
+        "Name": "Vconstruct",
+        "description": "Building Better, Smarter, Faster is our mission. Since 2013, our 400+ experts have been transforming the construction industry with innovative solutions in Virtual Design and Construction (VDC), Project Controls, Accounting, and Software Development. Serving 100+ projects globally, we deliver smarter processes, better products, and faster results. Join us in reshaping the future of construction with technology.CTC: 6.75 LPA.Stipend: 20k, join in January 2025 as Graduate Trainee and then full-time from June/July 2025 based on their performance.Job Roles:1. Project Engineer \u2013 Virtual Builder.Skills and Qualification:Candidates having B.E./ B.Tech. or higher Degree in Civil or Construction related field.\u2022 A Working knowledge of BIM Coordination, Project Management, Change Management And Constructability ispreferable.\u2022 Understanding of the overall construction process ranging from Design to commissioning.\u2022 Working knowledge of any prominent VDC software like Revit,Navisworks, Tekla and Civil 3Dis desired.Work Location: Pune (Magarpatta City).Eligibility Criteria:B.E/B.Tech Computers\u2013 Minimum 60% aggregate in Comp.science / Electronics.Selection Process:Round 1: Cognitive Test (Online) - 1 hr.Includes aptitude Mathematical Ability and technical questions.\u2022 Reasoning Ability\u2022 Verbal Ability\u2022 Pseudo Code.Round 2. Group Discussion - 10 min.A general topic will be provided, and candidates will have 10 minutes to discuss.Round 3. In-Campus Interview.Includes technical questions and HR interaction.Eligibility: Civil, Min 60% in 10th, 12th & Graduation, No Live Backlog.2. Software Engineer \u2013 Software Solutions for Construction.Requirements:Good knowledge of object-oriented design and development and DBMSconcepts.Expert in HTML5, CSS3, JavaScript.Excellent communication, presentation and analytical skills.Should be willing to work collaboratively across different skill sets.Working knowledge of at least one front-end framework (react/angular) and back-end stack.Eligibility: B.E. Final year students from CS/IT, Min 70% or equivalent marks (10th, 12th Or Diploma and overall in graduation).3. Data Science Engineer - DSA.We are looking for candidates with passion for technology, excellent analytical skills, and ability to solve complex problems to undergo training in data Science related areas. Successful candidates will be part of the Data Science and Analytics team which is a tight-knit group of analysts and engineers that support all data aspects of DPR business.Requirements:B.E. / B.Tech Final year students with CS/IT background.Excellent Academic Credentials.Excellent Communication and Analytical skills.Responsibilities:Post training, selected candidates will work in Data Science and Analytics. Candidates will be working mostly on US or EU based projects. They will transition into a data science engineer with the responsibilities outlined below- Understand and analyze the business requirements- Design and deployment of the database - Ability to understand, consume and use API's, JSON, Web Services for data pipelines- Developing integrations between various applications- Design, Develop and deploy reports/dashboards/data visualizations using Power BI - Optimize reports/dashboards with a focus on usability, performance, flexibility, testability, and standardization. - Build full stack data science models with various Azure technologies-Use R or Python to implement statistical models, machine learning, and analysis (Recommenders, Prediction, Classification, Clustering, etc.).Selection Process:Round 1: Online InCampus Assessment (Coding 2 ques, Aptitude Mathematical Ability).\u2022 Reasoning Ability\u2022 Verbal Ability\u2022 Pseudo Code\u2022 Puzzle Solving.Round 2: Technical Interview 1.Round 3: Technical Interview 2.Round 4: HR & Result.",
+        "Keys": [
+            {
+                "key": "CTC",
+                "value": 6.75
+            },
+            {
+                "key": "Stipend",
+                "value": 20000
+            },
+            {
+                "key": "Job Role",
+                "value": "1. Project Engineer \u2013 Virtual Builder, 2. Software Engineer \u2013 Software Solutions for Construction, 3. Data Science Engineer - DSA"
+            },
+            {
+                "key": "skills",
+                "value": "Excellent verbal and written communication, interpersonal and presentation skills. Proficient in use of PowerPoint, MS Word, MS Excel and SharePoint Applications. Should be ready for short-term or long-term travels across the globe. A Working knowledge of BIM Coordination, Project Management, Change Management And Constructability is preferable. Understanding of the overall construction process ranging from Design to commissioning. Working knowledge of any prominent VDC software like Revit,Navisworks, Tekla and Civil 3Dis desired. Good knowledge of object-oriented design and development and DBMSconcepts. Expert in HTML5, CSS3, JavaScript. Excellent communication, presentation and analytical skills. Should be willing to work collaboratively across different skill sets. Working knowledge of at least one front-end framework (react/angular) and back-end stack. Candidates with passion for technology, excellent analytical skills, and ability to solve complex problems. Excellent Academic Credentials. Excellent Communication and Analytical skills."
+            },
+            {
+                "key": "Location",
+                "value": "Pune (Magarpatta City)"
+            },
+            {
+                "key": "Eligibility",
+                "value": "B.E/B.Tech Computers\u2013 Minimum 60% aggregate in Comp.science / Electronics. Civil, Min 60% in 10th, 12th & Graduation, No Live Backlog. B.E. Final year students from CS/IT, Min 70% or equivalent marks (10th, 12th Or Diploma and overall in graduation). B.E. / B.Tech Final year students with CS/IT background."
+            },
+            {
+                "key": "Selection Process",
+                "value": "Round 1: Cognitive Test (Online) - 1 hr. Includes aptitude Mathematical Ability and technical questions. Reasoning Ability, Verbal Ability, Pseudo Code. Round 2. Group Discussion - 10 min. A general topic will be provided, and candidates will have 10 minutes to discuss. Round 3. In-Campus Interview. Includes technical questions and HR interaction. Round 1: Online InCampus Assessment (Coding 2 ques, Aptitude Mathematical Ability). Reasoning Ability, Verbal Ability, Pseudo Code, Puzzle Solving. Round 2: Technical Interview 1. Round 3: Technical Interview 2. Round 4: HR & Result."
+            },
+            {
+                "key": "B.E/B.Tech",
+                "value": "B.E/B.Tech Computers\u2013 Minimum 60% aggregate in Comp.science / Electronics. Candidates having B.E./ B.Tech. or higher Degree in Civil or Construction related field. B.E. Final year students from CS/IT, Min 70% or equivalent marks (10th, 12th Or Diploma and overall in graduation). B.E. / B.Tech Final year students with CS/IT background."
+            },
+            {
+                "key": "Requirements",
+                "value": "Good knowledge of object-oriented design and development and DBMSconcepts. Expert in HTML5, CSS3, JavaScript. Excellent communication, presentation and analytical skills. Should be willing to work collaboratively across different skill sets. Working knowledge of at least one front-end framework (react/angular) and back-end stack. B.E. / B.Tech Final year students with CS/IT background. Excellent Academic Credentials. Excellent Communication and Analytical skills."
+            },
+            {
+                "key": "Responsibilities",
+                "value": "Post training, selected candidates will work in Data Science and Analytics. Candidates will be working mostly on US or EU based projects. They will transition into a data science engineer with the responsibilities outlined below- Understand and analyze the business requirements- Design and deployment of the database - Ability to understand, consume and use API's, JSON, Web Services for data pipelines- Developing integrations between various applications- Design, Develop and deploy reports/dashboards/data visualizations using Power BI - Optimize reports/dashboards with a focus on usability, performance, flexibility, testability, and standardization. - Build full stack data science models with various Azure technologies-Use R or Python to implement statistical models, machine learning, and analysis (Recommenders, Prediction, Classification, Clustering, etc.)."
+            },
+            {
+                "key": "training program",
+                "value": "undergo training in data Science related areas"
+            }
+        ]
+    },
+    {
+        "Name": "ZS",
+        "description": "ZS Role: Platform Services Associate Analyst.CTC: \u20b919 LPA - \u20b913 LPA.Location: Pune.What You'll Do:\u2022 Tech Stack: Python, Analyst, SQL, PowerBI, Tableau.\u2022 Build complex solutions for clients using tools and technologies on the ZAIDYN platform.\u2022 Take ownership of activities and responsibilities across all project lifecycle phases to solve business problemsin one or more client engagements.\u2022 Apply development methodologies (e.g., agile, waterfall) and best practices (e.g., QA procedures, unit testing)to ensure successful and timely task completion.\u2022 Collaborate with team members to ensure seamless project delivery.\u2022 Exhibit flexibility in tackling new challenges and demonstrate excellent task management.\u2022 Assist in creating project outputs, including business case development, solution design, user requirements,prototypes, technical architecture (if needed), test cases, and operations management.\u2022 Provide transparency in driving tasks to completion and report accurate progress status.\u2022 Bring a consulting mindset, leveraging technical and business expertise to solve problems and innovate.\u2022 Assist senior team members and delivery leads in project management responsibilities.What You'll Bring:\u2022 Qualification: Bachelor's degree in Computer Science, IT, or related disciplines with a strong academicrecord.\u2022 Additional Skills:\u2022 Bachelors Degree in CS, IT or EE\u2022 1-2 years of experience in Power BI Administration\u2022 Office 365 Admin center and products suite knowledge\u2022 Experience in AWS Administration, Application deployment and configuration management\u2022 General database and data warehousing concepts and best practices\u2022 Working knowledge of different Operating Systems like Windows\u2022 Knowledge of AWS service (EC2,S3,IAM,VPC,Lambda,EMR,CloudFront,Elastic Load Balancer etc.)\u2022 Good knowledge of RDBMS and database technologies like SQL server, PostgreSQL.\u2022 Basic knowledge of web server software like IIS or Apache Tomcat\u2022 Good Knowledge of any scripting language like PowerShell, Python, Bash/Shell scripting\u2022 Eagerness to contribute in a team-oriented environment\u2022 Excellent communication and organizational skills\u2022 Comfortable working in rotational shifts\u2022 Ability to quickly learn new platforms, languages, tools, and techniques as needed to meet\u2022 project requirements\u2022 Ability to work independently.Role - Software Engineer \u2013 Test.Responsibilities:\u2022 Understand the behavior of complex web-based applications and apply that knowledge towards testing\u2022 Contribute to a project's overall test strategy and test plan\u2022 Create and execute test scenarios; select the best methods, techniques and evaluation criteria for testing\u2022 Identify test data requirements and generate required data to support testing\u2022 Evaluate and analyze application behavior and data for potential software issues\u2022 Clearly report and help prioritize issues found during testing\u2022 Create test deliverables required by company and project testing standards\u2022 Work collaboratively with other testers, developers, and stakeholders\u2022 Identify and lead process improvement efforts\u2022 Contribute during design reviews and recommend product improvements.Qualifications:\u2022 Bachelor's or master's degree in computer science, a physical science, engineering,mathematics, economics, or another discipline with a quantitative focus\u2022 Strong academic record [India] (CGPA 7.0 or higher)\u2022 Extensive knowledge of manual testing\u2022 Advanced critical thinking skills\u2022 Excellent communication and interpersonal skills\u2022 Experience testing web applications is highly desirable\u2022 Understanding of defect tracking and test management software\u2022 Knowledge / exposure to all aspects of SDLC/STLC\u2022 Experience with Agile / Scrum methodologies\u2022 Exposure to automated testing is an added advantage\u2022 Ability to work in global cross-office teams\u2022 ZS is a global firm; fluency in English is required.Eligibility Criteria\u2022 No Backlogs",
+        "Keys": [
+            {
+                "key": "CTC",
+                "value": 19
+            },
+            {
+                "key": "Location",
+                "value": "Pune"
+            },
+            {
+                "key": "What You'll Do",
+                "value": "\u2022 Tech Stack: Python, Analyst, SQL, PowerBI, Tableau.\u2022 Build complex solutions for clients using tools and technologies on the ZAIDYN platform.\u2022 Take ownership of activities and responsibilities across all project lifecycle phases to solve business problems in one or more client engagements.\u2022 Apply development methodologies (e.g., agile, waterfall) and best practices (e.g., QA procedures, unit testing)to ensure successful and timely task completion.\u2022 Collaborate with team members to ensure seamless project delivery.\u2022 Exhibit flexibility in tackling new challenges and demonstrate excellent task management.\u2022 Assist in creating project outputs, including business case development, solution design, user requirements,prototypes, technical architecture (if needed), test cases, and operations management.\u2022 Provide transparency in driving tasks to completion and report accurate progress status.\u2022 Bring a consulting mindset, leveraging technical and business expertise to solve problems and innovate.\u2022 Assist senior team members and delivery leads in project management responsibilities."
+            },
+            {
+                "key": "What You'll Bring",
+                "value": "\u2022 Qualification: Bachelor's degree in Computer Science, IT, or related disciplines with a strong academicrecord.\u2022 Additional Skills:\u2022 Bachelors Degree in CS, IT or EE\u2022 1-2 years of experience in Power BI Administration\u2022 Office 365 Admin center and products suite knowledge\u2022 Experience in AWS Administration, Application deployment and configuration management\u2022 General database and data warehousing concepts and best practices\u2022 Working knowledge of different Operating Systems like Windows\u2022 Knowledge of AWS service (EC2,S3,IAM,VPC,Lambda,EMR,CloudFront,Elastic Load Balancer etc.)\u2022 Good knowledge of RDBMS and database technologies like SQL server, PostgreSQL.\u2022 Basic knowledge of web server software like IIS or Apache Tomcat\u2022 Good Knowledge of any scripting language like PowerShell, Python, Bash/Shell scripting\u2022 Eagerness to contribute in a team-oriented environment\u2022 Excellent communication and organizational skills\u2022 Comfortable working in rotational shifts\u2022 Ability to quickly learn new platforms, languages, tools, and techniques as needed to meet\u2022 project requirements\u2022 Ability to work independently"
+            },
+            {
+                "key": "Roles",
+                "value": "Platform Services Associate Analyst, Software Engineer \u2013 Test"
+            },
+            {
+                "key": "Qualifications",
+                "value": "\u2022 Bachelor's or master's degree in computer science, a physical science, engineering,mathematics, economics, or another discipline with a quantitative focus\u2022 Strong academic record [India] (CGPA 7.0 or higher)\u2022 Extensive knowledge of manual testing\u2022 Advanced critical thinking skills\u2022 Excellent communication and interpersonal skills\u2022 Experience testing web applications is highly desirable\u2022 Understanding of defect tracking and test management software\u2022 Knowledge / exposure to all aspects of SDLC/STLC\u2022 Experience with Agile / Scrum methodologies\u2022 Exposure to automated testing is an added advantage\u2022 Ability to work in global cross-office teams\u2022 ZS is a global firm; fluency in English is required"
+            },
+            {
+                "key": "Responsibilities",
+                "value": "\u2022 Understand the behavior of complex web-based applications and apply that knowledge towards testing\u2022 Contribute to a project's overall test strategy and test plan\u2022 Create and execute test scenarios; select the best methods, techniques and evaluation criteria for testing\u2022 Identify test data requirements and generate required data to support testing\u2022 Evaluate and analyze application behavior and data for potential software issues\u2022 Clearly report and help prioritize issues found during testing\u2022 Create test deliverables required by company and project testing standards\u2022 Work collaboratively with other testers, developers, and stakeholders\u2022 Identify and lead process improvement efforts\u2022 Contribute during design reviews and recommend product improvements"
+            },
+            {
+                "key": "Eligibility",
+                "value": "No Backlogs"
+            },
+            {
+                "key": "B.E/B.Tech",
+                "value": "Bachelor's degree in Computer Science, IT, or related disciplines. Bachelors Degree in CS, IT or EE. Bachelor's or master's degree in computer science, a physical science, engineering,mathematics, economics, or another discipline with a quantitative focus"
+            },
+            {
+                "key": "Innovate",
+                "value": "Bring a consulting mindset, leveraging technical and business expertise to solve problems and innovate."
+            }
+        ]
+    },
+    {
+        "Name": "Aspect Ratio",
+        "description": "Academic Requirements: \u2022 UG: 70% required, 88.3% achieved \u2022 Class X: 70% required, 82% achieved \u2022 Class XII: 70% required, 79.6% achieved \u2022 PG/Dual Degree: Not applicable.Selection Process: Round 1: Pre-placement Talk. Round 2: Online Assessment (MCQs on Logical Reasoning & SQL, 2 SQL Code, 2 DSA que) 2HRs. Round 3: Communication Test (Online). Round 4: Technical Interview. Round 5: HR Round.Aspect Ratio CTC :- 12 LPA.Job Description: As an Analyst your job would involve:\u2022 Taking a complicated business problem and structuring it into a mathematical problem\u2022 Implementing the solution in the best available tool \u2013 MS-Excel, Spotfire, R, Python etc.\u2022 Understand client requirements and provide solutions in a fast-paced environment\u2022 Effectively collaborate across teams\u2022 Dive deep into data, analyse, and discover patterns/root causes. Generate insights.\u2022 Design accurate and scalable prediction algorithms \u2022 Using your project management skills to work on multipleprojects simultaneously\u2022 Designing and implementing processes to boost our performance .Essential skills:\u2022 Basic statistical modelling knowledge\u2022 Strong attention to detail with excellent problem-solving skills\u2022 Hands on experience on R/Python and SAS/SQL\u2022 Passionate about latest technology trends with a desire for innovation\u2022 Self-motivated, self-managing and able to work independently.Good communication skills Good to have skills:\u2022 Experience with patient level data or big data of any kind\u2022 Some experience in developing and supporting Machine Learning solutions.Selection Process:1. Resume Shortlisting.2. Online Coding round - (2 Coding questions and Aptitude questions Pseudo Code, Puzzle Solving, EnglishAbility.3. In Campus Technical Round.",
+        "Keys": [
+            {
+                "key": "CTC",
+                "value": 12
+            },
+            {
+                "key": "Job Description",
+                "value": "As an Analyst your job would involve:\u2022 Taking a complicated business problem and structuring it into a mathematical problem\u2022 Implementing the solution in the best available tool \u2013 MS-Excel, Spotfire, R, Python etc.\u2022 Understand client requirements and provide solutions in a fast-paced environment\u2022 Effectively collaborate across teams\u2022 Dive deep into data, analyse, and discover patterns/root causes. Generate insights.\u2022 Design accurate and scalable prediction algorithms \u2022 Using your project management skills to work on multipleprojects simultaneously\u2022 Designing and implementing processes to boost our performance ."
+            },
+            {
+                "key": "Essential skills",
+                "value": "\u2022 Basic statistical modelling knowledge\u2022 Strong attention to detail with excellent problem-solving skills\u2022 Hands on experience on R/Python and SAS/SQL\u2022 Passionate about latest technology trends with a desire for innovation\u2022 Self-motivated, self-managing and able to work independently.Good communication skills Good to have skills:\u2022 Experience with patient level data or big data of any kind\u2022 Some experience in developing and supporting Machine Learning solutions"
+            },
+            {
+                "key": "Selection Process",
+                "value": "Round 1: Pre-placement Talk. Round 2: Online Assessment (MCQs on Logical Reasoning & SQL, 2 SQL Code, 2 DSA que) 2HRs. Round 3: Communication Test (Online). Round 4: Technical Interview. Round 5: HR Round. 1. Resume Shortlisting. 2. Online Coding round - (2 Coding questions and Aptitude questions Pseudo Code, Puzzle Solving, EnglishAbility. 3. In Campus Technical Round."
+            },
+            {
+                "key": "Requirements",
+                "value": "Academic Requirements: UG: 70% required, 88.3% achieved. Class X: 70% required, 82% achieved. Class XII: 70% required, 79.6% achieved. PG/Dual Degree: Not applicable."
+            },
+            {
+                "key": "Innovate",
+                "value": "Passionate about latest technology trends with a desire for innovation"
+            }
+        ]
+    },
+    {
+        "Name": "Varroc",
+        "description": "It gives me great pleasure to introduce Varroc as a GLOBAL LEADER IN AUTOMOTIVE COMPONENTS. Varroc is a global tier-1 automotive component company. We commenced operations in India with our Polymer business in 1990 We design, manufacture, and supply exterior lighting systems, plastic and polymer components, electrical-electronics components, and precision metallic components to passenger car, commercial vehicle, two-wheeler, three-wheeler and off-highway vehicle (\u201cOHV\u201d) OEMs directly worldwide.Job DescriptionGraduate Engineer TraineeCTC: 11.5 LPASelection Process(Online):-1. 10th/12th percentage based resume shortlisting.2. Aptitude: Reasoning AbilityVerbal AbilityPseudo CodePuzzle SolvingEnglish Abilityand Core Subjects Test (As per branch) (Not Proctored).3. Technical Interview ( core ques, technical ques, CN, Managerial)Round 1 technicalRound 2- ManagerialRound 3 - HREligibility:B.Tech- CS group, IT, EC, EN, IND, EE, Mech10th: 85%12th : 75%Degree: 7 CGPANo live or dead backlogNo gap year",
+        "Keys": [
+            {
+                "key": "multinational company",
+                "value": "GLOBAL LEADER IN AUTOMOTIVE COMPONENTS. Varroc is a global tier-1 automotive component company."
+            },
+            {
+                "key": "CTC",
+                "value": 11.5
+            },
+            {
+                "key": "Job Description",
+                "value": "Graduate Engineer Trainee"
+            },
+            {
+                "key": "Selection Process",
+                "value": "1. 10th/12th percentage based resume shortlisting. 2. Aptitude: Reasoning Ability Verbal Ability Pseudo Code Puzzle Solving English Ability and Core Subjects Test (As per branch) (Not Proctored). 3. Technical Interview ( core ques, technical ques, CN, Managerial) Round 1 technical Round 2- Managerial Round 3 - HR"
+            },
+            {
+                "key": "Eligibility",
+                "value": "B.Tech- CS group, IT, EC, EN, IND, EE, Mech. 10th: 85%. 12th : 75%. Degree: 7 CGPA. No live or dead backlog. No gap year."
+            },
+            {
+                "key": "B.E/B.Tech",
+                "value": "B.Tech- CS group, IT, EC, EN, IND, EE, Mech"
+            }
+        ]
+    }
+]

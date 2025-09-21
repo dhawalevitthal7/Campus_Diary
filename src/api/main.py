@@ -19,7 +19,7 @@ class QueryRequest(BaseModel):
 @app.post("/query")
 async def query_endpoint(request: QueryRequest):
     try:
-        response = query_chroma(request.query, limit=20)
+        response = query_chroma(request.query, limit=5)
         return {"query": request.query, "response": response}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))

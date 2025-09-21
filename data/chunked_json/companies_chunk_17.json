@@ -1,0 +1,178 @@
+[
+    {
+        "Name": "Quantiphi",
+        "description": "\u2022 Third Party information Security Risk managementEligibility Criteria:\u2022 Minimum 60% aggregate in 10th, 12th and Graduation\u2022 B.E/B.Tech in Cyber Security onlyquantiphiQuantiphiLocation: Mumbai/BangloreEligibility Criteria:CTC:\u2022 Branches - B.E, M.E, MCA, B.Tech & M.Tech\u2022 70% and above in 10th, 12th and Graduation (till now) with no-reappears/backlogs.1. Stipend 10K for 4 months and virtual internship2. Stipend 23K for 2 months and in person/hybrid internship3.CTC on FTE Conversion: 8.5 LPA (6.5 LPA - Fixed & 2 Lakhs - QCDP)Job Role: Data EngineerResponsibilities:\u2022 Work with business users and other stakeholders to understand business processes.\u2022 Ability to understand, design and implement Dimensions and Fact tables\u2022 Identify and implement data transformation/cleansing requirements\u2022 Profile source data to check data quality and develop Data Pipelines to implement ETL logic\u2022 Create and execute test plans debug existing Data Pipelines\u2022 Create data visualizations\u2022 Write SQL code-Queries/Stored Procedures/FunctionsRequirements:Strong SQL writing skills\u2022 Strong knowledge on Data Warehouse and ETL concepts\u2022 Familiarity with Kimball and Inmon Data Warehouse methodology Understand project-specific requirements,standards, guidelines, and processes\u2022 Demonstrated success working in a team-based environment\u2022 Good written/oral communication skills\u2022 Strong analytical and problem solving skillsJob Role: Business AnalystResponsibilities:\u2022 Participate in on-site and offshore engagements to deliver services to our client base.\u2022 Translate the business requirements into technical problems for the team and deliver technical solutions inbusiness terms to the client.",
+        "Keys": [
+            {
+                "key": "Eligibility",
+                "value": "Minimum 60% aggregate in 10th, 12th and Graduation B.E/B.Tech in Cyber Security only"
+            },
+            {
+                "key": "Eligibility",
+                "value": "Branches - B.E, M.E, MCA, B.Tech & M.Tech 70% and above in 10th, 12th and Graduation (till now) with no-reappears/backlogs."
+            },
+            {
+                "key": "Location",
+                "value": "Mumbai/Banglore"
+            },
+            {
+                "key": "Stipend",
+                "value": 10000
+            },
+            {
+                "key": "Stipend",
+                "value": 23000
+            },
+            {
+                "key": "CTC",
+                "value": 8.5
+            },
+            {
+                "key": "Job Role",
+                "value": "Data Engineer"
+            },
+            {
+                "key": "Responsibilities",
+                "value": "Work with business users and other stakeholders to understand business processes. Ability to understand, design and implement Dimensions and Fact tables Identify and implement data transformation/cleansing requirements Profile source data to check data quality and develop Data Pipelines to implement ETL logic Create and execute test plans debug existing Data Pipelines Create data visualizations Write SQL code-Queries/Stored Procedures/Functions"
+            },
+            {
+                "key": "Requirements",
+                "value": "Strong SQL writing skills Strong knowledge on Data Warehouse and ETL concepts Familiarity with Kimball and Inmon Data Warehouse methodology Understand project-specific requirements,standards, guidelines, and processes Demonstrated success working in a team-based environment Good written/oral communication skills Strong analytical and problem solving skills"
+            },
+            {
+                "key": "Job Role",
+                "value": "Business Analyst"
+            },
+            {
+                "key": "Responsibilities",
+                "value": "Participate in on-site and offshore engagements to deliver services to our client base. Translate the business requirements into technical problems for the team and deliver technical solutions inbusiness terms to the client."
+            }
+        ]
+    },
+    {
+        "Name": "Nutanix",
+        "description": "Nutanix Nutanix is a global leader in cloud software and a pioneer in hyperconverged infrastructure solutions, making computing invisible anywhere. Companies around the world use Nutanix software to leverage a single platform to manage any app, at any location, at any scale for their private, hybrid and multi-cloud environments.CTC: 22 LPAStipend: 50k/monthJob Description: Systems Reliability Engineer (SRE) Role \u2013 InternThe Area: Escalation and Technical Support:We are ensuring the success of our ground breaking technology through cluster health monitoringand quick response time. We are top-notch engineers with the ability to handle all problems thatcome our way. Working closely with Sales and Software Engineers, the SRE team acts as ourcustomer's champions and has guaranteed that not a single box has been returned.We are ensuring the success of our ground - breaking technology through cluster healthmonitoring and quick response time. We are top-notch engineers with the ability to handle allproblems that come our way. Working closely with Sales and Software Engineers, the SRE teamacts as our customers' champions and has guaranteed that not a single box has been returned.\u2022 Provide world class support and be a champion for our customers. GO above and beyond tosupport their business and use Of the Nutanix stack.\u2022 Troubleshooting. debug and diagnose customer issues encountered post implementation. Worktowards identifying the root cause of the problem in order to resolve the issues permanently.\u2022 Define and lead changes to our product with our Development/Engineering team based onfeedback from customers and field implementations.\u2022 Improve serviceability of the product by testing new features and developing tools to scaleour field deployment and auto-support infrastructure.\u2022 Collaborate with various teams like Engineering, Account product management etc andensure timely resolution for our customers.\u2022 Develop and work on creating Content i.e., internal and external knowledge bases.\u2022 Work with technology partners (e.g., VMware, Citrix, Microsoft) to resolve issues and pushimprovements in our ecosystem.\u2022 Provide support on weekdays and Off hours on an as needed and scheduled rotational basis.Requirements:\u2022 Excellent verbal/written communication and analytical skills.\u2022 Customer centricity\u2022 The passion and ability to learn new things. while never being satisfied with the status quo.\u2022 Willingness to work in a fast-growing company with huge potential.Location: Bangalore / PuneSelection Process:Round 1: Resume Shortlisting - Based on ATS compatible Profile, AMCAT Test, GitHub, HackerRank, HackerEarthRound 2: Pre-Placement Talk for shortlisted students only, Know Your Company Round, Technology Domain / Quizabout Nutanix (most imp round)Round 3: HackerRank MCQ Test (Cloud, Networking, Linux) (2Hrs)Round 4: Interviews Tech 1Round 5: Interviews Tech 2Round 6: Managerial and ResultEligibility:No edu. Gaps allowed.CS/IT group, ECE, ENNo live backlogs.",
+        "Keys": [
+            {
+                "key": "CTC",
+                "value": 22
+            },
+            {
+                "key": "Stipend",
+                "value": 50000
+            },
+            {
+                "key": "Job Description",
+                "value": "Systems Reliability Engineer (SRE) Role \u2013 Intern"
+            },
+            {
+                "key": "The Area",
+                "value": "Escalation and Technical Support:We are ensuring the success of our ground breaking technology through cluster health monitoringand quick response time. We are top-notch engineers with the ability to handle all problems thatcome our way. Working closely with Sales and Software Engineers, the SRE team acts as ourcustomer's champions and has guaranteed that not a single box has been returned.We are ensuring the success of our ground - breaking technology through cluster healthmonitoring and quick response time. We are top-notch engineers with the ability to handle allproblems that come our way. Working closely with Sales and Software Engineers, the SRE teamacts as our customers' champions and has guaranteed that not a single box has been returned.\u2022 Provide world class support and be a champion for our customers. GO above and beyond tosupport their business and use Of the Nutanix stack.\u2022 Troubleshooting. debug and diagnose customer issues encountered post implementation. Worktowards identifying the root cause of the problem in order to resolve the issues permanently.\u2022 Define and lead changes to our product with our Development/Engineering team based onfeedback from customers and field implementations.\u2022 Improve serviceability of the product by testing new features and developing tools to scaleour field deployment and auto-support infrastructure.\u2022 Collaborate with various teams like Engineering, Account product management etc andensure timely resolution for our customers.\u2022 Develop and work on creating Content i.e., internal and external knowledge bases.\u2022 Work with technology partners (e.g., VMware, Citrix, Microsoft) to resolve issues and pushimprovements in our ecosystem.\u2022 Provide support on weekdays and Off hours on an as needed and scheduled rotational basis."
+            },
+            {
+                "key": "Requirements",
+                "value": "\u2022 Excellent verbal/written communication and analytical skills.\u2022 Customer centricity\u2022 The passion and ability to learn new things. while never being satisfied with the status quo.\u2022 Willingness to work in a fast-growing company with huge potential."
+            },
+            {
+                "key": "Location",
+                "value": "Bangalore / Pune"
+            },
+            {
+                "key": "Selection Process",
+                "value": "Round 1: Resume Shortlisting - Based on ATS compatible Profile, AMCAT Test, GitHub, HackerRank, HackerEarthRound 2: Pre-Placement Talk for shortlisted students only, Know Your Company Round, Technology Domain / Quizabout Nutanix (most imp round)Round 3: HackerRank MCQ Test (Cloud, Networking, Linux) (2Hrs)Round 4: Interviews Tech 1Round 5: Interviews Tech 2Round 6: Managerial and Result"
+            },
+            {
+                "key": "GitHub",
+                "value": "GitHub"
+            },
+            {
+                "key": "HackerRank",
+                "value": "HackerRank"
+            },
+            {
+                "key": "Eligibility",
+                "value": "No edu. Gaps allowed.CS/IT group, ECE, ENNo live backlogs."
+            }
+        ]
+    },
+    {
+        "Name": "Cognizant",
+        "description": "Cognizant One of the top professional services firms in the world, Cognizant transforms clients' economic, operating, and technological models for the digital age. Clients may design, create, and manage more creative and effective enterprises with the assistance of its unique industry-based consultative approach. Cognizant, a Nasdaq-100 company with its headquarters in the United States, is number 185 on the Fortune 500 and has been routinely recognized as one of the world's most admired businesses for the past 11 years. It is additionally ranked 74th on Forbes' 2018 Best Employers for Women list.CTC: GenC - 4 LPAGenC Next - 6.75 LPASelection Process: The recruitment test consists of three rounds.Round 1: Online Assessment This round will have a total of 61 questions, and 240 minutesIt consists of 5 sections- Aptitude, Reasoning, EnglishQuantitative Aptitude: 24 Questions, 35 minutesLogical Reasoning: 25 Questions, 35 minutesVerbal Ability: 1 Question, 30 minutesAutomata Fix: 7 Questions, 20 minutesCoding: Stage 1 - 2 Question, 40 minutesStage 2 - 2 Question, 80 minutesRound 2: Programming Skills 4 coding questions, 120 minutes.Round 3: Gen C Next or Gen C interview. Questions will be based on Technical, Cognitive Abilities, and RightAttitude.Note: Candidates who successfully clear round 2 will be eligible for the GenC Next Interview. Candidates who fail toclear round 2 will be headed toward the Gen C interview round.Job title: Engineer TraineeLocation: Bengaluru, Chennai, Coimbatore. Candidates must be flexible to relocate to any Cognizant work locations as per the business requirement & demand.Job description: IT Service Desk has witnessed significant transformations due to technological advancements. Today, many organizations leverage AI chat bots to automate and streamline their support processes. AI chat bots use natural language processing to provide instant responses to common user queries and handle simple tasks, reducing the workload on human analysts. Robotic Process Automation (RPA) is also gaining traction,allowing repetitive and rule-based tasks to be automated, freeing up analysts' time for morecomplex issues.\u2022 Provide first-line technical support and assistance to end-users, addressing their IT-related issues and enquiries, log and track all support tickets, ensuring accurate documentation and timely resolution ofproblems.\u2022 Troubleshoot hardware and software problems, performing diagnosis and resolving technical issues to minimize downtime, collaborate with other IT teams to escalate complex issues and ensure prompt resolution and to maintainknowledge base articles and documentation to enhance self-service options and facilitate efficient problem-solving.Compensation: INR 4,00,000 per annumRole expectations:\u2022 Associate should be client focused and able to work with users from differentcommunities and cultures across the globe.\u2022 Ability to have flawless communication (verbal and written) with our clients and possesssound technical knowledge.\u2022 Work in shifts and work from the office.Support available from Cognizant (post joining as Full Time Employee)\u2022 Night shift allowance will be paid by the project.\u2022 Cognizant provides cabs for pick-up and drop, ensuring safety and comfort.\u2022 Timely rewards and recognition for top performers.If you are passionate about customer service, possess strong technical skills, and thrive in afast-paced environment, then this role is for you.Eligibility Criteria:\u2022 2024 Batch of B.E/B.Tech of any branch (UG full time degree).\u2022 At the time of registration, consistent academic record of a minimum of 50% in X, XII, Diploma, UG & PGwith no standing arrears in current education.\u2022 At the time of joining, all recruits need to have a minimum 50% aggregate in the pursuing degree with nostanding arrears.\u2022 Flexible to relocate to anywhere in India, work in any shift / technology / domain, including work from officelocation basis business requirements.\u2022 Opportunities are open to Indian nationals / OCIs who are currently residing in India.",
+        "Keys": [
+            {
+                "key": "CTC",
+                "value": 6.75
+            },
+            {
+                "key": "Selection Process",
+                "value": "The recruitment test consists of three rounds.Round 1: Online Assessment This round will have a total of 61 questions, and 240 minutesIt consists of 5 sections- Aptitude, Reasoning, EnglishQuantitative Aptitude: 24 Questions, 35 minutesLogical Reasoning: 25 Questions, 35 minutesVerbal Ability: 1 Question, 30 minutesAutomata Fix: 7 Questions, 20 minutesCoding: Stage 1 - 2 Question, 40 minutesStage 2 - 2 Question, 80 minutesRound 2: Programming Skills 4 coding questions, 120 minutes.Round 3: Gen C Next or Gen C interview. Questions will be based on Technical, Cognitive Abilities, and RightAttitude.Note: Candidates who successfully clear round 2 will be eligible for the GenC Next Interview. Candidates who fail toclear round 2 will be headed toward the Gen C interview round."
+            },
+            {
+                "key": "Job Role",
+                "value": "Engineer Trainee"
+            },
+            {
+                "key": "Location",
+                "value": "Bengaluru, Chennai, Coimbatore."
+            },
+            {
+                "key": "Job Description",
+                "value": "IT Service Desk has witnessed significant transformations due to technological advancements. Today, many organizations leverage AI chat bots to automate and streamline their support processes. AI chat bots use natural language processing to provide instant responses to common user queries and handle simple tasks, reducing the workload on human analysts. Robotic Process Automation (RPA) is also gaining traction,allowing repetitive and rule-based tasks to be automated, freeing up analysts' time for morecomplex issues.\u2022 Provide first-line technical support and assistance to end-users, addressing their IT-related issues and enquiries, log and track all support tickets, ensuring accurate documentation and timely resolution ofproblems.\u2022 Troubleshoot hardware and software problems, performing diagnosis and resolving technical issues to minimize downtime, collaborate with other IT teams to escalate complex issues and ensure prompt resolution and to maintainknowledge base articles and documentation to enhance self-service options and facilitate efficient problem-solving."
+            },
+            {
+                "key": "AI chat bots",
+                "value": "AI chat bots"
+            },
+            {
+                "key": "Compensation",
+                "value": "INR 4,00,000 per annum"
+            },
+            {
+                "key": "Role expectations",
+                "value": "\u2022 Associate should be client focused and able to work with users from differentcommunities and cultures across the globe.\u2022 Ability to have flawless communication (verbal and written) with our clients and possesssound technical knowledge.\u2022 Work in shifts and work from the office.Support available from Cognizant (post joining as Full Time Employee)\u2022 Night shift allowance will be paid by the project.\u2022 Cognizant provides cabs for pick-up and drop, ensuring safety and comfort.\u2022 Timely rewards and recognition for top performers.If you are passionate about customer service, possess strong technical skills, and thrive in afast-paced environment, then this role is for you."
+            },
+            {
+                "key": "Eligibility",
+                "value": "\u2022 2024 Batch of B.E/B.Tech of any branch (UG full time degree).\u2022 At the time of registration, consistent academic record of a minimum of 50% in X, XII, Diploma, UG & PGwith no standing arrears in current education.\u2022 At the time of joining, all recruits need to have a minimum 50% aggregate in the pursuing degree with nostanding arrears.\u2022 Flexible to relocate to anywhere in India, work in any shift / technology / domain, including work from officelocation basis business requirements.\u2022 Opportunities are open to Indian nationals / OCIs who are currently residing in India."
+            },
+            {
+                "key": "B.E/B.Tech",
+                "value": "B.E/B.Tech"
+            }
+        ]
+    },
+    {
+        "Name": "Accenture",
+        "description": "Accenture Accenture is an Irish-domiciled multinational company that provides consulting and professional services. A Fortune Global 500 company, it reported revenues of $44.33 billion in 2020 and had 569,000 employees. In 2015, the company had about 150,000 employees in India, 48,000 in the US, and 50,000 in the Philippines. Accenture's current clients include 91 of the Fortune Global 100 and more than three-quarters of the Fortune Global 500.CTC: Associate Software Engineer - 4.5 LPA\u2022 Extensive training before deployment\u2022 Project exposure from the first month of joining\u2022 24-months learning program to become full-stack in a chosen technology\u2022 Faster career progression opportunitiesAssociate Software Engineer - 6.5 LPA\u2022 Opportunity to get deployed in hand-picked complex assignments in emerging technologies\u2022 End-to-end exposure from front-end, back-end, middle layer\u2022 Well-defined learning journey with coaching and mentorship to grow as an expertSelection process: The process Consists of 3 RoundsRound 1: Online assessment consists of two-stageStage 1: Cognitive Ability and TechnicalEnglish: 17 QuestionsQuantitative: 17 QuestionsReasoning: 15 QuestionsMS Office: 11 QuestionsNetworking: 9 QuestionsPseudocode: 17 QuestionsCoding - 2 Questions, 45 MinutesStage 2: Communication Assessment \u2013 20 Minutes \u2013 Medium DifficultyRound 2: Technical interviewRound 3: HR InterviewEligibility criteria:\u2022 Minimum criteria \u2013 Any engineering stream of B.E/B.Tech/ME/M.Tech or MCA or MSc (CS/IT) with year of passoutbeing 2025\u2022 No active backlogs during application and/or during onboarding.\u2022 Candidate should have completed the relevant degree (eligible for this job role) in the stipulated duration of thedegree. There should be no gaps during the course of your degree. E.g. candidate must complete the 4-year B. Techcourse in 4 years.\u2022 Candidate should not have appeared for Accenture Recruitment assessment/interview process in the last three months.\u2022 Candidates must be eligible to work in India by citizenship/ have relevant work permit documents. Please note thatBhutan and Nepal nationals can work in India without a need for obtaining a work visa. All other foreign nationalsrequire work visa or an Overseas Citizenship of India (OCI) or Person of Indian Origin (PIO) card to work in India",
+        "Keys": [
+            {
+                "key": "multinational company",
+                "value": "multinational company"
+            },
+            {
+                "key": "CTC",
+                "value": 6.5
+            },
+            {
+                "key": "training program",
+                "value": "Extensive training before deployment"
+            },
+            {
+                "key": "training program",
+                "value": "24-months learning program to become full-stack in a chosen technology"
+            },
+            {
+                "key": "Selection Process",
+                "value": "The process Consists of 3 RoundsRound 1: Online assessment consists of two-stageStage 1: Cognitive Ability and TechnicalEnglish: 17 QuestionsQuantitative: 17 QuestionsReasoning: 15 QuestionsMS Office: 11 QuestionsNetworking: 9 QuestionsPseudocode: 17 QuestionsCoding - 2 Questions, 45 MinutesStage 2: Communication Assessment \u2013 20 Minutes \u2013 Medium DifficultyRound 2: Technical interviewRound 3: HR Interview"
+            },
+            {
+                "key": "Eligibility",
+                "value": "\u2022 Minimum criteria \u2013 Any engineering stream of B.E/B.Tech/ME/M.Tech or MCA or MSc (CS/IT) with year of passoutbeing 2025\u2022 No active backlogs during application and/or during onboarding.\u2022 Candidate should have completed the relevant degree (eligible for this job role) in the stipulated duration of thedegree. There should be no gaps during the course of your degree. E.g. candidate must complete the 4-year B. Techcourse in 4 years.\u2022 Candidate should not have appeared for Accenture Recruitment assessment/interview process in the last three months.\u2022 Candidates must be eligible to work in India by citizenship/ have relevant work permit documents. Please note thatBhutan and Nepal nationals can work in India without a need for obtaining a work visa. All other foreign nationalsrequire work visa or an Overseas Citizenship of India (OCI) or Person of Indian Origin (PIO) card to work in India"
+            },
+            {
+                "key": "B.E/B.Tech",
+                "value": "B.E/B.Tech"
+            }
+        ]
+    }
+]

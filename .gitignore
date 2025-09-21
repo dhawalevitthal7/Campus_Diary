@@ -35,8 +35,3 @@ Thumbs.db
 # Coverage reports
 htmlcov/
 .coverage
-
-# Raw PDFs (not to be uploaded)
-data/raw/*.pdf
-data/chunked_json/*.json
-data/raw_json/*.json

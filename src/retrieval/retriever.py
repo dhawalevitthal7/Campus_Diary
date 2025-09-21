@@ -180,7 +180,7 @@ def generate_final_answer(user_query, r1, r2):
     """
 
     model = genai.GenerativeModel(
-        model_name="gemini-1.5-flash",
+        model_name="gemini-2.0-flash",
         system_instruction=system_prompt
     )
 
@@ -193,7 +193,7 @@ def generate_final_answer(user_query, r1, r2):
     response = model.generate_content(contents)
     return response.text.strip()
 
-def query_chroma(user_query: str, limit=20):
+def query_chroma(user_query: str, limit=5):
     """
     Query ChromaDB collection using both filter-based and vector-based approaches.
     """

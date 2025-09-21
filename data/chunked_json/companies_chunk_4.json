@@ -1,0 +1,150 @@
+[
+    {
+        "Name": "Vconstruct",
+        "description": "Vconstruct Building Better, Smarter, Faster is our mission. Since 2013, our 400+ experts have been transforming the construction industry with innovative solutions in Virtual Design and Construction (VDC), Project Controls, Accounting, and Software Development. Serving 100+ projects globally, we deliver smarter processes, better products, and faster results. Join us in reshaping the future of construction with technology. CTC: 6.75 LPA Stipend: 20k, join in January 2025 as Graduate Trainee and then full-time from June/July 2025 based on their performance. Job Roles: 1. Project Engineer \u2013 Virtual Builder Skills and Qualification: Candidates having B.E./ B.Tech. or higher Degree in Civil or Construction related field. \u2022 A Working knowledge of BIM Coordination, Project Management, Change Management And Constructability is preferable. \u2022 Understanding of the overall construction process ranging from Design to commissioning. \u2022 Working knowledge of any prominent VDC software like Revit,Navisworks, Tekla and Civil 3Dis desired. Work Location: Pune (Magarpatta City) Eligibility: Civil, Min 60% in 10th, 12th & Graduation, No Live Backlog. 2. Software Engineer \u2013 Software Solutions for Construction Requirements: Good knowledge of object-oriented design and development and DBMSconcepts Expert in HTML5, CSS3, JavaScript Excellent communication, presentation and analytical skills Should be willing to work collaboratively across different skill sets Working knowledge of at least one front-end framework (react/angular) and back-end stack Eligibility: B.E. Final year students from CS/IT, Min 70% or equivalent marks (10th, 12th Or Diploma and overall in graduation). 3. Data Science Engineer - DSA We are looking for candidates with passion for technology, excellent analytical skills, and ability to solve complex problems to undergo training in data Science related areas. Successful candidates will be part of the Data Science and Analytics team which is a tight-knit group of analysts and engineers that support all data aspects of DPR business. Requirements: B.E. / B.Tech Final year students with CS/IT background Excellent Academic Credentials Excellent Communication and Analytical skills Responsibilities: Post training, selected candidates will work in Data Science and Analytics. Candidates will be working mostly on US or EU based projects. They will transition into a data science engineer with the responsibilities outlined below - Understand and analyze the business requirements Design and deployment of the database - Ability to understand, consume and use API's, JSON, Web Services for data pipelines - Developing integrations between various applications Design, Develop and deploy reports/dashboards/data visualizations using Power BI - Optimize reports/dashboards with a focus on usability, performance, flexibility, testability, and standardization. - Build full stack data science models with various Azure technologies -Use R or Python to implement statistical models, machine learning, and analysis (Recommenders, Prediction, Classification, Clustering, etc.) Selection Process: Round 1: Online InCampus Assessment (Coding 2 ques, Aptitude Mathematical Ability) \u2022 Reasoning Ability \u2022 Verbal Ability \u2022 Pseudo Code \u2022 Puzzle Solving Round 2: Technical Interview 1 Round 3: Technical Interview 2 Round 4: HR & Result",
+        "Keys": [
+            {
+                "key": "B.E/B.Tech",
+                "value": "B.E./ B.Tech.; B.E. Final year students from CS/IT; B.E. / B.Tech Final year students with CS/IT background"
+            },
+            {
+                "key": "Angular JS",
+                "value": "react/angular"
+            },
+            {
+                "key": "training program",
+                "value": "undergo training in data Science related areas.; Post training"
+            },
+            {
+                "key": "WebServices",
+                "value": "Web Services for data pipelines"
+            },
+            {
+                "key": "skills",
+                "value": "Skills and Qualification; Excellent communication, presentation and analytical skills; skill sets; Excellent Academic Credentials Excellent Communication and Analytical skills"
+            },
+            {
+                "key": "requirements",
+                "value": "Requirements: Good knowledge of object-oriented design and development and DBMSconcepts Expert in HTML5, CSS3, JavaScript Excellent communication, presentation and analytical skills Should be willing to work collaboratively across different skill sets Working knowledge of at least one front-end framework (react/angular) and back-end stack; business requirements; Requirements: B.E. / B.Tech Final year students with CS/IT background Excellent Academic Credentials Excellent Communication and Analytical skills"
+            },
+            {
+                "key": "Roles",
+                "value": "Project Engineer \u2013 Virtual Builder; Software Engineer \u2013 Software Solutions for Construction; Data Science Engineer - DSA"
+            },
+            {
+                "key": "CTC",
+                "value": 675000
+            },
+            {
+                "key": "Stipend",
+                "value": 20000
+            },
+            {
+                "key": "Job Role",
+                "value": "Project Engineer \u2013 Virtual Builder; Software Engineer \u2013 Software Solutions for Construction; Data Science Engineer - DSA"
+            },
+            {
+                "key": "Selection Process",
+                "value": "Round 1: Online InCampus Assessment (Coding 2 ques, Aptitude Mathematical Ability) \u2022 Reasoning Ability \u2022 Verbal Ability \u2022 Pseudo Code \u2022 Puzzle Solving Round 2: Technical Interview 1 Round 3: Technical Interview 2 Round 4: HR & Result"
+            },
+            {
+                "key": "Eligibility",
+                "value": "Civil, Min 60% in 10th, 12th & Graduation, No Live Backlog.; B.E. Final year students from CS/IT, Min 70% or equivalent marks (10th, 12th Or Diploma and overall in graduation)."
+            },
+            {
+                "key": "Location",
+                "value": "Pune (Magarpatta City)"
+            },
+            {
+                "key": "Responsibilities",
+                "value": "Understand and analyze the business requirements; Design and deployment of the database - Ability to understand, consume and use API's, JSON, Web Services for data pipelines; Developing integrations between various applications; Design, Develop and deploy reports/dashboards/data visualizations using Power BI - Optimize reports/dashboards with a focus on usability, performance, flexibility, testability, and standardization. - Build full stack data science models with various Azure technologies; Use R or Python to implement statistical models, machine learning, and analysis (Recommenders, Prediction, Classification, Clustering, etc.)"
+            },
+            {
+                "key": "Qualifications",
+                "value": "Candidates having B.E./ B.Tech. or higher Degree in Civil or Construction related field.; B.E. / B.Tech Final year students with CS/IT background Excellent Academic Credentials Excellent Communication and Analytical skills"
+            }
+        ]
+    },
+    {
+        "Name": "ZS",
+        "description": "ZS Role: Platform Services Associate Analyst CTC: \u20b919 LPA - \u20b913 LPA Location: Pune What You'll Do: \u2022 Tech Stack: Python, Analyst, SQL, PowerBI, Tableau. \u2022 Build complex solutions for clients using tools and technologies on the ZAIDYN platform. \u2022 Take ownership of activities and responsibilities across all project lifecycle phases to solve business problems in one or more client engagements. \u2022 Apply development methodologies (e.g., agile, waterfall) and best practices (e.g., QA procedures, unit testing) to ensure successful and timely task completion. \u2022 Collaborate with team members to ensure seamless project delivery. \u2022 Exhibit flexibility in tackling new challenges and demonstrate excellent task management. \u2022 Assist in creating project outputs, including business case development, solution design, user requirements, prototypes, technical architecture (if needed), test cases, and operations management. \u2022 Provide transparency in driving tasks to completion and report accurate progress status. \u2022 Bring a consulting mindset, leveraging technical and business expertise to solve business problems and innovate. \u2022 Assist senior team members and delivery leads in project management responsibilities. What You'll Bring: \u2022 Qualification: Bachelor's degree in Computer Science, IT, or related disciplines with a strong academic record. \u2022 Additional Skills:",
+        "Keys": [
+            {
+                "key": "Innovate",
+                "value": "innovate"
+            },
+            {
+                "key": "skills",
+                "value": "Additional Skills"
+            },
+            {
+                "key": "requirements",
+                "value": "user requirements"
+            },
+            {
+                "key": "Roles",
+                "value": "Platform Services Associate Analyst"
+            },
+            {
+                "key": "CTC",
+                "value": 1900000
+            },
+            {
+                "key": "Location",
+                "value": "Pune"
+            },
+            {
+                "key": "What You'll Do",
+                "value": "Tech Stack: Python, Analyst, SQL, PowerBI, Tableau.; Build complex solutions for clients using tools and technologies on the ZAIDYN platform.; Take ownership of activities and responsibilities across all project lifecycle phases to solve business problems in one or more client engagements.; Apply development methodologies (e.g., agile, waterfall) and best practices (e.g., QA procedures, unit testing) to ensure successful and timely task completion.; Collaborate with team members to ensure seamless project delivery.; Exhibit flexibility in tackling new challenges and demonstrate excellent task management.; Assist in creating project outputs, including business case development, solution design, user requirements, prototypes, technical architecture (if needed), test cases, and operations management.; Provide transparency in driving tasks to completion and report accurate progress status.; Bring a consulting mindset, leveraging technical and business expertise to solve business problems and innovate.; Assist senior team members and delivery leads in project management responsibilities."
+            },
+            {
+                "key": "What You'll Bring",
+                "value": "Qualification: Bachelor's degree in Computer Science, IT, or related disciplines with a strong academic record.; Additional Skills:"
+            },
+            {
+                "key": "Qualifications",
+                "value": "Bachelor's degree in Computer Science, IT, or related disciplines with a strong academic record."
+            }
+        ]
+    },
+    {
+        "Name": "GET - Mechanical Job",
+        "description": "Responsible for safety of self and in the area of command.Knowledge of Electrical safety issuesJob title: GET - MechanicalDepartment: Engineering & MaintenanceJob Role: Responsible for Air Compressors, Process Chillers and Process Cooling Towers. Maintenance of Lifts, Stackers, Taski Cleaning Machines. Maintenance of the AHUs, doors, ACs, etc. Daily power report and consumables report. Casual manpower deployment.Job Description: Utility Division Marinating and looking after the total Operation, Function, Optimization and Maintenance of the Air Compressors, Process Chillers, Process Cooling Towers, HVAC Chillers, Water Treatment Plant (WTP), Effluent Treatment Plant (ETP), Boilers and Diesel Generators. Maintenance, Operation and Function of the AHUs, Lifts, Stackers and Taski Floor Cleaner Machines, Doors, ACs, Pipelines, Fountains, etc. Preventive maintenance of the mechanical equipment of the Utility Division. Detailed analysis of the Power and Fuel Consumption of the plant with respect to Tonnage produced and Detailed tracking and analysis of the Utility Consumables in the Plant. Workshop and Briquette Store Operation and Maintenance. Shift Schedule management of the Air Compressor operators, HVAC Chiller operators and the Lift operators. Optimizing and cost saving for the Utility consumables. Maintenance of the LLP Tank Farm area and HSD Tank Farm area. Casual Manpower Management and Optimization.MIS and Reports: Daily MIS Power Fuel report. Utility Daily Consumables report. Mechanical work done and PM compliance report. Daily Manpower Requisition and Deployment tracking. Ensure Statutory Compliance.Health & safety: Responsible for safety of self and in the area of command. Follow and adhere to company safety rules and regulations. Maintaining safety environment for workers and all.",
+        "Keys": [
+            {
+                "key": "Job Role",
+                "value": "Responsible for Air Compressors, Process Chillers and Process Cooling Towers. Maintenance of Lifts, Stackers, Taski Cleaning Machines. Maintenance of the AHUs, doors, ACs, etc. Daily power report and consumables report. Casual manpower deployment."
+            },
+            {
+                "key": "Job Description",
+                "value": "Utility Division Marinating and looking after the total Operation, Function, Optimization and Maintenance of the Air Compressors, Process Chillers, Process Cooling Towers, HVAC Chillers, Water Treatment Plant (WTP), Effluent Treatment Plant (ETP), Boilers and Diesel Generators. Maintenance, Operation and Function of the AHUs, Lifts, Stackers and Taski Floor Cleaner Machines, Doors, ACs, Pipelines, Fountains, etc. Preventive maintenance of the mechanical equipment of the Utility Division. Detailed analysis of the Power and Fuel Consumption of the plant with respect to Tonnage produced and Detailed tracking and analysis of the Utility Consumables in the Plant. Workshop and Briquette Store Operation and Maintenance. Shift Schedule management of the Air Compressor operators, HVAC Chiller operators and the Lift operators. Optimizing and cost saving for the Utility consumables. Maintenance of the LLP Tank Farm area and HSD Tank Tank Farm area. Casual Manpower Management and Optimization."
+            },
+            {
+                "key": "Responsibilities",
+                "value": "Responsible for safety of self and in the area of command. Knowledge of Electrical safety issuesDaily MIS Power Fuel report. Utility Daily Consumables report. Mechanical work done and PM compliance report. Daily Manpower Requisition and Deployment tracking. Ensure Statutory Compliance.Responsible for safety of self and in the area of command. Follow and adhere to company safety rules and regulations. Maintaining safety environment for workers and all."
+            }
+        ]
+    },
+    {
+        "Name": "Muthoot Finance",
+        "description": "Muthoot FinanceThe Muthoot Group of FinanceRole and Responsibility: Front line sales executive for Muthoot branches operations.Job Location: Muthoot branches (North, East & West) operations.Eligibility Criteria: Minimum Graduates / Graduation (last year) - Non TechnicalCTC:1. Interns for 6 months. After the successful completion of internship, there will be performance evaluation and internswill get the PPO (Pre-Placement offer) accordingly.2. Stipend INR 10000/- per month during internship period {will be registered under government scheme NAPS(National Apprenticeship Promotion) and NATS (National Apprenticeship Training)}3. The internship period is for 6 months and after the successful completion of internship there will be performanceevaluation for the placement in the Muthoot Payroll.",
+        "Keys": [
+            {
+                "key": "Roles",
+                "value": "Front line sales executive for Muthoot branches operations."
+            },
+            {
+                "key": "Location",
+                "value": "Muthoot branches (North, East & West) operations."
+            },
+            {
+                "key": "Eligibility",
+                "value": "Minimum Graduates / Graduation (last year) - Non Technical"
+            },
+            {
+                "key": "Stipend",
+                "value": 10000
+            }
+        ]
+    }
+]
