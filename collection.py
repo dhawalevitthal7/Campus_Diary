@@ -1,9 +1,17 @@
+def init_chroma():
+    """
+    Initialize ChromaDB:
+    - Check if the collection already has data.
+    - If empty, populate it from the JSON folder.
+    """
+    if collection.count() == 0:
+        print("⚡ ChromaDB is empty. Populating with company data...")
+        process_all_json()
+    else:
+        print(f"✅ ChromaDB already initialized with {collection.count()} records.")
 
-import chromadb
-
-# Path where your ChromaDB data is stored
-CHROMA_DB_PATH = "data/chroma_db"
+    return collection
 
 
-client = chromadb.PersistentClient(path=CHROMA_DB_PATH)
-client.delete_collection(name='companies')
+if __name__ == "__main__":
+    init_chroma()
