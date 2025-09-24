@@ -1,18 +1,19 @@
 # Core API Framework
-fastapi>=0.95.0,<1.0.0
-uvicorn[standard]>=0.15.0
-pydantic>=2.0.0
+fastapi
+uvicorn[standard]
+pydantic
 
 # Vector Database
-chromadb>=0.4.0
+chromadb
 
 # AI and Environment
-python-dotenv>=0.19.0
-google-generativeai>=0.8.0
+python-dotenv
+google-generativeai
 
 # Additional Dependencies
-typing-extensions>=4.5.0  # Required by FastAPI
-requests>=2.28.0  # Required by ChromaDB
+typing-extensions  # Required by FastAPI
+requests  # Required by ChromaDB
+numpy>=1.26.0  # Explicitly set numpy version for Python 3.11+ compatibility
 jupyterlab_widgets
 kiwisolver
 kubernetes
