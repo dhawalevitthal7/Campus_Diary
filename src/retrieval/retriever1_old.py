@@ -140,8 +140,11 @@ def retriev(user_query: str) :
                     where=final_where_clause,
                     limit=3
                 )
-                limit=3
-            )
+    except Exception as e:
+        print(f"Error processing where clause: {e}")
+        results1 = collection.get(
+            limit=3
+        )
 
     if final_where_clause and len(final_where_clause) > 0:
         # ✅ Use where filter
@@ -153,9 +156,6 @@ def retriev(user_query: str) :
         # When no filters, fetch without where clause
         results1 = collection.get(
             limit=3
-        )
-        results1 = collection.get(
-            limit=3 # Fetch top 10 without filtering
         )
 
     return results1
