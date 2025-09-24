@@ -21,17 +21,31 @@ model = genai.GenerativeModel('gemini-2.0-flash')
 
 
 def finalretrieval(user_query:str):
-    res1 = retriev(user_query)
-    res2 = generate_embedding(user_query)
+    def serialize_chroma_result(result):
+        if isinstance(result, dict):
+            return {
+                "ids": result.get("ids", []),
+                "documents": result.get("documents", []),
+                "metadatas": result.get("metadatas", [])
+            }
+        return str(result)
+    
+    # Get results from both retrievers
+    res1 = serialize_chroma_result(retriev(user_query))
+    res2 = serialize_chroma_result(generate_embedding(user_query))
+    
     system_instruction = f"""
-    analyse both the results {res1} and {res2} and then by having context of both the results 
-    you have to make perfect analysed decision on whatever user query is {user_query}. 
-    and according to user query and considering both the query you have to make user friendly response 
+    Analyze the following search results and provide a user-friendly response 
+    that summarizes the most relevant information based on the user's query: '{user_query}'.
+    
+    Result 1 (Metadata-based search):
+    {json.dumps(res1, indent=2)}
+    
+    Result 2 (Embedding-based search):
+    {json.dumps(res2, indent=2)}
     """
-    content = f"""
-        resluts: {res1} and {res2}
-        user query : {user_query}
-    """
+    
+    content = user_query
 
     try:
         result = model.generate_content(

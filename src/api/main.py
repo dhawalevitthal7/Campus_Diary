@@ -1,56 +1,17 @@
 from fastapi import FastAPI, HTTPException
-from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import uvicorn
 import sys
 import os
-import json
 import traceback
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
 from src.retrieval.final_retrieval import finalretrieval
-from src.config import get_chroma_client
-from src.utils.db_ops import restore_chroma_data
 
 app = FastAPI(title="RAG Query API")
 
-# Enable CORS
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
 # Configure host and port
 HOST = "0.0.0.0"  # Allows external access
-PORT = int(os.getenv("PORT", "8000"))
-
-# Initialize database on startup
-@app.on_event("startup")
-async def startup_event():
-    try:
-        # Check if running on Render and backup exists
-        if os.getenv("IS_RENDER") == "true":
-            backup_path = "/data/chroma_backup.json"
-            if os.path.exists(backup_path):
-                print("📦 Found backup data, restoring...")
-                try:
-                    count = restore_chroma_data(backup_path)
-                    print(f"✅ Restored {count} documents to ChromaDB")
-                except Exception as e:
-                    print(f"❌ Error restoring backup: {str(e)}")
-            else:
-                print("⚠️ No backup data found at", backup_path)
-        
-        # Verify collection state
-        client = get_chroma_client()
-        collection = client.get_collection("companies")
-        count = collection.count()
-        print(f"📊 Collection contains {count} documents")
-    except Exception as e:
-        print(f"❌ Error during startup: {str(e)}")
-        print(traceback.format_exc())
+PORT = 8000       # Default port for FastAPI
 
 @app.get("/")
 def root():
@@ -90,102 +51,72 @@ class QueryRequest(BaseModel):
 @app.post("/query")
 async def query_endpoint(request: QueryRequest):
     try:
-        print(f"📝 Received query: {request.query}")
+        # Get ChromaDB configuration
+        from src.config import get_chroma_client, CHROMA_DB_PERSIST_DIRECTORY, IS_RENDER
+        print(f"💾 Database directory: {CHROMA_DB_PERSIST_DIRECTORY}")
+        print(f"🚀 Is Render: {IS_RENDER}")
         
-        # Initialize ChromaDB client
-        from src.config import get_chroma_client
-        client = None
-        collection = None
-        
+        # Initialize ChromaDB
         try:
             client = get_chroma_client()
             collection = client.get_or_create_collection(name="companies")
-            print("✅ ChromaDB initialized successfully")
-            
-            # Get collection info
-            count = collection.count()
-            print(f"📊 Collection has {count} documents")
-            
-        except Exception as e:
-            print(f"❌ ChromaDB initialization error: {str(e)}")
-            print(traceback.format_exc())
+            doc_count = collection.count()
+            print(f"✅ Connected to ChromaDB. Collection has {doc_count} documents.")
+        except Exception as db_error:
+            print(f"❌ Database error: {str(db_error)}")
+            print(f"Trace:\n{traceback.format_exc()}")
             raise HTTPException(
                 status_code=500,
                 detail={
-                    "error": "Database initialization failed",
-                    "message": str(e),
-                    "trace": traceback.format_exc()
+                    "error": "Database connection failed",
+                    "message": str(db_error),
+                    "path": CHROMA_DB_PERSIST_DIRECTORY
                 }
             )
         
+        # Process query
         try:
-            # Process the query
+            print(f"📝 Processing query: {request.query}")
             response = finalretrieval(request.query)
+            print("✅ Query processed successfully")
             
-            # Return response with debug info
+            # Safely serialize response
+            serialized_response = str(response) if response is not None else None
+            
             return {
                 "query": request.query,
-                "response": response,
+                "response": serialized_response,
                 "debug": {
-                    "collection_info": {
-                        "count": count,
-                        "path": str(os.path.abspath(os.getenv('CHROMA_DB_PATH', 'chroma_data')))
-                    },
-                    "environment": {
-                        "is_render": str(os.getenv('IS_RENDER', '')).lower() == 'true',
-                        "data_path": '/data' if str(os.getenv('IS_RENDER', '')).lower() == 'true' else str(os.path.dirname(os.path.dirname(__file__)))
+                    "database": {
+                        "path": str(CHROMA_DB_PERSIST_DIRECTORY),
+                        "document_count": doc_count,
+                        "is_render": IS_RENDER
                     }
                 }
             }
-        except Exception as e:
-            print(f"❌ Query processing error: {str(e)}")
-            print(traceback.format_exc())
+        except Exception as query_error:
+            print(f"❌ Query processing error: {str(query_error)}")
+            print(f"Trace:\n{traceback.format_exc()}")
             raise HTTPException(
                 status_code=500,
                 detail={
                     "error": "Query processing failed",
-                    "message": str(e),
-                    "trace": traceback.format_exc()
+                    "message": str(query_error)
                 }
             )
             
+    except HTTPException:
+        raise
     except Exception as e:
         print(f"❌ Unexpected error: {str(e)}")
-        print(traceback.format_exc())
+        print(f"Trace:\n{traceback.format_exc()}")
         raise HTTPException(
             status_code=500,
             detail={
                 "error": "Unexpected error",
-                "message": str(e),
-                "trace": traceback.format_exc()
+                "message": str(e)
             }
         )
-            "peek": collection.peek()
-        }
-        
-        print(f"Debug - Collection stats: {collection_stats}")
-        
-        # Get the response
-        response = finalretrieval(request.query)
-        
-        # Return both the response and debug info
-        return {
-            "query": request.query,
-            "response": response,
-            "debug": {
-                "collection_stats": collection_stats,
-                "chroma_path": os.getenv('CHROMA_DB_PATH', 'chroma_data'),
-                "is_render": os.getenv('IS_RENDER', 'false')
-            }
-        }
-    except Exception as e:
-        import traceback
-        error_details = {
-            "error": str(e),
-            "traceback": traceback.format_exc()
-        }
-        print("Error details:", error_details)
-        raise HTTPException(status_code=500, detail=error_details)
 
 if __name__ == "__main__":
     uvicorn.run(app, host=HOST, port=PORT)
