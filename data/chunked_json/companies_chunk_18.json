@@ -1,257 +1,153 @@
 [
     {
-        "Name": "Capgemini",
-        "description": "Capgemini:Desired Competencies:\u2022 Communication: Strong interaction skills with partners.\u2022 Collaboration: Good interpersonal and teamwork abilities.\u2022 Flexibility: Adapt to multiple technologies, locations, and travel.\u2022 Initiative: Work independently and manage multiple tasks.\u2022 Other Skills: Strong analytical and problem-solving abilities.CTC: Analyst: 4.25 (4 LPA + 25k one-time incentive)Analyst (Differential Hiring): 5.75 (5.5 LPA + 25k one-time incentive)Senior Analyst: 7.5 LPASelection Process: The recruitment process consists of six rounds.Round 1: Technical AssessmentPseudocode 30 Questions (30 Min)Write logic: 7 Questions C, C++Write Output: 23 QuestionsRound 2: English Communication Test 30 Questions (30 Min)Topics: FIB, complete the sentence, spelling errors, synonyms, reading comprehension, para jumbled sentences,Synonyms/Antonyms, Indirect Direct SpeechRound 3: Game-Based Test 30 Questions (30 Min)Topics: Grid challenge: find symmetry and select the correct order of pattern by seeing it once DeductiveLogical Thinking, Inductive Logical Thinking, Motion Challenge, Switch challenge, Digit ChallengeRound 4: Behavioral Round 100 QuestionsThere will be no time limit for the round, but it is a mandatory one for everyone. This round helps themunderstand the innate profile of the candidate.Round 5: Technical Round (20 Min)Round 6: HR Interview (10 Min)Eligibility:No edu. Gaps allowedCS/IT group, ECE, ENNo live backlogs.",
+        "Name": "Telaverge Communications",
+        "description": "TELAVERGE COMMUNICATIONS Telaverge Communications Positions: Research and Development Engineer CTC/Internship stipend: \u2756 A consolidated stipend of Rs.10,000/- p.m. will be paid during the period of internship. CTC will be 3.8L to 4.2L (purely based on the performance). Performance incentive OR onetime bonus upto a Max of 1 Lakh after successful \u2756 Completion of Internship and joining Telaverge.(purely based on the performance). Bond (Details): 2 Years Job Location: Bangalore Qualification: BTech/BE/MCA/M.SC/M.tech- Electronics Percentage: 60+ Year of passing out: 2020-2021 Practical Exposure to Electronics (Has done some practical projects) Skills required: - Electronic Engineering/ Electronics & Communications - Basic Knowledge of programming in C/C++ - Good knowledge in fundamentals of electronics (analogue & digital) & electrical science. - Good practical skills - Schematic analysis, implementation (In breadboard & perf board) Note: Candidates with hands-on experience and knowledge in microcontroller programming, sensor interfacing, PCB designing shall be the upper hand.",
         "Keys": [
             {
-                "key": "Desired Competencies",
-                "value": "\u2022 Communication: Strong interaction skills with partners.\u2022 Collaboration: Good interpersonal and teamwork abilities.\u2022 Flexibility: Adapt to multiple technologies, locations, and travel.\u2022 Initiative: Work independently and manage multiple tasks.\u2022 Other Skills: Strong analytical and problem-solving abilities."
+                "key": "role",
+                "value": "Research and Development Engineer"
             },
             {
-                "key": "CTC",
-                "value": 7.5
+                "key": "stipend",
+                "value": 10
             },
             {
-                "key": "Selection Process",
-                "value": "The recruitment process consists of six rounds.Round 1: Technical AssessmentPseudocode 30 Questions (30 Min)Write logic: 7 Questions C, C++Write Output: 23 QuestionsRound 2: English Communication Test 30 Questions (30 Min)Topics: FIB, complete the sentence, spelling errors, synonyms, reading comprehension, para jumbled sentences,Synonyms/Antonyms, Indirect Direct SpeechRound 3: Game-Based Test 30 Questions (30 Min)Topics: Grid challenge: find symmetry and select the correct order of pattern by seeing it once DeductiveLogical Thinking, Inductive Logical Thinking, Motion Challenge, Switch challenge, Digit ChallengeRound 4: Behavioral Round 100 QuestionsThere will be no time limit for the round, but it is a mandatory one for everyone. This round helps themunderstand the innate profile of the candidate.Round 5: Technical Round (20 Min)Round 6: HR Interview (10 Min)"
+                "key": "ctc_min",
+                "value": 3.8
             },
             {
-                "key": "Questions C, C++",
-                "value": "7 Questions C, C++"
+                "key": "ctc_max",
+                "value": 4.2
             },
             {
-                "key": "Eligibility",
-                "value": "No edu. Gaps allowedCS/IT group, ECE, ENNo live backlogs."
+                "key": "location_1",
+                "value": "Bangalore"
+            },
+            {
+                "key": "percent",
+                "value": 60
+            },
+            {
+                "key": "branch_1",
+                "value": "Electronics"
+            },
+            {
+                "key": "branch_2",
+                "value": "Communications"
+            },
+            {
+                "key": "branch_3",
+                "value": "MCA"
+            },
+            {
+                "key": "branch_4",
+                "value": "M.SC"
             }
         ]
     },
     {
-        "Name": "Larsen & Toubro Infotech Ltd",
-        "description": "LTI Let's Solve Larsen & Toubro Infotech Ltd is a global technology consulting and digital solutions company helping more than 300 clients succeed in a converging world. With operations in 30 countries and a team of more than 27000 employees, L&T Infotech is differentiated by its unique Business-to-IT Connect. Founded in 1997 and headquartered at Mumbai, LTI has strategic alliances with Web Methods, IBM, Microsoft, Business Objects, Oracle, Computer Associates, Siebel, Oracle, SAP, PeopleSoft, SAP, JD Edwards, Matrix One, Sun Microsystems, and HP. Larsen & Toubro Infotech was formerly known as L & T Information Technology Limited.The company is headquartered in Mumbai, India. It has additional offices in Pune, Chennai, Mysore, Bangalore, and Hyderabad, India. Larsen & Toubro Infotech Limited operates as a subsidiary of Larsen & Toubro, Ltd. Larsen & Toubro Limited operates as a technology, engineering, construction, and manufacturing company worldwide.Key Persons:Chairman: A. M. NaikChief Executive Officer and Managing Director: Debashis ChatterjeeSelection process:Round 1: Online AssessmentTechnical: MCQ 40 Questions (40 Min)Coding:Level 1 \u2013 1 Question (30 Min) @ Rs. 5 LPALevel 2 - 1 Question (45 Min) @ Rs. 6.5 LPA (on completion of level 1)Level 3 - 1 Question (45 Min) @ Rs. 8 LPA (on completion of level 1 & level 2)Round 2: Technical InterviewRound 3: HR InterviewRole: Graduate Engineer Trainee (GET)Applications are invited from all eligible students in following disciplines:\u2022 Civil\u2022 Electrical / EEE\u2022 Industrial\u2022 MechanicalEligibility:\u27a4 4 year / 8 semester Degree (full-time) course (students expecting to graduate by 30thJune 2025) after 10+2 / 10+Diploma.\u27a4 The Aggregate for 10th,12th / Diploma, B.E. / B. Tech / B. Arch (5 Years/10Semesters) should be more than or equal to 65%.\u27a4 No backlogs (past or live) during B.E. / B. Tech / B. Arch Course. Allsubjects/papers should be cleared in the first attempt only.\u27a4 Any subject/paper appeared and not cleared in the first attempt is considered abacklog.\u27a4 Post 10th Standard.\u2022 12th Standard should have been completed within 2 years (or])\u2022 Diploma should have been completed within 3 years, as applicable.\u27a4 B. E / B. Tech to be completed in 4 years if done after 12th and in 3 years ifdone post Diploma.\u27a4 Should be an Indian national.The company reserves the right to alter the requirements & eligibility criteria.Compensation:Posting Category CTC Per AnnumOffice Based Posting Rs. 6,00,000/-Project Site Based Posting Rs. 6,57,000/Additionally, local transportation and canteen facilities are available based on the place ofposting, governed by the prevailing guidelines thereunder.Selection Process:Selection process consists of following steps:1. Online Test: (completely remote proctored)Aptitude Test (Analytical Ability, Verbal Ability and Numerical Ability) & TechnicalTest.2. Interview (including extempore) for candidates clearing the Online Test.3. Pre-employment medical test for candidates as per the guidelines provided by our Chief Medical Officer",
+        "Name": "Asian Heart Institute",
+        "description": "ASIAN HEART INSTITUTE Asian Heart Institute Job Role- Training Executive in billing, Executive Assistant, Management Trainee in Finance & Accounts, Operations, patient care, MRD, HR, Marketing & Sales, Stores. Designation- Management Trainee Job Location- Mumbai, Bandra CTC: 1. MBA-4 LPA CTC minimum 2. BBA - 3LPA CTC About Asian Heart Institute, Mumbai: Asian Heart Institute rated as India's No. 1 heart care hospital for last 10 years in a row by various national surveys and among the best heart hospitals in the world by Newsweek international magazine in 2022 & 2023, was set up in 2002 with an aim to provide world-class cardiology and cardiac surgery services in India. It is situated at the Bandra Kurla Complex (BKC), a mere 15-minute drive from the domestic and international airports. The hospital is globally known as a model healthcare institution for delivering highest quality, honest medical opinions by highly capable, experienced, and dedicated healthcare professionals, using the best-in-class systems, processes, and practices within a strict ethical framework. Over the last two decades, Asian Heart Institute has treated more than 4,15,000 patients, performed over 50,000 angiographies & angioplasties, 27,500 plus heart surgeries including 5000 + complex heart surgeries. The hospital has a 99.6% success rate in cardiac surgeries including many considered inoperable worldwide and an overall 99.83% success rate in bypass which is considered among the best in the world. It is one of the highest accredited hospitals in India with 6 times gold certificates from JCl (Joint Commission International) as well as NABH (National Accreditation Board for Hospitals) and rated world's best hospital 2022 by ET Ascent.",
         "Keys": [
             {
-                "key": "Web Methods",
-                "value": "Web Methods"
+                "key": "role",
+                "value": "Training Executive"
             },
             {
-                "key": "Oracle",
-                "value": "Oracle"
+                "key": "role",
+                "value": "Executive Assistant"
             },
             {
-                "key": "Oracle",
-                "value": "Oracle"
+                "key": "role",
+                "value": "Management Trainee"
             },
             {
-                "key": "Key Persons",
-                "value": "Chairman: A. M. NaikChief Executive Officer and Managing Director: Debashis Chatterjee"
+                "key": "location_1",
+                "value": "Mumbai"
             },
             {
-                "key": "Chairman",
-                "value": "A. M. Naik"
+                "key": "ctc_min",
+                "value": 4.0
             },
             {
-                "key": "Selection Process",
-                "value": "Round 1: Online AssessmentTechnical: MCQ 40 Questions (40 Min)Coding:Level 1 \u2013 1 Question (30 Min) @ Rs. 5 LPALevel 2 - 1 Question (45 Min) @ Rs. 6.5 LPA (on completion of level 1)Level 3 - 1 Question (45 Min) @ Rs. 8 LPA (on completion of level 1 & level 2)Round 2: Technical InterviewRound 3: HR InterviewSelection process consists of following steps:1. Online Test: (completely remote proctored)Aptitude Test (Analytical Ability, Verbal Ability and Numerical Ability) & TechnicalTest.2. Interview (including extempore) for candidates clearing the Online Test.3. Pre-employment medical test for candidates as per the guidelines provided by our Chief Medical Officer"
+                "key": "ctc",
+                "value": 3.0
             },
             {
-                "key": "Roles",
-                "value": "Graduate Engineer Trainee (GET)"
+                "key": "branch_1",
+                "value": "MBA"
             },
             {
-                "key": "Applications are invited",
-                "value": "from all eligible students in following disciplines:\u2022 Civil\u2022 Electrical / EEE\u2022 Industrial\u2022 Mechanical"
+                "key": "branch_2",
+                "value": "BBA"
             },
             {
-                "key": "Eligibility",
-                "value": "\u27a4 4 year / 8 semester Degree (full-time) course (students expecting to graduate by 30thJune 2025) after 10+2 / 10+Diploma.\u27a4 The Aggregate for 10th,12th / Diploma, B.E. / B. Tech / B. Arch (5 Years/10Semesters) should be more than or equal to 65%.\u27a4 No backlogs (past or live) during B.E. / B. Tech / B. Arch Course. Allsubjects/papers should be cleared in the first attempt only.\u27a4 Any subject/paper appeared and not cleared in the first attempt is considered abacklog.\u27a4 Post 10th Standard.\u2022 12th Standard should have been completed within 2 years (or])\u2022 Diploma should have been completed within 3 years, as applicable.\u27a4 B. E / B. Tech to be completed in 4 years if done after 12th and in 3 years ifdone post Diploma.\u27a4 Should be an Indian national.The company reserves the right to alter the requirements & eligibility criteria."
-            },
-            {
-                "key": "B.E/B.Tech",
-                "value": "B.E. / B. Tech / B. Arch"
-            },
-            {
-                "key": "B.E/B.Tech",
-                "value": "B. E / B. Tech"
-            },
-            {
-                "key": "Requirements",
-                "value": "The company reserves the right to alter the requirements & eligibility criteria."
-            },
-            {
-                "key": "Compensation",
-                "value": "Posting Category CTC Per AnnumOffice Based Posting Rs. 6,00,000/-Project Site Based Posting Rs. 6,57,000/"
-            },
-            {
-                "key": "CTC",
-                "value": 800000
+                "key": "domains",
+                "value": "billing, Finance & Accounts, Operations, patient care, MRD, HR, Marketing & Sales, Stores"
             }
         ]
     },
     {
-        "Name": "Infosys",
-        "description": "Infosys Job Role:1. Specialist Programmer: As an Infosys programmer in an SP role, you are expected to work in high endprojects using technologies like Machine Learning and Artificial Intelligence. Some of the technologies that youshould know before getting into Infosys SP role include:\u2022 Functional Programming\u2013 Scala, Akka\u2022 Java Microservices- Spring Boot, JEE\u2022 NoSQL and Scripting \u2013 ReachJS, Angular JS, MongoDB\u2022 Big Data and ML- Hadoop, Azure ML,\u2022 DevOps- Jira, GIr, JenKinsCTC: 9.5 LPASelection Process:Round 1: Online Assessment This round will have a total of 3 coding questions, and 180 minutes. It consists of 3levels- Easy, Medium, Hard .Round 2: Onsite Technical InterviewRound 3: Culture fit Interview.2. System Engineer : A System Engineer at Infosys is responsible for the design, development, implementation,and maintenance of systems that support the company's IT infrastructureCTC: 3.6 LPASelection Process:Round 1: In Campus Assessment. It consists of 7 sections-\u2022 Mathematical Ability\u2022 Reasoning Ability\u2022 Verbal Ability\u2022 Pseudo Code\u2022 Puzzle Solving\u2022 English Ability\u2022 Essay WritingRound 2: In Campus interviews, 20-30 minutesEligibility:\u2022All percentages/CGPA should be a simple average for all subjects/semesters/years, including electives,optional subjects, additional subjects, practical subjects and languages.Class 10 and Class 12- 60% or equivalent 60%Diploma (if applicable) - 58% or equivalent 58%B.E./B. Tech - 60% or equivalent 60%\u2022 In case the candidate has done both Class 12 and Diploma, the best of the two is taken into consideration.\u2022 No active backlogs are allowed.\u2022 Candidate should be willing to relocate to any location as required by Infosys.\u2022 Candidate should be willing to work in different technologies as required by Infosys.",
+        "Name": "JTP",
+        "description": "JTP is a listed company on JASDAQ (Japanese Stock exchange) as JTP 2488. Our portfolio encapsulates services and products in ROBOTICS, Hardware / Software development, Pharma and Human resource development. Our head office is in Japan with branch offices in the USA, India, Korea, and many other countries. JTP has over 35 years of experience in the Japanese market. We work with clients such as EMC, SAP, Hitachi, NVIDIA, Softbank, Mitsubishi etc.",
         "Keys": [
             {
-                "key": "Job Role",
-                "value": "1. Specialist Programmer: As an Infosys programmer in an SP role, you are expected to work in high endprojects using technologies like Machine Learning and Artificial Intelligence. Some of the technologies that youshould know before getting into Infosys SP role include:\u2022 Functional Programming\u2013 Scala, Akka\u2022 Java Microservices- Spring Boot, JEE\u2022 NoSQL and Scripting \u2013 ReachJS, Angular JS, MongoDB\u2022 Big Data and ML- Hadoop, Azure ML,\u2022 DevOps- Jira, GIr, JenKins2. System Engineer : A System Engineer at Infosys is responsible for the design, development, implementation,and maintenance of systems that support the company's IT infrastructure"
+                "key": "role",
+                "value": "System engineer"
             },
             {
-                "key": "Spring Boot",
-                "value": "Spring Boot"
+                "key": "ctc",
+                "value": 24
             },
             {
-                "key": "ReachJS",
-                "value": "ReachJS"
+                "key": "location_1",
+                "value": "Japan"
             },
             {
-                "key": "Angular JS",
-                "value": "Angular JS"
+                "key": "branch_1",
+                "value": "CS"
             },
             {
-                "key": "MongoDB",
-                "value": "MongoDB"
+                "key": "branch_2",
+                "value": "IT"
             },
             {
-                "key": "Azure ML",
-                "value": "Azure ML"
+                "key": "branch_3",
+                "value": "EC"
             },
             {
-                "key": "DevOps",
-                "value": "DevOps- Jira, GIr, JenKins"
+                "key": "branch_4",
+                "value": "E&TC"
             },
             {
-                "key": "CTC",
-                "value": 9.5
-            },
-            {
-                "key": "Selection Process",
-                "value": "Round 1: Online Assessment This round will have a total of 3 coding questions, and 180 minutes. It consists of 3levels- Easy, Medium, Hard .Round 2: Onsite Technical InterviewRound 3: Culture fit Interview.Selection Process:Round 1: In Campus Assessment. It consists of 7 sections-\u2022 Mathematical Ability\u2022 Reasoning Ability\u2022 Verbal Ability\u2022 Pseudo Code\u2022 Puzzle Solving\u2022 English Ability\u2022 Essay WritingRound 2: In Campus interviews, 20-30 minutes"
-            },
-            {
-                "key": "Eligibility",
-                "value": "\u2022All percentages/CGPA should be a simple average for all subjects/semesters/years, including electives,optional subjects, additional subjects, practical subjects and languages.Class 10 and Class 12- 60% or equivalent 60%Diploma (if applicable) - 58% or equivalent 58%B.E./B. Tech - 60% or equivalent 60%\u2022 In case the candidate has done both Class 12 and Diploma, the best of the two is taken into consideration.\u2022 No active backlogs are allowed.\u2022 Candidate should be willing to relocate to any location as required by Infosys.\u2022 Candidate should be willing to work in different technologies as required by Infosys."
-            },
-            {
-                "key": "B.E/B.Tech",
-                "value": "B.E./B. Tech"
+                "key": "percent",
+                "value": 60
             }
         ]
     },
     {
-        "Name": "Amadeus",
-        "description": "amadeus At Amadeus, fresh graduates bring new perspectives and are seen as key contributors to the organization's technical and leadership growth. With Amadeus processing millions of transactions daily, system reliability and performance are critical. We ensure customer satisfaction by delivering on their needs effectively.Fresh graduates are absorbed into various divisions based on their skills and interview evaluations. To prepare them, all graduate engineers undergo an intensive 6\u20138 week training program, equipping them with the technical skills required for their roles.Designation: Software Engineer\u0421\u0422\u0421: 12,62,218/-Location: Bangalore/PuneSkill set 1: Java/J2EEA Java/J2EE developer is primarily a Back-end developer at Amadeus. You will be working on high volume productionsystems for the development and maintenance of Booking Engine which is a single set of code across a range ofAmadeus E-Commerce products. This code is very critical because a slight error might block the airlines/travel agentsfor processing the booking or ticketing.A Software developer is involved in many activities like:\u2022 Define user requirements for development or improvement of software solutions\u2022 Design technical solutions and perform feasibility studies\u2022 Innovate: Think out of the box and practice innovation in his/her daily tasks. Propose and develop innovativesolutions to the problems.\u2022 Propose viable technical solutions to Product Management and users for validation\u2022 Conduct unit, package and performance tests of the software and ensure a level of quality\u2022 Design and implement databases as necessary\u2022 Produce software documentation for the application and issue it\u2022 Support the end user in the Production phase by debugging existing software\u2022 solutions in response to Problem Tracking Records and Change Requests issued from\u2022 Product Management or Product DefinitionMain technical expertise on which the candidate will be trained on:\u2022 Core Java with J2EE experience\u2022 JUnits, Design Patterns, Struts, Spring MVC or any other framework\u2022 JSPs, Servlets, EJBs, DB, XML, WebServices etc. WebLogic, Ant/MavenSkill set 2: Java/UIA UI developer works on a presentation layer which is the layer mostly exposed to the customer. The more sturdy andintuitive it is; the more satisfied our customer is. The skills which a candidate develops are very niche and give them aclear advantage over other technical profiles. An engineer who can think UI and brings in innovation in his daily work.A very demanding position with skill set varying:\u2022 JQuery/ExtJS/YUI/DOJO or a similar JS framework\u2022 DataBase, ClearCase, WebLogic, Ant/Maven etc\u2022 JavaScript, OOJS CSS, HTML, AJAX, DOM, JSPs etc\u2022 Core Java/ J2EE experience is desirableSkill set 3: C/C++There are multiple work streams in Amadeus Labs, Bangalore who are focusing on core work areas where we needexpert C/C++ developers. A Software developer is involved in many activities like:\u2022 Define user requirements for development or improvement of software solutions\u2022 Design technical solutions and perform feasibility studies\u2022 Innovate: Think out of the box and practice innovation in his/her daily tasks. Propose\u2022 and develop innovative solutions to the problems.\u2022 Propose viable technical solutions to Product Management and users for validation\u2022 Conduct unit, package and performance tests of the software and ensure a level of\u2022 quality\u2022 Design and implement databases as necessary\u2022 Produce software documentation for the application and issue it\u2022 Support the end user in the Production phase by debugging existing software\u2022 solutions in response to Problem Tracking Records and Change Requests issued from\u2022 Product Management or Product DefinitionTechnical/Technical Skills\u2022 UNIX/ Linux, shell scripting\u2022 Strong knowledge of OOPS and coding with C++, design-patterns.\u2022 Database modeling, Oracle, Oracle BI, optimization techniques.\u2022 Good knowledge of development of a distributed system and of distributed\u2022 algorithms\u2022 Experience of Oracle environment and optimization techniques is a plus\u2022 Experience in multithreaded programming is a plusSkill Set 4 :Dev OpsThe DevOps engineer plays a key role to implement and support innovative solutions for operational requirements. Thescope of the role will encompass process automation solutions for the highly demanding Amadeus operational businessdomain.The DevOps Engineer will be involved in activities like",
+        "Name": "Darwinbox",
+        "description": "Darwinbox is Asia's fastest-growing SaaS-based HR Technology platform. A brainchild of alumni from the country's most distinguished institutions (IIT/IIM/XLRI) and organizations (McKinsey, EY, Google), Darwinbox is the preferred technology partner of 500+ global enterprises with more than 1 million+ employees using the platform. Our endto-end HCM technology suite competes with the best in the business and has won against giants such as SAP, Oracle, and Workday several times to acquire iconic enterprise customers ranging from the largest conglomerates to unicorns Adani, Mahindra, Kotak, TVS, Arvind, Nivea, Puma, Swiggy, Paytm, Bigbasket and Delhivery etc. The rate at which our product and market presence is growing is unprecedented. We're a rocketship. We're not planning on slowing down anytime soon. And, that's why we need you!",
         "Keys": [
             {
-                "key": "training program",
-                "value": "intensive 6\u20138 week training program"
+                "key": "domains",
+                "value": "HR Technology"
             },
             {
-                "key": "Roles",
-                "value": "Software Engineer"
+                "key": "role",
+                "value": "Intern- Product Development"
             },
             {
-                "key": "CTC",
-                "value": 1262218
+                "key": "stipend",
+                "value": 25
             },
             {
-                "key": "Location",
-                "value": "Bangalore/Pune"
+                "key": "ctc",
+                "value": 16.3
             },
             {
-                "key": "Skill set",
-                "value": "1: Java/J2EE"
-            },
-            {
-                "key": "Java",
-                "value": "Java/J2EE"
-            },
-            {
-                "key": "J2EE",
-                "value": "Java/J2EE"
-            },
-            {
-                "key": "requirements",
-                "value": "Define user requirements for development or improvement of software solutions"
-            },
-            {
-                "key": "Innovate",
-                "value": "Innovate: Think out of the box and practice innovation in his/her daily tasks. Propose and develop innovative solutions to the problems."
-            },
-            {
-                "key": "Design Patterns",
-                "value": "Design Patterns"
-            },
-            {
-                "key": "Spring MVC",
-                "value": "Spring MVC"
-            },
-            {
-                "key": "XML",
-                "value": "XML"
-            },
-            {
-                "key": "WebServices",
-                "value": "WebServices"
-            },
-            {
-                "key": "WebLogic",
-                "value": "WebLogic"
-            },
-            {
-                "key": "DOM",
-                "value": "DOM"
-            },
-            {
-                "key": "Skill set",
-                "value": "2: Java/UI"
-            },
-            {
-                "key": "Java",
-                "value": "Core Java with J2EE experience"
-            },
-            {
-                "key": "J2EE",
-                "value": "Core Java with J2EE experience"
-            },
-            {
-                "key": "Java",
-                "value": "Core Java/ J2EE experience is desirable"
-            },
-            {
-                "key": "J2EE",
-                "value": "Core Java/ J2EE experience is desirable"
-            },
-            {
-                "key": "Skill set",
-                "value": "3: C/C++"
-            },
-            {
-                "key": "requirements",
-                "value": "Define user requirements for development or improvement of software solutions"
-            },
-            {
-                "key": "Innovate",
-                "value": "Innovate: Think out of the box and practice innovation in his/her daily tasks. Propose\u2022 and develop innovative solutions to the problems."
-            },
-            {
-                "key": "Oracle",
-                "value": "Oracle"
-            },
-            {
-                "key": "Oracle",
-                "value": "Oracle BI"
-            },
-            {
-                "key": "Skill set",
-                "value": "4 :Dev Ops"
-            },
-            {
-                "key": "DevOps",
-                "value": "The DevOps engineer plays a key role to implement and support innovative solutions for operational requirements. The scope of the role will encompass process automation solutions for the highly demanding Amadeus operational business domain.The DevOps Engineer will be involved in activities like"
-            },
-            {
-                "key": "requirements",
-                "value": "operational requirements"
+                "key": "location_1",
+                "value": "Hyderabad"
             }
         ]
     }

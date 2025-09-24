@@ -1,137 +1,113 @@
 [
     {
-        "Name": "Planful",
-        "description": "PlanfulJob Role: Graduate Engineer TraineeCTC: 8.72 LPA, Stipend: 25k/monthLocation: HyderabadRole:\u2022 Analyze stories, specifications, and requirements to create Use cases and test scenarios.\u2022 Prepare test cases and scripts to meet project deliverables.\u2022 Report and track defects and problems that arise during software testing.\u2022 Participate in development sprints and daily scrum.\u2022 Develop and implement scripts for automated testing.\u2022 Collaborate with Product Management to ensure requirements are user-centered and testable.\u2022 Collaborate with Development to ensure designs are user-centered and testable.\u2022 Will be working in Software Development including Java/C# with Strong Problem-Solving Skills, objectoriented design, data structures, algorithm, Design, and complexity analysis.\u2022 Understanding modern web development technologies and techniques, including AJAX, HTML5, JavaScript,jQuery, CSS, Responsive Design, web services, NoSQL databases.\u2022 Disparate technologies, typically ranging from front-end user interfaces through to back-end systems andpoints in between.Selection Rounds:1. Online Coding Test2. Technical Round 13. Technical Round 24. HR/Final SelectionSkills Requirements:OOPSProblem-SolvingLogical ReasoningAlgorithms, Sorting arraysDatabases, Data StructureCoding, SQL Queries & JavaScriptSelenium web driver, Java, C/C#Eligibility Criteria:Percentage: 70% throughout academics 10th/12th/GraduationNo Active BacklogNote: Internship to full time conversion of students will be purely based on the individual performance and opportunityavailable with us at that point in time.",
-        "Keys": [
-            {
-                "key": "Job Role",
-                "value": "Graduate Engineer Trainee"
-            },
-            {
-                "key": "CTC",
-                "value": 8.72
-            },
-            {
-                "key": "Stipend",
-                "value": 25000
-            },
-            {
-                "key": "Location",
-                "value": "Hyderabad"
-            },
-            {
-                "key": "Roles",
-                "value": "\u2022 Analyze stories, specifications, and requirements to create Use cases and test scenarios.\u2022 Prepare test cases and scripts to meet project deliverables.\u2022 Report and track defects and problems that arise during software testing.\u2022 Participate in development sprints and daily scrum.\u2022 Develop and implement scripts for automated testing.\u2022 Collaborate with Product Management to ensure requirements are user-centered and testable.\u2022 Collaborate with Development to ensure designs are user-centered and testable.\u2022 Will be working in Software Development including Java/C# with Strong Problem-Solving Skills, objectoriented design, data structures, algorithm, Design, and complexity analysis.\u2022 Understanding modern web development technologies and techniques, including AJAX, HTML5, JavaScript,jQuery, CSS, Responsive Design, web services, NoSQL databases."
-            },
-            {
-                "key": "Java",
-                "value": "Java"
-            },
-            {
-                "key": "WebServices",
-                "value": "web services"
-            },
-            {
-                "key": "Selection Process",
-                "value": "1. Online Coding Test2. Technical Round 13. Technical Round 24. HR/Final Selection"
-            },
-            {
-                "key": "skills",
-                "value": "OOPSProblem-SolvingLogical ReasoningAlgorithms, Sorting arraysDatabases, Data StructureCoding, SQL Queries & JavaScriptSelenium web driver, Java, C/C#"
-            },
-            {
-                "key": "Eligibility",
-                "value": "Percentage: 70% throughout academics 10th/12th/GraduationNo Active Backlog"
-            }
-        ]
-    },
-    {
-        "Name": "Fendahl",
-        "description": "Fendahl:Domain: Software company in CTRM/ETRM DomainDesignation: Trainee Software EngineerCTC: 7.5 LPA (Gross CTC- 5.25 LPA + 2.25 lacs retention bonus).Location: NagpurRequirement:\u2022 Candidates should be good in programming and aptitude\u2022 No special programming language training needed, however candidates knowing C# / Dot Net would bepreferred.\u2022 Candidates should be ready to work from Nagpur location.Selection Process:Round 1: Resume shortlisting.Round 2: Online InCampus Assessment (Aptitude + Programming).Round 3: Written Coding Test. (InCampus)Round 4: Technical Interview I (InCampus)Round 5: Technical Interview II (Company Premises)Round 6: HR Interview (Company Premises)Eligibility:CS/IT group, ECE, ENMin. 60% 10th, 12th & Graduation",
-        "Keys": [
-            {
-                "key": "Job Role",
-                "value": "Trainee Software Engineer"
-            },
-            {
-                "key": "CTC",
-                "value": 7.5
-            },
-            {
-                "key": "Location",
-                "value": "Nagpur"
-            },
-            {
-                "key": "Requirements",
-                "value": "\u2022 Candidates should be good in programming and aptitude\u2022 No special programming language training needed, however candidates knowing C# / Dot Net would bepreferred.\u2022 Candidates should be ready to work from Nagpur location."
-            },
-            {
-                "key": "Selection Process",
-                "value": "Round 1: Resume shortlisting.Round 2: Online InCampus Assessment (Aptitude + Programming).Round 3: Written Coding Test. (InCampus)Round 4: Technical Interview I (InCampus)Round 5: Technical Interview II (Company Premises)Round 6: HR Interview (Company Premises)"
-            },
-            {
-                "key": "Eligibility",
-                "value": "CS/IT group, ECE, ENMin. 60% 10th, 12th & Graduation"
-            }
-        ]
-    },
-    {
-        "Name": "PubMatic",
-        "description": "PubMaticPubMatic is hiring candidates who can design and implement next-generation highly scalable, distributed, andlow-latency applications. If you get excited building applications and architecture to handle 100's billions of requestsper day, managing millions of requests per second with a creative and fast-paced work environment, competitive pay,great incentives, a culture of teamwork, smart and friendly colleagues, and plenty of opportunity to grow in your careerthen you should consider applying for this position.Job Role: Graduate Engineer TraineeCTC: 11.6 LPARequirements:\u2022 Excellent Problem solving and analytical skills.\u2022 Knowledge of Operating Systems concepts\u2022 Ability to code using any programming language, viz. C, Java, Scala.\u2022 Good understanding of data structures and algorithms.\u2022 Knowledge of SQL and databases.\u2022 Good fundamental understanding of software engineering.\u2022 Ability to communicate thoughts appropriately.\u2022 Preferences in the skills - Java, C, Javascript, Golang.Selection Process:Round 1: Online Test: 90 minutesRound 2: Technical Interviews - 2 rounds (Pune)Round 3: HR Interview",
-        "Keys": [
-            {
-                "key": "Job Role",
-                "value": "Graduate Engineer Trainee"
-            },
-            {
-                "key": "CTC",
-                "value": 11.6
-            },
-            {
-                "key": "Requirements",
-                "value": "\u2022 Excellent Problem solving and analytical skills.\u2022 Knowledge of Operating Systems concepts\u2022 Ability to code using any programming language, viz. C, Java, Scala.\u2022 Good understanding of data structures and algorithms.\u2022 Knowledge of SQL and databases.\u2022 Good fundamental understanding of software engineering.\u2022 Ability to communicate thoughts appropriately.\u2022 Preferences in the skills - Java, C, Javascript, Golang."
-            },
-            {
-                "key": "Java",
-                "value": "Java"
-            },
-            {
-                "key": "Selection Process",
-                "value": "Round 1: Online Test: 90 minutesRound 2: Technical Interviews - 2 rounds (Pune)Round 3: HR Interview"
-            }
-        ]
-    },
-    {
         "Name": "Trimble",
-        "description": "Eligibility Criteria:Min. 65% (Engg. and 10th, 12th, Diploma) and above marks in all semestersNo backlogs and no year gaps.TrimbleTrimble:Job Role: Graduate Technical Interns (opportunities in Construction, Transportation, Agriculture and Geospatialdomains).CTC: 7 LPAStipend: 21.5k (Upon successful completion of the internship, FullTime will be offered).Job PurposeDesign and Develop Software solutions to meet the functional requirements of innovative products (pertaining toMobile/Cloud/Desktop and various domains) developed by Trimble divisions. Make use of well-established designpatterns and architectures that suit the mobile platform and follow agile development processes. Perform unit testing ofthe code developed, develop unit test cases and test harness. Perform system integration and bug fixing, develop userdocumentation, generation of relevant reports and review similar work done by peers.Main Responsibilities:\u2022 Read and understand high-level product description or requirement documents and propose one or moresoftware designs at the module level that are highly reusable and subject to the design principles of thesoftware's target host platform.\u2022 Decompose design elements into the structured code as per prevailing coding guidelines, preparation andexecution of unit test cases, and development of test codes or test harnesses. Trace back through code, design,and resolve issues and bugs.\u2022 Document work, software designs, code and record and produce test reports and release notes\u2022 Plan, organize, and execute assignments with very little or moderate supervision, in an agile environment\u2022 Responsible for deliveries in the required deadlines. Deliveries may be modules, documentation, customerreleases, etc.\u2022 Coordinate with the team for the timely delivery of work products. Ensure the quality of work products byreviews.\u2022 Sub-Module level responsibility in large projects and Module (or component) level responsibility insmall/medium-sized projects and complete responsibility is small-sized projects, depending upon the complexityand decomposition.\u2022 Work with User Experience, and QA teams to ensure the validity of the solution.\u2022 Be contemporary by adopting technological and market evolutions.\u2022 Other responsibilities as assigned by the management from time to time.Skill sets:\u2022 Good understanding of operating systems principles, embedded systems, software architectures, softwarealgorithms, data structures, and software engineering principles.\u2022 Stronghold in OOAD and object-oriented programming language.\u2022 Experience in applications programming is preferred.\u2022 Good exposure to design, development, and debugging tools.\u2022 Knowledge of various Software Development Lifecycles.\u2022 Good analytical and problem-solving skills.\u2022 Excellent communication and interpersonal skills.\u2022 Upbeat, highly motivated, and self-starter.Qualifications & Experience:\u2022 Bachelors of Engineering.\u2022 A good score in any of the national level Olympiads or talent search examinations will be a value addition. Agood JEE score will be a big bonus.\u2022 Paper presentation in a national level forum, contribution to open source projects, and contribution tostandards bodies will be value addition.",
+        "description": "Trimble:Job Role: Graduate Technical Interns (opportunities in Construction, Transportation, Agriculture and Geospatialdomains).CTC: 7 LPAStipend: 21.5k (Upon successful completion of the internship, FullTime will be offered).Job PurposeDesign and Develop Software solutions to meet the functional requirements of innovative products (pertaining toMobile/Cloud/Desktop and various domains) developed by Trimble divisions. Make use of well-established designpatterns and architectures that suit the mobile platform and follow agile development processes. Perform unit testing ofthe code developed, develop unit test cases and test harness. Perform system integration and bug fixing, develop userdocumentation, generation of relevant reports and review similar work done by peers.Main Responsibilities:\u2022 Read and understand high-level product description or requirement documents and propose one or moresoftware designs at the module level that are highly reusable and subject to the design principles of thesoftware's target host platform.\u2022 Decompose design elements into the structured code as per prevailing coding guidelines, preparation andexecution of unit test cases, and development of test codes or test harnesses. Trace back through code, design,and resolve issues and bugs.\u2022 Document work, software designs, code and record and produce test reports and release notes\u2022 Plan, organize, and execute assignments with very little or moderate supervision, in an agile environment\u2022 Responsible for deliveries in the required deadlines. Deliveries may be modules, documentation, customerreleases, etc.\u2022 Coordinate with the team for the timely delivery of work products. Ensure the quality of work products byreviews.\u2022 Sub-Module level responsibility in large projects and Module (or component) level responsibility insmall/medium-sized projects and complete responsibility is small-sized projects, depending upon the complexityand decomposition.\u2022 Work with User Experience, and QA teams to ensure the validity of the solution.\u2022 Be contemporary by adopting technological and market evolutions.\u2022 Other responsibilities as assigned by the management from time to time.Skill sets:\u2022 Good understanding of operating systems principles, embedded systems, software architectures, softwarealgorithms, data structures, and software engineering principles.\u2022 Stronghold in OOAD and object-oriented programming language.\u2022 Experience in applications programming is preferred.\u2022 Good exposure to design, development, and debugging tools.\u2022 Knowledge of various Software Development Lifecycles.\u2022 Good analytical and problem-solving skills.\u2022 Excellent communication and interpersonal skills.\u2022 Upbeat, highly motivated, and self-starter.Qualifications & Experience:\u2022 Bachelors of Engineering.\u2022 A good score in any of the national level Olympiads or talent search examinations will be a value addition. Agood JEE score will be a big bonus.\u2022 Paper presentation in a national level forum, contribution to open source projects, and contribution tostandards bodies will be value addition.Eligibility Criteria:Min. 65% (Engg. and 10th, 12th, Diploma) and above marks in all semestersNo backlogs and no year gaps.",
         "Keys": [
             {
-                "key": "Job Role",
+                "key": "role",
                 "value": "Graduate Technical Interns"
             },
             {
-                "key": "CTC",
+                "key": "ctc",
                 "value": 7
             },
             {
-                "key": "Stipend",
-                "value": 21500
+                "key": "stipend",
+                "value": 21.5
             },
             {
-                "key": "Eligibility",
-                "value": "Min. 65% (Engg. and 10th, 12th, Diploma) and above marks in all semestersNo backlogs and no year gaps."
+                "key": "percent",
+                "value": 65
             },
             {
-                "key": "Responsibilities",
-                "value": "\u2022 Read and understand high-level product description or requirement documents and propose one or moresoftware designs at the module level that are highly reusable and subject to the design principles of thesoftware's target host platform.\u2022 Decompose design elements into the structured code as per prevailing coding guidelines, preparation andexecution of unit test cases, and development of test codes or test harnesses. Trace back through code, design,and resolve issues and bugs.\u2022 Document work, software designs, code and record and produce test reports and release notes\u2022 Plan, organize, and execute assignments with very little or moderate supervision, in an agile environment\u2022 Responsible for deliveries in the required deadlines. Deliveries may be modules, documentation, customerreleases, etc.\u2022 Coordinate with the team for the timely delivery of work products. Ensure the quality of work products byreviews.\u2022 Sub-Module level responsibility in large projects and Module (or component) level responsibility insmall/medium-sized projects and complete responsibility is small-sized projects, depending upon the complexityand decomposition.\u2022 Work with User Experience, and QA teams to ensure the validity of the solution.\u2022 Be contemporary by adopting technological and market evolutions.\u2022 Other responsibilities as assigned by the management from time to time."
+                "key": "branch_1",
+                "value": "Engg."
+            }
+        ]
+    },
+    {
+        "Name": "Yoptima",
+        "description": "Eligibility:CS/IT group only.80% and above throughout (10th,12th,UG -until 6th Semester)No Live Backlog.YoptimaJob Role: Account ExecutiveCTC: 7 LPA, Stipend: 25k/monthLocation: Jui Nagar, Navi MumbaiPost-Internship Opportunity: After successfully completing the internship and a thorough assessment, candidates willbe offered a permanent role with a total compensation of \u20b97 Lakh CTC (\u20b95 Lakh Fixed + *2 Lakh Variable+ otherbenefits) for BTech graduates.Responsibilities:\u2022 Analyze digital behavior of the online consumers across different digital channels and design actionableinsights and solutions to improve marketing ROI at scale.\u2022 Work with large, complex data sets. Solve difficult, non-routine analysis problems, applying advancedanalytical methods as needed.\u2022 Assist in designing relevant marketing plans and strategies for digital ad campaigns, combining understandingof consumer behavior, data driven insights, product positioning and marketing objectives.\u2022 Troubleshoot technical issues both internally and with Third party vendors.\u2022 Manage servicing needs of clients and win sustainable customer delight and brand advocacy.Competencies:\u2022 0-2 yrs Exp with Bachelor's or Master's degree in a quantitative discipline (e.g. business administration,engineering, statistics, operations research, economics, mathematics).\u2022 Strong analytical and problem-solving skills.\u2022 Ability to present results of complex analysis compellingly to both technical and non-technical audiences.\u2022 Self-motivated with the ability to work independently and within a team.Selection Process:Round1: 8D Online Assessment \u2013 A mandatory evaluation.Round 2: Shortlisted candidates from the assessment will go through 2-3 rounds of interviews with the Co-founders(COO & CEO).",
+        "Keys": [
+            {
+                "key": "role",
+                "value": "Account Executive"
             },
             {
-                "key": "Skill set",
-                "value": "\u2022 Good understanding of operating systems principles, embedded systems, software architectures, softwarealgorithms, data structures, and software engineering principles.\u2022 Stronghold in OOAD and object-oriented programming language.\u2022 Experience in applications programming is preferred.\u2022 Good exposure to design, development, and debugging tools.\u2022 Knowledge of various Software Development Lifecycles.\u2022 Good analytical and problem-solving skills.\u2022 Excellent communication and interpersonal skills.\u2022 Upbeat, highly motivated, and self-starter."
+                "key": "ctc",
+                "value": 7
             },
             {
-                "key": "Qualifications",
-                "value": "\u2022 Bachelors of Engineering.\u2022 A good score in any of the national level Olympiads or talent search examinations will be a value addition. Agood JEE score will be a big bonus.\u2022 Paper presentation in a national level forum, contribution to open source projects, and contribution tostandards bodies will be value addition."
+                "key": "stipend",
+                "value": 25
+            },
+            {
+                "key": "location_1",
+                "value": "Jui Nagar"
+            },
+            {
+                "key": "location_2",
+                "value": "Navi Mumbai"
+            },
+            {
+                "key": "percent",
+                "value": 80
+            },
+            {
+                "key": "branch_1",
+                "value": "CS/IT group"
+            }
+        ]
+    },
+    {
+        "Name": "Bluealtair",
+        "description": "bluealtairBluealtairJob Role: Graduate Engineer TraineeCTC: 5 LPA, Stipend: 20k/month (Permanent placement - Post internship completion based on the performance).Location: PuneAbout us: Blue Altair is a successor company of Fresh Gravity.It is a niche, sleek, high-end consulting firm that is employee centric, client focused, partner tied, and innovation driven.Core capabilities at Blue Altair are:\u2022 API Management & Integration-o API Business Strategy with \u201cAPI First\u201d Approach,o API Program and Technical Strategy,o iPaaS Strategy, API Gateway Package Selection,o Deployment (on-premises, cloud, hybrid),o iPaaS based system integration)\u2022 Data Managemento Cloud Data Migration,o Smart Analyticso Master Data Management,o Data Platform Strategy and Roadmapo Data Platform Modernizationo Data Governance and Strategy Roadmap\u2022 Data Science and AIo Big Data Analytics,o Machine Learning & Artificial Intelligence,o Deep Learning, Supervised,o Unsupervised and Semi-Supervised Learning,o Explainable AI,o Computer Vision,o Natural Language Processing\u2022 Digital Application Developmento Full Stack Developmento Web and Mobile Developmento DevOpso MicroservicesSelection Process:Round 1: Online Programming Test (MCQS on Aptitude ques, OS, CN,DBMS, 2 ques Coding Ques)Round 2: Technical Interview 1",
+        "Keys": [
+            {
+                "key": "role",
+                "value": "Graduate Engineer Trainee"
+            },
+            {
+                "key": "ctc",
+                "value": 5
+            },
+            {
+                "key": "stipend",
+                "value": 20
+            },
+            {
+                "key": "location_1",
+                "value": "Pune"
+            }
+        ]
+    },
+    {
+        "Name": "JSW",
+        "description": "JSWJob Role: Graduate Engineer TraineeCTC: 6 LPA (Fixed + Variable)The CTC is INR 5.5 LPA - INR 4.67 LPA (Fixed) in addition to INR 83,000 (Variables)Retention Bonus - INR 1 lakh (End of Year 1 - 50% and End of Year 2 - 50%)Job Description:\u2022 Completing all tasks set by the Supervisor and assisting wherever possible.\u2022 Observing existing strategies and techniques and offering suggestions for improvement.\u2022 Conducting research and collating data.\u2022 Traveling to different sites and gaining practical experience in new work zones.\u2022 Working closely with staff to foster professional values and build good relationships.\u2022 Observing health and safety guidelines at all times.\u2022 Attending meetings and workshops.\u2022 Submitting to all forms of evaluation during the traineeship.\u2022 Compiling reports and delivering presentations to staff members and other stakeholders.Selection Process:Round1: Online AssessmentRound 2: Online AssessmentRound 3: InterviewsEligibility Criteria:\u2022 Candidates should be open for any location pan India. no location preference will be considered. In casehe/she accepts the offer and then drops out because of the location constraint, then he/she will be blacklistedfrom the JSW group.\u2022 Branch: Mech, Indus, Civil\u2022 Candidate's age must be 24 years or less as of 1st April 2025.\u2022 Candidates must meet all the necessary fitness criteria. At any stage, the candidate must meet all necessaryfitness criteria.\u2022 No Live/Open Backlogs are allowed, In the case of Previous backlogs all should be cleared/closed beforeapplying. No lateral entry is allowed. No repeat year allowed.\u2022 The offer will be revoked if any information provided by the candidate at any stage stands incorrect.\u2022 No gap year is allowed between 10th, 12th, or any year of the Graduation Degree.\u2022 Min 60% and above throughout 10th, 12th and College.",
+        "Keys": [
+            {
+                "key": "role",
+                "value": "Graduate Engineer Trainee"
+            },
+            {
+                "key": "ctc",
+                "value": 6
+            },
+            {
+                "key": "percent",
+                "value": 60
+            },
+            {
+                "key": "branch_1",
+                "value": "Mech"
+            },
+            {
+                "key": "branch_2",
+                "value": "Indus"
+            },
+            {
+                "key": "branch_3",
+                "value": "Civil"
             }
         ]
     }

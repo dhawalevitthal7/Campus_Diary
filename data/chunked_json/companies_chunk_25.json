@@ -1,133 +1,125 @@
 [
     {
-        "Name": "Principal Global Services",
-        "description": "Principal Global Services Position Title: Trainee Developer, this role is responsible for developing, testing and maintaining the application with established processes. Designation: Trainee Analyst CTC: 8 LPA, Stipend: 25k Location: Pune or Hyderabad Key Responsibilities: \u2022 Develop application code for programs while following coding standards \u2022 Develop and execute unit tests \u2022 Complete Analysis & documentation as required by the project \u2022 Support application testing and resolve test defects \u2022 Report status updates as required by the project \u2022 Follow established project execution processes \u2022 Focus on self-development & develop application and domain understanding. Skill set: \u2022 Analysis, Design, Coding, Testing, reviews and Documentation. \u2022 Test Case execution, Test Reporting, Defect life cycle, Status Reporting. \u2022 Reporting, Effective interaction with team Other: Good aptitude, positive attitude, strong reasoning and communication skills. Must be a good team player. Good analytical skills, challenging and research oriented. Eligibility : \u2022 BE/BTech (Computer Science, Information Technology/Science, Electronics & Communication or Electronics & Telecommunication) and MCA students only \u2022 60% (first class) or equivalent CGPA throughout Academics (10th, 12th, Diploma & Graduation) \u2022 No live Backlogs/ATKT \u2022 Fulltime Education throughout Academics (10th, 12th, Diploma & Graduation) \u2022 Excellent Communication Skills Selection Process: Round 1: Resume Shortlisting Round 2: Online Assessment (Coding(CS Core subject(OS, CN, pseudo Code, Basic DSA + Aptitude +2 Coding Ques) - 2 hrs Round 3: Technical Interview Round 4: HR Interview",
+        "Name": "Nvidia",
+        "description": "Nvidia NVIDIA Job Role: QA Tool and Test Development Intern. Stipend : 40k Location : Pune, Bangalore, Hyderabad What you will be doing: \u2022 The intern will help us build tools/utility /frameworks in C/C#/C++ that would automate and accelerate testing work\u00c6ows in the \u00c5elds of Autonomous Vehicles, Robotics, 3D Simulation Platforms, GPU drivers, Cloud Computing and AI. \u2022 As a QA Tools and Test Development Intern at NVIDIA, you will collaborate with a team of talented engineers tackling some of the most complex challenges in cutting-edge technology. Mentored by the best minds in the industry, they will have the opportunity to make meaningful contributions to exciting and impactful projects. What we need to see: \u2022 Pursuing a graduate engineering course in Computer Science/ IT with strong academics. \u2022 Good Communication skills (interpersonal and across teams). \u2022 Excellent analytical and problem-solving skills. \u2022 Very organized, proactive, and has good learning ability. \u2022 Languages - C++/C#/.Net/Python \u2022 Ability to apply Object Oriented Programming concepts and Data structures knowledge Knowledge of SQL/NoSQL Database management tools \u2022 Ability to build applications using Generative AI APIs would be a plus \u2022 Would be a plus to have hands-on experience in development of Web Application (ASP.Net, MVC, web services). Skills to be Assessed : C++, C# Programming, Python, Linux, OOPS, DS, AI/ML/DL/Gen AI. Selection Process: Round 1: Online Assessment (Technical and Logic ques on HackerRank) Programming: Questions on C, VHDL, and Verilog programming Computer architecture: Questions on finite state machines, flip flop timing, and low power design Data compression: Questions on data compression and binary representations. Circuit design: Questions on circuit design using half/full adders. Clocks: Questions on clocks. Round 2: Technical Interview Round 3: HR Interview Eligibility Criteria: Min 80% in overall academics (10th, 12th, Graduation). CS/IT group only. No Live Backlog.",
         "Keys": [
             {
-                "key": "CTC",
-                "value": 800000
+                "key": "stipend",
+                "value": 40
             },
             {
-                "key": "Stipend",
-                "value": 25000
+                "key": "location_1",
+                "value": "Pune"
             },
             {
-                "key": "Location",
-                "value": "Pune or Hyderabad"
+                "key": "location_2",
+                "value": "Bangalore"
             },
             {
-                "key": "Key Responsibilities",
-                "value": "\u2022 Develop application code for programs while following coding standards \u2022 Develop and execute unit tests"
+                "key": "location_3",
+                "value": "Hyderabad"
             },
             {
-                "key": "Responsibilities",
-                "value": "\u2022 Complete Analysis & documentation as required by the project \u2022 Support application testing and resolve test defects \u2022 Report status updates as required by the project \u2022 Follow established project execution processes \u2022 Focus on self-development & develop application and domain understanding."
+                "key": "role",
+                "value": "QA Tool and Test Development Intern"
             },
             {
-                "key": "Skill set",
-                "value": "\u2022 Analysis, Design, Coding, Testing, reviews and Documentation. \u2022 Test Case execution, Test Reporting, Defect life cycle, Status Reporting. \u2022 Reporting, Effective interaction with team"
+                "key": "percent",
+                "value": 80
             },
             {
-                "key": "Eligibility",
-                "value": ": \u2022 BE/BTech (Computer Science, Information Technology/Science, Electronics & Communication or Electronics & Telecommunication) and MCA students only \u2022 60% (first class) or equivalent CGPA throughout Academics (10th, 12th, Diploma & Graduation) \u2022 No live Backlogs/ATKT \u2022 Fulltime Education throughout Academics (10th, 12th, Diploma & Graduation) \u2022 Excellent Communication Skills"
+                "key": "branch_1",
+                "value": "CS"
             },
             {
-                "key": "B.E/B.Tech",
-                "value": "BE/BTech"
-            },
-            {
-                "key": "Selection Process",
-                "value": "Round 1: Resume Shortlisting Round 2: Online Assessment (Coding(CS Core subject(OS, CN, pseudo Code, Basic DSA + Aptitude +2 Coding Ques) - 2 hrs Round 3: Technical Interview Round 4: HR Interview"
+                "key": "branch_2",
+                "value": "IT"
             }
         ]
     },
     {
-        "Name": "PHILIPS",
-        "description": "PHILIPS: Job role: Graduate Engineer interns. Assist in the design, development, and testing of electrical systems and components. Support the creation and review of electrical schematics and diagrams. Participate in troubleshooting and problem-solving of electrical issues. Collaborate with the engineering team on various projects and tasks. Stipend: 45k Duration: 10 months Eligibility: For B.Tech. - Biomedical Engineering- Min. 65% in overall academics (10th, 12th, Graduation) No Live Backlog For: B.Tech. - Electrical Engineering- Min. 7 CGPA in Graduation No Live Backlog Other Details: Electrical Engineering Interns: (embedded) Pursuing or recently completed a degree in Electrical Engineering or a related field. Basic understanding of electrical circuits, systems, and components. Familiarity with relevant software tools (e.g., MATLAB, SPICE) is a plus. Strong analytical and problem-solving skills. Selection Process:",
+        "Name": "Muthoot Finance",
+        "description": "Role and Responsibility: Front line sales executive for Muthoot branches operations. Job Location: Muthoot branches (North, East & West) operations. Eligibility Criteria: Minimum Graduates / Graduation (last year) - Non Technical CTC: 1. Interns for 6 months. After the successful completion of internship, there will be performance evaluation and interns will get the PPO (Pre-Placement offer) accordingly. 2. Stipend INR 10000/- per month during internship period {will be registered under government scheme NAPS (National Apprenticeship Promotion) and NATS (National Apprenticeship Training)} 3. The internship period is for 6 months and after the successful completion of internship there will be performance evaluation for the placement in the Muthoot Payroll.",
         "Keys": [
             {
-                "key": "Job Role",
-                "value": "Graduate Engineer interns."
+                "key": "company_name",
+                "value": "Muthoot Finance"
             },
             {
-                "key": "Stipend",
-                "value": 45000
+                "key": "role",
+                "value": "Front line sales executive"
             },
             {
-                "key": "Eligibility",
-                "value": "For B.Tech. - Biomedical Engineering- Min. 65% in overall academics (10th, 12th, Graduation) No Live Backlog For: B.Tech. - Electrical Engineering- Min. 7 CGPA in Graduation No Live Backlog Other Details: Electrical Engineering Interns: (embedded) Pursuing or recently completed a degree in Electrical Engineering or a related field. Basic understanding of electrical circuits, systems, and components. Familiarity with relevant software tools (e.g., MATLAB, SPICE) is a plus. Strong analytical and problem-solving skills."
+                "key": "location_1",
+                "value": "Muthoot branches"
             },
             {
-                "key": "B.E/B.Tech",
-                "value": "B.Tech."
+                "key": "stipend",
+                "value": 10
             },
             {
-                "key": "Selection Process",
-                "value": ""
+                "key": "branch_1",
+                "value": "Non Technical"
             }
         ]
     },
     {
-        "Name": "C&R Software",
-        "description": "C&R Software Job Role: Solution Integration - Intern Qualified candidates are being considered for Internship within the Professional Services group at C&R Software, Bangalore. These candidates shall possess a strong educational background in Computer Science and are expected to work on small to medium scale solution integration projects. During the Internship candidates shall undergo training and will be expected to contribute to projects which focus on the integration of information, process, and people through the application of multiple technologies. Internship is WFH, however, may be called to office for working/training/internship from office. Domains - Java, Python, DevOps. Note:- PPO is based on their performance and business needs. CTC: 8 LPA, Stipend: 25k Description: Role / Responsibilities- \u2022 Understand project requirements and assist in developing business and technical specifications. \u2022 Assist in turning business and technical specifications into data extraction/load programs. \u2022 Learn & implement the Techniques and Tools to implement Configurations to our product and its UI \u2022 Program ETL tool with business rules to be applied to data from source input to target data repository. \u2022 Develop and assist in implementing system and unit test programsPerform data conversion, quality, and integrity checks for all programs/processes. Eligibility Criteria: CS/IT group & MCA only. Other details:",
+        "Name": "DeltaX",
+        "description": "Role: Associate Product Engineer (Full Stack Developer) CTC: INR 7 Lakhs Per Annum Location: Bengaluru, Hyderabad and Pune Eligibility Criteria: \u2022 Btech (CS and IT) \u2022 Minimum overall 50% CGPA Engineering Culture & Practices \u2022 You will work in an agile SCRUM team. \u2022 Our teams follow BDD, REST, Continuous Integration and Continuous Delivery. \u2022 We operate hundreds of multi-tenant databases using MS SQL Server \u2022 C#, Vue.js and SQL are the common languages that our teams use. \u2022 Centralized monitoring across our entire stack using ELK Stack (Elasticsearch, Logstash, Kibana) Responsibilities \u2022 Write code :) \u2022 Ownership for the entire lifecycle of your code: development, test, production, and subsequent fixes and improvements. \u2022 Implement code that is clear, concise, tested, and easily understood by others. Selection Process: Round 1 Online Technical MCQ Test: Will cover fundamentals for Programming, Data Structures, Networking and Micro-processors. Expected No. of Questions: 50 Multiple Choice Questions. Assessment Duration: 45 Minutes. Difficulty level: Questions levels vary from easy to moderate. Round 2 Online Coding Assessment (any programming language) Helpful alert: Only serious coders will qualify Round 3 Technical Interview What we look for? Logical clarity Algorithm & Programming Concepts",
         "Keys": [
             {
-                "key": "Job Role",
-                "value": "Solution Integration - Intern"
+                "key": "company_name",
+                "value": "DeltaX"
             },
             {
-                "key": "DevOps",
-                "value": "DevOps"
+                "key": "role",
+                "value": "Associate Product Engineer (Full Stack Developer)"
             },
             {
-                "key": "Java",
-                "value": "Java"
+                "key": "ctc",
+                "value": 7
             },
             {
-                "key": "CTC",
-                "value": 800000
+                "key": "location_1",
+                "value": "Bengaluru"
             },
             {
-                "key": "Stipend",
-                "value": 25000
+                "key": "location_2",
+                "value": "Hyderabad"
             },
             {
-                "key": "Responsibilities",
-                "value": "Role / Responsibilities- \u2022 Understand project requirements and assist in developing business and technical specifications. \u2022 Assist in turning business and technical specifications into data extraction/load programs. \u2022 Learn & implement the Techniques and Tools to implement Configurations to our product and its UI \u2022 Program ETL tool with business rules to be applied to data from source input to target data repository. \u2022 Develop and assist in implementing system and unit test programsPerform data conversion, quality, and integrity checks for all programs/processes."
+                "key": "cgpa",
+                "value": 50
             },
             {
-                "key": "Eligibility",
-                "value": "Criteria: CS/IT group & MCA only."
+                "key": "branch_1",
+                "value": "CS"
             },
             {
-                "key": "Domains",
-                "value": "Java, Python, DevOps."
+                "key": "branch_2",
+                "value": "IT"
             }
         ]
     },
     {
-        "Name": "Eaton",
-        "description": "Eaton Job Role: Associate Engineer CTC: 9 LPA Selection Process: Round 1: Resume Shortlisting Round 2: Technical Interview (Brach related ques, Resume based, Project based) Round 3: HR Interview Eligibility B.Tech. - Industrial, Mechanical 7 CGPA & above in Graduation No live/dead backlog",
+        "Name": "Innovaptive Inc",
+        "description": "Role: Product Owner (Trainee) and Trainee \u2013 Implementation Consultant (Campus) Location: Hyderabad, India Travel Percentage: 0% - 10% Employment Type: Full-Time; Salaried Reports To: Senior/Principal Product Manager, Product Management Compensation: Competitive as per Indian Market standards We are looking for a Product Owner to drive one of Innovapptive's connected worker SaaS platform products. The connected worker platform brings the maintenance front-line workers, back-office and connected assets (IiOT) together on one unified platform to perform jobs better, faster, cheaper and safer. This person will be responsible for product roadmap planning and execution, from ideation to adoption for the connected worker Platform Products. We are aggressively expanding our market penetration into several industry verticals with a special focus on Oil & Gas, Utilities, Chemicals, Metals & Mining and Industrial Manufacturing. And we need a dynamic, fast-paced Product professional who can ideate, design, drive, build and deliver Product features at pace. How You Will Make an Impact: \u2022 Product Execution: Execute a high-impact product roadmap for one of the Connected Worker Platform Products on Cloud \u2022 Rapid Iteration and Execution: Champion a culture of speed and agility, driving rapid product iteration and execution. Set high bars for quality, efficiency, and speed-to-market. Break down complex problems into actionable steps, and relentlessly prioritize to deliver results quickly. \u2022 Cross-Functional Collaboration: Work closely with engineering to deliver high-quality products on time and within budget. \u2022 Data-Driven Decision Making: Utilize data analytics and metrics to make informed decisions. Monitor key product metrics and perform user behavior analysis to gain insights. Leverage data to iterate on features, optimize user experiences, and drive product success. \u2022 Startup Mindset: Thrive in a dynamic, fast-paced startup environment. Embrace ambiguity and take ownership of challenges. Display entrepreneurial spirit, innovative thinking, and a willingness to take calculated risks. Be adaptable, resilient, and results-oriented. What You Bring to The Team: As a Product Owner, you will be responsible for leading the development and execution of our Connected Worker Platform SaaS product roadmap. You will collaborate closely with cross-functional teams, including engineering, design, marketing, and sales, to define and deliver exceptional software solutions that meet the needs of our target customers. You will be a strategic thinker with a strong understanding of the B2B software market and possess the ability to translate customer insights into actionable product strategies. You will be a go-getter finding creative low-cost, high-value solutions and not stuck in analysis-paralysis. Basic Qualifications: \u2022 Bachelor's degree in a relevant field (Computer Science, Business, or a related discipline). \u2022 Strong analytical mindset with a data-driven approach to decision making. \u2022 Excellent communication, presentation, and influencing skills, with the ability to effectively convey complex ideas to technical and non-technical stakeholders. \u2022 Passion for startups, technology, and staying at the forefront of tech trends. \u2022 Ability to influence/persuade people to drive outcomes \u2022 Analytical experience including converting raw data into actionable insights and recommendations \u2022 Excellent communication skills \u2013 written and verbal \u2022 Exposure to AWS cloud services. \u2022 Business acumen able to discern and distill product requirements into platform services requirements and epics. \u2022 Experience with business cost-benefit analysis and requirements gathering. \u2022 Technical acumen able to assist with breaking down technical problems and finding root causes. What We Offer above work: \u2022 A positive, open, and highly-innovative environment and team \u2022 Entrepreneurial spirit with unlimited opportunity to grow \u2022 Opportunity to work with leading global brands on exciting and impactful projects \u2022 Competitive Base Pay \u2022 Best of plan on Vacation & Paid Time Off. \u2022 Provision of Medical Insurance for family - self, dependent, spouse, dependent children, parents/parent-in-laws \u2022 Paid Maternity and Paternity leave \u2022 Bi-annual reviews to ensure transparency and promoting high performance culture \u2022 OKR Driven Performance Development Environment \u2022 Learning & Development - access to wide range of e-Learning courses",
         "Keys": [
             {
-                "key": "Job Role",
-                "value": "Associate Engineer"
+                "key": "company_name",
+                "value": "Innovaptive Inc"
             },
             {
-                "key": "CTC",
-                "value": 900000
+                "key": "role",
+                "value": "Product Owner (Trainee)"
             },
             {
-                "key": "Selection Process",
-                "value": "Round 1: Resume Shortlisting Round 2: Technical Interview (Brach related ques, Resume based, Project based) Round 3: HR Interview"
+                "key": "location_1",
+                "value": "Hyderabad"
             },
             {
-                "key": "Eligibility",
-                "value": "B.Tech. - Industrial, Mechanical 7 CGPA & above in Graduation No live/dead backlog"
-            },
-            {
-                "key": "B.E/B.Tech",
-                "value": "B.Tech."
+                "key": "branch_1",
+                "value": "Computer Science"
             }
         ]
     }

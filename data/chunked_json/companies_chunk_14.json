@@ -1,157 +1,129 @@
 [
     {
-        "Name": "Acmegrade",
-        "description": "Acmegrade Job Role: Business Development Associate The role is to maximize the efficiency of Practical Oriented Knowledge in Domains of Technology and Management among Potential Clientele Ranging from Undergraduates to Graduates in the field of Engineering and Commerce. Acmegrade deals with a series of Products and Services that benefits its Customers Practically as well as Academically in their fields of Interest and as a BDA (Business Development Associate), You are expected to find Potential Clients that fits the description, understand their difficulties, find their passion and interests and guide them cross their hurdles and reach their goal through Acmegrade's platform. Roles and Responsibilities: 1. Work closely with the Sales and Marketing Team in assisting the growth of the business by acquiring new business leads. 2. Pitch and promote Acmegrade's services to prospective clients. 3. Career counsel prospective students. Understand their learning objectives and offer them relevant Acmegrade Products 4. Collaborate with the Sales and Marketing team to plan and oversee new marketing initiatives 5. Set up meetings and follow up with potential clients. Preferred Competencies and Skills: 1. Must have Strong communication and interpersonal skills. 2. Must be detail-oriented, go-getter and a fast learner. 3. Critical and out-of-the-box thinking. 4. Strong organizational and leadership skills. 5. Ability to perform well under pressure.",
+        "Name": "Amadeus",
+        "description": "At Amadeus, fresh graduates bring new perspectives and are seen as key contributors to the organization's technical and leadership growth. With Amadeus processing millions of transactions daily, system reliability and performance are critical. We ensure customer satisfaction by delivering on their needs effectively. Fresh graduates are absorbed into various divisions based on their skills and interview evaluations. To prepare them, all graduate engineers undergo an intensive 6\u20138 week training program, equipping them with the technical skills required for their roles. Designation: Software Engineer CTC: 12,62,218/- Location: Bangalore/Pune Skill set 1: Java/J2EE A Java/J2EE developer is primarily a Back-end developer at Amadeus. You will be working on high volume production systems for the development and maintenance of Booking Engine which is a single set of code across a range of Amadeus E-Commerce products. This code is very critical because a slight error might block the airlines/travel agents for processing the booking or ticketing. A Software developer is involved in many activities like: \u2022 Define user requirements for development or improvement of software solutions \u2022 Design technical solutions and perform feasibility studies \u2022 Innovate: Think out of the box and practice innovation in his/her daily tasks. Propose and develop innovative solutions to the problems. \u2022 Propose viable technical solutions to Product Management and users for validation \u2022 Conduct unit, package and performance tests of the software and ensure a level of quality \u2022 Design and implement databases as necessary \u2022 Produce software documentation for the application and issue it \u2022 Support the end user in the Production phase by debugging existing software \u2022 solutions in response to Problem Tracking Records and Change Requests issued from \u2022 Product Management or Product Definition Main technical expertise on which the candidate will be trained on: \u2022 Core Java with J2EE experience \u2022 JUnits, Design Patterns, Struts, Spring MVC or any other framework \u2022 JSPs, Servlets, EJBs, DB, XML, WebServices etc. WebLogic, Ant/Maven Skill set 2: Java/UI A UI developer works on a presentation layer which is the layer mostly exposed to the customer. The more sturdy and intuitive it is; the more satisfied our customer is. The skills which a candidate develops are very niche and give them a clear advantage over other technical profiles. An engineer who can think UI and brings in innovation in his daily work. A very demanding position with skill set varying: \u2022 JQuery/ExtJS/YUI/DOJO or a similar JS framework \u2022 DataBase, ClearCase, WebLogic, Ant/Maven etc \u2022 JavaScript, OOJS CSS, HTML, AJAX, DOM, JSPs etc \u2022 Core Java/ J2EE experience is desirable Skill set 3: C/C++ There are multiple work streams in Amadeus Labs, Bangalore who are focusing on core work areas where we need expert C/C++ developers. A Software developer is involved in many activities like: \u2022 Define user requirements for development or improvement of software solutions \u2022 Design technical solutions and perform feasibility studies \u2022 Innovate: Think out of the box and practice innovation in his/her daily tasks. Propose and develop innovative solutions to the problems. \u2022 Propose viable technical solutions to Product Management and users for validation \u2022 Conduct unit, package and performance tests of the software and ensure a level of quality \u2022 Design and implement databases as necessary \u2022 Produce software documentation for the application and issue it \u2022 Support the end user in the Production phase by debugging existing software \u2022 solutions in response to Problem Tracking Records and Change Requests issued from \u2022 Product Management or Product Definition Technical/Technical Skills \u2022 UNIX/ Linux, shell scripting \u2022 Strong knowledge of OOPS and coding with C++, design-patterns. \u2022 Database modeling, Oracle, Oracle BI, optimization techniques. \u2022 Good knowledge of development of a distributed system and of distributed \u2022 algorithms \u2022 Experience of Oracle environment and optimization techniques is a plus \u2022 Experience in multithreaded programming is a plus Skill Set 4 :Dev Ops The DevOps engineer plays a key role to implement and support innovative solutions for operational requirements. The scope of the role will encompass process automation solutions for the highly demanding Amadeus operational business domain. The DevOps Engineer will be involved in activities like \u2022 Building DevOps CI/CD pipeline using relevant tools \u2022 Experience with systems and IT operations \u2022 Performing frequent, incremental code testing and deployment \u2022 Build various version of scripts/codes and release them on time, maintain source repositories, different branches \u2022 Monitor the application, quickly resolve if any issue on production environments \u2022 Involve in Release Management, Source code management, Software configuration \u2022 management. Technical aspects on which you will gain expertise- \u2022 Ability to use and adapt a variety of open source technologies and tools (Puppet, Ansible, IAAS, \u2022 PAAS, Kubernetes) \u2022 Ability to code Hadoop related code as map/reduce \u2022 Ability to code and script (java, C++, php, python, perl, Ruby...) \u2022 Linux servers, Cloudera's Hadoop distribution (CDH),Bash or Python scripting \u2022 Automated configuration tools: Ansible, Puppet \u2022 Enterprise Linux(RHEL) family of distributions \u2022 Continues Integration/Deployment tool: Jenkins, Visual Studio team services (VSTS by \u2022 Microsoft) \u2022 Version Control tool \u2013 GIT \u2022 Scripting Language: Python, Perl, Shell \u2022 Cloud Server: Microsoft Azure, Amazon- AWS, Google Cloud Selection Process(In Campus): - Round 1:Pre-placement Talk Round 2:Hackerrank Technical Test (NodeJs, js. Ruby, Networking, Cloud, Java, React, OOPs) 90 mins Round 3: Aptitude Test (Logical Reasoning and Data Interpretation and English Comprehension) Test 60 mins Round 4: Technical Interview. Round 5: HR Interview Eligibility: B.Tech CS/IT group & ECE 80% and above throughout the academic journey (10th, 12th, CGPA) No live backlog.",
         "Keys": [
             {
-                "key": "Job Role",
-                "value": "Business Development Associate"
+                "key": "ctc",
+                "value": 12.62218
             },
             {
-                "key": "Stipend",
-                "value": 18000
-            },
-            {
-                "key": "CTC",
-                "value": 400000
-            },
-            {
-                "key": "Location",
+                "key": "location_1",
                 "value": "Bangalore"
             },
             {
-                "key": "Eligibility",
-                "value": "All B.E / B. Tech / BBA / MBA and Other Branches."
+                "key": "location_2",
+                "value": "Pune"
             },
             {
-                "key": "B.E/B.Tech",
-                "value": "B.E / B. Tech"
+                "key": "role",
+                "value": "Software Engineer"
             },
             {
-                "key": "Roles",
-                "value": "1. Work closely with the Sales and Marketing Team in assisting the growth of the business by acquiring new business leads. 2. Pitch and promote Acmegrade's services to prospective clients. 3. Career counsel prospective students. Understand their learning objectives and offer them relevant Acmegrade Products 4. Collaborate with the Sales and Marketing team to plan and oversee new marketing initiatives 5. Set up meetings and follow up with potential clients."
+                "key": "branch_1",
+                "value": "CS"
             },
             {
-                "key": "Desired Competencies",
-                "value": "Preferred Competencies and Skills: 1. Must have Strong communication and interpersonal skills. 2. Must be detail-oriented, go-getter and a fast learner. 3. Critical and out-of-the-box thinking. 4. Strong organizational and leadership skills. 5. Ability to perform well under pressure."
+                "key": "branch_2",
+                "value": "IT"
             },
             {
-                "key": "Selection Process",
-                "value": "1. Aptitude Test. 2. Group Discussion (GD) Round. 3. Personal Interview (VIRTUAL MODE)."
+                "key": "branch_3",
+                "value": "ECE"
+            },
+            {
+                "key": "percent",
+                "value": 80
+            },
+            {
+                "key": "cgpa",
+                "value": 80
             }
         ]
     },
     {
-        "Name": "Grappus",
-        "description": "About Grappus: Equal parts creative agency, engineering firm, and consultancy, Grappus has a reputation of doing things differently. We work with brands big and small, far and wide, helping them understand, prototype and deploy a broad range of custom tech. We value design and we cringe at bad UX. Each project is a clean slate, we don't have frameworks, or any pre-made formulas. We're not here to just grow big, make money and win awards. We're here to crack the process of building truly innovative products from scratch. Products that make people say 'damn'. People at Grappus usually experience a highly accelerated career growth well beyond the narrow constraints of their 'job description'. Here, the growth ladder is tailored to you. It operates exactly as fast as you can manage to grow. We think it's a waste when smart people are unable to make an impact. Our aim is to unleash your potential by giving you massive challenges and the freedom to solve them. We're in a fluid world, where we don't know what technologies we'll use next, or the projects we'll work on. We're actively searching for ways to shine a light on our blind spots, whether it is in the products we want to build, the problems we like to solve, or the company culture we try to create. That's what makes life at Grappus so exciting. Grappus is an ongoing experiment and you are a part of it. We'll be a different company a few years from now because you are going to change it for the better. We can't wait to see where you take us Position: Software Developer Requirements: \u2022 Should be well versed with concepts of OOPS and data structures \u2022 Should have knowledge of any of the programming languages like C, C++, Java, etc. Should be aware of database concepts and types like SQL (MySQL, etc) & NoSQL (MongoDB, etc) \u2022 Should have strong organizational skills to juggle multiple tasks within the constraints on timelines \u2022 Should be keen to learn new technologies and updated about the latest developments Should be aware about software development fundamentals, application architecture and design patterns \u2022 The ability to communicate complex procedures to other colleagues Skills Required: \u2022 Masters/Bachelors degree in Computer Science & IT \u2022 Good written and verbal communication skills \u2022 Understanding of the Software development lifecycle \u2022 Good Analytical and problem solving skills \u2022 Self-motivated with the ability to prioritize, meet deadlines, and manage changing priorities Benefits: \u2022 We don't track these hours you put in or ask you to fill time sheets. We don't believe in micromanaging, if you're struggling, ask for help. If someone else is, offer some support. \u2022 We never mind if people make mistakes or screw up in any way, and offer full encouragement to help people learn fast by failing fast. \u2022 We always encourage people to be completely candid, raise alarms, or log complaints anonymously in our feedback tool, no matter how harsh. \u2022 We are a 'Work from Anywhere' company, since passionate, driven people can work from anywhere they want; their homes, or cafes, or mountains, or beaches, anywhere. \u2022 We have a 15-day notice period. We want to build a place where people work willingly and passionately.",
+        "Name": "GlobalLogic",
+        "description": "GlobalLogic, a Hitachi Group Company, is a leader in digital product engineering. We help our clients design and build innovative products, platforms, and digital experiences for the modern world. By integrating our strategic design, complex engineering, and vertical industry expertise with Hitachi's Operating Technology and Information Technology capabilities, we help our clients imagine what's possible and accelerate their transition into tomorrow's digital businesses. Headquartered in Silicon Valley. In 2021, GlobalLogic was acquired by Hitachi Ltd. GlobalLogic's capabilities, combined with Hitachi's Lumada, enables us to deploy Hitachi's extensive library of digital solutions to the global market and to help customers and societies solve their issues through Agile application development in the cloud. CTC: 5.66 LPA Eligibility Criteria: Above 60 percent in Class X, XII, and Graduation No backlogs are allowed. A gap of up to one year is allowed. Domains: \u2022 GenAI \u2022 Java \u2022 .Net \u2022 Embed Selection Process: Round 1: Online Assessment (2Hr) Aptitude Round Query Correction (PostGreSQL) Query Writing (PostGreSQL) Coding Round Round 2: Technical Interview (30 mins) Round 3: Managerial Interview (40 - 60 mins) Round 3: HR & Result (30 mins) Evaluation Criteria - \u2192 Minimum of 60% throughout academic career Should be from CSE,ECE,IT,ETC,ISE,DSE,EEE,EE,E&I,AI/ML Should not have any backlogs Should be in the 5th or 6th semester only \u2192 For evaluation of students Technical Assessment - Students will be assessed on Coding and Programming, Problem solving skills, Logical reasoning, Computer Fundamentals, English Proficiency and Next-gen skills \u25c6 In-Person Technical Evaluation - Students will be interviewed on their existing skills and expertise and on newly acquired skills through IAP In-Person Managerial Round - Overall technical and cultural fit to be assessed during this round Behavioral Round - Behavioral aspects of the candidates to be assessed during this round along with explaining role designation/career path/ compensation/ general policies and addressing any other query the candidate might have.",
         "Keys": [
             {
-                "key": "Job Role",
-                "value": "Software Developer"
+                "key": "ctc",
+                "value": 5.66
             },
             {
-                "key": "CTC",
-                "value": 550000
+                "key": "percent",
+                "value": 60
             },
             {
-                "key": "Eligibility",
-                "value": "BCA, B.Tech, BSc CS, MCA, MSc CS & M.Tech (Final Year)"
+                "key": "domains",
+                "value": "GenAI, Java, .Net, Embed"
             },
             {
-                "key": "B.E/B.Tech",
-                "value": "B.Tech"
+                "key": "branch_1",
+                "value": "CSE"
             },
             {
-                "key": "Selection Process",
-                "value": "1. Gamified assessment 2. First technical round 3. Second technical round 4. Cultural discussion 5. Final management round"
+                "key": "branch_2",
+                "value": "ECE"
             },
             {
-                "key": "requirements",
-                "value": "\u2022 Should be well versed with concepts of OOPS and data structures \u2022 Should have knowledge of any of the programming languages like C, C++, Java, etc. Should be aware of database concepts and types like SQL (MySQL, etc) & NoSQL (MongoDB, etc) \u2022 Should have strong organizational skills to juggle multiple tasks within the constraints on timelines \u2022 Should be keen to learn new technologies and updated about the latest developments Should be aware about software development fundamentals, application architecture and design patterns"
+                "key": "branch_3",
+                "value": "IT"
             },
             {
-                "key": "skills",
-                "value": "Skills Required: \u2022 Masters/Bachelors degree in Computer Science & IT \u2022 Good written and verbal communication skills \u2022 Understanding of the Software development lifecycle \u2022 Good Analytical and problem solving skills \u2022 Self-motivated with the ability to prioritize, meet deadlines, and manage changing priorities \u2022 The ability to communicate complex procedures to other colleagues"
-            },
-            {
-                "key": "Java",
-                "value": "Java"
-            },
-            {
-                "key": "MongoDB",
-                "value": "MongoDB"
+                "key": "branch_4",
+                "value": "ETC"
             }
         ]
     },
     {
-        "Name": "Cloud 4C",
-        "description": "Cloud 4C Job Title: Associate Engineer (Civil Engineer, Electrical Engineer, Mechanical Engineer) Service Level Agreement: 2 Years Roles and Responsibilities: We are seeking a Graduate Civil Engineer to join our multi-disciplinary Data Centre design teams to work on a Data Centre projects, mainly covering Data Centre's/Mission Critical projects, with leading architects and clients both in India and overseas. We arelooking for a candidate who will fit in with our dynamic teams in a progressive, design- led environment with the successful candidate becoming a contributor to the excellent atmosphere which exists within the group. \u2022 Undertaking structural + interior design for DC projects of varying scales. \u2022 Knowledge of data center projects and its latest trend for cost-effective design. \u2022 Preparation of drawings in Revit and CAD software. A good knowledge of Revit and CAD will be preferable. \u2022 Good knowledge of STADD software for structural design. \u2022 Preparation of bill of material for the structural and interior design. \u2022 Good knowledge of different structural design including the combination of MS and RCC. \u2022 Civil design knowledge for the following - Design of structural frame for high rise buildings with high floor loading. Design of Flat Slab structure. Design of Campsite structure - Knowledge of latest construction mythology andmaterials. Knowledge of various basic interior finishes material. \u2022 Working closely with Architects/Consultants and other in-house design engineers. \u2022 Production of engineering drawings. Preparing and coordinating mechanical reports and specifications. \u2022 Knowledge of Uptime and TIA standards for data centers design. \u2022 Design and coordinating work with engineers of other disciplines. \u2022 Attending meetings and communicating with clients to establish their needs. \u2022 Working with the project team to ensure production of deliverables to agreed timelines and within budget. \u2022 Sharing technical knowledge with the members of the team. \u2022 Up to date knowledge of the latest trend in the civil discipline in particular relation to the Data Centers design. \u2022 Preparation of financial analysis for the various design of DC projects. \u2022 Supporting procuring work with the best available products in the market. \u2022 Responsible and accountable for maintaining client relations. Requirements: \u2022 Degree qualified in Civil Engineering. \u2022 Extensive knowledge in the field of civil design and the latest trends. \u2022 Be able to design and deliver structural solutions for mission-critical projects. \u2022 The ability to work under pressure and meet strict deadlines is essential. \u2022 Excellent planning and organization skills. \u2022 Excellent communications skills (both written and verbal). \u2022 Able to demonstrate strong commercial acumen. Eligibility Criteria: \u2022 Very Good Communication Skills \u2022 75% aggregate in all academics (SSC/Xth, Inter/ XIIth, & B.Tech. / BE (Overall 75%) \u2022 EAMCET Rank < 30,000 / ECET Rank < 3,000 / IIT Mains Rank < 10,000 / State Level Common Engg. Entrance Exam Rank < 20000 or >60% Percentile.",
+        "Name": "Bristlecone",
+        "description": "Bristlecone is a leading provider of AI-powered application transformation services for the digital supply chain. Recognized as one of the Top 10 leaders in supply chain solutions, Bristlecone empowers customers with speed, visibility, automation, and resiliency to thrive in a dynamic environment. By combining industry focus, supply chain expertise, a consulting-driven approach, and proprietary accelerators, Bristlecone delivers unmatched business value. As part of the $20.7 billion Mahindra Group, Bristlecone fosters a high-performing culture that values innovation and offers excellent learning and growth opportunities. Role: Associate Engineer CTC: 4.25 LPA",
         "Keys": [
             {
-                "key": "Job Role",
-                "value": "Associate Engineer (Civil Engineer, Electrical Engineer, Mechanical Engineer)"
+                "key": "role",
+                "value": "Associate Engineer"
             },
             {
-                "key": "CTC",
-                "value": 400000
-            },
-            {
-                "key": "Location",
-                "value": "Mumbai, Hyderabad, Bangalore, Noida"
-            },
-            {
-                "key": "Responsibilities",
-                "value": "We are seeking a Graduate Civil Engineer to join our multi-disciplinary Data Centre design teams to work on a Data Centre projects, mainly covering Data Centre's/Mission Critical projects, with leading architects and clients both in India and overseas. We arelooking for a candidate who will fit in with our dynamic teams in a progressive, design- led environment with the successful candidate becoming a contributor to the excellent atmosphere which exists within the group. \u2022 Undertaking structural + interior design for DC projects of varying scales. \u2022 Knowledge of data center projects and its latest trend for cost-effective design. \u2022 Preparation of drawings in Revit and CAD software. A good knowledge of Revit and CAD will be preferable. \u2022 Good knowledge of STADD software for structural design. \u2022 Preparation of bill of material for the structural and interior design. \u2022 Good knowledge of different structural design including the combination of MS and RCC. \u2022 Civil design knowledge for the following - Design of structural frame for high rise buildings with high floor loading. Design of Flat Slab structure. Design of Campsite structure - Knowledge of latest construction mythology andmaterials. Knowledge of various basic interior finishes material. \u2022 Working closely with Architects/Consultants and other in-house design engineers. \u2022 Production of engineering drawings. Preparing and coordinating mechanical reports and specifications. \u2022 Knowledge of Uptime and TIA standards for data centers design. \u2022 Design and coordinating work with engineers of other disciplines. \u2022 Attending meetings and communicating with clients to establish their needs. \u2022 Working with the project team to ensure production of deliverables to agreed timelines and within budget. \u2022 Sharing technical knowledge with the members of the team. \u2022 Up to date knowledge of the latest trend in the civil discipline in particular relation to the Data Centers design. \u2022 Preparation of financial analysis for the various design of DC projects. \u2022 Supporting procuring work with the best available products in the market. \u2022 Responsible and accountable for maintaining client relations."
-            },
-            {
-                "key": "Requirements",
-                "value": "\u2022 Degree qualified in Civil Engineering. \u2022 Extensive knowledge in the field of civil design and the latest trends. \u2022 Be able to design and deliver structural solutions for mission-critical projects. \u2022 The ability to work under pressure and meet strict deadlines is essential. \u2022 Excellent planning and organization skills. \u2022 Excellent communications skills (both written and verbal). \u2022 Able to demonstrate strong commercial acumen."
-            },
-            {
-                "key": "Eligibility",
-                "value": "\u2022 Very Good Communication Skills \u2022 75% aggregate in all academics (SSC/Xth, Inter/ XIIth, & B.Tech. / BE (Overall 75%) \u2022 EAMCET Rank < 30,000 / ECET Rank < 3,000 / IIT Mains Rank < 10,000 / State Level Common Engg. Entrance Exam Rank < 20000 or >60% Percentile."
-            },
-            {
-                "key": "B.E/B.Tech",
-                "value": "B.Tech. / BE"
+                "key": "ctc",
+                "value": 4.25
             }
         ]
     },
     {
-        "Name": "YOptima",
-        "description": "Eligibility:CS/IT group only.80% and above throughout (10th,12th,UG -until 6th Semester)No Live Backlog.YOptimaYOptimaJob Role: Account ExecutiveCTC: 7 LPA, Stipend: 25k/monthLocation: Jui Nagar, Navi MumbaiPost-Internship Opportunity: After successfully completing the internship and a thorough assessment, candidates willbe offered a permanent role with a total compensation of \u20b97 Lakh CTC (\u20b95 Lakh Fixed + *2 Lakh Variable+ otherbenefits) for BTech graduates.Responsibilities:\u2022 Analyze digital behavior of the online consumers across different digital channels and design actionableinsights and solutions to improve marketing ROI at scale.\u2022Work with large, complex data sets. Solve difficult, non-routine analysis problems, applying advancedanalytical methods as needed.\u2022 Assist in designing relevant marketing plans and strategies for digital ad campaigns, combining understandingof consumer behavior, data driven insights, product positioning and marketing objectives.\u2022 Troubleshoot technical issues both internally and with Third party vendors.\u2022 Manage servicing needs of clients and win sustainable customer delight and brand advocacy.Competencies:\u2022 0-2 yrs Exp with Bachelor's or Master's degree in a quantitative discipline (e.g. business administration,engineering, statistics, operations research, economics, mathematics).\u2022 Strong analytical and problem-solving skills.\u2022 Ability to present results of complex analysis compellingly to both technical and non-technical audiences.\u2022 Self-motivated with the ability to work independently and within a team.Selection Process:Round1: 8D Online Assessment \u2013 A mandatory evaluation.Round 2: Shortlisted candidates from the assessment will go through 2-3 rounds of interviews with the Co-founders(COO & CEO).",
+        "Name": "Vconstruct",
+        "description": "Building Better, Smarter, Faster is our mission. Since 2013, our 400+ experts have been transforming the construction industry with innovative solutions in Virtual Design and Construction (VDC), Project Controls, Accounting, and Software Development. Serving 100+ projects globally, we deliver smarter processes, better products, and faster results. Join us in reshaping the future of construction with technology. CTC: 6.75 LPA Stipend: 20k, join in January 2025 as Graduate Trainee and then full-time from June/July 2025 based on their performance. Job Roles: 1. Project Engineer \u2013 Virtual Builder Skills and Qualification: Candidates having B.E./ B.Tech. or higher Degree in Civil or Construction related field. \u2022 A Working knowledge of BIM Coordination, Project Management, Change Management And Constructability is preferable. \u2022 Understanding of the overall construction process ranging from Design to commissioning. \u2022 Working knowledge of any prominent VDC software like Revit,Navisworks, Tekla and Civil 3Dis desired. Work Location: Pune (Magarpatta City) Eligibility: Civil, Min 60% in 10th, 12th & Graduation, No Live Backlog. 2. Software Engineer \u2013 Software Solutions for Construction Requirements: Good knowledge of object-oriented design and development and DBMSconcepts Expert in HTML5, CSS3, JavaScript Excellent communication, presentation and analytical skills Should be willing to work collaboratively across different skill sets Working knowledge of at least one front-end framework (react/angular) and back-end stack Eligibility: B.E. Final year students from CS/IT, Min 70% or equivalent marks (10th, 12th Or Diploma and overall in graduation). 3. Data Science Engineer - DSA We are looking for candidates with passion for technology, excellent analytical skills, and ability to solve complex problems to undergo training in data Science related areas. Successful candidates will be part of the Data Science and Analytics team which is a tight-knit group of analysts and engineers that support all data aspects of DPR business. Requirements: B.E. / B.Tech Final year students with CS/IT background Excellent Academic Credentials Excellent Communication and Analytical skills Responsibilities: Post training, selected candidates will work in Data Science and Analytics. Candidates will be working mostly on US or EU based projects. They will transition into a data science engineer with the responsibilities outlined below - Understand and analyze the business requirements Design and deployment of the database - Ability to understand, consume and use API's, JSON, Web Services for data pipelines - Developing integrations between various applications Design, Develop and deploy reports/dashboards/data visualizations using Power BI - Optimize reports/dashboards with a focus on usability, performance, flexibility, testability, and standardization. - Build full stack data science models with various Azure technologies -Use R or Python to implement statistical models, machine learning, and analysis (Recommenders, Prediction, Classification, Clustering, etc.)",
         "Keys": [
             {
-                "key": "Eligibility",
-                "value": "CS/IT group only.80% and above throughout (10th,12th,UG -until 6th Semester)No Live Backlog."
+                "key": "ctc",
+                "value": 6.75
             },
             {
-                "key": "Job Role",
-                "value": "Account Executive"
+                "key": "stipend",
+                "value": 20
             },
             {
-                "key": "CTC",
-                "value": 7
+                "key": "location_1",
+                "value": "Pune"
             },
             {
-                "key": "Stipend",
-                "value": 25000
+                "key": "role",
+                "value": "Project Engineer - Virtual Builder, Software Engineer - Software Solutions for Construction, Data Science Engineer - DSA"
             },
             {
-                "key": "Location",
-                "value": "Jui Nagar, Navi Mumbai"
+                "key": "branch_1",
+                "value": "Civil"
             },
             {
-                "key": "Responsibilities",
-                "value": "Analyze digital behavior of the online consumers across different digital channels and design actionableinsights and solutions to improve marketing ROI at scale.Work with large, complex data sets. Solve difficult, non-routine analysis problems, applying advancedanalytical methods as needed.Assist in designing relevant marketing plans and strategies for digital ad campaigns, combining understandingof consumer behavior, data driven insights, product positioning and marketing objectives.Troubleshoot technical issues both internally and with Third party vendors.Manage servicing needs of clients and win sustainable customer delight and brand advocacy."
+                "key": "branch_2",
+                "value": "CS"
             },
             {
-                "key": "Desired Competencies",
-                "value": "0-2 yrs Exp with Bachelor's or Master's degree in a quantitative discipline (e.g. business administration,engineering, statistics, operations research, economics, mathematics).Strong analytical and problem-solving skills.Ability to present results of complex analysis compellingly to both technical and non-technical audiences.Self-motivated with the ability to work independently and within a team."
+                "key": "branch_3",
+                "value": "IT"
             },
             {
-                "key": "Selection Process",
-                "value": "Round1: 8D Online Assessment \u2013 A mandatory evaluation.Round 2: Shortlisted candidates from the assessment will go through 2-3 rounds of interviews with the Co-founders(COO & CEO)."
+                "key": "percent",
+                "value": 70
             }
         ]
     }

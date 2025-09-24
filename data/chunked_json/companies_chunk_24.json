@@ -1,105 +1,141 @@
 [
     {
-        "Name": "Principal Global Services",
-        "description": "Principal Global Services.Position Title: Trainee Developer, this role is responsible for developing, testing and maintaining the application with established processes.Designation: Trainee Analyst.CTC: 8 LPA, Stipend: 25k.Location: Pune or Hyderabad.Key Responsibilities:\u2022 Develop application code for programs while following coding standards\u2022 Develop and execute unit tests",
+        "Name": "Siemens",
+        "description": "SIEMENS Siemens Job Role: Intern Stipend: 15k/month Location: Pune Duration: 6 Months Eligibility Criteria: 1. Minimum 60% or CGPA 6 from 10th Grade to current educational qualification. 2. No active backlogs. 3. Academic backlogs not exceeding 2 years. 4. Pursuit of regular, full-time courses.",
         "Keys": [
             {
-                "key": "CTC",
-                "value": 8
+                "key": "stipend",
+                "value": 15
             },
             {
-                "key": "Stipend",
-                "value": 25000
-            },
-            {
-                "key": "Location",
-                "value": "Pune or Hyderabad"
-            },
-            {
-                "key": "Key Responsibilities",
-                "value": "\u2022 Develop application code for programs while following coding standards\u2022 Develop and execute unit tests"
-            },
-            {
-                "key": "Job Role",
-                "value": "Trainee Developer, Trainee Analyst"
-            }
-        ]
-    },
-    {
-        "Name": "Schneider Electric",
-        "description": "Schneider Electric CTC: 12.5 LPA, Stipend: 35k Job Location: Mysore, Mumbai, Ahmednagar or Vadodara Responsibilities \u2022 Design & development of Low voltage Switchgear products like Air Circuit breakers, Molded Case Circuit Breakers, Contactors, Relays, and Starters etc. \u2022 Understanding the technological trends, market demands, customer preferences and competitors' strategy \u2022 Get conversant with latest design trends in L.V. switchgear products. \u2022 Develop fair idea/ knowledge of engineering plastics and contact materials, their properties, characteristics used in switchgears \u2022 Understand and apply Indian and International Standards on L.V. Switchgear and their Testing. Qualifications Business / Soft Skills: \u2022 Must have solid presentation, communication and inter-personalskills. \u2022 Should be able to work in a cross cultural and cross functional global environment. \u2022 Have a logical mindset for problem solving and precision driven, innovative solutioning. \u2022 Should possess a keen interest in learning new technologies. \u2022 Should be adaptable with changing trends and driven to enhance business and technological acumen \u2022 Should be able to manage multiple priorities in a fast-paced environment. \u2022 An excellent attention to details. Technology Skills and Project/Internship Experience: \u2022 Manufacturing process knowledge, PFMEA, Statistical techniques \u2022 Strong knowledge of Microsoft applications (Excel, Word, Teams etc.) \u2022 Good knowledge of the design & development process",
-        "Keys": [
-            {
-                "key": "CTC",
-                "value": 1250000
-            },
-            {
-                "key": "Stipend",
-                "value": 35000
-            },
-            {
-                "key": "Location",
-                "value": "Mysore, Mumbai, Ahmednagar or Vadodara"
-            },
-            {
-                "key": "Responsibilities",
-                "value": "\u2022 Design & development of Low voltage Switchgear products like Air Circuit breakers, Molded Case Circuit Breakers, Contactors, Relays, and Starters etc. \u2022 Understanding the technological trends, market demands, customer preferences and competitors' strategy \u2022 Get conversant with latest design trends in L.V. switchgear products. \u2022 Develop fair idea/ knowledge of engineering plastics and contact materials, their properties, characteristics used in switchgears \u2022 Understand and apply Indian and International Standards on L.V. Switchgear and their Testing."
-            },
-            {
-                "key": "Qualifications",
-                "value": "Business / Soft Skills: \u2022 Must have solid presentation, communication and inter-personalskills. \u2022 Should be able to work in a cross cultural and cross functional global environment. \u2022 Have a logical mindset for problem solving and precision driven, innovative solutioning. \u2022 Should possess a keen interest in learning new technologies. \u2022 Should be adaptable with changing trends and driven to enhance business and technological acumen \u2022 Should be able to manage multiple priorities in a fast-paced environment. \u2022 An excellent attention to details. Technology Skills and Project/Internship Experience: \u2022 Manufacturing process knowledge, PFMEA, Statistical techniques \u2022 Strong knowledge of Microsoft applications (Excel, Word, Teams etc.) \u2022 Good knowledge of the design & development process"
-            }
-        ]
-    },
-    {
-        "Name": "Cognida.ai",
-        "description": "Cognida.ai Cognida.ai is an AI-first solutions company specializing in Practical AI and Predictive Analytics for Enterprises. Cognida.ai helps enterprises capitalize their most strategic asset\u2014Data\u2014to strengthen their competitive advantage. CTC: 7 LPA Location: Hyderabad Selection Process: Round 1: Online coding challenge 12 Ques (Easy, medium, Hard) Round 2: Technical interviews Round 3: HR discussions. Eligibility Criteria Aggregate of 70 % / 7 CGPA and above NO Live Backlog",
-        "Keys": [
-            {
-                "key": "CTC",
-                "value": 700000
-            },
-            {
-                "key": "Location",
-                "value": "Hyderabad"
-            },
-            {
-                "key": "Selection Process",
-                "value": "Round 1: Online coding challenge 12 Ques (Easy, medium, Hard) Round 2: Technical interviews Round 3: HR discussions."
-            },
-            {
-                "key": "Eligibility",
-                "value": "Criteria Aggregate of 70 % / 7 CGPA and above NO Live Backlog"
-            }
-        ]
-    },
-    {
-        "Name": "SOFTLINK INTERNATIONAL",
-        "description": "SOFTLINK INTERNATIONAL CTC: 6 LPA Role: Trainee Software Engineer Location - Pune Job Description of Trainee Software Engineer Coding and development of Software modules, Unit testing, Quality assurance, Release and implementation, Installation and Support. Technologies C#.NET, ASP.Net MVC, .Net Core, Xamarin, SQL, HTML5, Visual C/C++, Web Technologies Career Roadmap - Trainee Software Engineer -> Software Engineer -> Sr. Software Engineer -> Team Lead -> Product / Project Manager Selection Process: (Every round is an elimination round) Round 1:InCampus online Assessment (Aptitude 60 MCQ) 60 mins Round 2: Group Discussion Round 3: Technical Interview Round 4: HR Interview Eligibility Criteria: CS/IT group, ECE, EN SSC & HSC: Minimum 80% and above Important: Diploma holders with a 3-year degree will NOT be eligible. No gap in edu. allowed. Note: Company has minimum 2.5 years bond tenure and 6 months' probation.",
-        "Keys": [
-            {
-                "key": "CTC",
-                "value": 600000
-            },
-            {
-                "key": "Job Role",
-                "value": "Trainee Software Engineer"
-            },
-            {
-                "key": "Location",
+                "key": "location_1",
                 "value": "Pune"
             },
             {
-                "key": "Job Description",
-                "value": "of Trainee Software Engineer Coding and development of Software modules, Unit testing, Quality assurance, Release and implementation, Installation and Support."
+                "key": "role",
+                "value": "Intern"
             },
             {
-                "key": "Selection Process",
-                "value": "(Every round is an elimination round) Round 1:InCampus online Assessment (Aptitude 60 MCQ) 60 mins Round 2: Group Discussion Round 3: Technical Interview Round 4: HR Interview"
+                "key": "percent",
+                "value": 60
             },
             {
-                "key": "Eligibility",
-                "value": "Criteria: CS/IT group, ECE, EN SSC & HSC: Minimum 80% and above Important: Diploma holders with a 3-year degree will NOT be eligible. No gap in edu. allowed. Note: Company has minimum 2.5 years bond tenure and 6 months' probation."
+                "key": "cgpa",
+                "value": 6
+            }
+        ]
+    },
+    {
+        "Name": "Nexcellerate Technologies Pvt. Ltd. (rampp.ai)",
+        "description": "Nexcellerate Technologies Pvt. Ltd. (rampp.ai) CTC: 7 LPA, Stipend: 25k/month Location: Bangalore Job Role 1: Application SDE Key Skills Required: \u2022 Proficiency in JavaScript, with experience in Node.js and React (preferably Next.js). \u2022 Familiarity with Bootstrap for front-end design. \u2022 Experience working with Databases (MongoDB and SQL). \u2022 Strong understanding of Data Structures and Algorithms (DSA) Job Role 2: AI Software Development Engineer (SDE) Key Skills Required: \u2022 Proficiency in Python with experience in libraries like Pandas and NumPy. \u2022 Hands-on experience with Databases (MongoDB and SQL). \u2022 Strong understanding of Data Structures and Algorithms (DSA). \u2022 Vector database knowledge is a plus. \u2022 Basic understanding of Artificial Intelligence (AI) and Machine Learning (ML) concepts. Selection Process: Eligibility Criteria: 90% in 10th & 12th and 8 CGPA in graduation No Live Backlog",
+        "Keys": [
+            {
+                "key": "ctc",
+                "value": 7
+            },
+            {
+                "key": "stipend",
+                "value": 25
+            },
+            {
+                "key": "location_1",
+                "value": "Bangalore"
+            },
+            {
+                "key": "role",
+                "value": "Application SDE"
+            },
+            {
+                "key": "percent",
+                "value": 90
+            },
+            {
+                "key": "cgpa",
+                "value": 8
+            }
+        ]
+    },
+    {
+        "Name": "Kickdrum",
+        "description": "Kickdrum Kickdrum Job Role: Software Developer CTC: 16LPA [Rs.10 LPA (Fixed) + 2 LPA (Variable) + 2 LPA (Benefits, retirals) + 2 LPA (Special bonus payable post completion of one year of full-time employment)] Stipend: 35k Location: Bengaluru Position: Software Intern (KDU-er) \u2022 Work Location: Bengaluru (Monday - Friday in Office) \u2022 Eligibility Criteria: 80% and above in academics throughout. No backlogs. \u2022 Facilities: Food and Snacks in Office; 24x7 access \u2022 Leaves: 3 Paid & 3 Sick Leaves; Leaves for University Exams \u2022 BYOD: \u20b9 2000/month for using your own device during Internship Position: Software Developer \u2022 Job Location: Bengaluru, 2 mandatory days in Office, \u2022 Eligibility Criteria: Successful completion of the 6 month Internship \u2022 Benefits: in-office meals, reimbursements for food orders, cab rides, and gym memberships. Health insurance for self, family, and parents, BYOD (Bring Your Own Device) options, annual health checkups, wellness programs, mentorship, and training. \u2022 Paid Leaves: 12 sick leaves, 15 earned leaves, and 15 public holidays. Roles and Responsibilities: \u2022 Develop complex web applications with responsive design techniques and industry-leading UX \u2022 Translate design mock-ups and prototypes into working applications \u2022 Work on cloud-based architectures that are highly scalable, available, and performant \u2022 Work with agile methodology using cutting-edge DevOps tools & technologies \u2022 Focus on code quality and deliver projects with high business impact Learn and apply new skills during your 6 months internship: \u2022 Amazon Web Services (AWS) \u2022 HTML/CSS/React (frontend) \u2022 Java/Spring, DotNet, Python, Node (backend) \u2022 Enterprise-grade software development \u2022 Working directly with execs and customers Upon successful completion of your internship you will be employed as a \u201cSoftware Developer\u201d at Kickdrum. Selection Process: Round 1: Online Assessment (2 Coding Que) 2HRs Round 2: Technical Interview I Round 3: Culture Round Round 4: HR Interview Eligibility: CS/IT group with 80% and above in their academics throughout. No backlogs.",
+        "Keys": [
+            {
+                "key": "ctc_min",
+                "value": 10
+            },
+            {
+                "key": "ctc_max",
+                "value": 16
+            },
+            {
+                "key": "stipend",
+                "value": 35
+            },
+            {
+                "key": "location_1",
+                "value": "Bengaluru"
+            },
+            {
+                "key": "role",
+                "value": "Software Developer"
+            },
+            {
+                "key": "percent",
+                "value": 80
+            },
+            {
+                "key": "branch_1",
+                "value": "CS"
+            },
+            {
+                "key": "branch_2",
+                "value": "IT"
+            }
+        ]
+    },
+    {
+        "Name": "HSBC",
+        "description": "HSBC HSBC Job Role: Software Development Engineer CTC: 9 LPA Interview Location: Pune Job Location: Pune / Hyderabad / Bangalore, subject to business requirements. Role: \u2022 Strong foundation in software development engineering, with proficiency in at least one object- oriented programming language such as Java, Python, etc. \u2022 Various OS like Android, Linux, and Databases like relational and no-SQL. \u2022 Liaising with business users, architects and other stakeholders in designing, implementing and maintaining best-in-class (scalable, loosely coupled and efficient) solutions which can run seamlessly across platforms/mobile/internet/cloud. \u2022 Continuous Integration (CI)/ Continuous Deployment (CD) pipeline and Agile methodology. \u2022 Any of Mobile, Analytics, Cloud and Digital technology domains. \u2022 Ability to design and implement solutions which can run on-prem, hybrid and multi-cloud ecosystems such as GCP, AWS, Azure, Ali Cloud. \u2022 Ability to harness open-source development thus leveraging collective wisdom and learning \u2022 Understanding of cyber threats/ vulnerabilities and applying secure coding standards and associated protocols. \u2022 Ability to leverage industry best integration patterns and practices to integrate multiple existing/ new building blocks for seamless end-to-end customer experience. \u2022 Developing, maintaining, and supporting current systems for better efficacy and higher availability. Selection Process: Round 1: Aptitude + Technical (75 Minutes) & Coding assessment (30 Minutes) Only the students who clear the Aptitude + Technical assessment, will be able to appear for the coding test. Round 2: Technical Interview (Pune) Round 3: HR Interview Eligibility Criteria: Min. 60% or 6.00 CGPA throughout (10th / 12th / Diploma / B.E. / B.Tech), No Live Backlog.",
+        "Keys": [
+            {
+                "key": "ctc",
+                "value": 9
+            },
+            {
+                "key": "location_1",
+                "value": "Pune"
+            },
+            {
+                "key": "location_2",
+                "value": "Hyderabad"
+            },
+            {
+                "key": "location_3",
+                "value": "Bangalore"
+            },
+            {
+                "key": "role",
+                "value": "Software Development Engineer"
+            },
+            {
+                "key": "percent",
+                "value": 60
+            },
+            {
+                "key": "cgpa",
+                "value": 6
+            },
+            {
+                "key": "branch_1",
+                "value": "Diploma"
+            },
+            {
+                "key": "branch_2",
+                "value": "B.E."
+            },
+            {
+                "key": "branch_3",
+                "value": "B.Tech"
             }
         ]
     }

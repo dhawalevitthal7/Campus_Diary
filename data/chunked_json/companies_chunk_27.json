@@ -1,7 +1,130 @@
 [
     {
-        "Name": "PORTER\u00b0",
-        "description": "",
-        "Keys": []
+        "Name": "CEAT Tyres",
+        "description": "About CEAT - Founded in 1958, CEAT is one of India's leading tyre brands and the flagship company of the RPG GROUP . Driven by the purpose of helping the world move safely and smartly, CEAT provides world-class products and services across 110+ countries. Job Role: GET(Graduate Engineering Trainee) \u2022 Functions \u2013Manufacturing, Production \u2022 Package \u2013 6 LPA ( CTC will be revised post confirmation after 1 yr)",
+        "Keys": [
+            {
+                "key": "company_name",
+                "value": "CEAT Tyres"
+            },
+            {
+                "key": "role",
+                "value": "GET(Graduate Engineering Trainee)"
+            },
+            {
+                "key": "ctc",
+                "value": 6
+            }
+        ]
+    },
+    {
+        "Name": "Hexaware",
+        "description": "\u2022 Location: Nagpur/Mumbai Eligibility \u2022 Must have 60% throughout \u2022 B.E./B.Tech \u2013 Mechanical, Electronics, Electrical, Instrumentation, Industrial Engineering, or similar background \u2022 2022 pass outs / 2023 pass outs who have completed their academic credits only HEXAWARE About Us: At Hexaware, we're not just a global technology and business process services company; we're a community of 31,600+ Hexawarians dedicated to one singular purpose: creating smiles through the power of great people and technology. With a presence in 58 offices across 28 countries, we empower enterprises worldwide to embark on their digital transformation journey with unparalleled scale and speed. As an employer, we're more than just a workplace. We put our people first, foster diversity and inclusivity, and prioritize their growth through robust learning and development programs. Our Culture is a canvas for innovation as we work toward our shared vision of becoming the world's most loved digital transformation partner. Exciting, isn't it? Visit www.hexaware.com to join us in embracing the magic of technology, as we passionately advocate for its potential to transform lives today and shape a brighter future. Together, we'll make the digital world a better place. Role: Quality Assurance (Software Testing) CTC: 4,00,000 INR per annum on successful completion of Training. o Stipend of 15,000 INR per month for 6 months. o Service agreement for 3 years in lieu of 2 lakhs. What are we looking for? Good communication skills- Fluent in spoken & written English Team player and interpersonal relationship abilities High level of energy Right Attitude and the ability to thrive in a fast-paced environment",
+        "Keys": [
+            {
+                "key": "company_name",
+                "value": "Hexaware"
+            },
+            {
+                "key": "role",
+                "value": "Quality Assurance (Software Testing)"
+            },
+            {
+                "key": "ctc",
+                "value": 4
+            },
+            {
+                "key": "stipend",
+                "value": 15
+            },
+            {
+                "key": "location_1",
+                "value": "Nagpur"
+            },
+            {
+                "key": "location_2",
+                "value": "Mumbai"
+            },
+            {
+                "key": "percent",
+                "value": 60
+            },
+            {
+                "key": "branch_1",
+                "value": "Mechanical"
+            },
+            {
+                "key": "branch_2",
+                "value": "Electronics"
+            },
+            {
+                "key": "branch_3",
+                "value": "Electrical"
+            },
+            {
+                "key": "branch_4",
+                "value": "Instrumentation"
+            }
+        ]
+    },
+    {
+        "Name": "ArcelorMittal Nippon Steel India Limited (AM/NS India)",
+        "description": "Position: Graduate Engineer Trainee (GET) Function: Electrical, Mechanical, Chemical, Electronics & Communication, Computer Science, Metallurgy, Mining Location: Any of AM/NS India locations CTC: Incentives 6 LPA Lakhs per annum + other benefits such as Housing, Medical Insurance, Canteen facility, Travel facility, Hospitalization Coverage, Higher Education support, Mobile Phone Data Card, etc. as per company policies. Selection Process: Online Test followed by a Technical and Personal Interview Responsibilities: The Graduate Engineer Trainees will be on a training period for 12 months from the date of joining during which they will be assigned projects within the domain. A GET is designated with the opportunity to work in cutting- edge facilities, contributing to the entire steel manufacturing process. From iron making to downstream operations and crucial role in delivering high-quality steel products to the market. It's a chance to showcase one's expertise and make a significant impact in the industry. Educational Qualifications/Shortlisting Criteria: \u2022 B.E. / B.Tech (Electrical, Mechanical, Chemical, Electronics & Communication, Computer Science, Metallurgy, Mining) At least 65% throughout the academic career with no active backlogs during at the time of applying for the role. \u2022 65% & above in SSC \u2022 65% & above in HSC \u2022 65% & above in B.E. / B.Tech all semesters \u2022 No live ATKT and no year drop/down. Behavioral Skills: \u2022 Strong interpersonal, problem solving and project management skills \u2022 Excellent communication and interpersonal skills \u2022 Analytical and data driven to ensure structured approach to a problem \u2022 Ability to work in a highly entrepreneurial environment. \u2022 Willing to relocate to any of AM/NS India locations across any technology.",
+        "Keys": [
+            {
+                "key": "company_name",
+                "value": "ArcelorMittal Nippon Steel India Limited"
+            },
+            {
+                "key": "role",
+                "value": "Graduate Engineer Trainee (GET)"
+            },
+            {
+                "key": "ctc",
+                "value": 6
+            },
+            {
+                "key": "location_1",
+                "value": "Any of AM/NS India locations"
+            },
+            {
+                "key": "percent",
+                "value": 65
+            },
+            {
+                "key": "branch_1",
+                "value": "Electrical"
+            },
+            {
+                "key": "branch_2",
+                "value": "Mechanical"
+            },
+            {
+                "key": "branch_3",
+                "value": "Chemical"
+            },
+            {
+                "key": "branch_4",
+                "value": "Electronics & Communication"
+            }
+        ]
+    },
+    {
+        "Name": "Solar Industries",
+        "description": "1. Position Title: IIoT Intern (Control Room) Post Duration: 6 Months Days of Work: 6 days a week (1 day rotational off) & 8 hours Rotational Shift Internship Type: Paid Job Location: Solar Plant (Chakdoh)",
+        "Keys": [
+            {
+                "key": "company_name",
+                "value": "Solar Industries"
+            },
+            {
+                "key": "role",
+                "value": "IIoT Intern (Control Room)"
+            },
+            {
+                "key": "location_1",
+                "value": "Solar Plant (Chakdoh)"
+            }
+        ]
     }
 ]

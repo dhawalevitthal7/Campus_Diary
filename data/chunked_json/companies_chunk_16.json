@@ -1,121 +1,125 @@
 [
     {
-        "Name": "Chegg",
-        "description": "Chegg\u00aeJob Title: Managed Network Expert (Subject Expert)Work location: Remote, work from homeTimings: Flexible work schedule (as per individual preference)Job Type: Part-timeOur subject experts are expected to solve academic questions asked by students on ourQuestion & Answer board.Eligibility\u2022 Enrolled as a student in Diploma, Bachelor's, Master's or Doctorate degree programs in therespective field of study.\u2022 This opportunity is NOT restricted to final year (semester) students only. Studentsfrom previous years can also apply.Expectations\u2022 Ensure that outlined quality parameters are followed.\u2022 Ensure that authoring guidelines are adhered\u2022 To ensure high-level of academicBenefits\u2022 Compensation: Paid per question answered (no limits)\u2022 Average Income: INR 30,000 to INR 80,000 per month*\u2022 Experience certificate at the end of tenure.\u2022 Earn while you learn.\u2022 Academic development.\u2022 Flexible work schedule.\u2022 Exposure to working at an MNC.Company Description:As the leading student-first connected learning platform,Chegg's Student Hub makes higher education more affordable and more accessible,all while improving student outcomes. Chegg is a publicly-held company based inSanta Clara, CA with offices in San Francisco, New York, Portland, India, Israel,Berlin, and Ukraine. Chegg Student Hub Services Include: Chegg Study, CheggTutoring, Chegg Writing Tools, Test Prep, Careers Search, Internship Admissionsand College Admissions.Chegg India, a premier educational services company and a wholly ownedsubsidiary of Chegg Inc., has been offering high quality services in the area ofHomework Help, Scholarships and Content Creation for American UniversityTextbooks. Chegg India has a vast network of employees with offices in Delhi andVisakhapatnam ably supported by a team of Managed Network Experts and TerritoryManagers who handle the Pan India Operations.'Student First' is our DNA. It drives everything we do. From the way we build ournetwork to the way we connect students to opportunity. We give every student theability to realize their full potential.",
+        "Name": "Capgemini",
+        "description": "CapgeminiCapgemini:Desired Competencies:\u2022 Communication: Strong interaction skills with partners.\u2022 Collaboration: Good interpersonal and teamwork abilities.\u2022 Flexibility: Adapt to multiple technologies, locations, and travel.\u2022 Initiative: Work independently and manage multiple tasks.\u2022 Other Skills: Strong analytical and problem-solving abilities.CTC: Analyst: 4.25 (4 LPA + 25k one-time incentive)Analyst (Differential Hiring): 5.75 (5.5 LPA + 25k one-time incentive)Senior Analyst: 7.5 LPASelection Process: The recruitment process consists of six rounds.Round 1: Technical AssessmentPseudocode 30 Questions (30 Min)Write logic: 7 Questions C, C++Write Output: 23 QuestionsRound 2: English Communication Test 30 Questions (30 Min)Topics: FIB, complete the sentence, spelling errors, synonyms, reading comprehension, para jumbled sentences,Synonyms/Antonyms, Indirect Direct SpeechRound 3: Game-Based Test 30 Questions (30 Min)Topics: Grid challenge: find symmetry and select the correct order of pattern by seeing it once DeductiveLogical Thinking, Inductive Logical Thinking, Motion Challenge, Switch challenge, Digit ChallengeRound 4: Behavioral Round 100 QuestionsThere will be no time limit for the round, but it is a mandatory one for everyone. This round helps themunderstand the innate profile of the candidate.Round 5: Technical Round (20 Min)Round 6: HR Interview (10 Min)Eligibility:No edu. Gaps allowedCS/IT group, ECE, ENNo live backlogs.Note: Candidates must have an active DigiLocker account and active mobile number linked with their Aadhar Number whileapplying for this job. Refer to attached pdf for a detailed walk-through of the process.",
         "Keys": [
             {
-                "key": "Job Role",
-                "value": "Managed Network Expert (Subject Expert)"
+                "key": "ctc_min",
+                "value": 4.25
             },
             {
-                "key": "Location",
-                "value": "Remote, work from home"
+                "key": "ctc_max",
+                "value": 7.5
             },
             {
-                "key": "Job Description",
-                "value": "Our subject experts are expected to solve academic questions asked by students on our Question & Answer board."
+                "key": "role",
+                "value": "Analyst, Senior Analyst"
             },
             {
-                "key": "Eligibility",
-                "value": "Enrolled as a student in Diploma, Bachelor's, Master's or Doctorate degree programs in therespective field of study. This opportunity is NOT restricted to final year (semester) students only. Studentsfrom previous years can also apply."
+                "key": "branch_1",
+                "value": "CS/IT"
             },
             {
-                "key": "Role expectations",
-                "value": "Ensure that outlined quality parameters are followed.Ensure that authoring guidelines are adheredTo ensure high-level of academic"
+                "key": "branch_2",
+                "value": "ECE"
             },
             {
-                "key": "Compensation",
-                "value": "Paid per question answered (no limits) Average Income: INR 30,000 to INR 80,000 per month*"
+                "key": "branch_3",
+                "value": "EN"
             }
         ]
     },
     {
-        "Name": "JTP",
-        "description": "JTPAbout the company:JTP is a listed company on JASDAQ (Japanese Stock exchange) as JTP 2488. Our portfolio encapsulates services andproducts in ROBOTICS, Hardware / Software development, Pharma and Human resource development. Our headoffice is in Japan with branch offices in the USA, India, Korea, and many other countries. JTP has over 35 years ofexperience in the Japanese market. We work with clients such as EMC, SAP, Hitachi, NVIDIA, Softbank, Mitsubishietc.Job role: System engineerCTC: 24 LPALocation: JapanThe hiring process will be as follows:Step 1: Application.Step 2: Selection for technical assessments.Step 3: Technical assessmentStep 4: English Interview (Please note students with insufficient international level English skills will beeliminated. Students with Mother Tongue influence will be eliminated)Step 5: Virtual Training + Project round.Step 6: Golden ticket opportunity for few students*Step 7: CEO panel Interview.Eligibility branches: CS, IT, EC, E&TC, \u041c\u0421\u0410, \u0412\u0421\u0410.Eligibility criterion: All students who are passionate for IT. (No merit criterion)",
+        "Name": "Larsen & Toubro Infotech Ltd",
+        "description": "LTILet's SolveLarsen & Toubro Infotech Ltd is a global technology consulting and digital solutions company helping more than 300clients succeed in a converging world. With operations in 30 countries and a team of more than 27000 employees, L&TInfotech is differentiated by its unique Business-to-IT Connect. Founded in 1997 and headquartered at Mumbai, LTI hasstrategic alliances with Web Methods, IBM, Microsoft, Business Objects, Oracle, Computer Associates, Siebel, Oracle,SAP, PeopleSoft, SAP, JD Edwards, Matrix One, Sun Microsystems, and HP. Larsen & Toubro Infotech was formerlyknown as L & T Information Technology Limited.The company is headquartered in Mumbai, India. It has additional offices in Pune, Chennai, Mysore, Bangalore, andHyderabad, India. Larsen & Toubro Infotech Limited operates as a subsidiary of Larsen & Toubro, Ltd. Larsen &Toubro Limited operates as a technology, engineering, construction, and manufacturing company worldwide.Key Persons:Chairman: A. M. NaikChief Executive Officer and Managing Director: Debashis ChatterjeeSelection process:Round 1: Online AssessmentTechnical: MCQ 40 Questions (40 Min)Coding:Level 1 \u2013 1 Question (30 Min) @ Rs. 5 LPALevel 2 - 1 Question (45 Min) @ Rs. 6.5 LPA (on completion of level 1)Level 3 - 1 Question (45 Min) @ Rs. 8 LPA (on completion of level 1 & level 2)Round 2: Technical InterviewRound 3: HR InterviewRole: Graduate Engineer Trainee (GET)Applications are invited from all eligible students in following disciplines:\u2022 Civil\u2022 Electrical / EEE\u2022 Industrial\u2022 MechanicalEligibility:\u27a4 4 year / 8 semester Degree (full-time) course (students expecting to graduate by 30thJune 2025) after 10+2 / 10+Diploma.\u27a4 The Aggregate for 10th,12th / Diploma, B.E. / B. Tech / B. Arch (5 Years/10Semesters) should be more than or equal to 65%.\u27a4 No backlogs (past or live) during B.E. / B. Tech / B. Arch Course. Allsubjects/papers should be cleared in the first attempt only.\u27a4 Any subject/paper appeared and not cleared in the first attempt is considered abacklog.\u27a4 Post 10th Standard.\u2022 12th Standard should have been completed within 2 years (or])\u2022 Diploma should have been completed within 3 years, as applicable.\u27a4 B. E / B. Tech to be completed in 4 years if done after 12th and in 3 years ifdone post Diploma.\u27a4 Should be an Indian national.The company reserves the right to alter the requirements & eligibility criteria.Compensation:Posting Category CTC Per AnnumOffice Based Posting Rs. 6,00,000/-Project Site Based Posting Rs. 6,57,000/Additionally, local transportation and canteen facilities are available based on the place ofposting, governed by the prevailing guidelines thereunder.Selection Process:Selection process consists of following steps:1. Online Test: (completely remote proctored)Aptitude Test (Analytical Ability, Verbal Ability and Numerical Ability) & TechnicalTest.2. Interview (including extempore) for candidates clearing the Online Test.3. Pre-employment medical test for candidates as per the guidelines providedby our Chief Medical Officer",
         "Keys": [
             {
-                "key": "Job Role",
-                "value": "System engineer"
+                "key": "ctc_min",
+                "value": 5
             },
             {
-                "key": "CTC",
-                "value": 24
+                "key": "ctc_max",
+                "value": 8
             },
             {
-                "key": "Location",
-                "value": "Japan"
+                "key": "role",
+                "value": "Graduate Engineer Trainee (GET)"
             },
             {
-                "key": "Selection Process",
-                "value": "Step 1: Application.Step 2: Selection for technical assessments.Step 3: Technical assessmentStep 4: English Interview (Please note students with insufficient international level English skills will beeliminated. Students with Mother Tongue influence will be eliminated)Step 5: Virtual Training + Project round.Step 6: Golden ticket opportunity for few students*Step 7: CEO panel Interview."
+                "key": "location_1",
+                "value": "Mumbai"
             },
             {
-                "key": "Eligibility",
-                "value": "branches: CS, IT, EC, E&TC, \u041c\u0421\u0410, \u0412\u0421\u0410.Eligibility criterion: All students who are passionate for IT. (No merit criterion)"
-            }
-        ]
-    },
-    {
-        "Name": "Darwinbox",
-        "description": "ddarwinboxAbout Darwinbox:Darwinbox is Asia's fastest-growing SaaS-based HR Technology platform. A brainchild of alumni from the country'smost distinguished institutions (IIT/IIM/XLRI) and organizations (McKinsey, EY, Google), Darwinbox is the preferredtechnology partner of 500+ global enterprises with more than 1 million+ employees using the platform. Our endto-endHCM technology suite competes with the best in the business and has won against giants such as SAP, Oracle, andWorkday several times to acquire iconic enterprise customers ranging from the largest conglomerates to unicorns -Adani, Mahindra, Kotak, TVS, Arvind, Nivea, Puma, Swiggy, Paytm, Bigbasket and Delhivery etc.The rate at which our product and market presence is growing is unprecedented. We're arocketship. We're not planning on slowing down anytime soon. And, that's why we need you!Designation: Intern- Product Development (The role can be converted to full time Software Engineer)Duration & Stipend: 6 Months, 25k per monthCTC: 16,30,000 LPALocation: HyderabadRoles and Responsibilities:\u2022 Coding\u2022 Product Development",
-        "Keys": [
-            {
-                "key": "Job Role",
-                "value": "Intern- Product Development (The role can be converted to full time Software Engineer)"
-            },
-            {
-                "key": "Stipend",
-                "value": 25000
-            },
-            {
-                "key": "CTC",
-                "value": 1630000
-            },
-            {
-                "key": "Location",
-                "value": "Hyderabad"
-            },
-            {
-                "key": "Roles",
-                "value": "Coding Product Development"
-            },
-            {
-                "key": "Responsibilities",
-                "value": "Coding Product Development"
-            }
-        ]
-    },
-    {
-        "Name": "TIAA",
-        "description": "Min. Eligibility: B.Tech (CSE/IT) 2025, Minimum 60%( No Backlogs)Selection Process:\u2022 Coding Rounds- 1 & 2\u2022 Technical Interviews\u2022 HR & Management InterviewTIAAJob Title: Cyber-Security TraineeCTC: 10.48 LPALocation: PunePosition Summary:Describing below the primary purpose and function of this job:\u2022 TIAA India is looking for trainees under Cyber Internship Program with an objective of providing exposure toyoung and budding tech talent and providing an opportunity for them to get acquainted with the Corporateculture and insights into Technology.\u2022 Selected Candidates will have the opportunity for 10 Weeks of internship with Cyber Security team beforeonboarding them as full-time employees as Trainees.\u2022The Trainee will be responsible for development, communication, implementation, enforcement andmonitoring of security controls to protect the organization's technology assets from intentional or inadvertentmodification, disclosure or destruction. The trainee is responsible for monitoring computer security proceduresand maintaining IT security policies, procedures and testing results.\u2022 The Trainee typically works as part of a project team or as an individual contributor under guidance from aMentor. The Trainee will communicate progress, resolve technical issues and work with the appropriate teamsfor solutions.Fundamental knowledge and conceptual understanding required for-\u2022 Working knowledge of Computers and IT Concepts like OS, Network, Databases, IT Systems and web applications\u2022 Cyber Security Concepts and Principles covering various cyber domains such as Information Security, Dataprotection, IT Risk and Governance, Security Operations, System Design and Architecture, Web ApplicationDevelopment, SDLC concepts, DevOps, Application security and vulnerability testing, Encryption and Cryptography,CWPP, CSPM, Identity & Access Management, Privilege access management, Security Monitoring and reporting.\u2022 Web development tools and scripting knowledge for Python, Bash, Shell, R, PowerShell, JSON, and others\u2022 Conceptual knowledge on emerging technologies \u2013 Blockchain, Quantum Computing, AI / ML, Severless, APIKey Duties & Responsibilities:The Trainee will attend a boot camp (an initial training program) as per the requirement where they will undergo atraining program focusing on TIAA Values & Behavior, Business domains, technology platforms, etc. After successfulcompletion of boot camp the Trainee will be aligned to any of the below mentioned cyber domains based on theiraspirations, project requirements and interview performance.\u2022 Threat Monitoring\u2022 Vulnerability Management\u2022 Defense-in-Depth practices to protect networks.\u2022 Threat Intelligence\u2022 Platform Security Engineering - Network Security, End Point Security and Cloud Security\u2022 IAM Operations\u2022 Cyber Custom Development\u2022 Cyber Fraud Investigator\u2022 EKM Engineering",
-        "Keys": [
-            {
-                "key": "Eligibility",
-                "value": "B.Tech (CSE/IT) 2025, Minimum 60%( No Backlogs)"
-            },
-            {
-                "key": "Selection Process",
-                "value": "Coding Rounds- 1 & 2 Technical Interviews HR & Management Interview"
-            },
-            {
-                "key": "Job Role",
-                "value": "Cyber-Security Trainee"
-            },
-            {
-                "key": "CTC",
-                "value": 10.48
-            },
-            {
-                "key": "Location",
+                "key": "location_2",
                 "value": "Pune"
             },
             {
-                "key": "Responsibilities",
-                "value": "TIAA India is looking for trainees under Cyber Internship Program with an objective of providing exposure toyoung and budding tech talent and providing an opportunity for them to get acquainted with the Corporateculture and insights into Technology.Selected Candidates will have the opportunity for 10 Weeks of internship with Cyber Security team beforeonboarding them as full-time employees as Trainees.The Trainee will be responsible for development, communication, implementation, enforcement andmonitoring of security controls to protect the organization's technology assets from intentional or inadvertentmodification, disclosure or destruction. The trainee is responsible for monitoring computer security proceduresand maintaining IT security policies, procedures and testing results.The Trainee typically works as part of a project team or as an individual contributor under guidance from aMentor. The Trainee will communicate progress, resolve technical issues and work with the appropriate teamsfor solutions. Threat Monitoring Vulnerability Management Defense-in-Depth practices to protect networks. Threat Intelligence Platform Security Engineering - Network Security, End Point Security and Cloud Security IAM Operations Cyber Custom Development Cyber Fraud Investigator EKM Engineering"
+                "key": "percent",
+                "value": 65
             },
             {
-                "key": "skills",
-                "value": "Working knowledge of Computers and IT Concepts like OS, Network, Databases, IT Systems and web applications Cyber Security Concepts and Principles covering various cyber domains such as Information Security, Data protection, IT Risk and Governance, Security Operations, System Design and Architecture, Web Application Development, SDLC concepts, DevOps, Application security and vulnerability testing, Encryption and Cryptography, CWPP, CSPM, Identity & Access Management, Privilege access management, Security Monitoring and reporting. Web development tools and scripting knowledge for Python, Bash, Shell, R, PowerShell, JSON, and others Conceptual knowledge on emerging technologies \u2013 Blockchain, Quantum Computing, AI / ML, Severless, API"
+                "key": "branch_1",
+                "value": "Civil"
+            },
+            {
+                "key": "branch_2",
+                "value": "Electrical / EEE"
+            },
+            {
+                "key": "branch_3",
+                "value": "Industrial"
+            },
+            {
+                "key": "branch_4",
+                "value": "Mechanical"
+            }
+        ]
+    },
+    {
+        "Name": "Infosys",
+        "description": "InfosysJob Role:1. Specialist Programmer: As an Infosys programmer in an SP role, you are expected to work in high endprojects using technologies like Machine Learning and Artificial Intelligence. Some of the technologies that youshould know before getting into Infosys SP role include:\u2022 Functional Programming\u2013 Scala, Akka\u2022 Java Microservices- Spring Boot, JEE\u2022 NoSQL and Scripting \u2013 ReachJS, Angular JS, MongoDB\u2022 Big Data and ML- Hadoop, Azure ML,\u2022 DevOps- Jira, GIr, JenKinsCTC: 9.5 LPASelection Process:Round 1: Online Assessment This round will have a total of 3 coding questions, and 180 minutes. It consists of 3levels- Easy, Medium, Hard .Round 2: Onsite Technical InterviewRound 3: Culture fit Interview.2. System Engineer : A System Engineer at Infosys is responsible for the design, development, implementation,and maintenance of systems that support the company's IT infrastructureCTC: 3.6 LPASelection Process:Round 1: In Campus Assessment. It consists of 7 sections-\u2022 Mathematical Ability\u2022 Reasoning Ability\u2022 Verbal Ability\u2022 Pseudo Code\u2022 Puzzle Solving\u2022 English Ability\u2022 Essay WritingRound 2: In Campus interviews, 20-30 minutesEligibility:\u2022All percentages/CGPA should be a simple average for all subjects/semesters/years, including electives,optional subjects, additional subjects, practical subjects and languages.Class 10 and Class 12- 60% or equivalent 60%Diploma (if applicable) - 58% or equivalent 58%B.E./B. Tech - 60% or equivalent 60%\u2022 In case the candidate has done both Class 12 and Diploma, the best of the two is taken into consideration.\u2022 No active backlogs are allowed.\u2022 Candidate should be willing to relocate to any location as required by Infosys.\u2022 Candidate should be willing to work in different technologies as required by Infosys.",
+        "Keys": [
+            {
+                "key": "ctc_min",
+                "value": 3.6
+            },
+            {
+                "key": "ctc_max",
+                "value": 9.5
+            },
+            {
+                "key": "role",
+                "value": "Specialist Programmer, System Engineer"
+            },
+            {
+                "key": "percent",
+                "value": 58
+            }
+        ]
+    },
+    {
+        "Name": "Amadeus",
+        "description": "amadeusAt Amadeus, fresh graduates bring new perspectives and are seen as key contributors to the organization's technical andleadership growth. With Amadeus processing millions of transactions daily, system reliability and performance arecritical. We ensure customer satisfaction by delivering on their needs effectively.Fresh graduates are absorbed into various divisions based on their skills and interview evaluations. To prepare them, allgraduate engineers undergo an intensive 6\u20138 week training program, equipping them with the technical skills requiredfor their roles.Designation: Software Engineer\u0421\u0422\u0421: 12,62,218/-Location: Bangalore/PuneSkill set 1: Java/J2EEA Java/J2EE developer is primarily a Back-end developer at Amadeus. You will be working on high volume productionsystems for the development and maintenance of Booking Engine which is a single set of code across a range ofAmadeus E-Commerce products. This code is very critical because a slight error might block the airlines/travel agentsfor processing the booking or ticketing.A Software developer is involved in many activities like:\u2022 Define user requirements for development or improvement of software solutions\u2022 Design technical solutions and perform feasibility studies\u2022 Innovate: Think out of the box and practice innovation in his/her daily tasks. Propose and develop innovativesolutions to the problems.\u2022 Propose viable technical solutions to Product Management and users for validation\u2022 Conduct unit, package and performance tests of the software and ensure a level of quality\u2022 Design and implement databases as necessary\u2022 Produce software documentation for the application and issue it\u2022 Support the end user in the Production phase by debugging existing software\u2022 solutions in response to Problem Tracking Records and Change Requests issued from\u2022 Product Management or Product DefinitionMain technical expertise on which the candidate will be trained on:\u2022 Core Java with J2EE experience\u2022 JUnits, Design Patterns, Struts, Spring MVC or any other framework\u2022 JSPs, Servlets, EJBs, DB, XML, WebServices etc. WebLogic, Ant/MavenSkill set 2: Java/UIA UI developer works on a presentation layer which is the layer mostly exposed to the customer. The more sturdy andintuitive it is; the more satisfied our customer is. The skills which a candidate develops are very niche and give thema clear advantage over other technical profiles. An engineer who can think UI and brings in innovation in his daily work.A very demanding position with skill set varying:\u2022 JQuery/ExtJS/YUI/DOJO or a similar JS framework\u2022 DataBase, ClearCase, WebLogic, Ant/Maven etc\u2022 JavaScript, OOJS CSS, HTML, AJAX, DOM, JSPs etc\u2022 Core Java/ J2EE experience is desirableSkill set 3: C/C++There are multiple work streams in Amadeus Labs, Bangalore who are focusing on core work areas where we needexpert C/C++ developers. A Software developer is involved in many activities like:\u2022 Define user requirements for development or improvement of software solutions\u2022 Design technical solutions and perform feasibility studies\u2022 Innovate: Think out of the box and practice innovation in his/her daily tasks. Proposeand develop innovative solutions to the problems.\u2022 Propose viable technical solutions to Product Management and users for validation\u2022 Conduct unit, package and performance tests of the software and ensure a level of\u2022 quality\u2022 Design and implement databases as necessary\u2022 Produce software documentation for the application and issue it\u2022 Support the end user in the Production phase by debugging existing software\u2022 solutions in response to Problem Tracking Records and Change Requests issued from\u2022 Product Management or Product DefinitionTechnical/Technical Skills\u2022 UNIX/ Linux, shell scripting\u2022 Strong knowledge of OOPS and coding with C++, design-patterns.\u2022 Database modeling, Oracle, Oracle BI, optimization techniques.\u2022 Good knowledge of development of a distributed system and of distributed\u2022 algorithms\u2022 Experience of Oracle environment and optimization techniques is a plus\u2022 Experience in multithreaded programming is a plusSkill Set 4 :Dev OpsThe DevOps engineer plays a key role to implement and support innovative solutions for operational requirements. Thescope of the role will encompass process automation solutions for the highly demanding Amadeus operational businessdomain.The DevOps Engineer will be involved in activities like",
+        "Keys": [
+            {
+                "key": "ctc",
+                "value": 12.62
+            },
+            {
+                "key": "role",
+                "value": "Software Engineer, DevOps Engineer"
+            },
+            {
+                "key": "location_1",
+                "value": "Bangalore"
+            },
+            {
+                "key": "location_2",
+                "value": "Pune"
+            },
+            {
+                "key": "domains",
+                "value": "Java/J2EE, C/C++, DevOps"
             }
         ]
     }

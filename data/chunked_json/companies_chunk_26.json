@@ -1,149 +1,177 @@
 [
     {
-        "Name": "Finastra",
-        "description": "Finastra Job Role: Graduate Engineer Trainee CTC: 7.5 LPA Requirements: \u2022 A desire to learn and grow professionally across one or various functions within the firm \u2022 Knowledge in Business, Computer Science, Computer/Software Engineering, E&TC, or related disciplines \u2022 Knowledge of variety of coding languages a plus (eg, HTML/HTML5,Java, C++, JavaScript, JQuery, CSS, XML, WCF, ASP.NET MVC, XSLT, Windows Services, MSMQ, AngularJS 2, ASP.NET Web API, BootStrap, TypeScript, GIT, Kentico) \u2022 Strong communication skills \u2022 Curious and comfortable with ambiguity \u2022 Flexibility and ability to work in a fast-paced environment \u2022 Demonstrated problem solving and analytical skills \u2022 Self-starter, ability to work in a virtual environment as needed",
+        "Name": "Raja Software Labs",
+        "description": "About RSL: Raja Software Labs (RSL) is a software development consultancy, based in Pune. Our expertise is in helping companies ship high business impact, mission critical solutions. We develop software but are in the peace of mind business. We started in 2007 and have since shipped products for the world's most innovative companies, including Linked, Google, Nest, Vida Health. Our apps have had more than 200 million downloads. Role: Software Developer Package: - Rs. 7 Lakhs (Rupees Seven Lakhs per annum) Interview Process: Programming test (Evaluate programming skills of the students) Technical Interviews: 2-3 technical interviews evaluating the programming skills of the students.(DSA and OOPS Eligibility Criteria: - BE or equivalent -Knowledge of any programming language (C, C++, Java, Python, JavaScript, Ruby, C#, Swift, Objective-C, or any other) Graduation percentage: 60% and higher Branches allowed: Computer Science, IT, Electrical, EnTC, Mech Engineering (Graduate / Postgraduate).",
         "Keys": [
             {
-                "key": "Job Role",
-                "value": "Graduate Engineer Trainee"
+                "key": "company_name",
+                "value": "Raja Software Labs"
             },
             {
-                "key": "CTC",
-                "value": 750000
+                "key": "role",
+                "value": "Software Developer"
             },
             {
-                "key": "Requirements",
-                "value": "\u2022 A desire to learn and grow professionally across one or various functions within the firm \u2022 Knowledge in Business, Computer Science, Computer/Software Engineering, E&TC, or related disciplines \u2022 Knowledge of variety of coding languages a plus (eg, HTML/HTML5,Java, C++, JavaScript, JQuery, CSS, XML, WCF, ASP.NET MVC, XSLT, Windows Services, MSMQ, AngularJS 2, ASP.NET Web API, BootStrap, TypeScript, GIT, Kentico) \u2022 Strong communication skills \u2022 Curious and comfortable with ambiguity \u2022 Flexibility and ability to work in a fast-paced environment \u2022 Demonstrated problem solving and analytical skills \u2022 Self-starter, ability to work in a virtual environment as needed"
+                "key": "location_1",
+                "value": "Pune"
             },
             {
-                "key": "Java",
-                "value": "Java"
+                "key": "ctc",
+                "value": 7
             },
             {
-                "key": "XML",
-                "value": "XML"
+                "key": "percent",
+                "value": 60
             },
             {
-                "key": "Angular JS",
-                "value": "AngularJS 2"
+                "key": "branch_1",
+                "value": "Computer Science"
+            },
+            {
+                "key": "branch_2",
+                "value": "IT"
+            },
+            {
+                "key": "branch_3",
+                "value": "Electrical"
+            },
+            {
+                "key": "branch_4",
+                "value": "EnTC"
             }
         ]
     },
     {
-        "Name": "DE Shaw & Co",
-        "description": "DE Shaw & Co Job Role: Front Office Tech Associate We are looking for a resourceful candidate to join our Front Office Technology group based in Hyderabad. The team specializes in building high quality applications and web-based products with a focus on usability, speed, security, and productivity. Compensation and Benefits Package: Base INR 12,25,000 Variable* INR 1,50,000 - INR 2,00,000 Benefits INR 5,30,000 Relocation Allowance** INR 2,00,000 Joining Bonus INR 1,50,000 Compensation and Benefits Package - INR 22,55,000 \u2013 INR 23,05,000 \u2022 Lower amount is guaranteed, higher amount is dependent on performance. \u2022 Relocation will entail reimbursement on travel (in full), guest house stay for 14 nights & reimbursement of movement of household goods, brokerage; on actuals up to a maximum of INR 50,000 Location: Hyderabad What you will do day-to-day: \u2022 Address queries from the trading floor and other related front office entities on data and software owned by Front Office Tech. \u2022 Build and maintain reports and metrics related to accuracy of our data and performance of software. \u2022 Partner with cross functional operations and technology teams to solve problems and identify improvement opportunities \u2022 Work closely with technology developers on fixing issues that are critical to the business, document, and track all changes in production. \u2022 Drive requirements and organize documents related to operational activities as well as new initiatives that will improve business operations. \u2022 Escalate issues to the developers that require code changes. Who we are looking for: \u2022 Min. cgpa of 7 in CS/IT group & 8 cgpa in circuit branches with no current backlogs. \u2022 The candidate should have an extraordinary record of academic achievements, excellent interpersonal, organizational, and analytical skills, along with exceptional verbal acuity and command of detail. \u2022 Candidates should possess excellent problem solving and logical reasoning skills as well as ability to adhere to timelines while delivering his/her responsibilities. \u2022 Exposure to scripting, shell commands and familiarity with at least one programming language like C, C++, Python, or Java. Good understanding of core CS concepts like databases, operating systems, and networking. \u2022 Understanding of the finance domain will be an added advantage. Internship Benefits Package \u2022 Stipend INR 1,02,083 per month \u2022 Benefits Company paid accommodation for 14 days \u2022 Insurance Coverage \u2022 Breakfast, Lunch, Snacks \u2022 Training \u2022 To and fro domestic air travel (up to INR 15,000) Selection Process: Round 1: Online Assessment \u2022 Coding: 3 que of medium difficulty. \u2022 Technical and Aptitude: MCQs on OOPS, DBMS, CN and aptitude questions as well. (DE Shaw aptitude test is generally considered hard.) Round 2: Technical Interview I Round 3: Technical Interview II Round 4: HR Interview",
+        "Name": "Hitachi Energy",
+        "description": "Role: Management Trainee Internship Duration: 6 Months Stipend: Rs. 20,000 per month CTC: 6LPA (After successful completion of internship) Location: Chennai, Bangalore, Gurugram Eligibility Criteria- Eligible Stream EEE, CSE, ECE and Mechanical Eligible Aggregate 10th, 12th / Diploma & B.E \u2013 70%",
         "Keys": [
             {
-                "key": "Job Role",
-                "value": "Front Office Tech Associate"
+                "key": "company_name",
+                "value": "Hitachi Energy"
             },
             {
-                "key": "Compensation",
-                "value": "and Benefits Package: Base INR 12,25,000 Variable* INR 1,50,000 - INR 2,00,000 Benefits INR 5,30,000 Relocation Allowance** INR 2,00,000 Joining Bonus INR 1,50,000 Compensation and Benefits Package - INR 22,55,000 \u2013 INR 23,05,000 \u2022 Lower amount is guaranteed, higher amount is dependent on performance. \u2022 Relocation will entail reimbursement on travel (in full), guest house stay for 14 nights & reimbursement of movement of household goods, brokerage; on actuals up to a maximum of INR 50,000"
+                "key": "role",
+                "value": "Management Trainee"
             },
             {
-                "key": "Location",
-                "value": "Hyderabad"
+                "key": "stipend",
+                "value": 20
             },
             {
-                "key": "What You'll Do",
-                "value": "\u2022 Address queries from the trading floor and other related front office entities on data and software owned by Front Office Tech. \u2022 Build and maintain reports and metrics related to accuracy of our data and performance of software. \u2022 Partner with cross functional operations and technology teams to solve problems and identify improvement opportunities \u2022 Work closely with technology developers on fixing issues that are critical to the business, document, and track all changes in production. \u2022 Drive requirements and organize documents related to operational activities as well as new initiatives that will improve business operations. \u2022 Escalate issues to the developers that require code changes."
+                "key": "ctc",
+                "value": 6
             },
             {
-                "key": "Stipend",
-                "value": 102083
+                "key": "location_1",
+                "value": "Chennai"
             },
             {
-                "key": "Selection Process",
-                "value": "Round 1: Online Assessment \u2022 Coding: 3 que of medium difficulty. \u2022 Technical and Aptitude: MCQs on OOPS, DBMS, CN and aptitude questions as well. (DE Shaw aptitude test is generally considered hard.) Round 2: Technical Interview I Round 3: Technical Interview II Round 4: HR Interview"
+                "key": "location_2",
+                "value": "Bangalore"
             },
             {
-                "key": "Java",
-                "value": "Java"
+                "key": "percent",
+                "value": 70
+            },
+            {
+                "key": "branch_1",
+                "value": "EEE"
+            },
+            {
+                "key": "branch_2",
+                "value": "CSE"
+            },
+            {
+                "key": "branch_3",
+                "value": "ECE"
+            },
+            {
+                "key": "branch_4",
+                "value": "Mechanical"
             }
         ]
     },
     {
-        "Name": "EPAM",
-        "description": "EPAM Job Role: SDE (Intern + FTE) CTC: 8 LPA, Stipend: 25k/month Location: Hyderabad Key Responsibilities as FTE: \u2022 Develop high-quality software design and architecture. \u2022 Identify, prioritize, and execute tasks in the software development lifecycle. \u2022 Develop tools and applications by producing clean, efficient code. \u2022 Automate tasks through appropriate tools and scripting. \u2022 Review and debug code \u2022 Perform validation and verification testing. \u2022 Collaborate with internal teams and stakeholders to fix and improve products. \u2022 Document development phases and monitor systems. \u2022 Ensure software is up to date with the latest technologies Requirements: \u2022 Good coding skills on Core Java and knowledge of OOPs, DBMS/SQL, Version Control Systems, Design Principles, Software Quality Engineering fundamentals \u2022 Problem Solving: Able to identify and solve complex problems in a structured manner, using Java. Strong fundamentals and deep practical knowledge of DSA preferred. \u2022 Possesses growth mindset and exhibits himself/herself as a motivated and organized self-learner and self-driven individual, and who can learn new programming language(s) and technologies when required. \u2022 Good verbal and written communication skills \u2022 Adaptability to fast-paced environments. \u2022 Should be a good team player \u2022 Commitment to ethical behaviour and integrity \u2022 BE / B. Tech in CS / IS / IT Engineering and MCA \u2013 2025 graduated batch with 70% overall. \u2022 Open to work at any of the EPAM locations post Internship. Benefits: \u2022 Salary \u2013 Internship \u2013 25,000 per month and Full Time \u2013 8 LPA \u2022 Customizable insurance coverage \u2022 Professional development opportunities \u2022 Paid leave for maternity, paternity & bereavement \u2022 Retirement benefits like VPF and NPS \u2022 Digital meal cards \u2022 Hobby Clubs \u2022 Company's Social Events Selection Process: Round 1: Online Test (Coding (DSA) 180 mins, Aptitude ques 30 mins) Round 2: Group Discussion Round 3: Technical Interview - 2 rounds. Round 4: HR Interview Eligibility Criteria: BE / B. Tech in CS / IS / IT Engineering and MCA \u2013 2026 Minimum 70% (X, XII, and Graduation) No Live Backlog",
+        "Name": "ALPHAWAVE SEMI",
+        "description": "Job Description Looking for self-driven, motivated and skilled engineers looking to get exposure to all sides of IC building process more specifically DFT (Design for Testability) from high level architectural definition, through RTL coding, verification, Scan/MBIST/BSCAN insertion,pattern generation and validation, device bring-up for complex custom silicon and IP engagements. \u2022 As a DFT intern, candidate will have the opportunity to work in a fast-paced environment on multiple projects in different design stages: \u2022 Develop RTL code for DFT components generation. \u2022 Integrate custom made DFT logic for complex SoCs (System-On-Chip) and CoWoS (Chip-On-Wafer-On-Substrate) designs. \u2022 Perform Scan/MBIST/BSCAN insertion. \u2022 Perform ATPG and coverage analysis, simulate zero delay and SDF annotated test sequences. \u2022 Build verification test benches and write verification sequences. \u2022 Review static timing analysis reports and SDCs generations. \u2022 Design and implement automation using Perl and/or Python. Why would you want to join our team: Ability to get exposure to all disciplines of TEST (DFT, ATPG, RTL, DV, Device Bring-up) in IC design process. No \"side kick\u201d tasks; you will be assigned a regular engineering scope of work. High possibility to get absorbed as the full-time engineer after internship subjected to performance and open positions. Qualifications Pursuing or Completed Bachelors or Master in Electronics/Electrical/Telecommunications/VLSI/Microelectronics Engineering only with 70% throughout in academics and zero active backlogs. Required skill set: o Strong Digital Fundamentals o Verilog and/or VHDL knowledge o Basics of DFT and exposure to Tessent/Synopsys TEST tools is a plus. o Perl, Python, TCL experience o C/C++, System Verilog is a plus. Desired Qualities o Self-starter and curious to learn new things. o Target oriented and motivated to figure out solutions to new problems. o Collaborative, team player Internship Details: \u2022 Eligibility: BTech/MTech in Electronics, Electrical, Telecommunications, VLSI, or Microelectronics Engineering \u2022 Minimum 70% academic score throughout No active backlogs \u2022 Position: Intern \u2022 Duration: 6 months to 1 year \u2022 Location: Bangalore/Pune \u2022 Stipend: INR 40,000 per month for BTech students \u25a0 INR 50,000 per month for MTech students",
         "Keys": [
             {
-                "key": "Job Role",
-                "value": "SDE (Intern + FTE)"
+                "key": "company_name",
+                "value": "ALPHAWAVE SEMI"
             },
             {
-                "key": "CTC",
-                "value": 800000
+                "key": "role",
+                "value": "Intern"
             },
             {
-                "key": "Stipend",
-                "value": 25000
+                "key": "stipend_min",
+                "value": 40
             },
             {
-                "key": "Location",
-                "value": "Hyderabad"
+                "key": "stipend_max",
+                "value": 50
             },
             {
-                "key": "Key Responsibilities",
-                "value": "as FTE: \u2022 Develop high-quality software design and architecture. \u2022 Identify, prioritize, and execute tasks in the software development lifecycle. \u2022 Develop tools and applications by producing clean, efficient code. \u2022 Automate tasks through appropriate tools and scripting. \u2022 Review and debug code \u2022 Perform validation and verification testing. \u2022 Collaborate with internal teams and stakeholders to fix and improve products. \u2022 Document development phases and monitor systems. \u2022 Ensure software is up to date with the latest technologies"
+                "key": "location_1",
+                "value": "Bangalore"
             },
             {
-                "key": "Requirements",
-                "value": "\u2022 Good coding skills on Core Java and knowledge of OOPs, DBMS/SQL, Version Control Systems, Design Principles, Software Quality Engineering fundamentals \u2022 Problem Solving: Able to identify and solve complex problems in a structured manner, using Java. Strong fundamentals and deep practical knowledge of DSA preferred. \u2022 Possesses growth mindset and exhibits himself/herself as a motivated and organized self-learner and self-driven individual, and who can learn new programming language(s) and technologies when required. \u2022 Good verbal and written communication skills \u2022 Adaptability to fast-paced environments. \u2022 Should be a good team player \u2022 Commitment to ethical behaviour and integrity \u2022 BE / B. Tech in CS / IS / IT Engineering and MCA \u2013 2025 graduated batch with 70% overall. \u2022 Open to work at any of the EPAM locations post Internship."
+                "key": "location_2",
+                "value": "Pune"
             },
             {
-                "key": "Java",
-                "value": "Java"
+                "key": "percent",
+                "value": 70
             },
             {
-                "key": "Selection Process",
-                "value": "Round 1: Online Test (Coding (DSA) 180 mins, Aptitude ques 30 mins) Round 2: Group Discussion Round 3: Technical Interview - 2 rounds. Round 4: HR Interview"
+                "key": "branch_1",
+                "value": "Electronics"
             },
             {
-                "key": "Eligibility",
-                "value": "Criteria: BE / B. Tech in CS / IS / IT Engineering and MCA \u2013 2026 Minimum 70% (X, XII, and Graduation) No Live Backlog"
+                "key": "branch_2",
+                "value": "Electrical"
             },
             {
-                "key": "B.E/B.Tech",
-                "value": "BE / B. Tech"
+                "key": "branch_3",
+                "value": "Telecommunications"
+            },
+            {
+                "key": "branch_4",
+                "value": "VLSI"
             }
         ]
     },
     {
-        "Name": "Sagacious IP",
-        "description": "About Sagacious IP: Sagacious IP is a global leader in Intellectual Property (IP) solutions, providing technical research and consulting services primarily focused on patents. We work with a diverse range of clients, including Fortune 500 companies, start-ups, international law firms, and corporate legal departments. Our expertise spans multiple Domains, such as Biotech, Pharma, Mechanical, Electronics, and Telecom. Our headquarters are located in Gurugram (Delhi NCR), where we are currently hiring. Job Role: Patent Analyst CTC: 5.5 LPA, Stipend: 18k/month Job Location: Gurugram Eligibility Criteria: Min. 65% or above in 10th, 12th & Graduation No Live Backlog Candidates will be required to sign a 12-month employment bond upon joining. Role: \u2022 Understanding the technology, product, or the invention. Discuss the same with the \u2022 seniors & the internal team. If required, discuss the invention with the inventors/researchers/patent lawyers/client over the conference call or in-person meeting to calibrate or to get more details. \u2022 Performing various patent searches - prior art search, novelty search, patentability \u2022 search, patent portfolio, patent landscaping, validity searches, sequence searches, \u2022 structure searches etc. \u2022 Conduct comprehensive searches of technical and patent information using online \u2022 database and other information resources. \u2022 Analyze and summarize search results \u2022 Provide insightful evaluation and analysis of results. \u2022 Preparing final reports and deliverables as per required standards \u2022 Deliver timely, value-added patent search reports. \u2022 Discuss the finding/results with the inventor/client over the conference call. \u2022 Helping the inventor/client to secure a patent or else, helping them to design-around \u2022 the product or the invention. Compensation and Employment Details: \u2022 Fixed CTC: INR 550,000 per annum upon successful completion of the 6-month training period at Sagacious IP and B.Tech degree. \u2022 Internship Stipend: INR 18,000 per month. The internship period may be extended by 1 month if performance is not satisfactory. \u2022 Bond: Candidates will be required to sign a 12-month employment bond upon joining. \u2022 Training Period: During this period, the intern's performance will be evaluated to confirm their role as a Patent Analyst. Mandatory Skills: Good analytical skills Good Technical Knowledge Good Interpersonal skill",
+        "Name": "Adani Group",
+        "description": "About Adani Group: Adani Group is one of the largest and fastest growing Conglomerate catering to a billion aspirations. The Group is a diversified organization in India with a market cap of over $133 Bn comprising 6 publicly traded companies. The company is a market leader in multiple sectors like Ports and Logistics, Power, Transmission, Renewables and Gas. CTC: 6LPA Eligibility Criteria: \u2022 Engineering graduates from disciplines across- (B.E./B.Tech.) from within the following different engineering streams (Civil, Electrical, Mechanical, Electronics (C&I), E&C, CS/IT, Industrial) \u2022 Minimum of 60% marks throughout in academics (10th, 12th, and Graduation level till third year) with no history of backlogs throughout the education Selection Process: 1. Online assessment to evaluate candidates on their cognitive 2. Domain ability followed by a technical and HR interview",
         "Keys": [
             {
-                "key": "Job Role",
-                "value": "Patent Analyst"
+                "key": "company_name",
+                "value": "Adani Group"
             },
             {
-                "key": "CTC",
-                "value": 550000
+                "key": "ctc",
+                "value": 6
             },
             {
-                "key": "Stipend",
-                "value": 18000
+                "key": "percent",
+                "value": 60
             },
             {
-                "key": "Location",
-                "value": "Gurugram"
+                "key": "branch_1",
+                "value": "Civil"
             },
             {
-                "key": "Eligibility",
-                "value": "Criteria: Min. 65% or above in 10th, 12th & Graduation No Live Backlog"
+                "key": "branch_2",
+                "value": "Electrical"
             },
             {
-                "key": "Roles",
-                "value": "\u2022 Understanding the technology, product, or the invention. Discuss the same with the \u2022 seniors & the internal team. If required, discuss the invention with the inventors/researchers/patent lawyers/client over the conference call or in-person meeting to calibrate or to get more details. \u2022 Performing various patent searches - prior art search, novelty search, patentability \u2022 search, patent portfolio, patent landscaping, validity searches, sequence searches, \u2022 structure searches etc. \u2022 Conduct comprehensive searches of technical and patent information using online \u2022 database and other information resources. \u2022 Analyze and summarize search results \u2022 Provide insightful evaluation and analysis of results. \u2022 Preparing final reports and deliverables as per required standards \u2022 Deliver timely, value-added patent search reports. \u2022 Discuss the finding/results with the inventor/client over the conference call. \u2022 Helping the inventor/client to secure a patent or else, helping them to design-around \u2022 the product or the invention."
+                "key": "branch_3",
+                "value": "Mechanical"
             },
             {
-                "key": "Compensation",
-                "value": "and Employment Details: \u2022 Fixed CTC: INR 550,000 per annum upon successful completion of the 6-month training period at Sagacious IP and B.Tech degree. \u2022 Internship Stipend: INR 18,000 per month. The internship period may be extended by 1 month if performance is not satisfactory. \u2022 Bond: Candidates will be required to sign a 12-month employment bond upon joining. \u2022 Training Period: During this period, the intern's performance will be evaluated to confirm their role as a Patent Analyst."
-            },
-            {
-                "key": "skills",
-                "value": "Mandatory Skills: Good analytical skills Good Technical Knowledge Good Interpersonal skill"
+                "key": "branch_4",
+                "value": "Electronics (C&I)"
             }
         ]
     }

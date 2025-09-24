@@ -1,109 +1,129 @@
 [
     {
-        "Name": "DeltaX",
-        "description": "DeltaXRole: Associate Product Engineer (Full Stack Developer)CTC: INR 7 Lakhs Per AnnumLocation: Bengaluru, Hyderabad and PuneEligibility Criteria:\u2022 Btech (CS and IT)\u2022 Minimum overall 50% CGPAEngineering Culture & Practices\u2022 You will work in an agile SCRUM team.\u2022 Our teams follow BDD, REST, Continuous Integration and Continuous Delivery.\u2022 We operate hundreds of multi-tenant databases using MS SQL Server\u2022 C#, Vue.js and SQL are the common languages that our teams use.\u2022 Centralized monitoring across our entire stack using ELK Stack (Elasticsearch, Logstash, Kibana)Responsibilities\u2022 Write code :)\u2022 Ownership for the entire lifecycle of your code: development, test, production, and subsequent fixes andimprovements.\u2022 Implement code that is clear, concise, tested, and easily understood by others.Selection Process:Round 1Online Technical MCQ Test:Will cover fundamentals for Programming, Data Structures,Networking and Micro-processors.Expected No. of Questions: 50 Multiple Choice Questions.Assessment Duration: 45 Minutes.Difficulty level: Questions levels vary from easy to moderate.Round 2Online Coding Assessment (any programming language)Helpful alert: Only serious coders will qualifyRound 3Technical InterviewWhat we look for?Logical clarityAlgorithm & Programming Concepts",
+        "Name": "AVEVA",
+        "description": "AVEVA Role: Graduate TraineeReports To: Team LeadContract: Full-time permanentAbout AVEVADepartment: Global Delivery Centre, IndiaLocation: Hyderabad/BengaluruAVEVA is a global leader in industrial software, driving digital transformation and sustainability.By connecting the power of information and artificial intelligence with human insight, AVEVAenables teams to use their data to unlock new value. We call this Performance Intelligence.AVEVA's comprehensive portfolio enables more than 20,000 industrial enterprises to engineersmarter, operate better and drive sustainable efficiency. AVEVA supports customers through atrusted ecosystem that includes 5,500 partners and 5,700 certified developers around the world.The company is headquartered in Cambridge, UK, with over 6,500 employees and 90 offices inover 40 countries.We take pride in our core values and the diversity of our people, valuing the unique experienceand expertise that people from different backgrounds bring to our business.AVEVA is an Equal Opportunity Employer, and we take pride in the diversity of our employees,valuing the special experience and expertise that people from different backgrounds bring to ourbusiness. The ability to develop ground-breaking technologies is one of our key assets and ourpeople make it happen.About the roleAs a part of the development team, you'll be responsible for configuring, developing, testing andmaintain AVEVA software products and solutions. Responsible for delivering world-class products and solutions usinglatest technologies, established standards and processes in collaboration with other teams.In this role you will:\u2022 Be an integral part of global services team.\u2022 Configures and/or customises core product.\u2022 For Developer Role\u2022 Develop applications using cutting edge technologies likes .Net Core, Microservices,Node, Python,React, Angular, SQL, Analytics and Machine learning which meet functional and non-functionalrequirements with built-in-quality.\u2022 For Non-Developer Role\u2022 Develop applications/models using AVEVA products, which meet functional and non-functionalrequirements with built-in-quality.\u2022 Author, review, execute, maintain, and test applications.\u2022 Develop, build, customize, deploy, and manage the environment, test suits and testautomation frameworks.\u2022 Performs both unit and integration testing.\u2022 Deploys solutions into AVEVA's or Customer infrastructure.\u2022 Contributes to technical project documentation deliverables, taking responsibility ofaccuracy and flow of content.\u2022 Manages own time effectively within the scope of work allocated and ensures both a timelyand high-quality delivery.\u2022 Performs knowledge transfer to team members and customer representatives.It is a pre-requisite to be able to function effectively as a member of a dynamic team within amatrixed organisation. Excellent communication skills will be required to develop good workingrelationships in the following areas:\u2022 the region-based Project Managers and technical resources to ensure successful delivery ofthe project.\u2022 with other members of the Global Delivery Centre team in Hyderabad within a project andto share knowledge\u2022 develops good working relationships with customer representatives and always providesthe highest level of customer service and professionalism.Mandatory Competencies, Knowledge and Skills:\u2022 Must have regular BE/BTech degree pursuing in (Computer, Chemical, Mechanical, Electrical,Instrumentation, Industrial)\u2022 Average aggregate 65% and above with no backlogs\u2022 Strong analytical skills, Communication, Problem Solving skills.\u2022 Basic knowledge of software development methodologies (e.g., Agile, Waterfall) and onsoftware development lifecycle (SDLC).\u2022 Good Problem Solving and Requirement understanding skills as well as a positive attitude,ability, and desire to learn new processes and technologies.\u2022 Organization: You'll be working in a fast-paced, high-volume, and evolving workenvironment, so time management and effective prioritisation will be essential\u2022 Customer focus: You'll be working directly with our customers. Being able to listen to themand understand their requests, and then address them in a proactive and consultativemanner, will be part of your day-to-day\u2022 Problem-solving: You'll need to enjoy getting stuck into problems. Troubleshooting andsolving challenging problems is a big part of this role.Come and join AVEVA to create the transformative technology that enables our customers to engineer abetter world!",
         "Keys": [
             {
-                "key": "Roles",
-                "value": "Associate Product Engineer (Full Stack Developer)"
+                "key": "role",
+                "value": "Graduate Trainee"
             },
             {
-                "key": "CTC",
-                "value": 700000
+                "key": "location_1",
+                "value": "Hyderabad"
             },
             {
-                "key": "Location",
-                "value": "Bengaluru, Hyderabad and Pune"
+                "key": "location_2",
+                "value": "Bengaluru"
             },
             {
-                "key": "Eligibility",
-                "value": "Btech (CS and IT)\u2022 Minimum overall 50% CGPA"
+                "key": "branch_1",
+                "value": "Computer"
             },
             {
-                "key": "Responsibilities",
-                "value": "Write code :)\u2022 Ownership for the entire lifecycle of your code: development, test, production, and subsequent fixes andimprovements.\u2022 Implement code that is clear, concise, tested, and easily understood by others."
+                "key": "branch_2",
+                "value": "Chemical"
             },
             {
-                "key": "Selection Process",
-                "value": "Round 1Online Technical MCQ Test:Will cover fundamentals for Programming, Data Structures,Networking and Micro-processors.Expected No. of Questions: 50 Multiple Choice Questions.Assessment Duration: 45 Minutes.Difficulty level: Questions levels vary from easy to moderate.Round 2Online Coding Assessment (any programming language)Helpful alert: Only serious coders will qualifyRound 3Technical InterviewWhat we look for?Logical clarityAlgorithm & Programming Concepts"
+                "key": "branch_3",
+                "value": "Mechanical"
+            },
+            {
+                "key": "branch_4",
+                "value": "Electrical"
+            },
+            {
+                "key": "percent",
+                "value": 65
             }
         ]
     },
     {
-        "Name": "Innovaptive Inc",
-        "description": "INNOVAPPTIVEInnovaptive IncRole: Product Owner (Trainee) and Trainee \u2013 Implementation Consultant (Campus)Location: Hyderabad, IndiaTravel Percentage: 0% - 10%Employment Type: Full-Time; SalariedReports To: Senior/Principal Product Manager, Product ManagementCompensation: Competitive as per Indian Market standardsWe are looking for a Product Owner to drive one of Innovapptive's connected workerSaaS platform products. The connected worker platform brings the maintenancefront-line workers, back-office and connected assets (IiOT) together on one unifiedplatform to perform jobs better, faster, cheaper and safer. This person will beresponsible for product roadmap planning and execution, from ideation to adoption forthe connected worker Platform Products. We are aggressively expanding our marketpenetration into several industry verticals with a special focus on Oil & Gas, Utilities,Chemicals, Metals & Mining and Industrial Manufacturing. And we need a dynamic,fast-paced Product professional who can ideate, design, drive, build and deliver Productfeatures at pace.How You Will Make an Impact:\u2022 Product Execution: Execute a high-impact product roadmap for one of theConnected Worker Platform Products on Cloud\u2022 Rapid Iteration and Execution: Champion a culture of speed and agility, drivingrapid product iteration and execution. Set high bars for quality, efficiency, andspeed-to-market. Break down complex problems into actionable steps, andrelentlessly prioritize to deliver results quickly.\u2022 Cross-Functional Collaboration: Work closely with engineering to deliverhigh-quality products on time and within budget.\u2022 Data-Driven Decision Making: Utilize data analytics and metrics to makeinformed decisions. Monitor key product metrics and perform user behavioranalysis to gain insights. Leverage data to iterate on features, optimize userexperiences, and drive product success.\u2022 Startup Mindset: Thrive in a dynamic, fast-paced startup environment. Embraceambiguity and take ownership of challenges. Display entrepreneurial spirit,innovative thinking, and a willingness to take calculated risks. Be adaptable,resilient, and results-oriented.What You Bring to The Team:As a Product Owner, you will be responsible for leading the development and executionof our Connected Worker Platform SaaS product roadmap. You will collaborate closelywith cross-functional teams, including engineering, design, marketing, and sales, todefine and deliver exceptional software solutions that meet the needs of our targetcustomers. You will be a strategic thinker with a strong understanding of the B2Bsoftware market and possess the ability to translate customer insights into actionableproduct strategies. You will be a go-getter finding creative low-cost, high-value solutionsand not stuck in analysis-paralysis.Basic Qualifications:\u2022 Bachelor's degree in a relevant field (Computer Science, Business, or a relateddiscipline).\u2022 Strong analytical mindset with a data-driven approach to decision making.\u2022 Excellent communication, presentation, and influencing skills, with the ability toeffectively convey complex ideas to technical and non-technical stakeholders.\u2022 Passion for startups, technology, and staying at the forefront of tech trends.\u2022 Ability to influence/persuade people to drive outcomes\u2022 Analytical experience including converting raw data into actionable insights andrecommendations\u2022 Excellent communication skills \u2013 written and verbal\u2022 Exposure to AWS cloud services.\u2022 Business acumen able to discern and distill product requirements into platformservices requirements and epics.\u2022 Experience with business cost-benefit analysis and requirements gathering.\u2022 Technical acumen able to assist with breaking down technical problems andfinding root causes.What We Offer above work:\u2022 A positive, open, and highly-innovative environment and team\u2022 Entrepreneurial spirit with unlimited opportunity to grow\u2022 Opportunity to work with leading global brands on exciting and impactful projects\u2022 Competitive Base Pay\u2022 Best of plan on Vacation & Paid Time Off.\u2022 Provision of Medical Insurance for family - self, dependent, spouse, dependentchildren, parents/parent-in-laws\u2022 Paid Maternity and Paternity leave\u2022 Bi-annual reviews to ensure transparency and promoting high performanceculture\u2022 OKR Driven Performance Development Environment\u2022 Learning & Development - access to wide range of e-Learning courses",
+        "Name": "Chegg",
+        "description": "Chegg \u00aeJob Title: Managed Network Expert (Subject Expert)Work location: Remote, work from homeTimings: Flexible work schedule (as per individual preference)Job Type: Part-timeOur subject experts are expected to solve academic questions asked by students on ourQuestion & Answer board.Eligibility\u2022 Enrolled as a student in Diploma, Bachelor's, Master's or Doctorate degree programsin therespective field of study.\u2022 This opportunity is NOT restricted to final year (semester) students only. Studentsfrom previous years can also apply.Expectations\u2022 Ensure that outlined quality parameters are followed.\u2022 Ensure that authoring guidelines are adhered\u2022 To ensure high-level of academicBenefits\u2022 Compensation: Paid per question answered (no limits)\u2022 Average Income: INR 30,000 to INR 80,000 per month*\u2022 Experience certificate at the end of tenure.\u2022 Earn while you learn.\u2022 Academic development.\u2022 Flexible work schedule.\u2022 Exposure to working at an MNC.Company Description:As the leading student-first connected learning platform,Chegg's Student Hub makes higher education more affordable and more accessible,all while improving student outcomes. Chegg is a publicly-held company based inSanta Clara, CA with offices in San Francisco, New York, Portland, India, Israel,Berlin, and Ukraine. Chegg Student Hub Services Include: Chegg Study, CheggTutoring, Chegg Writing Tools, Test Prep, Careers Search, Internship Admissionsand College Admissions.Chegg India, a premier educational services company and a wholly ownedsubsidiary of Chegg Inc., has been offering high quality services in the area ofHomework Help, Scholarships and Content Creation for American UniversityTextbooks. Chegg India has a vast network of employees with offices in Delhi andVisakhapatnam ably supported by a team of Managed Network Experts and TerritoryManagers who handle the Pan India Operations.'Student First' is our DNA. It drives everything we do. From the way we build ournetwork to the way we connect students to opportunity. We give every student theability to realize their full potential.",
         "Keys": [
             {
-                "key": "Roles",
-                "value": "Product Owner (Trainee) and Trainee \u2013 Implementation Consultant (Campus)"
+                "key": "role",
+                "value": "Managed Network Expert (Subject Expert)"
             },
             {
-                "key": "Location",
-                "value": "Hyderabad, India"
+                "key": "location_1",
+                "value": "Remote"
             },
             {
-                "key": "Compensation",
-                "value": "Competitive as per Indian Market standards"
+                "key": "stipend_min",
+                "value": 30
             },
             {
-                "key": "What You'll Bring",
-                "value": "As a Product Owner, you will be responsible for leading the development and execution of our Connected Worker Platform SaaS product roadmap. You will collaborate closely with cross-functional teams, including engineering, design, marketing, and sales, to define and deliver exceptional software solutions that meet the needs of our target customers. You will be a strategic thinker with a strong understanding of the B2B software market and possess the ability to translate customer insights into actionable product strategies. You will be a go-getter finding creative low-cost, high-value solutions and not stuck in analysis-paralysis.Basic Qualifications:\u2022 Bachelor's degree in a relevant field (Computer Science, Business, or a related discipline).\u2022 Strong analytical mindset with a data-driven approach to decision making.\u2022 Excellent communication, presentation, and influencing skills, with the ability to effectively convey complex ideas to technical and non-technical stakeholders.\u2022 Passion for startups, technology, and staying at the forefront of tech trends.\u2022 Ability to influence/persuade people to drive outcomes\u2022 Analytical experience including converting raw data into actionable insights and recommendations\u2022 Excellent communication skills \u2013 written and verbal\u2022 Exposure to AWS cloud services.\u2022 Business acumen able to discern and distill product requirements into platform services requirements and epics.\u2022 Experience with business cost-benefit analysis and requirements gathering.\u2022 Technical acumen able to assist with breaking down technical problems and finding root causes."
-            },
-            {
-                "key": "Qualifications",
-                "value": "Bachelor's degree in a relevant field (Computer Science, Business, or a related discipline)."
+                "key": "stipend_max",
+                "value": 80
             }
         ]
     },
     {
-        "Name": "Raja Software Labs",
-        "description": "RAJA SOFTWARE LABSpeace of mindRaja Software LabsAbout RSL:Raja Software Labs (RSL) is a software development consultancy, based in Pune. Our expertise is in helping companies ship highbusiness impact, mission critical solutions. We develop software but are in the peace of mind business. We started in 2007 andhave since shipped products for the world's most innovative companies, including Linked, Google, Nest, Vida Health. Our appshave had more than 200 million downloads.Role: Software DeveloperPackage:- Rs. 7 Lakhs (Rupees Seven Lakhs per annum)Interview Process:Programming test (Evaluate programming skills of the students)Technical Interviews: 2-3 technical interviews evaluating the programming skills of the students.(DSA and OOPSEligibility Criteria:- BE or equivalent-Knowledge of any programming language (C, C++, Java, Python, JavaScript, Ruby, C#, Swift, Objective-C, or anyother)Graduation percentage: 60% and higherBranches allowed: Computer Science, IT, Electrical, EnTC, Mech Engineering (Graduate / Postgraduate).",
+        "Name": "JTP",
+        "description": "JTPAbout the company:JTP is a listed company on JASDAQ (Japanese Stock exchange) as JTP 2488. Our portfolio encapsulates services andproducts in ROBOTICS, Hardware / Software development, Pharma and Human resource development. Our headoffice is in Japan with branch offices in the USA, India, Korea, and many other countries. JTP has over 35 yearsof experience in the Japanese market. We work with clients such as EMC, SAP, Hitachi, NVIDIA, Softbank, Mitsubishietc.Job role: System engineerCTC: 24 LPALocation: JapanThe hiring process will be as follows:Step 1: Application.Step 2: Selection for technical assessments.Step 3: Technical assessmentStep 4: English Interview (Please note students with insufficient international level English skills will beeliminated. Students with Mother Tongue influence will be eliminated)Step 5: Virtual Training + Project round.Step 6: Golden ticket opportunity for few students*Step 7: CEO panel Interview.Eligibility branches: CS, IT, EC, E&TC, \u041c\u0421\u0410, \u0412\u0421\u0410.Eligibility criterion: All students who are passionate for IT. (No merit criterion)",
         "Keys": [
             {
-                "key": "Roles",
-                "value": "Software Developer"
+                "key": "role",
+                "value": "System engineer"
             },
             {
-                "key": "CTC",
-                "value": 700000
+                "key": "ctc",
+                "value": 24
             },
             {
-                "key": "Selection Process",
-                "value": "Programming test (Evaluate programming skills of the students)Technical Interviews: 2-3 technical interviews evaluating the programming skills of the students.(DSA and OOPS"
+                "key": "location_1",
+                "value": "Japan"
             },
             {
-                "key": "Eligibility",
-                "value": "BE or equivalent-Knowledge of any programming language (C, C++, Java, Python, JavaScript, Ruby, C#, Swift, Objective-C, or anyother)Graduation percentage: 60% and higherBranches allowed: Computer Science, IT, Electrical, EnTC, Mech Engineering (Graduate / Postgraduate)."
+                "key": "branch_1",
+                "value": "CS"
             },
             {
-                "key": "B.E/B.Tech",
-                "value": "BE or equivalent"
+                "key": "branch_2",
+                "value": "IT"
+            },
+            {
+                "key": "branch_3",
+                "value": "EC"
+            },
+            {
+                "key": "branch_4",
+                "value": "E&TC"
             }
         ]
     },
     {
-        "Name": "Hitachi Energy",
-        "description": "\u2611 Hitachi EnergyRole: Management TraineeInternship Duration: 6 MonthsStipend: Rs. 20,000 per monthCTC: 6LPA (After successful completion of internship)Location: Chennai, Bangalore, GurugramEligibility Criteria-Eligible Stream EEE, CSE, ECE and MechanicalEligible Aggregate 10th, 12th / Diploma & B.E \u2013 70%",
+        "Name": "Darwinbox",
+        "description": "ddarwinboxAbout Darwinbox:Darwinbox is Asia's fastest-growing SaaS-based HR Technology platform. A brainchild of alumni from the country'smost distinguished institutions (IIT/IIM/XLRI) and organizations (McKinsey, EY, Google), Darwinbox is the preferredtechnology partner of 500+ global enterprises with more than 1 million+ employees using the platform. Our endto-endHCM technology suite competes with the best in the business and has won against giants such as SAP, Oracle, andWorkday several times to acquire iconic enterprise customers ranging from the largest conglomerates to unicorns -Adani, Mahindra, Kotak, TVS, Arvind, Nivea, Puma, Swiggy, Paytm, Bigbasket and Delhivery etc.The rate at which our product and market presence is growing is unprecedented. We're arocketship. We're not planning on slowing down anytime soon. And, that's why we need you!Designation: Intern- Product Development (The role can be converted to full time Software Engineer)Duration & Stipend: 6 Months, 25k per monthCTC: 16,30,000 LPALocation: HyderabadRoles and Responsibilities:\u2022 Coding\u2022 Product Development\u2022 Backend or Front-end DevelopmentAs fitment with the organization culture is very important you will immensely like the job ifyou:\u2022 Enjoy working in a fast-paced company environment.\u2022 Should be stack agnostic and should not have any tech prejudice.\u2022 Prefer a non-hierarchical, independent, and non-pushy environment.\u2022 Are self-motivated to take up a high degree of ownership.\u2022 Passionate about programming and can't sleep without coding.Min. Eligibility: B.Tech (CSE/IT) 2025, Minimum 60%( No Backlogs)Selection Process:\u2022 Coding Rounds- 1 & 2\u2022 Technical Interviews\u2022 HR & Management Interview",
         "Keys": [
             {
-                "key": "Roles",
-                "value": "Management Trainee"
+                "key": "role",
+                "value": "Intern- Product Development"
             },
             {
-                "key": "Stipend",
-                "value": 20000
+                "key": "stipend",
+                "value": 25
             },
             {
-                "key": "CTC",
-                "value": 600000
+                "key": "ctc",
+                "value": 16.3
             },
             {
-                "key": "Location",
-                "value": "Chennai, Bangalore, Gurugram"
+                "key": "location_1",
+                "value": "Hyderabad"
             },
             {
-                "key": "Eligibility",
-                "value": "Eligible Stream EEE, CSE, ECE and MechanicalEligible Aggregate 10th, 12th / Diploma & B.E \u2013 70%"
+                "key": "branch_1",
+                "value": "CSE"
+            },
+            {
+                "key": "branch_2",
+                "value": "IT"
+            },
+            {
+                "key": "percent",
+                "value": 60
             }
         ]
     }

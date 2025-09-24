@@ -1,149 +1,117 @@
 [
     {
-        "Name": "Vconstruct",
-        "description": "Vconstruct Building Better, Smarter, Faster is our mission. Since 2013, our 400+ experts have been transforming the construction industry with innovative solutions in Virtual Design and Construction (VDC), Project Controls, Accounting, and Software Development. Serving 100+ projects globally, we deliver smarter processes, better products, and faster results. Join us in reshaping the future of construction with technology. CTC: 6.75 LPA Stipend: 20k, join in January 2025 as Graduate Trainee and then full-time from June/July 2025 based on their performance. Job Roles: 1. Project Engineer \u2013 Virtual Builder Skills and Qualification: Candidates having B.E./ B.Tech. or higher Degree in Civil or Construction related field. \u2022 A Working knowledge of BIM Coordination, Project Management, Change Management And Constructability is preferable. \u2022 Understanding of the overall construction process ranging from Design to commissioning. \u2022 Working knowledge of any prominent VDC software like Revit,Navisworks, Tekla and Civil 3Dis desired. Work Location: Pune (Magarpatta City) Eligibility: Civil, Min 60% in 10th, 12th & Graduation, No Live Backlog. 2. Software Engineer \u2013 Software Solutions for Construction Requirements: Good knowledge of object-oriented design and development and DBMSconcepts Expert in HTML5, CSS3, JavaScript Excellent communication, presentation and analytical skills Should be willing to work collaboratively across different skill sets Working knowledge of at least one front-end framework (react/angular) and back-end stack Eligibility: B.E. Final year students from CS/IT, Min 70% or equivalent marks (10th, 12th Or Diploma and overall in graduation). 3. Data Science Engineer - DSA We are looking for candidates with passion for technology, excellent analytical skills, and ability to solve complex problems to undergo training in data Science related areas. Successful candidates will be part of the Data Science and Analytics team which is a tight-knit group of analysts and engineers that support all data aspects of DPR business. Requirements: B.E. / B.Tech Final year students with CS/IT background Excellent Academic Credentials Excellent Communication and Analytical skills Responsibilities: Post training, selected candidates will work in Data Science and Analytics. Candidates will be working mostly on US or EU based projects. They will transition into a data science engineer with the responsibilities outlined below - Understand and analyze the business requirements Design and deployment of the database - Ability to understand, consume and use API's, JSON, Web Services for data pipelines - Developing integrations between various applications Design, Develop and deploy reports/dashboards/data visualizations using Power BI - Optimize reports/dashboards with a focus on usability, performance, flexibility, testability, and standardization. - Build full stack data science models with various Azure technologies -Use R or Python to implement statistical models, machine learning, and analysis (Recommenders, Prediction, Classification, Clustering, etc.) Selection Process: Round 1: Online InCampus Assessment (Coding 2 ques, Aptitude Mathematical Ability) \u2022 Reasoning Ability \u2022 Verbal Ability \u2022 Pseudo Code \u2022 Puzzle Solving Round 2: Technical Interview 1 Round 3: Technical Interview 2 Round 4: HR & Result",
+        "Name": "YOptima",
+        "description": "Eligibility:CS/IT group only80% and above throughout (10th,12th,UG -until 6th Semester)No Live Backlog.YoptimaJob Role: Account ExecutiveCTC: 7 LPA. Stipend: 25K/monthLocation: Jui Nagar, Navi MumbaiPost-Internship Opportunity: After successfully completing the internship and a thorough assessment, candidates will be offered a permanent role with a total compensation of \u20b97 Lakh CTC (\u20b95 Lakh Fixed + \u20b92 Lakh Variable+ other benefits) for BTech graduates.Responsibilities: Analyse digital behavior of the online consumers across different digital channels and design actionable insights and solutions to improve marketing ROI at scale. Work with large, complex data sets. Solve difficult, non-routine analysis problems, applying advanced analytical methods as needed. Assist in designing relevant marketing plans and strategies for digital ad campaigns, combining understanding of consumer behavior, data driven insights, product positioning and marketing objectives. Troubleshoot technical issues both internally and with Third party vendors. Manage servicing needs of clients and win sustainable customer delight and brand advocacy.Competencies: 0-2 yrs Exp with Bachelor's or Master's degree in a quantitative discipline (e.g. business administration, engineering, statistics, operations research, economics, mathematics). Strong analytical and problem-solving skills. Ability to present results of complex analysis compellingly to both technical and non-technical audiences. Self-motivated with the ability to work independently and within a team.Selection Process:Round 1: BD Online Assessment \u2013 A mandatory evaluation.Round 2: Shortlisted candidates from the assessment will go through 2-3 rounds of interviews with the Co-founders (COO & CEO).",
         "Keys": [
             {
-                "key": "B.E/B.Tech",
-                "value": "B.E./ B.Tech.; B.E. Final year students from CS/IT; B.E. / B.Tech Final year students with CS/IT background"
+                "key": "percent",
+                "value": 80
             },
             {
-                "key": "Angular JS",
-                "value": "react/angular"
+                "key": "role",
+                "value": "Account Executive"
             },
             {
-                "key": "training program",
-                "value": "undergo training in data Science related areas.; Post training"
+                "key": "ctc",
+                "value": 7
             },
             {
-                "key": "WebServices",
-                "value": "Web Services for data pipelines"
+                "key": "stipend",
+                "value": 25
             },
             {
-                "key": "skills",
-                "value": "Skills and Qualification; Excellent communication, presentation and analytical skills; skill sets; Excellent Academic Credentials Excellent Communication and Analytical skills"
+                "key": "location_1",
+                "value": "Jui Nagar"
             },
             {
-                "key": "requirements",
-                "value": "Requirements: Good knowledge of object-oriented design and development and DBMSconcepts Expert in HTML5, CSS3, JavaScript Excellent communication, presentation and analytical skills Should be willing to work collaboratively across different skill sets Working knowledge of at least one front-end framework (react/angular) and back-end stack; business requirements; Requirements: B.E. / B.Tech Final year students with CS/IT background Excellent Academic Credentials Excellent Communication and Analytical skills"
+                "key": "location_2",
+                "value": "Navi Mumbai"
             },
             {
-                "key": "Roles",
-                "value": "Project Engineer \u2013 Virtual Builder; Software Engineer \u2013 Software Solutions for Construction; Data Science Engineer - DSA"
+                "key": "branch_1",
+                "value": "CS"
             },
             {
-                "key": "CTC",
-                "value": 675000
-            },
-            {
-                "key": "Stipend",
-                "value": 20000
-            },
-            {
-                "key": "Job Role",
-                "value": "Project Engineer \u2013 Virtual Builder; Software Engineer \u2013 Software Solutions for Construction; Data Science Engineer - DSA"
-            },
-            {
-                "key": "Selection Process",
-                "value": "Round 1: Online InCampus Assessment (Coding 2 ques, Aptitude Mathematical Ability) \u2022 Reasoning Ability \u2022 Verbal Ability \u2022 Pseudo Code \u2022 Puzzle Solving Round 2: Technical Interview 1 Round 3: Technical Interview 2 Round 4: HR & Result"
-            },
-            {
-                "key": "Eligibility",
-                "value": "Civil, Min 60% in 10th, 12th & Graduation, No Live Backlog.; B.E. Final year students from CS/IT, Min 70% or equivalent marks (10th, 12th Or Diploma and overall in graduation)."
-            },
-            {
-                "key": "Location",
-                "value": "Pune (Magarpatta City)"
-            },
-            {
-                "key": "Responsibilities",
-                "value": "Understand and analyze the business requirements; Design and deployment of the database - Ability to understand, consume and use API's, JSON, Web Services for data pipelines; Developing integrations between various applications; Design, Develop and deploy reports/dashboards/data visualizations using Power BI - Optimize reports/dashboards with a focus on usability, performance, flexibility, testability, and standardization. - Build full stack data science models with various Azure technologies; Use R or Python to implement statistical models, machine learning, and analysis (Recommenders, Prediction, Classification, Clustering, etc.)"
-            },
-            {
-                "key": "Qualifications",
-                "value": "Candidates having B.E./ B.Tech. or higher Degree in Civil or Construction related field.; B.E. / B.Tech Final year students with CS/IT background Excellent Academic Credentials Excellent Communication and Analytical skills"
+                "key": "branch_2",
+                "value": "IT"
             }
         ]
     },
     {
-        "Name": "ZS",
-        "description": "ZS Role: Platform Services Associate Analyst CTC: \u20b919 LPA - \u20b913 LPA Location: Pune What You'll Do: \u2022 Tech Stack: Python, Analyst, SQL, PowerBI, Tableau. \u2022 Build complex solutions for clients using tools and technologies on the ZAIDYN platform. \u2022 Take ownership of activities and responsibilities across all project lifecycle phases to solve business problems in one or more client engagements. \u2022 Apply development methodologies (e.g., agile, waterfall) and best practices (e.g., QA procedures, unit testing) to ensure successful and timely task completion. \u2022 Collaborate with team members to ensure seamless project delivery. \u2022 Exhibit flexibility in tackling new challenges and demonstrate excellent task management. \u2022 Assist in creating project outputs, including business case development, solution design, user requirements, prototypes, technical architecture (if needed), test cases, and operations management. \u2022 Provide transparency in driving tasks to completion and report accurate progress status. \u2022 Bring a consulting mindset, leveraging technical and business expertise to solve business problems and innovate. \u2022 Assist senior team members and delivery leads in project management responsibilities. What You'll Bring: \u2022 Qualification: Bachelor's degree in Computer Science, IT, or related disciplines with a strong academic record. \u2022 Additional Skills:",
+        "Name": "Bluealtair",
+        "description": "bluealtairJob Role: Graduate Engineer TraineeCTC: 5 LPA, Stipend: 20k/month (Permanent placement - Post internship completion based on the performance).Location: PuneAbout us: Blue Altair is a successor company of Fresh Gravity.It is a niche, sleek, high-end consulting firm that is employee centric, client focused, partner tied, and innovation driven.Core capabilities at Blue Altair are:\u2022 API Management & Integration-o API Business Strategy with \u201cAPI First\u201d Approach,o API Program and Technical Strategy,o iPaaS Strategy, API Gateway Package Selection,o Deployment (on-premises, cloud, hybrid),o iPaaS based system integration)\u2022 Data Managemento Cloud Data Migration,o Smart Analyticso Master Data Management,o Data Platform Strategy and Roadmapo Data Platform Modernizationo Data Governance and Strategy Roadmap\u2022 Data Science and AIo Big Data Analytics,o Machine Learning & Artificial Intelligence,o Deep Learning, Supervised,o Unsupervised and Semi-Supervised Learning,o Explainable AI,o Computer Vision,o Natural Language Processing\u2022 Digital Application Developmento Full Stack Developmento Web and Mobile Developmento DevOpso MicroservicesSelection Process:Round 1: Online Programming Test (MCQS on Aptitude ques, OS, CN,DBMS, 2 ques Coding Ques)Round 2: Technical Interview 1",
         "Keys": [
             {
-                "key": "Innovate",
-                "value": "innovate"
+                "key": "role",
+                "value": "Graduate Engineer Trainee"
             },
             {
-                "key": "skills",
-                "value": "Additional Skills"
+                "key": "ctc",
+                "value": 5
             },
             {
-                "key": "requirements",
-                "value": "user requirements"
+                "key": "stipend",
+                "value": 20
             },
             {
-                "key": "Roles",
-                "value": "Platform Services Associate Analyst"
-            },
-            {
-                "key": "CTC",
-                "value": 1900000
-            },
-            {
-                "key": "Location",
+                "key": "location_1",
                 "value": "Pune"
-            },
-            {
-                "key": "What You'll Do",
-                "value": "Tech Stack: Python, Analyst, SQL, PowerBI, Tableau.; Build complex solutions for clients using tools and technologies on the ZAIDYN platform.; Take ownership of activities and responsibilities across all project lifecycle phases to solve business problems in one or more client engagements.; Apply development methodologies (e.g., agile, waterfall) and best practices (e.g., QA procedures, unit testing) to ensure successful and timely task completion.; Collaborate with team members to ensure seamless project delivery.; Exhibit flexibility in tackling new challenges and demonstrate excellent task management.; Assist in creating project outputs, including business case development, solution design, user requirements, prototypes, technical architecture (if needed), test cases, and operations management.; Provide transparency in driving tasks to completion and report accurate progress status.; Bring a consulting mindset, leveraging technical and business expertise to solve business problems and innovate.; Assist senior team members and delivery leads in project management responsibilities."
-            },
-            {
-                "key": "What You'll Bring",
-                "value": "Qualification: Bachelor's degree in Computer Science, IT, or related disciplines with a strong academic record.; Additional Skills:"
-            },
-            {
-                "key": "Qualifications",
-                "value": "Bachelor's degree in Computer Science, IT, or related disciplines with a strong academic record."
             }
         ]
     },
     {
-        "Name": "GET - Mechanical Job",
-        "description": "Responsible for safety of self and in the area of command.Knowledge of Electrical safety issuesJob title: GET - MechanicalDepartment: Engineering & MaintenanceJob Role: Responsible for Air Compressors, Process Chillers and Process Cooling Towers. Maintenance of Lifts, Stackers, Taski Cleaning Machines. Maintenance of the AHUs, doors, ACs, etc. Daily power report and consumables report. Casual manpower deployment.Job Description: Utility Division Marinating and looking after the total Operation, Function, Optimization and Maintenance of the Air Compressors, Process Chillers, Process Cooling Towers, HVAC Chillers, Water Treatment Plant (WTP), Effluent Treatment Plant (ETP), Boilers and Diesel Generators. Maintenance, Operation and Function of the AHUs, Lifts, Stackers and Taski Floor Cleaner Machines, Doors, ACs, Pipelines, Fountains, etc. Preventive maintenance of the mechanical equipment of the Utility Division. Detailed analysis of the Power and Fuel Consumption of the plant with respect to Tonnage produced and Detailed tracking and analysis of the Utility Consumables in the Plant. Workshop and Briquette Store Operation and Maintenance. Shift Schedule management of the Air Compressor operators, HVAC Chiller operators and the Lift operators. Optimizing and cost saving for the Utility consumables. Maintenance of the LLP Tank Farm area and HSD Tank Farm area. Casual Manpower Management and Optimization.MIS and Reports: Daily MIS Power Fuel report. Utility Daily Consumables report. Mechanical work done and PM compliance report. Daily Manpower Requisition and Deployment tracking. Ensure Statutory Compliance.Health & safety: Responsible for safety of self and in the area of command. Follow and adhere to company safety rules and regulations. Maintaining safety environment for workers and all.",
+        "Name": "JSW",
+        "description": "Eligibility Criteria:Min. 60% & above in 10th, 12th, GraduationNo gaps or year down in academics.No Live BacklogJSWJob Role: Graduate Engineer TraineeCTC: 6 LPA (Fixed + Variable)The CTC is INR 5.5 LPA - INR 4.67 LPA (Fixed) in addition to INR 83,000 (Variables)Retention Bonus - INR 1 lakh (End of Year 1 - 50% and End of Year 2 - 50%)Job Description:\u2022 Completing all tasks set by the Supervisor and assisting wherever possible.\u2022 Observing existing strategies and techniques and offering suggestions for improvement.\u2022 Conducting research and collating data.\u2022 Traveling to different sites and gaining practical experience in new work zones.\u2022 Working closely with staff to foster professional values and build good relationships.\u2022 Observing health and safety guidelines at all times.\u2022 Attending meetings and workshops.\u2022 Submitting to all forms of evaluation during the traineeship.\u2022 Compiling reports and delivering presentations to staff members and other stakeholders.Selection Process:Round1: Online AssessmentRound 2: Online AssessmentRound 3: InterviewsEligibility Criteria:\u2022 Candidates should be open for any location pan India. no location preference will be considered. In casehe/she accepts the offer and then drops out because of the location constraint, then he/she will be blacklistedfrom the JSW group.\u2022 Branch: Mech, Indus, Civil\u2022 Candidate's age must be 24 years or less as of 1st April 2025.\u2022 Candidates must meet all the necessary fitness criteria. At any stage, the candidate must meet all necessaryfitness criteria.\u2022 No Live/Open Backlogs are allowed, In the case of Previous backlogs all should be cleared/closed beforeapplying. No lateral entry is allowed. No repeat year allowed.\u2022 The offer will be revoked if any information provided by the candidate at any stage stands incorrect.\u2022 No gap year is allowed between 10th, 12th, or any year of the Graduation Degree.\u2022 Min 60% and above throughout 10th, 12th and College.",
         "Keys": [
             {
-                "key": "Job Role",
-                "value": "Responsible for Air Compressors, Process Chillers and Process Cooling Towers. Maintenance of Lifts, Stackers, Taski Cleaning Machines. Maintenance of the AHUs, doors, ACs, etc. Daily power report and consumables report. Casual manpower deployment."
+                "key": "percent",
+                "value": 60
             },
             {
-                "key": "Job Description",
-                "value": "Utility Division Marinating and looking after the total Operation, Function, Optimization and Maintenance of the Air Compressors, Process Chillers, Process Cooling Towers, HVAC Chillers, Water Treatment Plant (WTP), Effluent Treatment Plant (ETP), Boilers and Diesel Generators. Maintenance, Operation and Function of the AHUs, Lifts, Stackers and Taski Floor Cleaner Machines, Doors, ACs, Pipelines, Fountains, etc. Preventive maintenance of the mechanical equipment of the Utility Division. Detailed analysis of the Power and Fuel Consumption of the plant with respect to Tonnage produced and Detailed tracking and analysis of the Utility Consumables in the Plant. Workshop and Briquette Store Operation and Maintenance. Shift Schedule management of the Air Compressor operators, HVAC Chiller operators and the Lift operators. Optimizing and cost saving for the Utility consumables. Maintenance of the LLP Tank Farm area and HSD Tank Tank Farm area. Casual Manpower Management and Optimization."
+                "key": "role",
+                "value": "Graduate Engineer Trainee"
             },
             {
-                "key": "Responsibilities",
-                "value": "Responsible for safety of self and in the area of command. Knowledge of Electrical safety issuesDaily MIS Power Fuel report. Utility Daily Consumables report. Mechanical work done and PM compliance report. Daily Manpower Requisition and Deployment tracking. Ensure Statutory Compliance.Responsible for safety of self and in the area of command. Follow and adhere to company safety rules and regulations. Maintaining safety environment for workers and all."
+                "key": "ctc_max",
+                "value": 6
+            },
+            {
+                "key": "ctc_min",
+                "value": 4.67
+            },
+            {
+                "key": "location_1",
+                "value": "pan India"
+            },
+            {
+                "key": "branch_1",
+                "value": "Mech"
+            },
+            {
+                "key": "branch_2",
+                "value": "Indus"
+            },
+            {
+                "key": "branch_3",
+                "value": "Civil"
             }
         ]
     },
     {
-        "Name": "Muthoot Finance",
-        "description": "Muthoot FinanceThe Muthoot Group of FinanceRole and Responsibility: Front line sales executive for Muthoot branches operations.Job Location: Muthoot branches (North, East & West) operations.Eligibility Criteria: Minimum Graduates / Graduation (last year) - Non TechnicalCTC:1. Interns for 6 months. After the successful completion of internship, there will be performance evaluation and internswill get the PPO (Pre-Placement offer) accordingly.2. Stipend INR 10000/- per month during internship period {will be registered under government scheme NAPS(National Apprenticeship Promotion) and NATS (National Apprenticeship Training)}3. The internship period is for 6 months and after the successful completion of internship there will be performanceevaluation for the placement in the Muthoot Payroll.",
+        "Name": "GOCOMET",
+        "description": "GOCOMET:Why GoComet?GoComet is a dynamic SaaS start-up that provides AI-powered transportation visibility solutions to revolutionize thetrillion-dollar logistics sector. At GoComet, we are revolutionizing the logistics sector one day at a time, and every teammember is committed to making it a reality. We're seeking individuals who embody our core values, character, andattitude. While we recognize that skills can be developed with the right mindset and learnability, we prioritize thosewho share our philosophy. Our recruitment processes reflect this belief. Look no further if you're looking for a diverse,talented, and vibrant workplace that recognizes and rewards hard work. We're ambitious, fast-paced, and unafraid toexperiment, fail, learn, and ultimately succeed. This is us! Join our team if you share our culture and values. We're anequal-opportunity employer. We welcome qualified applicants from all races, colors, religions, sexes, nationalities,sexual orientations, gender identities, and abilities.Job Role : Backend Intern (Data Engine)Stipend: 15KRoles & Responsibilities:\u2022 Understanding of manual and automation testing.\u2022 Have Basic programming skills.\u2022 Concentrating on details, including automated tests and documentation.\u2022 Ambitious and passionate about QA.\u2022A great teammate and self-starter that is comfortable working in a rapidly changing environment and taking initiativewith limited resources.\u2022 Comfortable managing multiple assignments with competing priorities and tight deadlines\u2022 Fast learner with good communication skills.Experience & Skills:\u2022 Experience in Development using Ruby/Python.\u2022 Design and implement solutions to extract data from diverse websites, adhering toproject requirements.\u2022 Implement robust data extraction and parsing mechanisms to ensure accurate andstructured data retrieval.\u2022 Should have live projects available to demonstrate\u2022 Good understanding of Object Oriented Programming\u2022 An agile mindset and the ability to adapt to changing priorities and requirements\u2022 Good in analyzing and solving problems\u2022 Passionate to work in a start-upBenefits of the role includes:\u2022 Mentorship and guidance from engineers .\u2022 Exposure to industry best practices and emerging technologies.\u2022 Opportunity to enhance technical and analytical skills.\u2022 5 Days working.\u2022 Flexible Working Hours.\u2022 Joining KitEligibility:Btech Grad",
         "Keys": [
             {
-                "key": "Roles",
-                "value": "Front line sales executive for Muthoot branches operations."
+                "key": "role",
+                "value": "Backend Intern (Data Engine)"
             },
             {
-                "key": "Location",
-                "value": "Muthoot branches (North, East & West) operations."
+                "key": "stipend",
+                "value": 15
             },
             {
-                "key": "Eligibility",
-                "value": "Minimum Graduates / Graduation (last year) - Non Technical"
-            },
-            {
-                "key": "Stipend",
-                "value": 10000
+                "key": "branch_1",
+                "value": "Btech Grad"
             }
         ]
     }

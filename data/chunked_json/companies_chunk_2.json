@@ -1,133 +1,113 @@
 [
     {
-        "Name": "Siemens",
-        "description": "SIEMENS Siemens Job Role: Intern Stipend: 15k/month Location: Pune Duration: 6 Months Eligibility Criteria: 1. Minimum 60% or CGPA 6 from 10th Grade to current educational qualification. 2. No active backlogs. 3. Academic backlogs not exceeding 2 years. 4. Pursuit of regular, full-time courses.",
+        "Name": "ZS",
+        "description": "Role - Software Engineer \u2013 Test Responsibilities: \u2022 Understand the behavior of complex web-based applications and apply that knowledge towards testing \u2022 Contribute to a project's overall test strategy and test plan \u2022 Create and execute test scenarios; select the best methods, techniques and evaluation criteria for testing \u2022 Identify test data requirements and generate required data to support testing \u2022 Evaluate and analyze application behavior and data for potential software issues \u2022 Clearly report and help prioritize issues found during testing \u2022 Create test deliverables required by company and project testing standards \u2022 Work collaboratively with other testers, developers, and stakeholders \u2022 Identify and lead process improvement efforts \u2022 Contribute during design reviews and recommend product improvements Qualifications: \u2022 Bachelor's or master's degree in computer science, a physical science, engineering, mathematics, economics, or another discipline with a quantitative focus \u2022 Strong academic record [India] (CGPA 7.0 or higher) \u2022 Extensive knowledge of manual testing \u2022 Advanced critical thinking skills \u2022 Excellent communication and interpersonal skills \u2022 Experience testing web applications is highly desirable \u2022 Understanding of defect tracking and test management software \u2022 Knowledge / exposure to all aspects of SDLC/STLC \u2022 Experience with Agile / Scrum methodologies \u2022 Exposure to automated testing is an added advantage \u2022 Ability to work in global cross-office teams \u2022 ZS is a global firm; fluency in English is required Eligibility Criteria \u2022 No Backlogs",
         "Keys": [
             {
-                "key": "Job Role",
-                "value": "Intern"
+                "key": "role",
+                "value": "Software Engineer \u2013 Test"
             },
             {
-                "key": "Stipend",
-                "value": 15000
-            },
-            {
-                "key": "Location",
-                "value": "Pune"
-            },
-            {
-                "key": "Eligibility",
-                "value": "Minimum 60% or CGPA 6 from 10th Grade to current educational qualification. No active backlogs. Academic backlogs not exceeding 2 years. Pursuit of regular, full-time courses."
-            }
-        ]
-    },
-    {
-        "Name": "Nexcellerate Technologies Pvt. Ltd. (rampp.ai)",
-        "description": "Nexcellerate Technologies Pvt. Ltd. (rampp.ai) CTC: 7 LPA, Stipend: 25k/month Location: Bangalore Job Role 1: Application SDE Key Skills Required: \u2022 Proficiency in JavaScript, with experience in Node.js and React (preferably Next.js). \u2022 Familiarity with Bootstrap for front-end design. \u2022 Experience working with Databases (MongoDB and SQL). \u2022 Strong understanding of Data Structures and Algorithms (DSA) Job Role 2: AI Software Development Engineer (SDE) Key Skills Required: \u2022 Proficiency in Python with experience in libraries like Pandas and NumPy. \u2022 Hands-on experience with Databases (MongoDB and SQL). \u2022 Strong understanding of Data Structures and Algorithms (DSA). \u2022 Vector database knowledge is a plus. \u2022 Basic understanding of Artificial Intelligence (AI) and Machine Learning (ML) concepts.",
-        "Keys": [
-            {
-                "key": "CTC",
+                "key": "cgpa",
                 "value": 7
             },
             {
-                "key": "Stipend",
-                "value": 25000
+                "key": "branch_1",
+                "value": "Computer Science"
             },
             {
-                "key": "Location",
-                "value": "Bangalore"
+                "key": "branch_2",
+                "value": "Physical Science"
             },
             {
-                "key": "Job Role",
-                "value": "Application SDE, AI Software Development Engineer (SDE)"
+                "key": "branch_3",
+                "value": "Engineering"
             },
             {
-                "key": "skills",
-                "value": "Proficiency in JavaScript, with experience in Node.js and React (preferably Next.js). Familiarity with Bootstrap for front-end design. Experience working with Databases (MongoDB and SQL). Strong understanding of Data Structures and Algorithms (DSA) Proficiency in Python with experience in libraries like Pandas and NumPy. Hands-on experience with Databases (MongoDB and SQL). Strong understanding of Data Structures and Algorithms (DSA). Vector database knowledge is a plus. Basic understanding of Artificial Intelligence (AI) and Machine Learning (ML) concepts."
-            },
-            {
-                "key": "MongoDB",
-                "value": "Present"
-            },
-            {
-                "key": "AI",
-                "value": "Present"
+                "key": "branch_4",
+                "value": "Mathematics"
             }
         ]
     },
     {
-        "Name": "Kickdrum",
-        "description": "Kickdrum Kickdrum Job Role: Software Developer CTC: 16LPA [Rs.10 LPA (Fixed) + 2 LPA (Variable) + 2 LPA (Benefits, retirals) + 2 LPA (Special bonus payable post completion of one year of full-time employment)] Stipend: 35k Location: Bengaluru Position: Software Intern (KDU-er) \u2022 Work Location: Bengaluru (Monday - Friday in Office) \u2022 Eligibility Criteria: 80% and above in academics throughout. No backlogs. \u2022 Facilities: Food and Snacks in Office; 24x7 access \u2022 Leaves: 3 Paid & 3 Sick Leaves; Leaves for University Exams \u2022 BYOD: \u20b9 2000/month for using your own device during Internship Position: Software Developer \u2022 Job Location: Bengaluru, 2 mandatory days in Office, \u2022 Eligibility Criteria: Successful completion of the 6 month Internship \u2022 Benefits: in-office meals, reimbursements for food orders, cab rides, and gym memberships. Health insurance for self, family, and parents, BYOD (Bring Your Own Device) options, annual health checkups, wellness programs, mentorship, and training. \u2022 Paid Leaves: 12 sick leaves, 15 earned leaves, and 15 public holidays. Roles and Responsibilities: \u2022 Develop complex web applications with responsive design techniques and industry-leading UX \u2022 Translate design mock-ups and prototypes into working applications \u2022 Work on cloud-based architectures that are highly scalable, available, and performant \u2022 Work with agile methodology using cutting-edge DevOps tools & technologies \u2022 Focus on code quality and deliver projects with high business impact Learn and apply new skills during your 6 months internship: \u2022 Amazon Web Services (AWS) \u2022 HTML/CSS/React (frontend) \u2022 Java/Spring, DotNet, Python, Node (backend) \u2022 Enterprise-grade software development \u2022 Working directly with execs and customers Upon successful completion of your internship you will be employed as a \u201cSoftware Developer\u201d at Kickdrum. Selection Process: Round 1: Online Assessment (2 Coding Que) 2HRs Round 2: Technical Interview I Round 3: Culture Round Round 4: HR Interview Eligibility: CS/IT group with 80% and above in their academics throughout. No backlogs.",
+        "Name": "Aspect Ratio",
+        "description": "CTC :- 12 LPA Job Description: As an Analyst your job would involve: \u2022 Taking a complicated business problem and structuring it into a mathematical problem \u2022 Implementing the solution in the best available tool \u2013 MS-Excel, Spotfire, R, Python etc. \u2022 Understand client requirements and provide solutions in a fast-paced environment \u2022 Effectively collaborate across teams \u2022 Dive deep into data, analyse, and discover patterns/root causes. Generate insights. \u2022 Design accurate and scalable prediction algorithms \u2022 Using your project management skills to work on multiple projects simultaneously \u2022 Designing and implementing processes to boost our performance . Essential skills: \u2022 Basic statistical modelling knowledge \u2022 Strong attention to detail with excellent problem-solving skills \u2022 Hands on experience on R/Python and SAS/SQL \u2022 Passionate about latest technology trends with a desire for innovation \u2022 Self-motivated, self-managing and able to work independently. Good communication skills Good to have skills: \u2022 Experience with patient level data or big data of any kind \u2022 Some experience in developing and supporting Machine Learning solutions \u2022 Academic Requirements: \u25cb UG: 70% required, 88.3% achieved \u25cb Class X: 70% required, 82% achieved \u25cb Class XII: 70% required, 79.6% achieved \u2022 PG/Dual Degree: Not applicable Selection Process: Round 1: Pre-placement Talk Round 2: Online Assessment (MCQs on Logical Reasoning & SQL, 2 SQL Code, 2 DSA que) 2HRs Round 3: Communication Test (Online) Round 4: Technical Interview Round 5: HR Round",
         "Keys": [
             {
-                "key": "Job Role",
-                "value": "Software Developer, Software Intern (KDU-er)"
+                "key": "ctc",
+                "value": 12
             },
             {
-                "key": "CTC",
-                "value": 16
+                "key": "role",
+                "value": "Analyst"
             },
             {
-                "key": "Stipend",
-                "value": 35000
-            },
-            {
-                "key": "Location",
-                "value": "Bengaluru"
-            },
-            {
-                "key": "Eligibility",
-                "value": "CS/IT group with 80% and above in their academics throughout. No backlogs."
-            },
-            {
-                "key": "Roles",
-                "value": "Develop complex web applications with responsive design techniques and industry-leading UX Translate design mock-ups and prototypes into working applications Work on cloud-based architectures that are highly scalable, available, and performant Work with agile methodology using cutting-edge DevOps tools & technologies Focus on code quality and deliver projects with high business impact"
-            },
-            {
-                "key": "Java",
-                "value": "Present"
-            },
-            {
-                "key": "Selection Process",
-                "value": "Round 1: Online Assessment (2 Coding Que) 2HRs Round 2: Technical Interview I Round 3: Culture Round Round 4: HR Interview"
+                "key": "percent",
+                "value": 70
             }
         ]
     },
     {
-        "Name": "HSBC",
-        "description": "HSBC HSBC Job Role: Software Development Engineer CTC: 9 LPA Interview Location: Pune Job Location: Pune / Hyderabad / Bangalore, subject to business requirements. Role: \u2022 Strong foundation in software development engineering, with proficiency in at least one object- oriented programming language such as Java, Python, etc. \u2022 Various OS like Android, Linux, and Databases like relational and no-SQL. \u2022 Liaising with business users, architects and other stakeholders in designing, implementing and maintaining best-in-class (scalable, loosely coupled and efficient) solutions which can run seamlessly across platforms/mobile/internet/cloud. \u2022 Continuous Integration (CI)/ Continuous Deployment (CD) pipeline and Agile methodology. \u2022 Any of Mobile, Analytics, Cloud and Digital technology domains. \u2022 Ability to design and implement solutions which can run on-prem, hybrid and multi-cloud ecosystems such as GCP, AWS, Azure, Ali Cloud. \u2022 Ability to harness open-source development thus leveraging collective wisdom and learning \u2022 Understanding of cyber threats/ vulnerabilities and applying secure coding standards and associated protocols. \u2022 Ability to leverage industry best integration patterns and practices to integrate multiple existing/ new building blocks for seamless end-to-end customer experience. \u2022 Developing, maintaining, and supporting current systems for better efficacy and higher availability. Selection Process: Round 1: Aptitude + Technical (75 Minutes) & Coding assessment (30 Minutes) Only the students who clear the Aptitude + Technical assessment, will be able to appear for the coding test. Round 2: Technical Interview (Pune) Round 3: HR Interview Eligibility Criteria: Min. 60% or 6.00 CGPA throughout (10th / 12th / Diploma / B.E. / B.Tech), No Live Backlog.",
+        "Name": "Varroc",
+        "description": "It gives me great pleasure to introduce Varroc as a GLOBAL LEADER IN AUTOMOTIVE COMPONENTS. Varroc is a global tier-1 automotive component company. We commenced operations in India with our Polymer business in 1990 We design, manufacture, and supply exterior lighting systems, plastic and polymer components, electrical-electronics components, and precision metallic components to passenger car, commercial vehicle, two-wheeler, three-wheeler and off-highway vehicle (\u201cOHV\u201d) OEMs directly worldwide. Job Description Graduate Engineer Trainee CTC: 11.5 LPA Selection Process(Online):- 1. 10th/12th percentage based resume shortlisting. 2. Aptitude: Reasoning Ability Verbal Ability Pseudo Code Puzzle Solving English Ability and Core Subjects Test (As per branch) (Not Proctored). 3. Technical Interview ( core ques, technical ques, CN, Managerial) Round 1 technical Round 2- Managerial Round 3 - HR Eligibility: B.Tech- CS group, IT, EC, EN, IND, EE, Mech 10th: 85% 12th : 75% Degree: 7 CGPA No live or dead backlog No gap year",
         "Keys": [
             {
-                "key": "Job Role",
-                "value": "Software Development Engineer"
+                "key": "ctc",
+                "value": 11.5
             },
             {
-                "key": "CTC",
-                "value": 9
+                "key": "role",
+                "value": "Graduate Engineer Trainee"
             },
             {
-                "key": "Location",
-                "value": "Pune / Hyderabad / Bangalore"
+                "key": "branch_1",
+                "value": "CS"
             },
             {
-                "key": "Roles",
-                "value": "Strong foundation in software development engineering, with proficiency in at least one object- oriented programming language such as Java, Python, etc. Various OS like Android, Linux, and Databases like relational and no-SQL. Liaising with business users, architects and other stakeholders in designing, implementing and maintaining best-in-class (scalable, loosely coupled and efficient) solutions which can run seamlessly across platforms/mobile/internet/cloud. Continuous Integration (CI)/ Continuous Deployment (CD) pipeline and Agile methodology. Any of Mobile, Analytics, Cloud and Digital technology domains. Ability to design and implement solutions which can run on-prem, hybrid and multi-cloud ecosystems such as GCP, AWS, Azure, Ali Cloud. Ability to harness open-source development thus leveraging collective wisdom and learning Understanding of cyber threats/ vulnerabilities and applying secure coding standards and associated protocols. Ability to leverage industry best integration patterns and practices to integrate multiple existing/ new building blocks for seamless end-to-end customer experience. Developing, maintaining, and supporting current systems for better efficacy and higher availability."
+                "key": "branch_2",
+                "value": "IT"
             },
             {
-                "key": "Java",
-                "value": "Present"
+                "key": "branch_3",
+                "value": "EC"
             },
             {
-                "key": "Selection Process",
-                "value": "Round 1: Aptitude + Technical (75 Minutes) & Coding assessment (30 Minutes) Only the students who clear the Aptitude + Technical assessment, will be able to appear for the coding test. Round 2: Technical Interview (Pune) Round 3: HR Interview"
+                "key": "branch_4",
+                "value": "EN"
             },
             {
-                "key": "Eligibility",
-                "value": "Min. 60% or 6.00 CGPA throughout (10th / 12th / Diploma / B.E. / B.Tech), No Live Backlog."
+                "key": "cgpa",
+                "value": 7
+            }
+        ]
+    },
+    {
+        "Name": "Tech Mahindra",
+        "description": "TECH mahindra CTC: 3.25 / 4 - 5.5 LPA Supercoder selection: \u2022 Candidates who excel academically & perform well in the selection process (excluding HR round) will qualify for consideration in the Supercoder cadre selection. \u2022 Eligible candidates will then take the Supercoder test, and those who pass will be designated as Supercoders. \u2022 Eligibility: CS/IT group. Selection process: 1. Aptitude Test: (90 min) 2. Reasoning Ability, Verbal Ability, Pseudo Code, Puzzle Solving, English Ability, English Essay/Story, Conversational Test. 3. Technical & Psychometric Test (technical MCQ, 2 coding test - 60 min) 4. Verbal Communication Test (SWAR) 5. Technical Interview 6. HR Interview Eligibility 70% or 7 CGPA (Without Rounding-up) in 10th, 12th /Diploma (in case done) No Active Backlog There should not be a gap of more than one year. Upon Selection \u2022 Candidate will be on probation for 6 months \u2022 Candidate clearing the regular selection process would become eligible for CTC of INR 3.25 L /Annum \u2022 COE Students will get 4 LPA. Only those who clear COE Exit Tests. \u2022 Candidate successfully passing the Supercoder selection process would become eligible for CTC of INR 5.5 L /Annum \u2022 Candidates will have to sign an indemnity bond for INR 1 L for a mandatory service period of 2 years from date of joining the company.",
+        "Keys": [
+            {
+                "key": "ctc_min",
+                "value": 3.25
             },
             {
-                "key": "B.E/B.Tech",
-                "value": "Present"
+                "key": "ctc_max",
+                "value": 5.5
+            },
+            {
+                "key": "branch_1",
+                "value": "CS"
+            },
+            {
+                "key": "branch_2",
+                "value": "IT"
+            },
+            {
+                "key": "cgpa",
+                "value": 7
+            },
+            {
+                "key": "percent",
+                "value": 70
             }
         ]
     }

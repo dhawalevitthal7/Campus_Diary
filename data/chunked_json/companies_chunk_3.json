@@ -1,237 +1,133 @@
 [
     {
-        "Name": "Nvidia",
-        "description": "Nvidia NVIDIA Job Role: QA Tool and Test Development Intern. Stipend : 40k Location : Pune, Bangalore, Hyderabad What you will be doing: \u2022 The intern will help us build tools/utility /frameworks in C/C#/C++ that would automate and accelerate testing work\u00c6ows in the \u00c5elds of Autonomous Vehicles, Robotics, 3D Simulation Platforms, GPU drivers, Cloud Computing and AI. \u2022 As a QA Tools and Test Development Intern at NVIDIA, you will collaborate with a team of talented engineers tackling some of the most complex challenges in cutting-edge technology. Mentored by the best minds in the industry, they will have the opportunity to make meaningful contributions to exciting and impactful projects. What we need to see: \u2022 Pursuing a graduate engineering course in Computer Science/ IT with strong academics. \u2022 Good Communication skills (interpersonal and across teams). \u2022 Excellent analytical and problem-solving skills. \u2022 Very organized, proactive, and has good learning ability. \u2022 Languages - C++/C#/.Net/Python \u2022 Ability to apply Object Oriented Programming concepts and Data structures knowledge Knowledge of SQL/NoSQL Database management tools \u2022 Ability to build applications using Generative AI APIs would be a plus \u2022 Would be a plus to have hands-on experience in development of Web Application (ASP.Net, MVC, web services). Skills to be Assessed : C++, C# Programming, Python, Linux, OOPS, DS, AI/ML/DL/Gen AI. Selection Process: Round 1: Online Assessment (Technical and Logic ques on HackerRank) Programming: Questions on C, VHDL, and Verilog programming Computer architecture: Questions on finite state machines, flip flop timing, and low power design Data compression: Questions on data compression and binary representations. Circuit design: Questions on circuit design using half/full adders. Clocks: Questions on clocks. Round 2: Technical Interview Round 3: HR Interview Eligibility Criteria: Min 80% in overall academics (10th, 12th, Graduation). CS/IT group only. No Live Backlog.",
+        "Name": "Schneider Electric",
+        "description": "Schneider Electric CTC: 12.5 LPA, Stipend: 35k Job Location: Mysore, Mumbai, Ahmednagar or Vadodara Responsibilities \u2022 Design & development of Low voltage Switchgear products like Air Circuit breakers, Molded Case Circuit Breakers, Contactors, Relays, and Starters etc. \u2022 Understanding the technological trends, demand, customer preferences and competitors' strategy \u2022 Get conversant with latest design trends in L.V. switchgear products. \u2022 Develop fair idea/ knowledge of engineering plastics and contact materials, their properties, characteristics used in switchgears \u2022 Understand and apply Indian and International Standards on L.V. Switchgear and their Testing. Qualifications Business / Soft Skills: \u2022 Must have solid presentation, communication and inter-personalskills. \u2022 Should be able to work in a cross cultural and cross functional global environment. \u2022 Have a logical mindset for problem solving and precision driven, innovative solutioning. \u2022 Should possess a keen interest in learning new technologies. \u2022 Should be adaptable with changing trends and driven to enhance business and technological acumen \u2022 Should be able to manage multiple priorities in a fast-paced environment. \u2022 An excellent attention to details. Technology Skills and Project/Internship Experience: \u2022 Manufacturing process knowledge, PFMEA, Statistical techniques \u2022 Strong knowledge of Microsoft applications (Excel, Word, Teams etc.) \u2022 Good knowledge of the design & development process \u2022 Ability to showcase Data Analysis skills, Problem-solving capabilities with Logical interpretation and reasoning. \u2022 Exposure to business world through projects/Internships is a plus. Selection Process: Round 1: Written test (60 Min) No of questions :40 No of sections :2 (Technical and General Aptitude, Memory Based Question) Technical based on your core subjects. Round 2: Technical Interview (technical questions, Core ques, Resume based questions, Project related questions) Round 3: HR Interview Eligibility Criteria Should have 65% and above in X, XII, Graduation No Live Backlog B.E./B. Tech in Electrical/Electrical & Electronics/Electronics & Communication",
         "Keys": [
             {
-                "key": "Job Role",
-                "value": "QA Tool and Test Development Intern."
+                "key": "ctc",
+                "value": 12.5
             },
             {
-                "key": "Stipend",
-                "value": 40000
+                "key": "stipend",
+                "value": 35
             },
             {
-                "key": "Location",
-                "value": "Pune, Bangalore, Hyderabad"
+                "key": "location_1",
+                "value": "Mysore"
             },
             {
-                "key": "AI",
-                "value": "Present"
+                "key": "location_2",
+                "value": "Mumbai"
             },
             {
-                "key": "Questions C, C++",
-                "value": "Present"
+                "key": "location_3",
+                "value": "Ahmednagar"
             },
             {
-                "key": "HackerRank",
-                "value": "Present"
+                "key": "location_4",
+                "value": "Vadodara"
             },
             {
-                "key": "Selection Process",
-                "value": "Round 1: Online Assessment (Technical and Logic ques on HackerRank) Programming: Questions on C, VHDL, and Verilog programming Computer architecture: Questions on finite state machines, flip flop timing, and low power design Data compression: Questions on data compression and binary representations. Circuit design: Questions on circuit design using half/full adders. Clocks: Questions on clocks. Round 2: Technical Interview Round 3: HR Interview"
+                "key": "percent",
+                "value": 65
             },
             {
-                "key": "Eligibility",
-                "value": "Min 80% in overall academics (10th, 12th, Graduation). CS/IT group only. No Live Backlog."
+                "key": "branch_1",
+                "value": "Electrical"
             },
             {
-                "key": "skills",
-                "value": "C++, C# Programming, Python, Linux, OOPS, DS, AI/ML/DL/Gen AI."
+                "key": "branch_2",
+                "value": "Electrical & Electronics"
             },
             {
-                "key": "requirements",
-                "value": "Pursuing a graduate engineering course in Computer Science/ IT with strong academics. Good Communication skills (interpersonal and across teams). Excellent analytical and problem-solving skills. Very organized, proactive, and has good learning ability. Languages - C++/C#/.Net/Python Ability to apply Object Oriented Programming concepts and Data structures knowledge Knowledge of SQL/NoSQL Database management tools Ability to build applications using Generative AI APIs would be a plus Would be a plus to have hands-on experience in development of Web Application (ASP.Net, MVC, web services)."
+                "key": "branch_3",
+                "value": "Electronics & Communication"
             }
         ]
     },
     {
-        "Name": "Amadeus",
-        "description": "At Amadeus, fresh graduates bring new perspectives and are seen as key contributors to the organization's technical and leadership growth. With Amadeus processing millions of transactions daily, system reliability and performance are critical. We ensure customer satisfaction by delivering on their needs effectively. Fresh graduates are absorbed into various divisions based on their skills and interview evaluations. To prepare them, all graduate engineers undergo an intensive 6\u20138 week training program, equipping them with the technical skills required for their roles. Designation: Software Engineer \u0421\u0422\u0421: 12,62,218/- Location: Bangalore/Pune Skill set 1: Java/J2EE A Java/J2EE developer is primarily a Back-end developer at Amadeus. You will be working on high volume production systems for the development and maintenance of Booking Engine which is a single set of code across a range of Amadeus E-Commerce products. This code is very critical because a slight error might block the airlines/travel agents for processing the booking or ticketing. A Software developer is involved in many activities like: Define user requirements for development or improvement of software solutions Design technical solutions and perform feasibility studies Innovate: Think out of the box and practice innovation in his/her daily tasks. Propose and develop innovative solutions to the problems. Propose viable technical solutions to Product Management and users for validation Conduct unit, package and performance tests of the software and ensure a level of quality Design and implement databases as necessary Produce software documentation for the application and issue it Support the end user in the Production phase by debugging existing software solutions in response to Problem Tracking Records and Change Requests issued from Product Management or Product Definition Main technical expertise on which the candidate will be trained on: Core Java with J2EE experience JUnits, Design Patterns, Struts, Spring MVC or any other framework JSPs, Servlets, EJBs, DB, XML, WebServices etc. WebLogic, Ant/Maven Skill set 2: Java/UI A UI developer works on a presentation layer which is the layer mostly exposed to the customer. The more sturdy and intuitive it is; the more satisfied our customer is. The skills which a candidate develops are very niche and give them a clear advantage over other technical profiles. An engineer who can think UI and brings in innovation in his daily work. A very demanding position with skill set varying: JQuery/ExtJS/YUI/DOJO or a similar JS framework DataBase, ClearCase, WebLogic, Ant/Maven etc JavaScript, OOJS CSS, HTML, AJAX, DOM, JSPs etc Core Java/ J2EE experience is desirable Skill set 3: C/C++ There are multiple work streams in Amadeus Labs, Bangalore who are focusing on core work areas where we need expert C/C++ developers. A Software developer is involved in many activities like: Define user requirements for development or improvement of software solutions Design technical solutions and perform feasibility studies Innovate: Think out of the box and practice innovation in his/her daily tasks. Propose and develop innovative solutions to the problems. Propose viable technical solutions to Product Management and users for validation Conduct unit, package and performance tests of the software and ensure a level of quality Design and implement databases as necessary Produce software documentation for the application and issue it Support the end user in the Production phase by debugging existing software solutions in response to Problem Tracking Records and Change Requests issued from Product Management or Product Definition Technical/Technical Skills UNIX/ Linux, shell scripting Strong knowledge of OOPS and coding with C++, design-patterns. Database modeling, Oracle, Oracle BI, optimization techniques. Good knowledge of development of a distributed system and of distributed algorithms Experience of Oracle environment and optimization techniques is a plus Experience in multithreaded programming is a plus Skill Set 4 :Dev Ops The DevOps engineer plays a key role to implement and support innovative solutions for operational requirements. The scope of the role will encompass process automation solutions for the highly demanding Amadeus operational business domain. The DevOps Engineer will be involved in activities like Building DevOps CI/CD pipeline using relevant tools Experience with systems and IT operations Performing frequent, incremental code testing and deployment Build various version of scripts/codes and release them on time, maintain source repositories, different branches Monitor the application, quickly resolve if any issue on production environments Involve in Release Management, Source code management, Software configuration management. Technical aspects on which you will gain expertise- Ability to use and adapt a variety of open source technologies and tools (Puppet, Ansible, IAAS, PAAS, Kubernetes) Ability to code Hadoop related code as map/reduce Ability to code and script (java, C++, php, python, perl, Ruby...) Linux servers, Cloudera's Hadoop distribution (CDH),Bash or Python scripting Automated configuration tools: Ansible, Puppet Enterprise Linux(RHEL) family of distributions Continues Integration/Deployment tool: Jenkins, Visual Studio team services (VSTS by Microsoft) Version Control tool \u2013 GIT Scripting Language: Python, Perl, Shell Cloud Server: Microsoft Azure, Amazon- AWS, Google Cloud Selection Process(In Campus): - Round 1:Pre-placement Talk Round 2:Hackerrank Technical Test (Nodejs. js. Ruby, Networking, Cloud, Java, React, OOPs) 90 mins Round 3: Aptitude Test (Logical Reasoning and Data Interpretation and English Comprehension) Test 60 mins Round 4: Technical Interview. Round 5: HR Interview Eligibility: B.Tech CS/IT group & ECE 80% and above throughout the academic journey (10th, 12th, CGPA) No live backlog.",
+        "Name": "Cognida.ai",
+        "description": "Cognida.ai is an AI-first solutions company specializing in Practical AI and Predictive Analytics for Enterprises. Cognida.ai helps enterprises capitalize their most strategic asset\u2014Data\u2014to strengthen their competitive advantage. CTC: 7 LPA Location: Hyderabad Selection Process: Round 1: Online coding challenge 12 Ques (Easy, medium, Hard) Round 2: Technical interviews Round 3: HR discussions. Eligibility Criteria Aggregate of 70 % / 7 CGPA and above NO Live Backlog",
         "Keys": [
             {
-                "key": "HackerRank",
-                "value": "Hackerrank Technical Test"
+                "key": "ctc",
+                "value": 7
             },
             {
-                "key": "B.E/B.Tech",
-                "value": "B.Tech CS/IT group & ECE"
+                "key": "location_1",
+                "value": "Hyderabad"
             },
             {
-                "key": "Oracle",
-                "value": "Oracle, Oracle BI"
+                "key": "cgpa",
+                "value": 7
             },
             {
-                "key": "DevOps",
-                "value": "Skill Set 4 :Dev Ops; Building DevOps CI/CD pipeline"
-            },
-            {
-                "key": "training program",
-                "value": "intensive 6\u20138 week training program"
-            },
-            {
-                "key": "Innovate",
-                "value": "Innovate: Think out of the box and practice innovation in his/her daily tasks. Propose and develop innovative solutions to the problems.; Innovate: Think out of the box and practice innovation in his/her daily tasks. Propose and develop innovative solutions to the problems."
-            },
-            {
-                "key": "Java",
-                "value": "Java/J2EE; Core Java; Core Java/ J2EE experience; java"
-            },
-            {
-                "key": "J2EE",
-                "value": "Java/J2EE; Core Java with J2EE experience; Core Java/ J2EE experience"
-            },
-            {
-                "key": "Design Patterns",
-                "value": "Design Patterns; design-patterns."
-            },
-            {
-                "key": "Spring MVC",
-                "value": "Spring MVC"
-            },
-            {
-                "key": "XML",
-                "value": "XML"
-            },
-            {
-                "key": "WebServices",
-                "value": "WebServices"
-            },
-            {
-                "key": "WebLogic",
-                "value": "WebLogic"
-            },
-            {
-                "key": "DOM",
-                "value": "DOM"
-            },
-            {
-                "key": "skills",
-                "value": "skills; technical skills required for their roles; technical expertise on which the candidate will be trained on: Core Java with J2EE experience; JUnits, Design Patterns, Struts, Spring MVC or any other framework; JSPs, Servlets, EJBs, DB, XML, WebServices etc. WebLogic, Ant/Maven; skills; skill set varying: JQuery/ExtJS/YUI/DOJO or a similar JS framework; DataBase, ClearCase, WebLogic, Ant/Maven etc; JavaScript, OOJS CSS, HTML, AJAX, DOM, JSPs etc; Core Java/ J2EE experience is desirable; Technical/Technical Skills UNIX/ Linux, shell scripting; Strong knowledge of OOPS and coding with C++, design-patterns.; Database modeling, Oracle, Oracle BI, optimization techniques.; Good knowledge of development of a distributed system and of distributed algorithms; Experience of Oracle environment and optimization techniques is a plus; Experience in multithreaded programming is a plus; Technical aspects on which you will gain expertise- Ability to use and adapt a variety of open source technologies and tools (Puppet, Ansible, IAAS, PAAS, Kubernetes); Ability to code Hadoop related code as map/reduce; Ability to code and script (java, C++, php, python, perl, Ruby...); Linux servers, Cloudera's Hadoop distribution (CDH),Bash or Python scripting; Automated configuration tools: Ansible, Puppet; Enterprise Linux(RHEL) family of distributions; Continues Integration/Deployment tool: Jenkins, Visual Studio team services (VSTS by Microsoft); Version Control tool \u2013 GIT; Scripting Language: Python, Perl, Shell; Cloud Server: Microsoft Azure, Amazon- AWS, Google Cloud"
-            },
-            {
-                "key": "requirements",
-                "value": "user requirements; user requirements; operational requirements"
-            },
-            {
-                "key": "Roles",
-                "value": "Software Engineer"
-            },
-            {
-                "key": "CTC",
-                "value": 1262218
-            },
-            {
-                "key": "Job Role",
-                "value": "Software Engineer"
-            },
-            {
-                "key": "Selection Process",
-                "value": "Round 1:Pre-placement Talk Round 2:Hackerrank Technical Test (Nodejs. js. Ruby, Networking, Cloud, Java, React, OOPs) 90 mins Round 3: Aptitude Test (Logical Reasoning and Data Interpretation and English Comprehension) Test 60 mins Round 4: Technical Interview. Round 5: HR Interview"
-            },
-            {
-                "key": "Eligibility",
-                "value": "B.Tech CS/IT group & ECE 80% and above throughout the academic journey (10th, 12th, CGPA) No live backlog."
-            },
-            {
-                "key": "Location",
-                "value": "Bangalore/Pune"
-            },
-            {
-                "key": "Responsibilities",
-                "value": "Define user requirements for development or improvement of software solutions; Design technical solutions and perform feasibility studies; Innovate: Think out of the box and practice innovation in his/her daily tasks. Propose and develop innovative solutions to the problems.; Propose viable technical solutions to Product Management and users for validation; Conduct unit, package and performance tests of the software and ensure a level of quality; Design and implement databases as necessary; Produce software documentation for the application and issue it; Support the end user in the Production phase by debugging existing software; solutions in response to Problem Tracking Records and Change Requests issued from; Product Management or Product Definition; Define user requirements for development or improvement of software solutions; Design technical solutions and perform feasibility studies; Innovate: Think out of the box and practice innovation in his/her daily tasks. Propose; and develop innovative solutions to the problems.; Propose viable technical solutions to Product Management and users for validation; Conduct unit, package and performance tests of the software and ensure a level of; quality; Design and implement databases as necessary; Produce software documentation for the application and issue it; Support the end user in the Production phase by debugging existing software; solutions in response to Problem Tracking Records and Change Requests issued from; Product Management or Product Definition; Building DevOps CI/CD pipeline using relevant tools; Experience with systems and IT operations; Performing frequent, incremental code testing and deployment; Build various version of scripts/codes and release them on time, maintain source repositories, different branches; Monitor the application, quickly resolve if any issue on production environments; Involve in Release Management, Source code management, Software configuration; management."
-            },
-            {
-                "key": "Skill set",
-                "value": "Skill set 1: Java/J2EE; Skill set 2: Java/UI; Skill set 3: C/C++; Skill Set 4 :Dev Ops"
+                "key": "percent",
+                "value": 70
             }
         ]
     },
     {
-        "Name": "GlobalLogic",
-        "description": "GlobalLogic, a Hitachi Group Company, is a leader in digital product engineering. We help our clients design and build innovative products, platforms, and digital experiences for the modern world. By integrating our strategic design, complex engineering, and vertical industry expertise with Hitachi's Operating Technology and Information Technology capabilities, we help our clients imagine what's possible and accelerate their transition into 'tomorrow's' digital businesses. Headquartered in Silicon Valley. In 2021, GlobalLogic was acquired by Hitachi Ltd. GlobalLogic's capabilities, combined with Hitachi's Lumada, enables us to deploy Hitachi's extensive library of digital solutions to the global market and to help customers and societies solve their issues through Agile application development in the cloud. CTC: 5.66 LPA Eligibility Criteria: Above 60 percent in Class X, XII, and Graduation No backlogs are allowed. A gap of up to one year is allowed. Domains: \u2022 GenAI \u2022 Java \u2022 .Net \u2022 Embed Selection Process: Round 1: Online Assessment (2Hr) Aptitude Round Query Correction (PostgreSQL) Query Writing (PostgreSQL) Coding Round Writing Section Round 2: Technical Interview (30 mins) Round 3: Managerial Interview (40 - 60 mins) Round 3: HR & Result (30 mins) Evaluation Criteria - \u2192 Minimum of 60% throughout academic career Should be from CSE,ECE,IT,ETC,ISE,DSE,EEE,EE,E&I,AI/ML Should not have any backlogs Should be in the 5th or 6th semester only \u2192 For evaluation of students Technical Assessment - Students will be assessed on Coding and Programming, Problem solving skills, Logical reasoning, Computer Fundamentals, English Proficiency and Next-gen skills \u25c6 In-Person Technical Evaluation - Students will be interviewed on their existing skills and expertise and on newly acquired skills through IAP In-Person Managerial Round - Overall technical and cultural fit to be assessed during this round Behavioral Round - Behavioral aspects of the candidates to be assessed during this round along with explaining role designation/career path/ compensation/ general policies and addressing any other query the candidate might have.",
+        "Name": "SOFTLINK INTERNATIONAL",
+        "description": "CTC: 6 LPA Role: Trainee Software Engineer Location - Pune Job Description of Trainee Software Engineer Coding and development of Software modules, Unit testing, Quality assurance, Release and implementation, Installation and Support. Technologies C#.NET, ASP.Net MVC, .Net Core, Xamarin, SQL, HTML5, Visual C/C++, Web Technologies Career Roadmap - Trainee Software Engineer -> Software Engineer -> Sr. Software Engineer -> Team Lead -> Product / Project Manager Selection Process: (Every round is an elimination round) Round 1:InCampus online Assessment (Aptitude 60 MCQ) 60 mins Round 2: Group Discussion Round 3: Technical Interview Round 4: HR Interview Eligibility Criteria: CS/IT group, ECE, EN SSC & HSC: Minimum 80% and above Important: Diploma holders with a 3-year degree will NOT be eligible. No gap in edu. allowed. Note: Company has minimum 2.5 years bond tenure and 6 months' probation.",
         "Keys": [
             {
-                "key": "multinational company",
-                "value": "a Hitachi Group Company"
+                "key": "ctc",
+                "value": 6
             },
             {
-                "key": "Java",
-                "value": "Java"
+                "key": "role",
+                "value": "Trainee Software Engineer"
             },
             {
-                "key": "skills",
-                "value": "existing skills and expertise; Next-gen skills; Coding and Programming, Problem solving skills, Logical reasoning, Computer Fundamentals, English Proficiency; existing skills and expertise; newly acquired skills"
+                "key": "location_1",
+                "value": "Pune"
             },
             {
-                "key": "CTC",
-                "value": 566000
+                "key": "branch_1",
+                "value": "CS"
             },
             {
-                "key": "Selection Process",
-                "value": "Round 1: Online Assessment (2Hr) Aptitude Round Query Correction (PostgreSQL) Query Writing (PostgreSQL) Coding Round Writing Section Round 2: Technical Interview (30 mins) Round 3: Managerial Interview (40 - 60 mins) Round 3: HR & Result (30 mins)"
+                "key": "branch_2",
+                "value": "IT"
             },
             {
-                "key": "Eligibility",
-                "value": "Eligibility Criteria: Above 60 percent in Class X, XII, and Graduation No backlogs are allowed. A gap of up to one year is allowed."
+                "key": "branch_3",
+                "value": "ECE"
             },
             {
-                "key": "Compensation",
-                "value": "compensation"
+                "key": "branch_4",
+                "value": "EN"
             },
             {
-                "key": "Domains",
-                "value": "GenAI; Java; .Net; Embed"
-            },
-            {
-                "key": "Evaluation Criteria",
-                "value": "Minimum of 60% throughout academic career Should be from CSE,ECE,IT,ETC,ISE,DSE,EEE,EE,E&I,AI/ML Should not have any backlogs Should be in the 5th or 6th semester only; For evaluation of students Technical Assessment - Students will be assessed on Coding and Programming, Problem solving skills, Logical reasoning, Computer Fundamentals, English Proficiency and Next-gen skills; In-Person Technical Evaluation - Students will be interviewed on their existing skills and expertise and on newly acquired skills through IAP; In-Person Managerial Round - Overall technical and cultural fit to be assessed during this round; Behavioral Round - Behavioral aspects of the candidates to be assessed during this round along with explaining role designation/career path/ compensation/ general policies and addressing any other query the candidate might have."
+                "key": "percent",
+                "value": 80
             }
         ]
     },
     {
-        "Name": "Bristlecone",
-        "description": "Bristlecone is a leading provider of AI-powered application transformation services for the digital supply chain. Recognized as one of the Top 10 leaders in supply chain solutions, Bristlecone empowers customers with speed, visibility, automation, and resiliency to thrive in a dynamic environment. By combining industry focus, supply chain expertise, a consulting-driven approach, and proprietary accelerators, Bristlecone delivers unmatched business value. As part of the $20.7 billion Mahindra Group, Bristlecone fosters a high-performing culture that values innovation and offers excellent learning and growth opportunities. Role: Associate Engineer CTC: 4.25 LPA Experience & Expectation: \u2022 Knowledge of fundamentals of analytics. \u2022 Knowledge on latest trends and technologies in Analytics e.g. Predictive Analytics \u2022 Knowledge / experience in any analytical tool/technology. \u2022 Knowledge / experience in integration with Cloud applications. \u2022 Experience in collaboration with different domains (functions) within and third-party Partners (Vendors). Key responsibilities on this role may include but not be limited to: \u2022 Representing organization as an ambassador \u2022 Understanding and implementing SAP analytical applications at customer locations \u2022 Conceptualizing and developing SAP analytical solutions \u2022 Coordinate with business users and other IT departments to design, develop, implement, enhance, and maintain complex analytical solutions using various tools and technologies within SAP Space \u2022 SAP Functional Experience in modules like SAP SD, MM, PP and in Finance Module. \u2022 Supporting the delivery of Analytics projects. Supporting sales teams with pre-sales assistance including documentation, building custom demos, presenting to prospective customers etc. \u2022 Supporting business development, presales and GTM activities \u2022 Should be willing to learn new technologies around data engineering, data Science, cloud technologies, Testing strategies and concepts platform development and related areas. \u2022 Must have good understanding of new technology domains \u2013 AIML, DL, IA,RPA, BlockChain, Cloud Computing and DevOps. \u2022 Should have good understanding of Software Development Lifecycle and best Software Engineering practices. \u2022 Should be flexible and adaptable. \u2022 Willingness to adopt new emerging technologies.",
+        "Name": "Principal Global Services",
+        "description": "Position Title: Trainee Developer, this role is responsible for developing, testing and maintaining the application with established processes. Designation: Trainee Analyst CTC: 8 LPA, Stipend: 25k Location: Pune or Hyderabad Key Responsibilities: \u2022 Develop application code for programs while following coding standards \u2022 Develop and execute unit tests",
         "Keys": [
             {
-                "key": "multinational company",
-                "value": "part of the $20.7 billion Mahindra Group"
+                "key": "ctc",
+                "value": 8
             },
             {
-                "key": "DevOps",
-                "value": "DevOps"
+                "key": "stipend",
+                "value": 25
             },
             {
-                "key": "Innovate",
-                "value": "innovation"
+                "key": "role",
+                "value": "Trainee Developer"
             },
             {
-                "key": "skills",
-                "value": "Additional Skills"
+                "key": "location_1",
+                "value": "Pune"
             },
             {
-                "key": "Roles",
-                "value": "Associate Engineer"
-            },
-            {
-                "key": "CTC",
-                "value": 425000
-            },
-            {
-                "key": "Job Role",
-                "value": "Associate Engineer"
-            },
-            {
-                "key": "Experience & Expectation",
-                "value": "Knowledge of fundamentals of analytics.; Knowledge on latest trends and technologies in Analytics e.g. Predictive Analytics; Knowledge / experience in any analytical tool/technology.; Knowledge / experience in integration with Cloud applications.; Experience in collaboration with different domains (functions) within and third-party Partners (Vendors)."
-            },
-            {
-                "key": "Responsibilities",
-                "value": "Representing organization as an ambassador; Understanding and implementing SAP analytical applications at customer locations; Conceptualizing and developing SAP analytical solutions; Coordinate with business users and other IT departments to design, develop, implement, enhance, and maintain complex analytical solutions using various tools and technologies within SAP Space; SAP Functional Experience in modules like SAP SD, MM, PP and in Finance Module.; Supporting the delivery of Analytics projects.; Supporting sales teams with pre-sales assistance including documentation, building custom demos, presenting to prospective customers etc.; Supporting business development, presales and GTM activities; Should be willing to learn new technologies around data engineering, data Science, cloud technologies, Testing strategies and concepts platform development and related areas.; Must have good understanding of new technology domains \u2013 AIML, DL, IA,RPA, BlockChain, Cloud Computing and DevOps.; Should have good understanding of Software Development Lifecycle and best Software Engineering practices.; Should be flexible and adaptable.; Willingness to adopt new emerging technologies."
-            },
-            {
-                "key": "Key Responsibilities",
-                "value": "Representing organization as an ambassador; Understanding and implementing SAP analytical applications at customer locations; Conceptualizing and developing SAP analytical solutions; Coordinate with business users and other IT departments to design, develop, implement, enhance, and maintain complex analytical solutions using various tools and technologies within SAP Space; SAP Functional Experience in modules like SAP SD, MM, PP and in Finance Module.; Supporting the delivery of Analytics projects.; Supporting sales teams with pre-sales assistance including documentation, building custom demos, presenting to prospective customers etc.; Supporting business development, presales and GTM activities; Should be willing to learn new technologies around data engineering, data Science, cloud technologies, Testing strategies and concepts platform development and related areas.; Must have good understanding of new technology domains \u2013 AIML, DL, IA,RPA, BlockChain, Cloud Computing and DevOps.; Should have good understanding of Software Development Lifecycle and best Software Engineering practices.; Should be flexible and adaptable.; Willingness to adopt new emerging technologies."
+                "key": "location_2",
+                "value": "Hyderabad"
             }
         ]
     }

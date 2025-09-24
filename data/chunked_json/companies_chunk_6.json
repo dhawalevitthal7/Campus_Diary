@@ -1,97 +1,121 @@
 [
     {
-        "Name": "ALPHAWAVE SEMI",
-        "description": "ALPHAWAVE SEMIJob DescriptionLooking for self-driven, motivated and skilled engineers looking to get exposure to all sides of IC building processmore specifically DFT (Design for Testability) from high level architectural definition, through RTL coding,verification, Scan/MBIST/BSCAN insertion,pattern generation and validation, device bring-up for complex customsilicon and IP engagements.\u2022 As a DFT intern, candidate will have the opportunity to work in a fast-pacedenvironment on multiple projects in different design stages:\u2022 Develop RTL code for DFT components generation.\u2022 Integrate custom made DFT logic for complex SoCs (System-On-Chip) and CoWoS(Chip-On-Wafer-On-Substrate) designs.\u2022 Perform Scan/MBIST/BSCAN insertion.\u2022 Perform ATPG and coverage analysis, simulate zero delay and SDF annotated testsequences.\u2022 Build verification test benches and write verification sequences.\u2022 Review static timing analysis reports and SDCs generations.\u2022 Design and implement automation using Perl and/or Python.Why would you want to join our team:Ability to get exposure to all disciplines of TEST (DFT, ATPG, RTL, DV, Device Bring-up)in IC design process.No \"side kick\u201d tasks; you will be assigned a regular engineering scope of work.High possibility to get absorbed as the full-time engineer after internship subjectedto performance and open positions.QualificationsPursuing or Completed Bachelors or Master inElectronics/Electrical/Telecommunications/VLSI/Microelectronics Engineering onlywith 70% throughout in academics and zero active backlogs.Required skill set:o Strong Digital Fundamentalso Verilog and/or VHDL knowledgeo Basics of DFT and exposure to Tessent/Synopsys TEST tools is a plus.o Perl, Python, TCL experienceo C/C++, System Verilog is a plus.Desired Qualitieso Self-starter and curious to learn new things.o Target oriented and motivated to figure out solutions to new problems.o Collaborative, team playerInternship Details:\u2022 Eligibility:BTech/MTech in Electronics, Electrical, Telecommunications, VLSI, or Microelectronics Engineering\u2022 Minimum 70% academic score throughout No active backlogs\u2022 Position: Intern\u2022 Duration: 6 months to 1 year\u2022 Location: Bangalore/Pune\u2022 Stipend:INR 40,000 per month for BTech students\u25a0 INR 50,000 per month for MTech students",
+        "Name": "TIAA",
+        "description": "TIAAJob Title: Cyber-Security TraineeCTC: 10.48 LPALocation: PunePosition Summary:Describing below the primary purpose and function of this job:\u2022 TIAA India is looking for trainees under Cyber Internship Program with an objective of providing exposure toyoung and budding tech talent and providing an opportunity for them to get acquainted with the Corporateculture and insights into Technology.\u2022 Selected Candidates will have the opportunity for 10 Weeks of internship with Cyber Security team beforeonboarding them as full-time employees as Trainees.\u2022 The Trainee will be responsible for development, communication, implementation, enforcement andmonitoring of security controls to protect the organization's technology assets from intentional or inadvertentmodification, disclosure or destruction. The trainee is responsible for monitoring computer security proceduresand maintaining IT security policies, procedures and testing results.\u2022 The Trainee typically works as part of a project team or as an individual contributor under guidance from aMentor. The Trainee will communicate progress, resolve technical issues and work with the appropriate teamsfor solutions.Fundamental knowledge and conceptual understanding required for-\u2022 Working knowledge of Computers and IT Concepts like OS, Network, Databases, IT Systems and web applications\u2022 Cyber Security Concepts and Principles covering various cyber domains such as Security, Data protection, IT Risk and Governance, Security Operations, System Design and Architecture, Web ApplicationDevelopment, SDLC concepts, DevOps, Application security and vulnerability testing, Encryption and Cryptography,CWPP, CSPM, Identity & Access Management, Privilege access management, Security Monitoring and reporting.\u2022 Web development tools and scripting knowledge for Python, Bash, Shell, R, PowerShell, JSON, and others\u2022 Conceptual knowledge on emerging technologies \u2013 Blockchain, Quantum Computing, AI / ML, Severless, APIKey Duties & Responsibilities:The Trainee will attend a boot camp (an initial training program) as per the requirement where they will undergo atraining program focusing on TIAA Values & Behavior, Business domains, technology platforms, etc. After successfulcompletion of boot camp the Trainee will be aligned to any of the below mentioned cyber domains based on theiraspirations, project requirements and interview performance.\u2022 Threat Monitoring\u2022 Vulnerability Management\u2022 Defense-in-Depth practices to protect networks.\u2022 Threat Intelligence\u2022 Platform Security Engineering - Network Security, End Point Security and Cloud Security\u2022 IAM Operations\u2022 Cyber Custom Development\u2022 Cyber Fraud Investigator\u2022 EKM Engineering\u2022 Third Party information Security Risk managementEligibility Criteria:\u2022 Minimum 60% aggregate in 10th, 12th and Graduation\u2022 B.E/B.Tech in Cyber Security only",
         "Keys": [
             {
-                "key": "Job Description",
-                "value": "Looking for self-driven, motivated and skilled engineers looking to get exposure to all sides of IC building processmore specifically DFT (Design for Testability) from high level architectural definition, through RTL coding,verification, Scan/MBIST/BSCAN insertion,pattern generation and validation, device bring-up for complex customsilicon and IP engagements.\u2022 As a DFT intern, candidate will have the opportunity to work in a fast-pacedenvironment on multiple projects in different design stages:\u2022 Develop RTL code for DFT components generation.\u2022 Integrate custom made DFT logic for complex SoCs (System-On-Chip) and CoWoS(Chip-On-Wafer-On-Substrate) designs.\u2022 Perform Scan/MBIST/BSCAN insertion.\u2022 Perform ATPG and coverage analysis, simulate zero delay and SDF annotated testsequences.\u2022 Build verification test benches and write verification sequences.\u2022 Review static timing analysis reports and SDCs generations.\u2022 Design and implement automation using Perl and/or Python."
+                "key": "role",
+                "value": "Cyber-Security Trainee"
             },
             {
-                "key": "Qualifications",
-                "value": "Pursuing or Completed Bachelors or Master inElectronics/Electrical/Telecommunications/VLSI/Microelectronics Engineering onlywith 70% throughout in academics and zero active backlogs."
+                "key": "ctc",
+                "value": 10.48
             },
             {
-                "key": "Skill set",
-                "value": "Strong Digital Fundamentalso Verilog and/or VHDL knowledgeo Basics of DFT and exposure to Tessent/Synopsys TEST tools is a plus.o Perl, Python, TCL experienceo C/C++, System Verilog is a plus."
+                "key": "location_1",
+                "value": "Pune"
             },
             {
-                "key": "Eligibility",
-                "value": "BTech/MTech in Electronics, Electrical, Telecommunications, VLSI, or Microelectronics Engineering\u2022 Minimum 70% academic score throughout No active backlogs"
+                "key": "percent",
+                "value": 60
             },
             {
-                "key": "Location",
-                "value": "Bangalore/Pune"
-            },
-            {
-                "key": "Stipend",
-                "value": 40000
+                "key": "branch_1",
+                "value": "Cyber Security"
             }
         ]
     },
     {
-        "Name": "Adani Group",
-        "description": "adaniTMAbout Adani Group:Adani Group is one of the largest and fastest growing Conglomerate catering to a billion aspirations. The Group is a diversified organization in India with a market cap of over $133 Bn comprising 6 publicly traded companies. The company is a market leader in multiple sectors like Ports and Logistics, Power, Transmission, Renewables and Gas.CTC: 6LPAEligibility Criteria:\u2022 Engineering graduates from disciplines across- (B.E./B.Tech.) from within the following different engineering streams (Civil, Electrical, Mechanical, Electronics (C&I), E&C, CS/IT, Industrial)\u2022 Minimum of 60% marks throughout in academics (10th, 12th, and Graduation level till third year) with no history of backlogs throughout the educationSelection Process:1. Online assessment to evaluate candidates on their cognitive2. Domain ability followed by a technical and HR interview",
+        "Name": "Quantiphi",
+        "description": "quantiphiQuantiphiLocation: Mumbai/BangloreEligibility Criteria:CTC:\u2022 Branches - B.E, M.E, MCA, B.Tech & M.Tech\u2022 70% and above in 10th, 12th and Graduation (till now) with no-reappears/backlogs.1. Stipend 10K for 4 months and virtual internship2. Stipend 23K for 2 months and in person/hybrid internship3.CTC on FTE Conversion: 8.5 LPA (6.5 LPA - Fixed & 2 Lakhs - QCDP)Job Role: Data EngineerResponsibilities:\u2022 Work with business users and other stakeholders to understand business processes.\u2022 Ability to understand, design and implement Dimensions and Fact tables\u2022 Identify and implement data transformation/cleansing requirements\u2022 Profile source data to check data quality and develop Data Pipelines to implement ETL logic\u2022 Create and execute test plans debug existing Data Pipelines\u2022 Create data visualizations\u2022 Write SQL code-Queries/Stored Procedures/FunctionsRequirements:Strong SQL writing skills\u2022 Strong knowledge on Data Warehouse and ETL concepts\u2022 Familiarity with Kimball and Inmon Data Warehouse methodology Understand project-specific requirements,standards, guidelines, and processes\u2022 Demonstrated success working in a team-based environment\u2022 Good written/oral communication skills\u2022 Strong analytical and problem solving skillsJob Role: Business AnalystResponsibilities:\u2022 Participate in on-site and offshore engagements to deliver services to our client base.\u2022 Translate the business requirements into technical problems for the team and deliver technical solutions inbusiness terms to the client.",
         "Keys": [
             {
-                "key": "CTC",
-                "value": 600000
+                "key": "location_1",
+                "value": "Mumbai"
             },
             {
-                "key": "Eligibility",
-                "value": "Engineering graduates from disciplines across- (B.E./B.Tech.) from within the following different engineering streams (Civil, Electrical, Mechanical, Electronics (C&I), E&C, CS/IT, Industrial)\u2022 Minimum of 60% marks throughout in academics (10th, 12th, and Graduation level till third year) with no history of backlogs throughout the education"
+                "key": "location_2",
+                "value": "Banglore"
             },
             {
-                "key": "B.E/B.Tech",
-                "value": "B.E./B.Tech."
+                "key": "percent",
+                "value": 70
             },
             {
-                "key": "Selection Process",
-                "value": "1. Online assessment to evaluate candidates on their cognitive2. Domain ability followed by a technical and HR interview"
+                "key": "branch_1",
+                "value": "B.E"
+            },
+            {
+                "key": "branch_2",
+                "value": "M.E"
+            },
+            {
+                "key": "branch_3",
+                "value": "MCA"
+            },
+            {
+                "key": "branch_4",
+                "value": "B.Tech"
+            },
+            {
+                "key": "stipend_min",
+                "value": 10
+            },
+            {
+                "key": "stipend_max",
+                "value": 23
+            },
+            {
+                "key": "ctc",
+                "value": 8.5
+            },
+            {
+                "key": "role",
+                "value": "Data Engineer"
             }
         ]
     },
     {
-        "Name": "CEAT Tyres",
-        "description": "CEATCEAT TyresAbout CEAT - Founded in 1958, CEAT is one of India's leading tyre brands and the flagship company of the RPGGROUP . Driven by the purpose of helping the world move safely and smartly, CEAT provides world-class productsand services across 110+ countries.Job Role: GET(Graduate Engineering Trainee)\u2022 Functions \u2013Manufacturing, Production\u2022 Package \u2013 6 LPA ( CTC will be revised post confirmation after 1 yr)",
+        "Name": "Schneider Electric",
+        "description": "Schneider Electric CTC: 12.5 LPA, Stipend: 35k Job Location: Mysore, Mumbai, Ahmednagar or Vadodara Responsibilities \u2022 Design & development of Low voltage Switchgear products like Air Circuit breakers, Molded Case Circuit Breakers, Contactors, Relays, and Starters etc. \u2022 Understanding the technological trends, market demands, customer preferences and competitors' strategy \u2022 Get conversant with latest design trends in L.V. switchgear products. \u2022 Develop fair idea/ knowledge of engineering plastics and contact materials, their properties, characteristics used in switchgears \u2022 Understand and apply Indian and International Standards on L.V. Switchgear and their Testing. Qualifications Business / Soft Skills: \u2022 Must have solid presentation, communication and inter-personalskills. \u2022 Should be able to work in a cross cultural and cross functional global environment. \u2022 Have a logical mindset for problem solving and precision driven, innovative solutioning. \u2022 Should possess a keen interest in learning new technologies. \u2022 Should be adaptable with changing trends and driven to enhance business and technological acumen \u2022 Should be able to manage multiple priorities in a fast-paced environment. \u2022 An excellent attention to details. Technology Skills and Project/Internship Experience: \u2022 Manufacturing process knowledge, PFMEA, Statistical techniques \u2022 Strong knowledge of Microsoft applications (Excel, Word, Teams etc.) \u2022 Good knowledge of the design & development process",
         "Keys": [
             {
-                "key": "Job Role",
-                "value": "GET(Graduate Engineering Trainee)"
+                "key": "ctc",
+                "value": 12.5
             },
             {
-                "key": "CTC",
-                "value": 600000
+                "key": "stipend",
+                "value": 35
+            },
+            {
+                "key": "location_1",
+                "value": "Mysore"
+            },
+            {
+                "key": "location_2",
+                "value": "Mumbai"
             }
         ]
     },
     {
-        "Name": "Hexaware",
-        "description": "tiHEXAWAREHexawareAbout Us:At Hexaware, we're not just a global technology and business process services company; we're acommunity of 31,600+ Hexawarians dedicated to one singular purpose: creating smiles through the power of greatpeople and technology. With a presence in 58 offices across 28 countries, weempower enterprises worldwide to embark on their digital transformation journey with unparalleled scale and speed.As an employer, we're more than just a workplace. We put our people first, foster diversity andinclusivity, and prioritize their growth through robust learning and development programs. OurCulture is a canvas for innovation as we work toward our shared vision of becoming the world's most loved digitaltransformation partner.Exciting, isn't it? Visit www.hexaware.com to join us in embracing the magic of technology, as we passionatelyadvocate for its potential to transform lives today and shape a brighter future. Together, we'll make the digital world abetter place.Role: Quality Assurance (Software Testing)CTC: 4,00,000 INR per annum on successful completion of Training.o Stipend of 15,000 INR per month for 6 months.o Service agreement for 3 years in lieu of 2 lakhs.What are we looking for?Good communication skills- Fluent in spoken & written EnglishTeam player and interpersonal relationship abilitiesHigh level of energyRight Attitude and the ability to thrive in a fast-paced environment\u2022 Location: Nagpur/MumbaiEligibility\u2022 Must have 60% throughout\u2022 B.E./B.Tech \u2013 Mechanical, Electronics, Electrical, Instrumentation, Industrial Engineering, or similarbackground\u2022 2022 pass outs / 2023 pass outs who have completed their academic credits only",
+        "Name": "Cognida.ai",
+        "description": "Cognida.ai Cognida.ai is an AI-first solutions company specializing in Practical AI and Predictive Analytics for Enterprises. Cognida.ai helps enterprises capitalize their most strategic asset\u2014Data\u2014to strengthen their competitive advantage. CTC: 7 LPA Location: Hyderabad Selection Process: Round 1: Online coding challenge 12 Ques (Easy, medium, Hard) Round 2: Technical interviews Round 3: HR discussions. Eligibility Criteria Aggregate of 70 % / 7 CGPA and above NO Live Backlog",
         "Keys": [
             {
-                "key": "Roles",
-                "value": "Quality Assurance (Software Testing)"
+                "key": "ctc",
+                "value": 7
             },
             {
-                "key": "CTC",
-                "value": 400000
+                "key": "location_1",
+                "value": "Hyderabad"
             },
             {
-                "key": "Stipend",
-                "value": 15000
+                "key": "percent",
+                "value": 70
             },
             {
-                "key": "Location",
-                "value": "Nagpur/Mumbai"
-            },
-            {
-                "key": "Eligibility",
-                "value": "Must have 60% throughout\u2022 B.E./B.Tech \u2013 Mechanical, Electronics, Electrical, Instrumentation, Industrial Engineering, or similar background\u2022 2022 pass outs / 2023 pass outs who have completed their academic credits only"
-            },
-            {
-                "key": "B.E/B.Tech",
-                "value": "B.E./B.Tech \u2013 Mechanical, Electronics, Electrical, Instrumentation, Industrial Engineering, or similar background"
+                "key": "cgpa",
+                "value": 7
             }
         ]
     }

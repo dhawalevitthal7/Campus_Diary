@@ -1,109 +1,161 @@
 [
     {
-        "Name": "Tata Technologies",
-        "description": "TATA TECHNOLOGIES Tata Technologies Job Role: Graduate Engineer Trainee \u2013 CS/IT Compensation: 4.65 LPA Eligibility Criteria: BE/B.Tech in Mechanical, Electronics & Electrical A minimum academic score of 60% throughout the candidate's academic career. No active backlogs allowed. No year drop or academic gap is permitted. Only a one-year preparation gap is considered. Area of Responsibility: Have knowledge of programming languages, program design and development procedures Have the ability to design, develop and troubleshoot moderate to complex software applications Get associated in development, testing, support of existing/new software applications and solutions Be keen to cultivate strong working relationships with co-workers Have an innovative approach, learnability excellent problem-solving skills, effective articulation, and should be a genuine team player Believe in continuous learning and should be flexible to work on any phase of SDLC Job Role: Graduate Engineer Trainee \u2013 Mechanical, Electronics and Electrical Compensation: Base Salary: 4.5 LPA + Insurance and Additional Trainee Bonus: 50,000 INR per annum for the first two years Service Agreement: 2 years. Eligibility Criteria: BE/B.Tech in Mechanical, Electronics & Electrical A minimum academic score of 60% throughout the candidate's academic career. No active backlogs allowed. No year drop or academic gap is permitted. Only a one-year preparation gap is considered. Job Location: Pan India Selection Process: Aptitude Test Technical Interview HR Round Scope of Role: The Graduate Engineer Trainee is responsible for applying their Engineering skills learnt in academics, alongside quickly learning the CAD/CAE/Manufacturing feasibility tools to practitioner level &amp; also learning TTL customer + Industry practices &amp; start delivering to project requirements in the shortest period after onboarding. Area of Responsibility: This role is responsible for establishing him/herself a Practitioner level Engineer in assigned area of competency &amp; contribute to produce deliverables like CAD geometry + Drawings or FEA Meshing + simple load cases or Manufacturing feasibility process or Project engineering documentation, etc. You will have responsibility for: Understands TTL customer segments &amp; their products categorisation Familiarise with functional components and aggregates in the specific product Understand &amp; Practice product design methodology &amp; processes used to engineer a new component / new feature or functionality Basic knowledge of manufacturing processes like Metal cutting, laser cutting, Plastic Moulding, casting, forging, Spot Welding, MIG/MAG Welding, sheet metal, etc. Basic knowledge of Jigs, Fixtures &amp; 3-2-1 principle. Understand of various type of tool/machine designs used in Automotive &amp; Aerospace industries. CAE analysis for various manufacturing process in Auto &amp; Aero industries. DMU management, integrating component in assembly &amp; project coordination with various teams Understand important GD&amp;T application Detailed design, benchmarking of components to meet cost, weight &amp; functional targets Co-ordinate design activities with other stakeholders in project Ensure quality of the CAD design, drawings &amp; speed of delivery. Technical documentation &amp; design change analysis. Writing short macros to create automation in design process to reduce efforts required. Supporting customer design review and customer communication. Basic Knowledge of Robotics/Mechatronics will be an added advantage Knowledge / Experience: Fresher Essential: Learnt one of the CAD/CAM/CAE tools Good all-round Mechanical Engineering Basics. Engineering knowledge of production &amp; manufacturing requirements. Excellent communications skills, demonstrated ability to communicate at all levels, PC Literacy: Microsoft Project, Power Point, Excel, Word etc",
+        "Name": "Hexaware",
+        "description": "At Hexaware, we're not just a global technology and business process services company; we're a community of 31,600+ Hexawarians dedicated to one singular purpose: creating smiles through the power of great people and technology. With a presence in 58 offices across 28 countries, we empower enterprises worldwide to embark on their digital transformation journey with unparalleled scale and speed. As an employer, we're more than just a workplace. We put our people first, foster diversity and inclusivity, and prioritize their growth through robust learning and development programs. Our Culture is a canvas for innovation as we work toward our shared vision of becoming the world's most loved digital transformation partner. Exciting, isn't it? Visit www.hexaware.com to join us in embracing the magic of technology, as we passionately advocate for its potential to transform lives today and shape a brighter future. Together, we'll make the digital world a better place.Role: Quality Assurance (Software Testing)What are we looking for?Good communication skills- Fluent in spoken & written English Team player and interpersonal relationship abilities High level of energy Right Attitude and the ability to thrive in a fast-paced environment Should be able to multi \u2013 task: ability to prioritize and manage project related activities Possess Openness, reliability, punctuality and flexibility at given tasksWho can Apply-Where will you work from:Any Hexaware Office Locations in India. Work from Office only \u2013 5 days a week (No Work from Home allowed)During Internship students should work out of Hexaware Office location only \u2013 5 days a week (No Work from Home allowed)Job Location: Mahape, Navi Mumbai, MaharashtraHiring Process: 1. Group Discussion 2. Aptitude Assessment 3. Technical Interview 4. HR Interview",
         "Keys": [
             {
-                "key": "Job Role",
-                "value": "Graduate Engineer Trainee \u2013 CS/IT"
+                "key": "location_1",
+                "value": "Nagpur"
             },
             {
-                "key": "CTC",
-                "value": 465000
+                "key": "location_2",
+                "value": "Mumbai"
             },
             {
-                "key": "Eligibility",
-                "value": "BE/B.Tech in Mechanical, Electronics & Electrical A minimum academic score of 60% throughout the candidate's academic career. No active backlogs allowed. No year drop or academic gap is permitted. Only a one-year preparation gap is considered."
+                "key": "percent",
+                "value": 60
             },
             {
-                "key": "Job Role",
-                "value": "Graduate Engineer Trainee \u2013 Mechanical, Electronics and Electrical"
+                "key": "branch_1",
+                "value": "CSE"
             },
             {
-                "key": "CTC",
-                "value": 500000
+                "key": "branch_2",
+                "value": "IT"
             },
             {
-                "key": "Location",
-                "value": "Pan India"
+                "key": "branch_3",
+                "value": "ISE"
             },
             {
-                "key": "Selection Process",
-                "value": "Aptitude Test Technical Interview HR Round"
+                "key": "branch_4",
+                "value": "AI"
             },
             {
-                "key": "Responsibilities",
-                "value": "Have knowledge of programming languages, program design and development procedures Have the ability to design, develop and troubleshoot moderate to complex software applications Get associated in development, testing, support of existing/new software applications and solutions Be keen to cultivate strong working relationships with co-workers Have an innovative approach, learnability excellent problem-solving skills, effective articulation, and should be a genuine team player Believe in continuous learning and should be flexible to work on any phase of SDLC This role is responsible for establishing him/herself a Practitioner level Engineer in assigned area of competency & contribute to produce deliverables like CAD geometry + Drawings or FEA Meshing + simple load cases or Manufacturing feasibility process or Project engineering documentation, etc. You will have responsibility for: Understands TTL customer segments & their products categorisation Familiarise with functional components and aggregates in the specific product Understand & Practice product design methodology & processes used to engineer a new component / new feature or functionality Basic knowledge of manufacturing processes like Metal cutting, laser cutting, Plastic Moulding, casting, forging, Spot Welding, MIG/MAG Welding, sheet metal, etc. Basic knowledge of Jigs, Fixtures & 3-2-1 principle. Understand of various type of tool/machine designs used in Automotive & Aerospace industries. CAE analysis for various manufacturing process in Auto & Aero industries. DMU management, integrating component in assembly & project coordination with various teams Understand important GD&T application Detailed design, benchmarking of components to meet cost, weight & functional targets Co-ordinate design activities with other stakeholders in project Ensure quality of the CAD design, drawings & speed of delivery. Technical documentation & design change analysis. Writing short macros to create automation in design process to reduce efforts required. Supporting customer design review and customer communication. Basic Knowledge of Robotics/Mechatronics will be an added advantage Knowledge / Experience: Fresher Essential: Learnt one of the CAD/CAM/CAE tools Good all-round Mechanical Engineering Basics. Engineering knowledge of production & manufacturing requirements. Excellent communications skills, demonstrated ability to communicate at all levels, PC Literacy: Microsoft Project, Power Point, Excel, Word etc"
+                "key": "role",
+                "value": "Quality Assurance (Software Testing)"
+            },
+            {
+                "key": "ctc",
+                "value": 4
+            },
+            {
+                "key": "stipend",
+                "value": 15
+            },
+            {
+                "key": "cgpa",
+                "value": 6
             }
         ]
     },
     {
-        "Name": "Tata Asset Management Ltd.",
-        "description": "Functional Area: Sales Job Role: Management Trainee Compensation: Fixed CTC : 5.00 LPA + 50K Assured Bonus Location: Delhi, Pune, Nagpur, Chandigarh, Jaipur Key Working Relationships: Part of the sales team at the branches Job Summary: Key responsibilities will be to meet assigned sales targets, through distributor engagement and activation. The goal is to enhance Tata Mutual Fund's visibility in the marketplace. Qualification: MBA in Marketing/ Finance is preferred Experience: Preferably 0 to 2 years of prior relevant work experience in BFSI sector. Key Responsibilities: Achievement of Gross Sales, Net Sales and SIP targets assigned in allotted geographic territory across Mutual Funds, PMS and AIF. Activate distribution partners and increase productivity in terms of no. of applications and volume. Identify prospective distribution partners (IFAs) and empanel them for selling the products of the AMC, this should also apply to new ARNs entering the market every month. Engage with the mapped relationships as per coverage plan, to build strong relationship and recall for the brand. Adhere to the defined sales process and reporting requirements. Use internal and external data for sharper focus and market intelligence. Read and update knowledge on regular basis to be able to articulate the fund house views and positioning of the product. Liaise with sales-support, investor services and other internal departments, and to ensure timely and quality response to distributors for various requirements. Responsibilities would also include the day-to-day management of internal office work/back office and timely MIS. Ensures that external communications that go from the sales team is factually correct and in compliance with internal procedures and meets all regulatory compliance requirements. Represents the company in the allotted area and will strive to ensure that the company's image is always upheld and projected in the appropriate manner. Any other Job as assigned by the management from time to time",
+        "Name": "ArcelorMittal Nippon Steel India Limited (AM/NS India)",
+        "description": "ArcelorMittal Nippon Steel India is an integrated flat carbon steel manufacturer- from iron ore to ready-to- market products with an achievable crude steel capacity of 9 MTPA. Our manufacturing facilities comprise of iron making, steelmaking and downstream facilities spread across India. We are a young, dynamic & global organization. We stand out for our commitment on innovation & continuous improvement and are on a mission to create Smarter Steels for a Brighter future. For us, our employees and their development are at the core. We collaborate with Industry experts and work along with the latest technologies. We also ensure our commitment to environmental responsibility, ensuring that our manufacturing processes are sustainable and create impact in the communities we operate. Our vision is to be a leading and responsible steelmaker creating value for all stakeholders to achieve this vision, we are always looking for dynamic and highly motivated engineering graduates. As an engineering graduate, you will have the opportunity to work closely with highly experienced professionals of different domains in various innovative projects.Position: Graduate Engineer Trainee (GET)Function: Electrical, Mechanical, Chemical, Electronics & Communication, Computer Science, Metallurgy, MiningResponsibilities:The Graduate Engineer Trainees will be on a training period for 12 months from the date of joining during which they will be assigned projects within the domain. A GET is designated with the opportunity to work in cutting- edge facilities, contributing to the entire steel manufacturing process. From iron making to downstream operations and crucial role in delivering high-quality steel products to the market. It's a chance to showcase one's expertise and make a significant impact in the industry.Behavioral Skills:Strong interpersonal, problem solving and project management skillsExcellent communication and interpersonal skillsAnalytical and data driven to ensure structured approach to a problemAbility to work in a highly entrepreneurial environment.Willing to relocate to any of AM/NS India locations across any technology.",
         "Keys": [
             {
-                "key": "Job Role",
-                "value": "Management Trainee"
+                "key": "role",
+                "value": "Graduate Engineer Trainee (GET)"
             },
             {
-                "key": "CTC",
-                "value": 550000
+                "key": "location_1",
+                "value": "India"
             },
             {
-                "key": "Location",
-                "value": "Delhi, Pune, Nagpur, Chandigarh, Jaipur"
+                "key": "ctc",
+                "value": 6
             },
             {
-                "key": "Key Responsibilities",
-                "value": "Achievement of Gross Sales, Net Sales and SIP targets assigned in allotted geographic territory across Mutual Funds, PMS and AIF. Activate distribution partners and increase productivity in terms of no. of applications and volume. Identify prospective distribution partners (IFAs) and empanel them for selling the products of the AMC, this should also apply to new ARNs entering the market every month. Engage with the mapped relationships as per coverage plan, to build strong relationship and recall for the brand. Adhere to the defined sales process and reporting requirements. Use internal and external data for sharper focus and market intelligence. Read and update knowledge on regular basis to be able to articulate the fund house views and positioning of the product. Liaise with sales-support, investor services and other internal departments, and to ensure timely and quality response to distributors for various requirements. Responsibilities would also include the day-to-day management of internal office work/back office and timely MIS. Ensures that external communications that go from the sales team is factually correct and in compliance with internal procedures and meets all regulatory compliance requirements. Represents the company in the allotted area and will strive to ensure that the company's image is always upheld and projected in the appropriate manner. Any other Job as assigned by the management from time to time"
+                "key": "branch_1",
+                "value": "Electrical"
+            },
+            {
+                "key": "branch_2",
+                "value": "Mechanical"
+            },
+            {
+                "key": "branch_3",
+                "value": "Chemical"
+            },
+            {
+                "key": "branch_4",
+                "value": "Electronics & Communication"
+            },
+            {
+                "key": "percent",
+                "value": 65
             }
         ]
     },
     {
-        "Name": "Tata Hitachi Construction Machinery Company Private Limited",
-        "description": "TATA HITACHI Tata Hitachi Construction Machinery Company Private Limited Job Role: Graduate Engineer Trainee \u2013 Mechanical Eligibility criteria are as follows : 1. First class marks from the 10th standard onwards and each year of the engineering course (i.e., marks of Sem 1 + Sem 2 >= First Class). 2. All subjects in the engineering course should be cleared in the first attempt. 3. The candidate should have a continuous career throughout from the 10th standard onwards i.e. there should not be any gap of a year in the academic curriculum. [This is relaxable by a year between the 12th std board exam and the first year of the engineering course.] 4. Students who have completed their diploma and then gone on to do their graduation by taking admission in the second year of the engineering course are eligible for the cadre.",
+        "Name": "Solar Industries",
+        "description": "1. Position Title: IIoT Intern (Control Room) Post Duration: 6 Months Days of Work: 6 days a week (1 day rotational off) & 8 hours Rotational Shift Internship Type: Paid Job Location: Solar Plant (Chakdoh) REQUIRED SKILLS Programming Languages: 1. Proficiency in Python, C, CSS, HTML & C++ for developing IIoT applications and scripts. 2. Familiarity with Java or JavaScript is a plus. Networking: 1. Knowledge of networking protocols (e.g., MQTT, HTTP, CoAP, OPC UA, TCP/IP, Modbus, RS485/422, RS232). 2. Understanding of IP networking concepts and topologies. Embedded Systems: 1. Experience with microcontrollers (e.g., Arduino, ESP's Raspberry Pi, PLC & SCADA) for prototyping IIoT devices. 2. Familiarity with sensors, actuators, and other hardware components. IIoT Platforms: 1. Exposure to IoT platforms (e.g., PTC, ThingsBoard, AWS, Azure, Google Cloud) for IIoT solutions. 2. Understanding of IoT platforms (e.g., PTC, ThingsBoard, AWS IoT, Azure IoT Hub) is an advantage. Cybersecurity: 1. Basic knowledge of cybersecurity principles related to IoT devices and data protection. Version Control: 1. Familiarity with version control systems, especially Git, for collaborative coding. EDUCATION REQUIRED 1. Completed a degree in Computer Science, Electrical, Electronics, Information Technology, or a related field. Machine Learning: 1.Familiarity with basic machine learning concepts and frameworks (e.g., TensorFlow, scikit-learn) for predictive analytics in IIoT applications. Soft Skills: 1. Strong problem-solving abilities and analytical thinking. 2. Excellent communication skills for collaborating with cross-functional teams. 3. Eagerness to learn and adapt to new technologies and challenges. 2. Position Title: IIoT Intern (Field) Post Duration: 6 Months Days of Work: 6 days a week (1 day rotational off) & 8 hours Rotational Shift Internship Type: Paid Job Location: Solar Industries India Limited (Chakdoh Plant) REQUIRED SKILLS \u2022 IndustrialAutomation &Control Systems 1. Knowledge of PLC programming for IIoT integration (Siemens, Rockwell, Schneider, Delta). 2. Understanding of HMI, SCADA, and DCS for real-time monitoring. 3. Familiarity with industrial sensors, transducers, and actuators. 4. Experience with Modscan, Modsim, or similar diagnostic tools is a plus. \u2022 Communication Protocols &Networking 1. Basic understanding of IoT & IIoT architecture. 2. Familiarity with industrial communication protocols: 3. Modbus TCP/RTU, OPC UA, MQTT, HTTP, CoAP, Ethernet/IP, RS485/RS232. 4. Understanding of IP networking concepts (LAN, WAN, VLAN). \u2022 IIoT Platforms & Edge Computing 1. Knowledge of IIoT platforms (ThingsBoard, Grafana, PTC ThingWorx). 2. Exposure to IoT cloud platforms (AWS IoT, Azure IoT, Google Cloud) is a plus. 3. Understanding of edge computing & gateway devices for IIoT deployments. \u2022 Programming & Data Processing 1. Basic PLC programming knowledge for industrial automation. 2. Familiarity with Python for IIoT scripting and data processing is a plus. \u2022 Cybersecurity & OT SecurityPractices 1. Awareness of IIoT cybersecurity principles, including data encryption & network security. 2. Basic understanding of firewall configurations and secure device communication \u2022 Soft Skills & Problem-Solving 1. Strong analytical and troubleshooting skills for field deployment. 2. Ability to collaborate with cross-functional teams. 3. Eagerness to learn and apply new IIoT technologies. EDUCATION REQUIRED Education: Degree in Electrical, Instrumentation, Electronics, Industrial Automation, Computer Science, or related fields. 3. Position Title: Data Analyst Intern Post Duration: 6 Months Days of Work: Monday to Saturday Type of Internship: Paid Job Location: Solar HO, Extension, Nagpur Eligibility: CS/IT and related fields ROLES & RESPONSIBILITY: \u2022 Data Collection \u2022 Exploratory Data Analysis (EDA) \u2022 Statistical Analysis \u2022 Assist in building and fine-tuning machine learning models for predictive analytics or classification tasks. \u2022 Test and evaluate models and scripts for performance, accuracy and efficiency. \u2022 Maintain detailed documentation of data analysis processes and methodologies. \u2022 Collaborate with cross-functional teams to understand business objectives and align data analysis efforts accordingly \u2022 Generate regular reports and presentations to communicate analysis results to non- technical stakeholders. REQUIRED SKILLS: 1. Proficiency in programming languages such as Python and SQL. 2. Familiarity with data manipulation libraries (e.g., pandas, numpy, seaborn, matplotlib) and visualization tools such as Power BI. 3. Hands on knowledge of ML algorithms, Neural Networks and interest in NLP models. 4. Basic knowledge of LLM models and their respective architectures. 5. Strong problem-solving abilities and analytical thinking. 6. Excellent communication skills for collaborating with cross-functional teams. 7. Eagerness to learn and adapt to new technologies and challenges.",
         "Keys": [
             {
-                "key": "Job Role",
-                "value": "Graduate Engineer Trainee \u2013 Mechanical"
+                "key": "role",
+                "value": "IIoT Intern (Control Room), IIoT Intern (Field), Data Analyst Intern"
             },
             {
-                "key": "Eligibility",
-                "value": "1. First class marks from the 10th standard onwards and each year of the engineering course (i.e., marks of Sem 1 + Sem 2 >= First Class). 2. All subjects in the engineering course should be cleared in the first attempt. 3. The candidate should have a continuous career throughout from the 10th standard onwards i.e. there should not be any gap of a year in the academic curriculum. [This is relaxable by a year between the 12th std board exam and the first year of the engineering course.] 4. Students who have completed their diploma and then gone on to do their graduation by taking admission in the second year of the engineering course are eligible for the cadre."
+                "key": "location_1",
+                "value": "Chakdoh"
+            },
+            {
+                "key": "location_2",
+                "value": "Nagpur"
+            },
+            {
+                "key": "branch_1",
+                "value": "Computer Science"
+            },
+            {
+                "key": "branch_2",
+                "value": "Electrical"
+            },
+            {
+                "key": "branch_3",
+                "value": "Electronics"
+            },
+            {
+                "key": "branch_4",
+                "value": "Information Technology"
             }
         ]
     },
     {
-        "Name": "Blue Star India Limited",
-        "description": "BLUE STAR Blue Star India Limited Job Role: Graduate Engineer Trainee, Diploma Engineer Trainee and MBA Location: Maharashtra Remuneration : Graduate Engineer Trainee INR 525000/- Per Annum (Fixed Pay), Variable Pay as per Division will be applicable. Diploma Engineer Trainee INR 350000/- Per Annum (Fixed Pay), Variable Pay as per Division will be applicable. MBA: INR 642000/- Per Annum (Fixed Pay), Variable Pay as per Division will be applicable Pre-requisites - (minimum selection requirements)- Graduate Engineer Trainee(Mechanical/Electrical): 1. Full- Time Graduate (Bachelor's Degree) 2. Secured at least 60% marks or equivalent grade in academics (10th,12th). 3. Should not have any gap or backlog in their academics, i.e. the course should not have been completed in more than the stipulated duration. Diploma Engineer Trainee: 1. Secured at least 60% marks or equivalent grade in academics (10th, 12th). 2. Should not have any gap or backlog in their academics, i.e. the course should not have been completed in more than the stipulated duration. MBA: 1. Full-Time MBA 2. Secured at least 60% marks or equivalent grade in academics (10th, 12th). 3. Should not have any gap or backlog in their academics, i.e. the course should not have been completed in more than the stipulated duration. Role Offered: GET (Mechanical/Electrical): 1. To ensure the project requirements are met as per the plan. 2. Verification of design with all required schemes. 3. Regular interaction with stakeholders for implementation of technical requirements. 4. Application of value engineering for project completion at optimum cost. 5. Identify design lacuna and suggest corrections. DET(Mechanical/Electricals): 1. Ensure quality of installation at MEP Project Sites. 2. Effectively mobilize available resources and strive for on time project completion. 3. Implement and maintain safe work practices at project sites. 4. Ensure smooth handing-over of projects, with all relevant documents. 5. Ensure adherence to statutory compliance and achieve over all customer satisfaction. MBA(Sales & Marketing): 1. Achieve sales targets with adherence to TOP (Terms of Payments)",
+        "Name": "Grindwell Norton Limited",
+        "description": "Job Role: Summer Intern Eligible Degree - B.Tech in Mechanical/Industrial and Production Internship Duration - 2 months Remuneration - Rs.35,000 for two months Job Location - Pan India Eligibility Criteria - 70% throughout in academics Interview Process - 1) Pre Placement Talk 2) Online Assessment 3) Personal Interview Rounds Important Note: The shortlisted candidate should be open to relocate anywhere in India. Job Role - Graduate Engineer Trainee Degree - B.Tech in Mechanical/Industrial and Production Probation Duration - 12 months (Mandatory) Remuneration - Rs. 5.7 LPA Job Location - Pan India Bond Details - 2 years from the date of joining. In case the candidate leaves before completing 2 years, he/she will have to pay Rs. 2 lakhs to the company. Eligibility Criteria - 70% throughout in academics Interview Process - 1) Pre Placement Talk 2) Online Assessment 3) Personal Interview Rounds",
         "Keys": [
             {
-                "key": "Job Role",
-                "value": "Graduate Engineer Trainee, Diploma Engineer Trainee and MBA"
+                "key": "role",
+                "value": "Summer Intern, Graduate Engineer Trainee"
             },
             {
-                "key": "Location",
-                "value": "Maharashtra"
+                "key": "stipend",
+                "value": 35
             },
             {
-                "key": "CTC",
-                "value": 525000
+                "key": "ctc",
+                "value": 5.7
             },
             {
-                "key": "CTC",
-                "value": 350000
+                "key": "location_1",
+                "value": "India"
             },
             {
-                "key": "CTC",
-                "value": 642000
+                "key": "percent",
+                "value": 70
             },
             {
-                "key": "Eligibility",
-                "value": "1. Full- Time Graduate (Bachelor's Degree) 2. Secured at least 60% marks or equivalent grade in academics (10th,12th). 3. Should not have any gap or backlog in their academics, i.e. the course should not have been completed in more than the stipulated duration. Secured at least 60% marks or equivalent grade in academics (10th, 12th). Should not have any gap or backlog in their academics, i.e. the course should not have been completed in more than the stipulated duration. 1. Full-Time MBA 2. Secured at least 60% marks or equivalent grade in academics (10th, 12th). 3. Should not have any gap or backlog in their academics, i.e. the course should not have been completed in more than the stipulated duration."
+                "key": "branch_1",
+                "value": "Mechanical"
             },
             {
-                "key": "Roles",
-                "value": "GET (Mechanical/Electrical): 1. To ensure the project requirements are met as per the plan. 2. Verification of design with all required schemes. 3. Regular interaction with stakeholders for implementation of technical requirements. 4. Application of value engineering for project completion at optimum cost. 5. Identify design lacuna and suggest corrections. DET(Mechanical/Electricals): 1. Ensure quality of installation at MEP Project Sites. 2. Effectively mobilize available resources and strive for on time project completion. 3. Implement and maintain safe work practices at project sites. 4. Ensure smooth handing-over of projects, with all relevant documents. 5. Ensure adherence to statutory compliance and achieve over all customer satisfaction. MBA(Sales & Marketing): 1. Achieve sales targets with adherence to TOP (Terms of Payments)"
+                "key": "branch_2",
+                "value": "Industrial"
+            },
+            {
+                "key": "branch_3",
+                "value": "Production"
             }
         ]
     }

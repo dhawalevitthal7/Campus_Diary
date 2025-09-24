@@ -1,149 +1,109 @@
 [
     {
-        "Name": "Kickdrum",
-        "description": "Selection Process:Eligibility Criteria:90% in 10th & 12th and 8 CGPA in graduationNo Live BacklogKickdrumJob Role: Software DeveloperCTC: 16LPA [Rs.10 LPA (Fixed) + 2 LPA (Variable) + 2 LPA (Benefits, retirals) + 2 LPA (Special bonus payable post completion of one year of full-time employment)]Stipend: 35kLocation: BengaluruPosition: Software Intern (KDU-er)\u2022 Work Location: Bengaluru (Monday - Friday in Office)\u2022 Eligibility Criteria: 80% and above in academics throughout. No backlogs.\u2022 Facilities: Food and Snacks in Office; 24x7 access\u2022 Leaves: 3 Paid & 3 Sick Leaves; Leaves for University Exams\u2022 BYOD: \u20b9 2000/month for using your own device during InternshipPosition: Software Developer\u2022 Job Location: Bengaluru, 2 mandatory days in Office,\u2022 Eligibility Criteria: Successful completion of the 6 month Internship\u2022 Benefits: in-office meals, reimbursements for food orders, cab rides, and gym memberships. Health insurance for self, family, and parents, BYOD (Bring Your Own Device) options, annual health checkups, wellness programs, mentorship, and training.\u2022 Paid Leaves: 12 sick leaves, 15 earned leaves, and 10 public holidays.Roles and Responsibilities:\u2022 Develop complex web applications with responsive design techniques and industry-leading UX\u2022 Translate design mock-ups and prototypes into working applications\u2022 Work on cloud-based architectures that are highly scalable, available, and performant\u2022 Work with agile methodology using cutting-edge DevOps tools & technologies\u2022 Focus on code quality and deliver projects with high business impactLearn and apply new skills during your 6 months internship:\u2022 Amazon Web Services (AWS)\u2022 HTML/CSS/React (frontend)\u2022 Java/Spring, DotNet, Python, Node (backend)\u2022 Enterprise-grade software development\u2022 Working directly with execs and customersUpon successful completion of your internship you will be employed as a \u201cSoftware Developer\u201d at Kickdrum.Selection Process:Round 1: Online Assessment (2 Coding Que) 2HRsRound 2: Technical Interview IRound 3: Culture RoundRound 4: HR InterviewEligibility: CS/IT group with 80% and above in their academics throughout.No backlogs.",
-        "Keys": [
-            {
-                "key": "Job Role",
-                "value": "Software Developer"
-            },
-            {
-                "key": "CTC",
-                "value": 16
-            },
-            {
-                "key": "Stipend",
-                "value": 35000
-            },
-            {
-                "key": "Location",
-                "value": "Bengaluru"
-            },
-            {
-                "key": "Responsibilities",
-                "value": "\u2022 Develop complex web applications with responsive design techniques and industry-leading UX\u2022 Translate design mock-ups and prototypes into working applications\u2022 Work on cloud-based architectures that are highly scalable, available, and performant\u2022 Work with agile methodology using cutting-edge DevOps tools & technologies\u2022 Focus on code quality and deliver projects with high business impact"
-            },
-            {
-                "key": "skills",
-                "value": "\u2022 Amazon Web Services (AWS)\u2022 HTML/CSS/React (frontend)\u2022 Java/Spring, DotNet, Python, Node (backend)\u2022 Enterprise-grade software development\u2022 Working directly with execs and customers"
-            },
-            {
-                "key": "Java",
-                "value": "Java"
-            },
-            {
-                "key": "DevOps",
-                "value": "DevOps"
-            },
-            {
-                "key": "Selection Process",
-                "value": "Round 1: Online Assessment (2 Coding Que) 2HRsRound 2: Technical Interview IRound 3: Culture RoundRound 4: HR Interview"
-            },
-            {
-                "key": "Eligibility",
-                "value": "90% in 10th & 12th and 8 CGPA in graduationNo Live BacklogCS/IT group with 80% and above in their academics throughout.No backlogs."
-            }
-        ]
-    },
-    {
-        "Name": "HSBC",
-        "description": "HSBCJob Role: Software Development EngineerCTC: 9 LPAInterview Location: PuneJob Location: Pune / Hyderabad / Bangalore, subject to business requirements.Role:\u2022 Strong foundation in software development engineering, with proficiency in at least one object- orientedprogramming language such as Java, Python, etc.\u2022 Various OS like Android, Linux, and Databases like relational and no-SQL.\u2022 Liaising with business users, architects and other stakeholders in designing, implementing and maintainingbest-in-class (scalable, loosely coupled and efficient) solutions which can run seamlessly acrossplatforms/mobile/internet/cloud.\u2022 Continuous Integration (CI)/ Continuous Deployment (CD) pipeline and Agile methodology.\u2022 Any of Mobile, Analytics, Cloud and Digital technology domains.\u2022 Ability to design and implement solutions which can run on-prem, hybrid and multi-cloud ecosystems such asGCP, AWS, Azure, Ali Cloud.\u2022 Ability to harness open-source development thus leveraging collective wisdom and learning\u2022 Understanding of cyber threats/ vulnerabilities and applying secure coding standards and associated protocols.\u2022 Ability to leverage industry best integration patterns and practices to integrate multiple existing/ new buildingblocks for seamless end-to-end customer experience.\u2022 Developing, maintaining, and supporting current systems for better efficacy and higher availability.Selection Process:Round 1: Aptitude + Technical (75 Minutes) & Coding assessment (30 Minutes)Only the students who clear the Aptitude + Technical assessment, will be able to appear for the coding test.Round 2: Technical Interview (Pune)Round 3: HR InterviewEligibility Criteria:Min. 60% or 6.00 CGPA throughout (10th / 12th / Diploma / B.E. / B.Tech), No Live Backlog.",
-        "Keys": [
-            {
-                "key": "Job Role",
-                "value": "Software Development Engineer"
-            },
-            {
-                "key": "CTC",
-                "value": 9
-            },
-            {
-                "key": "Location",
-                "value": "Pune / Hyderabad / Bangalore"
-            },
-            {
-                "key": "Roles",
-                "value": "\u2022 Strong foundation in software development engineering, with proficiency in at least one object- orientedprogramming language such as Java, Python, etc.\u2022 Various OS like Android, Linux, and Databases like relational and no-SQL.\u2022 Liaising with business users, architects and other stakeholders in designing, implementing and maintainingbest-in-class (scalable, loosely coupled and efficient) solutions which can run seamlessly acrossplatforms/mobile/internet/cloud.\u2022 Continuous Integration (CI)/ Continuous Deployment (CD) pipeline and Agile methodology.\u2022 Any of Mobile, Analytics, Cloud and Digital technology domains.\u2022 Ability to design and implement solutions which can run on-prem, hybrid and multi-cloud ecosystems such asGCP, AWS, Azure, Ali Cloud.\u2022 Ability to harness open-source development thus leveraging collective wisdom and learning\u2022 Understanding of cyber threats/ vulnerabilities and applying secure coding standards and associated protocols.\u2022 Ability to leverage industry best integration patterns and practices to integrate multiple existing/ new buildingblocks for seamless end-to-end customer experience.\u2022 Developing, maintaining, and supporting current systems for better efficacy and higher availability."
-            },
-            {
-                "key": "Java",
-                "value": "Java"
-            },
-            {
-                "key": "Selection Process",
-                "value": "Round 1: Aptitude + Technical (75 Minutes) & Coding assessment (30 Minutes)Only the students who clear the Aptitude + Technical assessment, will be able to appear for the coding test.Round 2: Technical Interview (Pune)Round 3: HR Interview"
-            },
-            {
-                "key": "Eligibility",
-                "value": "Min. 60% or 6.00 CGPA throughout (10th / 12th / Diploma / B.E. / B.Tech), No Live Backlog."
-            },
-            {
-                "key": "B.E/B.Tech",
-                "value": "B.E. / B.Tech"
-            }
-        ]
-    },
-    {
-        "Name": "Nvidia",
-        "description": "NvidiaJob Role: QA Tool and Test Development Intern.Stipend : 40kLocation : Pune, Bangalore, HyderabadWhat you will be doing:\u2022 The intern will help us build tools/utility /frameworks in C/C#/C++ that would automate and accelerate testingwork\u00c6ows in the \u00c5elds of Autonomous Vehicles, Robotics, 3D Simulation Platforms, GPU drivers, CloudComputing and AI.\u2022 As a QA Tools and Test Development Intern at NVIDIA, you will collaborate with a team of talentedengineers tackling some of the most complex challenges in cutting-edge technology. Mentored by the bestminds in the industry, they will have the opportunity to make meaningful contributions to exciting and impactfulprojects.What we need to see:\u2022 Pursuing a graduate engineering course in Computer Science/ IT with strong academics.\u2022 Good Communication skills (interpersonal and across teams).\u2022 Excellent analytical and problem-solving skills.\u2022 Very organized, proactive, and has good learning ability.\u2022 Languages - C++/C#/.Net/Python\u2022 Ability to apply Object Oriented Programming concepts and Data structures knowledge Knowledge ofSQL/NoSQL Database management tools\u2022 Ability to build applications using Generative AI APIs would be a plus\u2022 Would be a plus to have hands-on experience in development of Web Application (ASP.Net, MVC, webservices).Skills to be Assessed :C++, C# Programming, Python, Linux, OOPS, DS, AI/ML/DL/Gen AI.Selection Process:Round 1: Online Assessment (Technical and Logic ques on HackerRank)Programming: Questions on C, VHDL, and Verilog programmingComputer architecture: Questions on finite state machines, flip flop timing, and low power designData compression: Questions on data compression and binary representations.Circuit design: Questions on circuit design using half/full adders.Clocks: Questions on clocks.Round 2: Technical InterviewRound 3: HR InterviewEligibility Criteria:Min 80% in overall academics (10th, 12th, Graduation). CS/IT group only.No Live Backlog.",
-        "Keys": [
-            {
-                "key": "Job Role",
-                "value": "QA Tool and Test Development Intern"
-            },
-            {
-                "key": "Stipend",
-                "value": 40000
-            },
-            {
-                "key": "Location",
-                "value": "Pune, Bangalore, Hyderabad"
-            },
-            {
-                "key": "skills",
-                "value": "C++, C# Programming, Python, Linux, OOPS, DS, AI/ML/DL/Gen AI."
-            },
-            {
-                "key": "Questions C, C++",
-                "value": "Questions on C, C++"
-            },
-            {
-                "key": "HackerRank",
-                "value": "HackerRank"
-            },
-            {
-                "key": "WebServices",
-                "value": "web services"
-            },
-            {
-                "key": "Selection Process",
-                "value": "Round 1: Online Assessment (Technical and Logic ques on HackerRank)Programming: Questions on C, VHDL, and Verilog programmingComputer architecture: Questions on finite state machines, flip flop timing, and low power designData compression: Questions on data compression and binary representations.Circuit design: Questions on circuit design using half/full adders.Clocks: Questions on clocks.Round 2: Technical InterviewRound 3: HR Interview"
-            },
-            {
-                "key": "Eligibility",
-                "value": "Min 80% in overall academics (10th, 12th, Graduation). CS/IT group only.No Live Backlog."
-            }
-        ]
-    },
-    {
         "Name": "Carrier",
         "description": "CarrierJob Role: Software DeveloperCTC: 8 LPA - 12 LPAWhat you'll be doing:Industrial IoT \u2013 Managing Carrier Products Using AWS IoT:This module emphasizes the use of AWS IoT services to monitor, manage, andoptimize industrial products and processes.Application of AI in the HVAC Industry:Al for Business Process Improvement:This module explores trends in the HVAC industry, particularly in aftermarketservices, highlighting the relevance of IoT connectivity and AI applications fordriving innovation in this space.This module demonstrates how AI can be leveragedto enhance business processes and measure thequantifiable impact on overall efficiency.Selection Process:Round 1: Online Test - 2 hrs(2 coding ques, MCQ Aptitude)Round 2: Training & AssignmentsRound 3: InterviewsEligibility Criteria:\u2022 Final-year engineering students pursuing a degree in Computer Science, InformationTechnology, or related fields.\u2022 Minimum CGPA of 7.5 (or equivalent academic performance).\u2022 No active backlogs at the time of application.",
         "Keys": [
             {
-                "key": "Job Role",
+                "key": "role",
                 "value": "Software Developer"
             },
             {
-                "key": "CTC",
+                "key": "ctc_min",
                 "value": 8
             },
             {
-                "key": "Selection Process",
-                "value": "Round 1: Online Test - 2 hrs(2 coding ques, MCQ Aptitude)Round 2: Training & AssignmentsRound 3: Interviews"
+                "key": "ctc_max",
+                "value": 12
             },
             {
-                "key": "Eligibility",
-                "value": "\u2022 Final-year engineering students pursuing a degree in Computer Science, InformationTechnology, or related fields.\u2022 Minimum CGPA of 7.5 (or equivalent academic performance).\u2022 No active backlogs at the time of application."
+                "key": "cgpa",
+                "value": 7.5
+            },
+            {
+                "key": "branch_1",
+                "value": "Computer Science"
+            },
+            {
+                "key": "branch_2",
+                "value": "Information Technology"
+            }
+        ]
+    },
+    {
+        "Name": "Planful",
+        "description": "PlanfulJob Role: Graduate Engineer TraineeCTC: 8.72 LPA, Stipend: 25k/monthLocation: HyderabadRole:\u2022 Analyze stories, specifications, and requirements to create Use cases and test scenarios.\u2022 Prepare test cases and scripts to meet project deliverables.\u2022 Report and track defects and problems that arise during software testing.\u2022 Participate in development sprints and daily scrum.\u2022 Develop and implement scripts for automated testing.\u2022 Collaborate with Product Management to ensure requirements are user-centered and testable.\u2022 Collaborate with Development to ensure designs are user-centered and testable.\u2022 Will be working in Software Development including Java/C# with Strong Problem-Solving Skills, objectoriented design, data structures, algorithm, Design, and complexity analysis.\u2022 Understanding modern web development technologies and techniques, including AJAX, HTML5, JavaScript,jQuery, CSS, Responsive Design, web services, NoSQL databases.Selection Rounds:1. Online Coding Test2. Technical Round 13. Technical Round 24. HR/Final SelectionSkills Requirements:OOPSProblem-SolvingLogical ReasoningAlgorithms, Sorting arraysDatabases, Data StructureCoding, SQL Queries & JavaScriptSelenium web driver, Java, C/C#Eligibility Criteria:Percentage: 70% throughout academics 10th/12th/GraduationNo Active BacklogNote: Internship to full time conversion of students will be purely based on the individual performance and opportunityavailable with us at that point in time.",
+        "Keys": [
+            {
+                "key": "role",
+                "value": "Graduate Engineer Trainee"
+            },
+            {
+                "key": "ctc",
+                "value": 8.72
+            },
+            {
+                "key": "stipend",
+                "value": 25
+            },
+            {
+                "key": "location_1",
+                "value": "Hyderabad"
+            },
+            {
+                "key": "percent",
+                "value": 70
+            }
+        ]
+    },
+    {
+        "Name": "Fendahl",
+        "description": "Fendahl:Domain: Software company in CTRM/ETRM DomainDesignation: Trainee Software EngineerCTC: 7.5 LPA (Gross CTC- 5.25 LPA + 2.25 lacs retention bonus).Location: NagpurRequirement:\u2022 Candidates should be good in programming and aptitude\u2022 No special programming language training needed, however candidates knowing C# / Dot Net would bepreferred.\u2022 Candidates should be ready to work from Nagpur location.Selection Process:Round 1: Resume shortlisting.Round 2: Online InCampus Assessment (Aptitude + Programming).Round 3: Written Coding Test. (InCampus)Round 4: Technical Interview I (InCampus)Round 5: Technical Interview II (Company Premises)Round 6: HR Interview (Company Premises)Eligibility:CS/IT group, ECE, ENMin. 60% 10th, 12th & Graduation",
+        "Keys": [
+            {
+                "key": "role",
+                "value": "Trainee Software Engineer"
+            },
+            {
+                "key": "ctc",
+                "value": 7.5
+            },
+            {
+                "key": "location_1",
+                "value": "Nagpur"
+            },
+            {
+                "key": "percent",
+                "value": 60
+            },
+            {
+                "key": "branch_1",
+                "value": "CS/IT group"
+            },
+            {
+                "key": "branch_2",
+                "value": "ECE"
+            },
+            {
+                "key": "branch_3",
+                "value": "EN"
+            }
+        ]
+    },
+    {
+        "Name": "PubMatic",
+        "description": "PubMaticPubMatic is hiring candidates who can design and implement next-generation highly scalable, distributed, andlow-latency applications. If you get excited building applications and architecture to handle 100's billions of requestsper day, managing millions of requests per second with a creative and fast-paced work environment, competitive pay,great incentives, a culture of teamwork, smart and friendly colleagues, and plenty of opportunity to grow in your careerthen you should consider applying for this position.Job Role: Graduate Engineer TraineeCTC: 11.6 LPARequirements:\u2022 Excellent Problem solving and analytical skills.\u2022 Knowledge of Operating Systems concepts\u2022 Ability to code using any programming language, viz. C, Java, Scala.\u2022 Good understanding of data structures and algorithms.\u2022 Knowledge of SQL and databases.\u2022 Good fundamental understanding of software engineering.\u2022 Ability to communicate thoughts appropriately.\u2022 Preferences in the skills - Java, C, Javascript, Golang.Selection Process:Round 1: Online Test: 90 minutesRound 2: Technical Interviews - 2 rounds (Pune)Round 3: HR Interview",
+        "Keys": [
+            {
+                "key": "role",
+                "value": "Graduate Engineer Trainee"
+            },
+            {
+                "key": "ctc",
+                "value": 11.6
+            },
+            {
+                "key": "location_1",
+                "value": "Pune"
             }
         ]
     }
