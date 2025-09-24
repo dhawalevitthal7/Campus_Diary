@@ -5,13 +5,15 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Base paths
-IS_RENDER = os.getenv('IS_RENDER', False)
+IS_RENDER = os.getenv('IS_RENDER', '').lower() == 'true'
 
 # On Render, use the persistent /data directory
 if IS_RENDER:
     BASE_PATH = pathlib.Path('/data')
+    print(f"🚀 Running on Render, using path: {BASE_PATH}")
 else:
     BASE_PATH = pathlib.Path(__file__).parent.parent
+    print(f"💻 Running locally, using path: {BASE_PATH}")
 
 CHROMA_DB_PATH = os.getenv('CHROMA_DB_PATH', 'chroma_data')
 CHROMA_DB_PERSIST_DIRECTORY = os.path.join(BASE_PATH, CHROMA_DB_PATH)

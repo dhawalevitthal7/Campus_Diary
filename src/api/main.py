@@ -90,14 +90,76 @@ class QueryRequest(BaseModel):
 @app.post("/query")
 async def query_endpoint(request: QueryRequest):
     try:
-        # Get ChromaDB client and collection info
-        from src.config import get_chroma_client
-        client = get_chroma_client()
-        collection = client.get_collection(name="companies")
+        print(f"📝 Received query: {request.query}")
         
-        # Get collection stats
-        collection_stats = {
-            "count": collection.count(),
+        # Initialize ChromaDB client
+        from src.config import get_chroma_client
+        client = None
+        collection = None
+        
+        try:
+            client = get_chroma_client()
+            collection = client.get_or_create_collection(name="companies")
+            print("✅ ChromaDB initialized successfully")
+            
+            # Get collection info
+            count = collection.count()
+            print(f"📊 Collection has {count} documents")
+            
+        except Exception as e:
+            print(f"❌ ChromaDB initialization error: {str(e)}")
+            print(traceback.format_exc())
+            raise HTTPException(
+                status_code=500,
+                detail={
+                    "error": "Database initialization failed",
+                    "message": str(e),
+                    "trace": traceback.format_exc()
+                }
+            )
+        
+        try:
+            # Process the query
+            response = finalretrieval(request.query)
+            
+            # Return response with debug info
+            return {
+                "query": request.query,
+                "response": response,
+                "debug": {
+                    "collection_info": {
+                        "count": count,
+                        "path": str(os.path.abspath(os.getenv('CHROMA_DB_PATH', 'chroma_data')))
+                    },
+                    "environment": {
+                        "is_render": str(os.getenv('IS_RENDER', '')).lower() == 'true',
+                        "data_path": '/data' if str(os.getenv('IS_RENDER', '')).lower() == 'true' else str(os.path.dirname(os.path.dirname(__file__)))
+                    }
+                }
+            }
+        except Exception as e:
+            print(f"❌ Query processing error: {str(e)}")
+            print(traceback.format_exc())
+            raise HTTPException(
+                status_code=500,
+                detail={
+                    "error": "Query processing failed",
+                    "message": str(e),
+                    "trace": traceback.format_exc()
+                }
+            )
+            
+    except Exception as e:
+        print(f"❌ Unexpected error: {str(e)}")
+        print(traceback.format_exc())
+        raise HTTPException(
+            status_code=500,
+            detail={
+                "error": "Unexpected error",
+                "message": str(e),
+                "trace": traceback.format_exc()
+            }
+        )
             "peek": collection.peek()
         }
         
