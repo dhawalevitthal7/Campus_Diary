@@ -1,53 +1,52 @@
 # Core dependencies
-fastapi==0.109.0
-uvicorn==0.27.0
-python-dotenv==1.0.1
-google-generativeai==0.3.2
-chromadb==1.1.0
-pydantic==2.6.0
+fastapi
+uvicorn
+python-dotenv
+google-generativeai
+chromadb
+pydantic
 
 # ChromaDB dependencies
-onnxruntime==1.16.3
-tokenizers==0.15.2
+onnxruntime
+tokenizers
 
 # Base requirements
-typing-extensions==4.9.0
-requests==2.31.0
-numpy==1.26.3
+typing-extensions
+requests
+numpy
 
 # Additional dependencies
-tqdm==4.66.2
-PyYAML==6.0.1
-packaging==23.2
-bleach==6.2.0
-blinker==1.9.0
-build==1.3.0
-cachetools==5.5.2
-certifi==2025.1.31
-cffi==1.17.1
-charset-normalizer==3.4.1
-chromadb==1.1.0
-click==8.1.8
-colorama==0.4.6
-coloredlogs==15.0.1
-comm==0.2.3
-contourpy==1.3.1
-cors==1.0.1
-cycler==0.12.1
-debugpy==1.8.16
-decorator==5.2.1
-defusedxml==0.7.1
-distlib==0.3.9
-distro==1.9.0
-durationpy==0.10
-executing==2.2.0
-fastapi==0.116.1
-fastjsonschema==2.21.1
-filelock==3.16.1
-Flask==3.0.0
-flask-cors==6.0.1
-flatbuffers==25.2.10
-fonttools==4.55.8
+tqdm
+PyYAML
+packaging
+# Additional system dependencies
+bleach
+blinker
+build
+cachetools
+certifi
+cffi
+charset-normalizer
+click
+colorama
+coloredlogs
+comm
+contourpy
+cors
+cycler
+debugpy
+decorator
+defusedxml
+distlib
+distro
+durationpy
+executing
+fastjsonschema
+filelock
+Flask
+flask-cors
+flatbuffers
+fonttools
 fqdn==1.5.1
 fsspec==2025.2.0
 future==1.0.0
