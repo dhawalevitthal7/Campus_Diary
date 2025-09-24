@@ -1,19 +1,21 @@
-# Core dependencies
+# Web Framework
 fastapi
-uvicorn
+uvicorn[standard]
 python-dotenv
+
+# AI and Vector DB
 google-generativeai
 chromadb
 pydantic
 
-# ChromaDB dependencies
-onnxruntime
-tokenizers
-
-# Base requirements
-typing-extensions
+# API Dependencies
 requests
-numpy
+typing-extensions
+
+# ChromaDB Dependencies
+onnxruntime-gpu
+tqdm
+PyYAML
 
 # Additional dependencies
 tqdm
