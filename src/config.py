@@ -5,7 +5,14 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Base paths
-BASE_PATH = pathlib.Path(__file__).parent.parent
+IS_RENDER = os.getenv('IS_RENDER', False)
+
+# On Render, use the persistent /data directory
+if IS_RENDER:
+    BASE_PATH = pathlib.Path('/data')
+else:
+    BASE_PATH = pathlib.Path(__file__).parent.parent
+
 CHROMA_DB_PATH = os.getenv('CHROMA_DB_PATH', 'chroma_data')
 CHROMA_DB_PERSIST_DIRECTORY = os.path.join(BASE_PATH, CHROMA_DB_PATH)
 
@@ -13,7 +20,8 @@ CHROMA_DB_PERSIST_DIRECTORY = os.path.join(BASE_PATH, CHROMA_DB_PATH)
 import chromadb
 CHROMA_SETTINGS = chromadb.config.Settings(
     allow_reset=False,  # Prevent accidental database resets
-    anonymized_telemetry=False  # Disable telemetry for security
+    anonymized_telemetry=False,  # Disable telemetry for security
+    is_persistent=True  # Ensure persistence is always enabled
 )
 
 # Create ChromaDB persist directory if it doesn't exist

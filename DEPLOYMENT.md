@@ -1,19 +1,40 @@
 # Deployment Guide for ChromaDB Application
 
-## Environment Setup
+## Local Setup
 
-1. Copy `.env.template` to `.env` and fill in the required values:
-   ```
+1. Configure environment variables:
+   ```bash
    cp .env.template .env
    ```
-
-2. Configure the following environment variables:
+   Edit `.env` and set:
    - `GEMINI_API_KEY`: Your Google Gemini API key
    - `CHROMA_DB_PATH`: Path to store ChromaDB data (default: chroma_data)
-   - `CHROMA_DB_HOST`: Host for ChromaDB (default: localhost)
-   - `CHROMA_DB_PORT`: Port for ChromaDB (default: 8000)
-   - `API_HOST`: Host for the FastAPI application (default: 0.0.0.0)
-   - `API_PORT`: Port for the FastAPI application (default: 8000)
+
+2. Initialize the database locally:
+   ```bash
+   python collection.py
+   ```
+
+3. Backup your ChromaDB data:
+   ```bash
+   zip -r chroma_data.zip chroma_data/
+   ```
+
+## Render Deployment
+
+1. In Render dashboard, configure environment variables:
+   - `GEMINI_API_KEY`: Your Google Gemini API key
+   - `IS_RENDER`: Set to "true"
+   - `CHROMA_DB_PATH`: Set to "chroma_data"
+
+2. Under "Disks" in Render settings:
+   - Add a new disk mounted at `/data`
+   - Set an appropriate size (at least 1GB)
+
+3. Upload your local `chroma_data.zip` to `/data` directory and extract it:
+   ```bash
+   unzip /data/chroma_data.zip -d /data/
+   ```
 
 ## Database Management
 
