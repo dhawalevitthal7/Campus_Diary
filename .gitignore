@@ -59,35 +59,12 @@ Thumbs.db
 .coverage
 htmlcov/
 .pytest_cache/
-.tox/
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
 
-# Distribution / packaging
-.Python
-*.egg
-*.egg-info/
-dist/
-build/
-eggs/
-parts/
-bin/
-var/
-sdist/
-develop-eggs/
-.installed.cfg
-lib/
-lib64/
+# Coverage reports
+htmlcov/
+.coverage
 
-# API keys and secrets
-.env
-.env.local
-.env.*.local
-
-# Project specific
-data/raw/*
-!data/raw/.gitkeep
-data/chunked_json/*
-!data/chunked_json/.gitkeep
+# Raw PDFs (not to be uploaded)
+data/raw/*.pdf
+data/chunked_json/*.json
+data/raw_json/*.json

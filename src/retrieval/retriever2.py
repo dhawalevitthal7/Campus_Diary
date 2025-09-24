@@ -9,7 +9,13 @@ from dotenv import load_dotenv
 import types
 load_dotenv()
 
-from ..config import get_chroma_client
+import sys
+from pathlib import Path
+
+# Add the parent directory to the Python path
+sys.path.append(str(Path(__file__).parent.parent.parent))
+
+from src.config import get_chroma_client
 
 # --- Initialize Persistent Chroma client ---
 client1 = get_chroma_client()

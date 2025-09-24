@@ -10,10 +10,11 @@ CHROMA_DB_PATH = os.getenv('CHROMA_DB_PATH', 'chroma_data')
 CHROMA_DB_PERSIST_DIRECTORY = os.path.join(BASE_PATH, CHROMA_DB_PATH)
 
 # ChromaDB settings
-CHROMA_SETTINGS = {
-    'allow_reset': False,  # Prevent accidental database resets
-    'anonymized_telemetry': False,  # Disable telemetry for security
-}
+import chromadb
+CHROMA_SETTINGS = chromadb.config.Settings(
+    allow_reset=False,  # Prevent accidental database resets
+    anonymized_telemetry=False  # Disable telemetry for security
+)
 
 # Create ChromaDB persist directory if it doesn't exist
 os.makedirs(CHROMA_DB_PERSIST_DIRECTORY, exist_ok=True)

@@ -7,7 +7,7 @@ import pathlib
 import google.generativeai as genai
 from dotenv import load_dotenv
 import types
-from src.retrieval.clean_clause import group_conditions, cleanjson, normalize_where_clause
+from src.retrieval.clean_clause import group_conditions , cleanjson , normalize_where_clause
 load_dotenv()
 
 import sys
@@ -36,7 +36,11 @@ keywords = [
     "branch_1","branch_2","branch_3","branch_4",
 ]
 
-def retriev(user_query: str):
+# --- Step 3: Normalize keys and numeric values ---
+
+
+
+def retriev(user_query: str) :
     systeminstruction = f"""
     You are a helpful assistant that helps to findout or filter metadata like {keywords} from user query{user_query}
     and then strictly return structure like this, dont add anything else.
@@ -96,52 +100,62 @@ def retriev(user_query: str):
     if there is only one condition then dont return and or operators.
     Your response **must only be the JSON object**, no extra text or explanation.
     """
-    
     content = f"""
     user query: {user_query}
     """
-    
-    try:
-        # Generate response from Gemini
-        response = model.generate_content(
-            contents=[systeminstruction, content]
-        )
-        
-        # Process the where clause
-        where_clause = response.text
-        cleaned_response = cleanjson(where_clause)
-        raw_where_clause = json.loads(cleaned_response)
-        normalized_clause = normalize_where_clause(raw_where_clause)
+    response = model.generate_content(
+        contents=[systeminstruction, content]
+    )
+    where_clause = response.text
+    cleaned_response = cleanjson(where_clause)
+    raw_where_clause = json.loads(cleaned_response)
+    normalized_clause = normalize_where_clause(raw_where_clause)
 
+    try:
         print("Debug - Raw where clause:", raw_where_clause)
         print("Debug - Normalized clause:", normalized_clause)
         
-        # Handle invalid or empty normalized clause
         if not normalized_clause or not isinstance(normalized_clause, dict):
             print("Debug - No valid normalized clause, querying without filters")
-            return collection.get(limit=3)
-
-        # Group conditions and validate the result
-        final_where_clause = group_conditions(normalized_clause, group_type="$and")
-        print("Debug - Final where clause:", final_where_clause)
-
-        # If no valid where clause was created, query without filters
-        if final_where_clause is None:
-            print("Debug - No valid where clause after grouping, querying without filters")
-            return collection.get(limit=3)
-
-        try:
-            # Execute query with valid where clause
-            return collection.get(
-                where=final_where_clause,
+            results1 = collection.get(
                 limit=3
             )
-        except ValueError as e:
-            print(f"Debug - ChromaDB query error: {str(e)}")
-            # Fall back to unfiltered query
-            return collection.get(limit=3)
+        else:
+            # Group conditions only if we have valid filters
+            final_where_clause = group_conditions(normalized_clause, group_type="$and")
+            print("Debug - Final where clause:", final_where_clause)
+            
+            # Special handling for empty where clause or single conditions
+            if not final_where_clause or len(final_where_clause) == 0:
+                results1 = collection.get(
+                    limit=3
+                )
+            elif "$and" in final_where_clause and not final_where_clause["$and"]:
+                # If $and list is empty, remove it and do a simple query
+                results1 = collection.get(
+                    limit=3
+                )
+            else:
+                results1 = collection.get(
+                    where=final_where_clause,
+                    limit=3
+                )
+                limit=3
+            )
 
-    except Exception as e:
-        print(f"Error in retriev function: {str(e)}")
-        # Fallback to a simple query without filters
-        return collection.get(limit=3)
+    if final_where_clause and len(final_where_clause) > 0:
+        # ✅ Use where filter
+        results1 = collection.get(
+            where=final_where_clause,
+            limit=3
+        )
+    else:
+        # When no filters, fetch without where clause
+        results1 = collection.get(
+            limit=3
+        )
+        results1 = collection.get(
+            limit=3 # Fetch top 10 without filtering
+        )
+
+    return results1
