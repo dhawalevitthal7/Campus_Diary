@@ -25,10 +25,10 @@ ENV/
 env/
 .env
 
-# ChromaDB
-chroma_data/*
-!chroma_data/.gitkeep
-*.sqlite3
+# # ChromaDB
+# chroma_data/*
+# !chroma_data/.gitkeep
+# *.sqlite3
 backups/
 
 # IDE
