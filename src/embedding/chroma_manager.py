@@ -9,29 +9,25 @@ from dotenv import load_dotenv
 # Load .env variables
 load_dotenv()
 
-# === PATHS ===
+# PATHS 
 BASE_DIR = pathlib.Path(__file__).resolve().parents[2]
 JSON_FOLDER_PATH = BASE_DIR / "data" / "chunked_json"
 CHROMA_DB_PATH = BASE_DIR / "chroma_data"
 
-# === Gemini API Key ===
+
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 if not GEMINI_API_KEY:
     raise EnvironmentError("GEMINI_API_KEY not found! Please set it as an environment variable.")
 
-# Configure Gemini
 genai.configure(api_key=GEMINI_API_KEY)
-print("✅ Gemini client initialized successfully!")
 
-# === Persistent Chroma Client ===
+# Persistent Chroma Client 
 client = chromadb.PersistentClient(path=str(CHROMA_DB_PATH))
 
 # Create or get collection
 collection = client.get_or_create_collection(name="companies")
 
-# ---------------------
 # Embedding Generation
-# ---------------------
 def generate_embedding(text: str):
     """
     Generate embedding using Google's Gemini text-embedding-004 model.
@@ -47,9 +43,8 @@ def generate_embedding(text: str):
         print(f"Error generating embedding: {e}")
         return [0.0] * 768  # fallback to prevent pipeline crash
 
-# ---------------------
+
 # Metadata Processing
-# ---------------------
 def extract_metadata(company):
     """
     Extract and clean metadata from company JSON.
@@ -75,9 +70,7 @@ def extract_metadata(company):
     meta["name"] = company["Name"].strip()  # Always include company name
     return meta
 
-# ---------------------
 # Text Processing
-# ---------------------
 def build_embedding_text(company):
     """Build a clean text string for embedding generation."""
     text = f"Company Name: {company['Name']}\n"
@@ -94,7 +87,7 @@ def process_json_file(json_path):
     with open(json_path, "r", encoding="utf-8") as f:
         companies_data = json.load(f)
 
-    print(f"✅ Processing {len(companies_data)} companies from {os.path.basename(json_path)}")
+    print(f"Processing {len(companies_data)} companies from {os.path.basename(json_path)}")
 
     ids, documents, metadatas, embeddings = [], [], [], []
 
@@ -118,7 +111,7 @@ def process_json_file(json_path):
         embeddings=embeddings
     )
 
-    print(f"🎉 Added {len(ids)} companies to ChromaDB from {os.path.basename(json_path)}")
+    print(f"Added {len(ids)} companies to ChromaDB from {os.path.basename(json_path)}")
 
 def process_all_json():
     """Process all JSON files in the chunked_json directory."""
@@ -129,11 +122,10 @@ def process_all_json():
         if file_name.endswith(".json"):
             process_json_file(JSON_FOLDER_PATH / file_name)
 
-    print("✅ All JSON files processed and embedded into ChromaDB successfully!")
+    print("All JSON files processed and embedded into ChromaDB successfully!")
 
-# ---------------------
+
 # Initialization
-# ---------------------
 def init_chroma():
     """
     Initialize ChromaDB:
@@ -142,10 +134,10 @@ def init_chroma():
     Returns the initialized collection
     """
     if collection.count() == 0:
-        print("⚡ ChromaDB is empty. Populating with data...")
+        print("ChromaDB is empty. Populating with data...")
         process_all_json()
     else:
-        print(f"✅ ChromaDB already initialized with {collection.count()} records")
+        print(f"ChromaDB already initialized with {collection.count()} records")
 
     return collection
 
