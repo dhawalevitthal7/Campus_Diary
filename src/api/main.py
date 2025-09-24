@@ -14,7 +14,7 @@ app = FastAPI()
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Or specific domains like ["https://lovable.dev", "https://*.lovableproject.com"]
+    allow_origins=["*"],  
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -22,8 +22,8 @@ app.add_middleware(
 
 
 # Configure host and port
-HOST = "0.0.0.0"  # Allows external access
-PORT = 8000       # Default port for FastAPI
+HOST = "0.0.0.0"  
+PORT = 8000       
 
 @app.get("/")
 def root():
@@ -65,17 +65,17 @@ async def query_endpoint(request: QueryRequest):
     try:
         # Get ChromaDB configuration
         from src.config import get_chroma_client, CHROMA_DB_PERSIST_DIRECTORY, IS_RENDER
-        print(f"💾 Database directory: {CHROMA_DB_PERSIST_DIRECTORY}")
-        print(f"🚀 Is Render: {IS_RENDER}")
+        print(f"Database directory: {CHROMA_DB_PERSIST_DIRECTORY}")
+        print(f"Is Render: {IS_RENDER}")
         
         # Initialize ChromaDB
         try:
             client = get_chroma_client()
             collection = client.get_or_create_collection(name="companies")
             doc_count = collection.count()
-            print(f"✅ Connected to ChromaDB. Collection has {doc_count} documents.")
+            print(f"Connected to ChromaDB. Collection has {doc_count} documents.")
         except Exception as db_error:
-            print(f"❌ Database error: {str(db_error)}")
+            print(f"Database error: {str(db_error)}")
             print(f"Trace:\n{traceback.format_exc()}")
             raise HTTPException(
                 status_code=500,
@@ -88,9 +88,9 @@ async def query_endpoint(request: QueryRequest):
         
         # Process query
         try:
-            print(f"📝 Processing query: {request.query}")
+            print(f"Processing query: {request.query}")
             response = finalretrieval(request.query)
-            print("✅ Query processed successfully")
+            print("Query processed successfully")
             
             # Safely serialize response
             serialized_response = str(response) if response is not None else None
@@ -107,7 +107,7 @@ async def query_endpoint(request: QueryRequest):
                 }
             }
         except Exception as query_error:
-            print(f"❌ Query processing error: {str(query_error)}")
+            print(f"Query processing error: {str(query_error)}")
             print(f"Trace:\n{traceback.format_exc()}")
             raise HTTPException(
                 status_code=500,
@@ -120,7 +120,7 @@ async def query_endpoint(request: QueryRequest):
     except HTTPException:
         raise
     except Exception as e:
-        print(f"❌ Unexpected error: {str(e)}")
+        print(f"Unexpected error: {str(e)}")
         print(f"Trace:\n{traceback.format_exc()}")
         raise HTTPException(
             status_code=500,
