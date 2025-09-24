@@ -7,7 +7,19 @@ import traceback
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
 from src.retrieval.final_retrieval import finalretrieval
 
-app = FastAPI(title="RAG Query API")
+from fastapi.middleware.cors import CORSMiddleware
+
+app = FastAPI()
+
+# Add CORS middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Or specific domains like ["https://lovable.dev", "https://*.lovableproject.com"]
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 
 # Configure host and port
 HOST = "0.0.0.0"  # Allows external access
