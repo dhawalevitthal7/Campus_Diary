@@ -1,53 +1,16 @@
-# Web Framework
-fastapi
-uvicorn[standard]
-python-dotenv
+# Core Web Framework
+fastapi==0.95.2
+uvicorn==0.22.0
+python-dotenv==0.21.1
 
-# AI and Vector DB
-google-generativeai
-chromadb
-pydantic
+# Vector Database and AI
+chromadb==0.4.15
+google-generativeai==0.3.1
 
-# API Dependencies
-requests
-typing-extensions
-
-# ChromaDB Dependencies
-onnxruntime-gpu
-tqdm
-PyYAML
-
-# Additional dependencies
-tqdm
-PyYAML
-packaging
-# Additional system dependencies
-bleach
-blinker
-build
-cachetools
-certifi
-cffi
-charset-normalizer
-click
-colorama
-coloredlogs
-comm
-contourpy
-cors
-cycler
-debugpy
-decorator
-defusedxml
-distlib
-distro
-durationpy
-executing
-fastjsonschema
-filelock
-Flask
-flask-cors
-flatbuffers
+# Base Dependencies
+pydantic==2.0.3
+requests==2.28.2
+typing-extensions==4.5.0
 fonttools
 fqdn==1.5.1
 fsspec==2025.2.0
