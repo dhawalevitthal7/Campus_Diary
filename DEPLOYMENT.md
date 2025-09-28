@@ -1,5 +1,14 @@
 # Deployment Guide for ChromaDB Application
 
+## Project Structure
+```
+/
+├── chroma_data/         # Local ChromaDB data directory
+├── src/                 # Source code
+├── render_setup.sh      # Render deployment setup script
+└── ...
+```
+
 ## Local Setup
 
 1. Configure environment variables:
@@ -8,33 +17,37 @@
    ```
    Edit `.env` and set:
    - `GEMINI_API_KEY`: Your Google Gemini API key
-   - `CHROMA_DB_PATH`: Path to store ChromaDB data (default: chroma_data)
+   - `CHROMA_DB_PATH`: Should be set to "chroma_data"
 
 2. Initialize the database locally:
    ```bash
    python collection.py
    ```
 
-3. Backup your ChromaDB data:
-   ```bash
-   zip -r chroma_data.zip chroma_data/
-   ```
+3. The database will be created in the `chroma_data` directory at your project root.
 
 ## Render Deployment
 
-1. In Render dashboard, configure environment variables:
-   - `GEMINI_API_KEY`: Your Google Gemini API key
-   - `IS_RENDER`: Set to "true"
-   - `CHROMA_DB_PATH`: Set to "chroma_data"
+1. In your Render dashboard, configure environment variables:
+   ```
+   GEMINI_API_KEY=your_api_key
+   IS_RENDER=true
+   CHROMA_DB_PATH=chroma_data
+   ```
 
 2. Under "Disks" in Render settings:
-   - Add a new disk mounted at `/data`
-   - Set an appropriate size (at least 1GB)
+   - Add a new disk
+   - Mount path: `/data`
+   - Size: At least 1GB
 
-3. Upload your local `chroma_data.zip` to `/data` directory and extract it:
-   ```bash
-   unzip /data/chroma_data.zip -d /data/
-   ```
+3. Configure your deployment:
+   - Build Command: `chmod +x render_setup.sh && ./render_setup.sh`
+   - Start Command: `uvicorn src.api.main:app --host 0.0.0.0 --port $PORT`
+
+4. The ChromaDB data will be automatically:
+   - Stored in `/data/campus_diary/chroma_data`
+   - Persisted between deployments
+   - Backed up with the disk
 
 ## Database Management
 
