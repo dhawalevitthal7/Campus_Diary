@@ -1,15 +1,24 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, BackgroundTasks
+from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 import uvicorn
 import sys
 import os
 import traceback
+import asyncio
+from functools import lru_cache
+from typing import Dict, Any, Optional
+import time
+
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
 from src.retrieval.final_retrieval import finalretrieval
-
+from src.config import get_chroma_client
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
+
+# Cache for storing query results
+query_cache: Dict[str, Dict[str, Any]] = {}
 
 # Add CORS middleware
 app.add_middleware(
@@ -60,14 +69,60 @@ async def status():
 class QueryRequest(BaseModel):
     query: str
 
-@app.post("/query")
-async def query_endpoint(request: QueryRequest):
+async def process_query(query: str) -> dict:
+    """Process the query asynchronously with timeout"""
     try:
-        # Get ChromaDB configuration
-        from src.config import get_chroma_client, CHROMA_DB_PERSIST_DIRECTORY, IS_RENDER
-        print(f"Database directory: {CHROMA_DB_PERSIST_DIRECTORY}")
-        print(f"Is Render: {IS_RENDER}")
+        # Set a timeout of 30 seconds for query processing
+        result = await asyncio.wait_for(
+            asyncio.to_thread(finalretrieval, query),
+            timeout=30.0
+        )
+        return {"result": result, "cached": False}
+    except asyncio.TimeoutError:
+        raise HTTPException(status_code=504, detail="Query processing timed out")
+    except Exception as e:
+        print(f"Error processing query: {str(e)}")
+        traceback.print_exc()
+        raise HTTPException(status_code=500, detail=str(e))
+
+def clean_cache(max_age: int = 3600, max_size: int = 1000):
+    """Clean old cache entries"""
+    current_time = time.time()
+    
+    # Remove entries older than max_age seconds
+    keys_to_remove = [
+        k for k, v in query_cache.items()
+        if current_time - v["last_accessed"] > max_age
+    ]
+    
+    for k in keys_to_remove:
+        del query_cache[k]
+    
+    # If still too many entries, remove oldest ones
+    if len(query_cache) > max_size:
+        sorted_entries = sorted(
+            query_cache.items(),
+            key=lambda x: x[1]["last_accessed"]
+        )
+        for k, _ in sorted_entries[:len(query_cache) - max_size]:
+            del query_cache[k]
+
+@app.post("/query")
+async def query_endpoint(request: QueryRequest, background_tasks: BackgroundTasks):
+    """Handle query requests with caching and async processing"""
+    try:
+        # Check cache first
+        cache_key = request.query.strip().lower()
+        cached_result = query_cache.get(cache_key)
         
+        if cached_result:
+            # Update cache access time
+            cached_result["last_accessed"] = time.time()
+            return JSONResponse(content={
+                "result": cached_result["result"],
+                "cached": True
+            })
+            
         # Initialize ChromaDB
         try:
             client = get_chroma_client()
@@ -76,52 +131,43 @@ async def query_endpoint(request: QueryRequest):
             print(f"Connected to ChromaDB. Collection has {doc_count} documents.")
         except Exception as db_error:
             print(f"Database error: {str(db_error)}")
-            print(f"Trace:\n{traceback.format_exc()}")
+            traceback.print_exc()
             raise HTTPException(
                 status_code=500,
                 detail={
                     "error": "Database connection failed",
-                    "message": str(db_error),
-                    "path": CHROMA_DB_PERSIST_DIRECTORY
+                    "message": str(db_error)
                 }
             )
+            
+        # Process query with timeout
+        print(f"Processing query: {request.query}")
+        result = await process_query(request.query)
         
-        # Process query
-        try:
-            print(f"Processing query: {request.query}")
-            response = finalretrieval(request.query)
-            print("Query processed successfully")
-            
-            # Safely serialize response
-            serialized_response = str(response) if response is not None else None
-            
-            return {
+        # Cache the result
+        query_cache[cache_key] = {
+            "result": result["result"],
+            "last_accessed": time.time()
+        }
+        
+        # Clean old cache entries in background
+        background_tasks.add_task(clean_cache)
+        
+        # Return response with debug info
+        return JSONResponse(content={
+            "result": result["result"],
+            "cached": False,
+            "debug": {
                 "query": request.query,
-                "response": serialized_response,
-                "debug": {
-                    "database": {
-                        "path": str(CHROMA_DB_PERSIST_DIRECTORY),
-                        "document_count": doc_count,
-                        "is_render": IS_RENDER
-                    }
-                }
+                "collection_size": doc_count
             }
-        except Exception as query_error:
-            print(f"Query processing error: {str(query_error)}")
-            print(f"Trace:\n{traceback.format_exc()}")
-            raise HTTPException(
-                status_code=500,
-                detail={
-                    "error": "Query processing failed",
-                    "message": str(query_error)
-                }
-            )
-            
+        })
+        
     except HTTPException:
         raise
     except Exception as e:
-        print(f"Unexpected error: {str(e)}")
-        print(f"Trace:\n{traceback.format_exc()}")
+        print(f"Unexpected error in query endpoint: {str(e)}")
+        traceback.print_exc()
         raise HTTPException(
             status_code=500,
             detail={
