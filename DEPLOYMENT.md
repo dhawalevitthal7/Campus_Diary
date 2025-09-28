@@ -1,4 +1,28 @@
-# Deployment Guide for ChromaDB Application
+# Campus Diary Deployment Guide
+
+## ChromaDB Setup and Persistence
+
+### Local Development
+
+1. First-time setup:
+   ```bash
+   # Install dependencies
+   pip install -r requirements.txt
+   
+   # Initialize ChromaDB with company data
+   python collection.py
+   ```
+   This will create a `chroma_data` directory in your project root.
+
+2. The data will persist between runs as long as the `chroma_data` directory exists.
+
+3. Before deploying, backup your data:
+   ```bash
+   python src/utils/backup_db.py backup
+   ```
+   This creates:
+   - `backup/chroma_backup.json`: Portable data backup
+   - `backup/chroma_data/`: Full ChromaDB directory backup
 
 ## Project Structure
 ```
@@ -26,28 +50,44 @@
 
 3. The database will be created in the `chroma_data` directory at your project root.
 
-## Render Deployment
+### Render Deployment
 
-1. In your Render dashboard, configure environment variables:
+1. In your Render dashboard, set environment variables:
    ```
    GEMINI_API_KEY=your_api_key
    IS_RENDER=true
-   CHROMA_DB_PATH=chroma_data
    ```
 
-2. Under "Disks" in Render settings:
+2. Set up persistent storage:
+   - Go to "Disks" in dashboard
    - Add a new disk
    - Mount path: `/data`
    - Size: At least 1GB
 
-3. Configure your deployment:
-   - Build Command: `chmod +x render_setup.sh && ./render_setup.sh`
-   - Start Command: `uvicorn src.api.main:app --host 0.0.0.0 --port $PORT`
+3. Initial deployment:
+   ```bash
+   # First, backup your local data
+   python src/utils/backup_db.py backup
+   
+   # Copy backup to Render's /data directory
+   scp backup/chroma_data.zip render:/data/
+   ```
 
-4. The ChromaDB data will be automatically:
-   - Stored in `/data/campus_diary/chroma_data`
-   - Persisted between deployments
-   - Backed up with the disk
+4. Build commands in Render:
+   ```bash
+   # Build command
+   if [ ! -d "/data/chroma_data" ]; then
+     cp -r chroma_data /data/
+   fi
+   
+   # Start command
+   uvicorn src.api.main:app --host 0.0.0.0 --port $PORT
+   ```
+
+Your ChromaDB will now:
+- Use the same data between deployments
+- Store data in `/data/chroma_data`
+- Persist across restarts and updates
 
 ## Database Management
 

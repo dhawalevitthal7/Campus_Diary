@@ -18,16 +18,15 @@ sys.path.append(str(Path(__file__).parent.parent.parent))
 
 from src.config import get_chroma_client
 
-# --- Initialize Persistent Chroma client ---
+# Initialize Persistent Chroma client 
 client1 = get_chroma_client()
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 genai.configure(api_key=GEMINI_API_KEY)
 
-# Initialize Gemini model
 model = genai.GenerativeModel('gemini-2.0-flash')
 
-# --- Create or get collection ---
+# Create or get collection 
 collection = client1.get_or_create_collection(name="companies")
 
 keywords = [
@@ -35,10 +34,6 @@ keywords = [
     "stipend","stipend_min","stipend_max","company_name","role","cgpa",
     "branch_1","branch_2","branch_3","branch_4",
 ]
-
-# --- Step 3: Normalize keys and numeric values ---
-
-
 
 def retriev(user_query: str) :
     systeminstruction = f"""
@@ -147,7 +142,6 @@ def retriev(user_query: str) :
         )
 
     if final_where_clause and len(final_where_clause) > 0:
-        # ✅ Use where filter
         results1 = collection.get(
             where=final_where_clause,
             limit=3

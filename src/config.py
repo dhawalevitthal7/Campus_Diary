@@ -7,27 +7,24 @@ load_dotenv()
 # Base paths
 IS_RENDER = str(os.getenv('IS_RENDER', '')).lower() == 'true'
 
-# Set up base project path
-if IS_RENDER:
-    # On Render, the app is deployed to /opt/render/project/src
-    BASE_PATH = pathlib.Path('/opt/render/project/src')
-else:
-    # Local development path (root of your project)
-    BASE_PATH = pathlib.Path(__file__).parent.parent
+# Get the absolute path to the project root directory
+PROJECT_ROOT = pathlib.Path(__file__).parent.parent.absolute()
 
-# Set up ChromaDB path
-CHROMA_DB_PATH = os.getenv('CHROMA_DB_PATH', 'chroma_data')
+# ChromaDB will always be in a directory named 'chroma_data' for consistency
+CHROMA_DB_PATH = 'chroma_data'
 
-# ChromaDB persistence directory
+# Set up the ChromaDB persistence directory
 if IS_RENDER:
-    # On Render, store data in the persistent disk at /data/project_name/chroma_data
-    RENDER_DATA_DIR = pathlib.Path('/data/campus_diary')
-    CHROMA_DB_PERSIST_DIRECTORY = str(RENDER_DATA_DIR / CHROMA_DB_PATH)
-    # Create the project directory in /data if it doesn't exist
-    os.makedirs(RENDER_DATA_DIR, exist_ok=True)
+    # On Render, use the persistent disk mounted at /data
+    CHROMA_DB_PERSIST_DIRECTORY = str(pathlib.Path('/data/chroma_data'))
 else:
-    # Local development: use chroma_data in project root
-    CHROMA_DB_PERSIST_DIRECTORY = str(BASE_PATH / CHROMA_DB_PATH)
+    # In local development, use the chroma_data directory in project root
+    CHROMA_DB_PERSIST_DIRECTORY = str(PROJECT_ROOT / CHROMA_DB_PATH)
+
+# Ensure the persistence directory exists
+os.makedirs(CHROMA_DB_PERSIST_DIRECTORY, exist_ok=True)
+
+print(f"📂 ChromaDB persistence directory: {CHROMA_DB_PERSIST_DIRECTORY}")
 
 # ChromaDB settings
 import chromadb

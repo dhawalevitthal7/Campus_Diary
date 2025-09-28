@@ -26,6 +26,6 @@ for i in range(0, len(all_companies_data), chunk_size):
     chunk_filename = output_dir / f"companies_chunk_{i // chunk_size + 1}.json"
     with open(chunk_filename, "w", encoding="utf-8") as f:
         json.dump(chunk, f, indent=4)
-    print(f"✅ Saved chunk to {chunk_filename.resolve()}")
+    print(f"Saved chunk to {chunk_filename.resolve()}")
 
-print("\n🎉 Finished splitting companies data into chunks.")
+print("\n Finished splitting companies data into chunks.")

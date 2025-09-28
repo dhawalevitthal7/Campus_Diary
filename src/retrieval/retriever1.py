@@ -13,12 +13,12 @@ load_dotenv()
 import sys
 from pathlib import Path
 
-# Add the parent directory to the Python path
+# parent directory 
 sys.path.append(str(Path(__file__).parent.parent.parent))
 
 from src.config import get_chroma_client
 
-# --- Initialize Persistent Chroma client ---
+# Initialize Persistent Chroma client 
 client1 = get_chroma_client()
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
@@ -27,7 +27,7 @@ genai.configure(api_key=GEMINI_API_KEY)
 # Initialize Gemini model
 model = genai.GenerativeModel('gemini-2.0-flash')
 
-# --- Create or get collection ---
+# Create or get collection 
 collection = client1.get_or_create_collection(name="companies")
 
 keywords = [

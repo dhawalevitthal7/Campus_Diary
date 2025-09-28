@@ -56,9 +56,9 @@ def group_conditions(where_dict, group_type="$and"):
     if not isinstance(where_dict, dict):
         return None
 
-    # 🚨 Handle empty dictionary
+    # Handle empty dictionary
     if not where_dict:
-        print("⚠️ Warning: Empty where clause detected.")
+        print("Warning: Empty where clause detected.")
         return None
 
     # If dictionary already has $and or $or operators
@@ -68,7 +68,7 @@ def group_conditions(where_dict, group_type="$and"):
                 conditions = where_dict[op]
                 # Validate conditions is a non-empty list with at least 2 items
                 if not isinstance(conditions, list) or len(conditions) < 2:
-                    print(f"⚠️ Warning: Invalid {op} conditions")
+                    print(f"Warning: Invalid {op} conditions")
                     return None
         return where_dict
 
@@ -78,7 +78,7 @@ def group_conditions(where_dict, group_type="$and"):
         if isinstance(value, dict):
             conditions.append({key: value})
         else:
-            print(f"⚠️ Warning: Invalid value format for key {key}")
+            print(f"Warning: Invalid value format for key {key}")
             return None
 
     # Return based on number of conditions
