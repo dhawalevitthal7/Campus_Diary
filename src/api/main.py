@@ -139,8 +139,8 @@ async def process_query(query: str) -> dict:
             return None
 
     try:
-        # Render cold starts can be slower; allow a bit more time in production
-        timeout_s = 15.0 if os.getenv('IS_RENDER', 'false').lower() == 'true' else 8.0
+        # Allow more time on Render; default lower locally
+        timeout_s = 20.0 if os.getenv('IS_RENDER', 'false').lower() == 'true' else 10.0
         result = await asyncio.wait_for(_process_with_timeout(), timeout=timeout_s)
         
         if not result:

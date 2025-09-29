@@ -47,12 +47,14 @@ def finalretrieval(user_query: str):
     """Process user query combining metadata and embedding retrieval."""
     try:
         print(f"Processing query: {user_query}")
-        # Metadata-based search
+        # Metadata-based search (fast path)
         res1 = serialize_chroma_result(retriev(user_query))
         print(f"Metadata search results: {len(res1.get('documents', []))} documents")
 
-        # Embedding-based search (always run to complement metadata search)
-        res2 = serialize_chroma_result(generate_embedding(user_query))
+        # Embedding-based search only if metadata is empty (faster)
+        res2 = {"ids": [], "documents": [], "metadatas": []}
+        if not res1.get("documents"):
+            res2 = serialize_chroma_result(generate_embedding(user_query))
         
         # Prepare results for response
         all_docs = []
@@ -85,17 +87,24 @@ def finalretrieval(user_query: str):
         Keep the response informative.
         """
         try:
-            # Generate response using the model
-            response = model.generate_content(prompt)
-            
+            # Generate response using the model with a soft timeout via threading
+            import concurrent.futures
+            def _gen():
+                return model.generate_content(prompt)
+            with concurrent.futures.ThreadPoolExecutor(max_workers=1) as ex:
+                fut = ex.submit(_gen)
+                try:
+                    response = fut.result(timeout=6.0)
+                except concurrent.futures.TimeoutError:
+                    return "Here are the top matches based on the database search. The AI summary took too long; showing raw results instead.\n\n" + json.dumps(all_docs[:3], indent=2)
+
             if response and getattr(response, 'text', None):
                 return response.text.strip()
-            else:
-                return "Unable to generate response. Please try again."
-                
+            return "Unable to generate response. Please try again."
+
         except Exception as model_error:
             print(f"Error in generate_content: {str(model_error)}")
-            return f"Error processing results: {str(model_error)}"
+            return "Here are the top matches based on the database search. The AI summary failed; showing raw results instead.\n\n" + json.dumps(all_docs[:3], indent=2)
             
     except Exception as e:
         print(f"Error in finalretrieval: {str(e)}")
