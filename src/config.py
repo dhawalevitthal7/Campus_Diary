@@ -35,17 +35,25 @@ _chroma_client = None
 def get_chroma_client():
     global _chroma_client
     if _chroma_client is None:
-        _chroma_client = chromadb.Client(Settings(
+        settings = Settings(
             persist_directory=CHROMA_DB_PERSIST_DIRECTORY,
             anonymized_telemetry=False,
-            is_persistent=True
-        ))
+            is_persistent=True,
+            allow_reset=False,
+            chroma_db_impl="duckdb+parquet",  # More stable implementation
+            persist_directory_path=CHROMA_DB_PERSIST_DIRECTORY,
+        )
+        
+        try:
+            _chroma_client = chromadb.Client(settings)
+            # Test the connection
+            _chroma_client.heartbeat()
+            print("✅ ChromaDB connection established successfully")
+        except Exception as e:
+            print(f"❌ Error connecting to ChromaDB: {str(e)}")
+            raise
+            
     return _chroma_client
-CHROMA_SETTINGS = chromadb.config.Settings(
-    allow_reset=False,  # Prevent accidental database resets
-    anonymized_telemetry=False,  # Disable telemetry for security
-    is_persistent=True  # Ensure persistence is always enabled
-)
 
 # Create ChromaDB persist directory if it doesn't exist
 os.makedirs(CHROMA_DB_PERSIST_DIRECTORY, exist_ok=True)

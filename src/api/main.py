@@ -31,12 +31,26 @@ app.add_middleware(
 
 
 # Configure host and port
-HOST = "0.0.0.0"  
-PORT = 8000       
+HOST = "0.0.0.0"
+PORT = int(os.getenv("PORT", "8000"))
+
+# Add startup event to initialize ChromaDB
+@app.on_event("startup")
+async def startup_event():
+    try:
+        client = get_chroma_client()
+        collection = client.get_or_create_collection(name="companies")
+        print(f"✅ Successfully connected to ChromaDB. Collection has {collection.count()} documents.")
+    except Exception as e:
+        print(f"❌ Error initializing ChromaDB: {str(e)}")
+        print(traceback.format_exc())
 
 @app.get("/")
-def root():
-    return {"message": "API is running!"}
+async def root():
+    return {
+        "message": "API is running!",
+        "status": "healthy"
+    }
 
 @app.get("/status")
 async def status():
@@ -70,46 +84,59 @@ class QueryRequest(BaseModel):
     query: str
 
 async def process_query(query: str) -> dict:
-    """Process the query asynchronously with shorter timeout"""
+    """Process the query asynchronously with optimized timeout"""
+    async def _process_with_timeout():
+        try:
+            # Use a background task for the processing
+            result = await asyncio.get_event_loop().run_in_executor(
+                None, finalretrieval, query
+            )
+            return result
+        except Exception as e:
+            print(f"Processing error: {str(e)}")
+            return None
+
     try:
-        # Process query with a shorter timeout
-        result = await asyncio.wait_for(
-            asyncio.to_thread(finalretrieval, query),
-            timeout=10.0  # Reduced timeout for faster response
-        )
+        # Set a shorter timeout for faster response
+        result = await asyncio.wait_for(_process_with_timeout(), timeout=8.0)
         
         if not result:
             return {
-                "result": "No results found. Please try different keywords.",
+                "result": "No matching results found. Please try different search terms.",
                 "cached": False,
                 "status": "no_results"
             }
         
-        # Check if the result indicates an error
-        if isinstance(result, str) and ("error" in result.lower() or "unable to" in result.lower()):
+        if isinstance(result, str):
+            if any(err in result.lower() for err in ["error", "unable", "failed"]):
+                return {
+                    "result": "Please try rephrasing your search query.",
+                    "cached": False,
+                    "status": "error"
+                }
             return {
-                "result": "Unable to process query. Please try with different keywords.",
+                "result": result,
                 "cached": False,
-                "status": "error"
+                "status": "success"
             }
             
         return {
-            "result": result,
+            "result": str(result),
             "cached": False,
             "status": "success"
         }
         
     except asyncio.TimeoutError:
         return {
-            "result": "Query taking too long. Please try a more specific search.",
+            "result": "Request timed out. Please try a more specific search.",
             "cached": False,
             "status": "timeout"
         }
     except Exception as e:
-        print(f"Error processing query: {str(e)}")
+        print(f"Query processing error: {str(e)}")
         traceback.print_exc()
         return {
-            "result": "System is temporarily busy. Please try again in a moment.",
+            "result": "Service is currently busy. Please retry in a few moments.",
             "cached": False,
             "status": "error"
         }
