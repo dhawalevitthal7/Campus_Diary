@@ -1,14 +1,14 @@
 import json
 import pathlib
 
-base_path = pathlib.Path(__file__).parent.parent.parent
-
+# Resolve project root relative to this file (src/chunking/json_chunker.py)
+project_root = pathlib.Path(__file__).resolve().parents[2]
 
 # Input file path
-input_path = base_path / "data" / "raw" / "companies.json"
+input_path = project_root / "data" / "raw" / "companies.json"
 
 # Output directory path
-output_dir = base_path / "data" / "chunked_json"
+output_dir = project_root / "data" / "chunked_json"
 
 # Create the output folder if it doesn't exist (including parents)
 output_dir.mkdir(parents=True, exist_ok=True)
@@ -28,4 +28,4 @@ for i in range(0, len(all_companies_data), chunk_size):
         json.dump(chunk, f, indent=4)
     print(f"Saved chunk to {chunk_filename.resolve()}")
 
-print("\n Finished splitting companies data into chunks.")
+print("\nFinished splitting companies data into chunks.")

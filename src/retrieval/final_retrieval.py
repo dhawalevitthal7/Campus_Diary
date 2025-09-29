@@ -21,36 +21,44 @@ model = genai.GenerativeModel('gemini-2.0-flash')
 
 
 def serialize_chroma_result(result):
-    """Safely serialize ChromaDB results with optimization"""
-    if isinstance(result, dict):
-        # Limit to top 3 most relevant results to improve response time
-        return {
-            "ids": result.get("ids", [])[:3],
-            "documents": result.get("documents", [])[:3],
-            "metadatas": result.get("metadatas", [])[:3]
-        }
-    return str(result)
+    """Normalize ChromaDB result into a consistent short form."""
+    if not isinstance(result, dict):
+        return {"ids": [], "documents": [], "metadatas": []}
+
+    # Chroma can return nested lists; flatten first entry if needed
+    ids = result.get("ids", [])
+    documents = result.get("documents", [])
+    metadatas = result.get("metadatas", [])
+
+    if ids and isinstance(ids[0], list):
+        ids = ids[0]
+    if documents and isinstance(documents[0], list):
+        documents = documents[0]
+    if metadatas and isinstance(metadatas[0], list):
+        metadatas = metadatas[0]
+
+    return {
+        "ids": ids[:3],
+        "documents": documents[:3],
+        "metadatas": metadatas[:3],
+    }
 
 def finalretrieval(user_query: str):
-    """Process user query and return relevant results quickly"""
+    """Process user query combining metadata and embedding retrieval."""
     try:
         print(f"Processing query: {user_query}")
-        # First try metadata-based search as it's faster
+        # Metadata-based search
         res1 = serialize_chroma_result(retriev(user_query))
         print(f"Metadata search results: {len(res1.get('documents', []))} documents")
-        
-        # Only do embedding search if metadata search returns no results
-        if not res1.get("documents"):
-            print("No metadata results, trying embedding search")
-            res2 = serialize_chroma_result(generate_embedding(user_query))
-        else:
-            res2 = {"ids": [], "documents": [], "metadatas": []}
+
+        # Embedding-based search (always run to complement metadata search)
+        res2 = serialize_chroma_result(generate_embedding(user_query))
         
         # Prepare results for response
         all_docs = []
         seen_docs = set()
         
-        # Combine unique results from both searches
+        # Combine unique results from both searches, prefer metadata ordering
         for result in [res1, res2]:
             for doc, meta in zip(result.get("documents", []), result.get("metadatas", [])):
                 if doc and doc not in seen_docs:
@@ -80,7 +88,7 @@ def finalretrieval(user_query: str):
             # Generate response using the model
             response = model.generate_content(prompt)
             
-            if response and response.text:
+            if response and getattr(response, 'text', None):
                 return response.text.strip()
             else:
                 return "Unable to generate response. Please try again."

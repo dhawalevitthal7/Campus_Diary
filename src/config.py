@@ -28,27 +28,26 @@ print(f"📂 ChromaDB persistence directory: {CHROMA_DB_PERSIST_DIRECTORY}")
 
 # ChromaDB settings
 import chromadb
-from chromadb.config import Settings
 
 _chroma_client = None
 
 def get_chroma_client():
+    """
+    Get a ChromaDB client with the configured settings.
+    Returns:
+        ChromaDB client instance
+    """
     global _chroma_client
     if _chroma_client is None:
-        settings = Settings(
-            persist_directory=CHROMA_DB_PERSIST_DIRECTORY,
-            anonymized_telemetry=False,
-            is_persistent=True,
-            allow_reset=False,
-            chroma_db_impl="duckdb+parquet",  # More stable implementation
-            persist_directory_path=CHROMA_DB_PERSIST_DIRECTORY,
-        )
-        
         try:
-            _chroma_client = chromadb.Client(settings)
-            # Test the connection
-            _chroma_client.heartbeat()
-            print("✅ ChromaDB connection established successfully")
+            # Use new PersistentClient API per Chroma migration guidance
+            _chroma_client = chromadb.PersistentClient(path=CHROMA_DB_PERSIST_DIRECTORY)
+            # Optional warm-up (not all clients expose heartbeat)
+            try:
+                _ = getattr(_chroma_client, "heartbeat", lambda: None)()
+            except Exception:
+                pass
+            print("✅ ChromaDB PersistentClient initialized")
         except Exception as e:
             print(f"❌ Error connecting to ChromaDB: {str(e)}")
             raise
@@ -61,15 +60,3 @@ os.makedirs(CHROMA_DB_PERSIST_DIRECTORY, exist_ok=True)
 # API settings
 API_HOST = os.getenv('API_HOST', '0.0.0.0')
 API_PORT = int(os.getenv('API_PORT', '8000'))
-
-def get_chroma_client():
-    """
-    Get a ChromaDB client with the configured settings.
-    Returns:
-        ChromaDB client instance
-    """
-    import chromadb
-    return chromadb.PersistentClient(
-        path=CHROMA_DB_PERSIST_DIRECTORY,
-        settings=CHROMA_SETTINGS
-    )

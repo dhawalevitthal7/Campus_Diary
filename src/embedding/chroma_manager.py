@@ -21,8 +21,10 @@ if not GEMINI_API_KEY:
 
 genai.configure(api_key=GEMINI_API_KEY)
 
-# Persistent Chroma Client 
-client = chromadb.PersistentClient(path=str(CHROMA_DB_PATH))
+from src.config import get_chroma_client
+
+# Persistent Chroma Client via shared config
+client = get_chroma_client()
 
 # Create or get collection
 collection = client.get_or_create_collection(name="companies")

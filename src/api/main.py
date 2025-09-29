@@ -20,6 +20,16 @@ app = FastAPI()
 # Cache for storing query results
 query_cache: Dict[str, Dict[str, Any]] = {}
 
+# Initialize ChromaDB client at module level
+def get_db():
+    from src.config import get_chroma_client
+    try:
+        client = get_chroma_client()
+        return client.get_or_create_collection(name="companies")
+    except Exception as e:
+        print(f"Error connecting to ChromaDB: {e}")
+        raise
+
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
@@ -34,28 +44,60 @@ app.add_middleware(
 HOST = "0.0.0.0"
 PORT = int(os.getenv("PORT", "8000"))
 
+# Global variable for ChromaDB client
+_chroma_client = None
+
 # Add startup event to initialize ChromaDB
 @app.on_event("startup")
 async def startup_event():
+    """Initialize ChromaDB and other resources on startup"""
     try:
-        client = get_chroma_client()
-        collection = client.get_or_create_collection(name="companies")
-        print(f"✅ Successfully connected to ChromaDB. Collection has {collection.count()} documents.")
+        # Initialize ChromaDB client
+        global _chroma_client
+        _chroma_client = get_chroma_client()
+        
+        # Test collection access
+        collection = _chroma_client.get_or_create_collection(name="companies")
+        doc_count = collection.count()
+        
+        print(f"✅ ChromaDB initialized successfully:")
+        print(f"   - Collection: companies")
+        print(f"   - Documents: {doc_count}")
+        
     except Exception as e:
-        print(f"❌ Error initializing ChromaDB: {str(e)}")
-        print(traceback.format_exc())
+        print(f"❌ Error during startup:")
+        print(f"   - Error: {str(e)}")
+        print(f"   - Details: {traceback.format_exc()}")
+        # Don't raise the error - let the application start
+        # but log it for monitoring
+
+@app.on_event("shutdown")
+async def shutdown_event():
+    """Clean up resources on shutdown"""
+    global _chroma_client
+    _chroma_client = None
+    print("✅ Server shutdown completed")
 
 @app.get("/")
 async def root():
+    """Health check endpoint"""
+    try:
+        # Quick DB check
+        collection = _chroma_client.get_collection(name="companies")
+        is_db_healthy = True
+    except Exception:
+        is_db_healthy = False
+    
     return {
-        "message": "API is running!",
-        "status": "healthy"
+        "status": "online",
+        "database": "healthy" if is_db_healthy else "error",
+        "timestamp": time.time()
     }
 
 @app.get("/status")
 async def status():
     try:
-        from src.config import get_chroma_client
+        from src.config import get_chroma_client, CHROMA_DB_PERSIST_DIRECTORY
         client = get_chroma_client()
         collection = client.get_collection(name="companies")
         
@@ -69,7 +111,7 @@ async def status():
             "environment": {
                 "chroma_path": os.getenv('CHROMA_DB_PATH', 'chroma_data'),
                 "is_render": os.getenv('IS_RENDER', 'false'),
-                "persistence_path": os.path.join(os.getenv('IS_RENDER', 'false') and '/data' or os.path.dirname(os.path.dirname(__file__)), os.getenv('CHROMA_DB_PATH', 'chroma_data'))
+                "persistence_path": CHROMA_DB_PERSIST_DIRECTORY
             }
         }
     except Exception as e:
@@ -167,12 +209,15 @@ def clean_cache(max_age: int = 3600, max_size: int = 1000):
 async def query_endpoint(request: QueryRequest, background_tasks: BackgroundTasks):
     """Handle query requests with caching and fast async processing"""
     try:
-        # Validate and clean query
+        # Validate query
         if not request.query or not request.query.strip():
-            return JSONResponse(content={
-                "result": "Please provide a valid search query.",
-                "status": "error"
-            })
+            return JSONResponse(
+                content={
+                    "result": "Please provide a valid search query.",
+                    "status": "error"
+                },
+                status_code=400
+            )
             
         # Check cache first for instant response
         cache_key = request.query.strip().lower()
@@ -187,10 +232,10 @@ async def query_endpoint(request: QueryRequest, background_tasks: BackgroundTask
                 "status": "success"
             })
             
-        # Initialize ChromaDB with connection pooling
+        # Ensure ChromaDB is reachable (warm-up)
         try:
             client = get_chroma_client()  # Uses singleton pattern
-            collection = client.get_or_create_collection(name="companies")
+            _ = client.get_or_create_collection(name="companies")
         except Exception as db_error:
             print(f"Database error: {str(db_error)}")
             return JSONResponse(
@@ -204,22 +249,22 @@ async def query_endpoint(request: QueryRequest, background_tasks: BackgroundTask
         # Process query with timeout
         print(f"Processing query: {request.query}")
         result = await process_query(request.query)
-        
-        # Only cache successful results
-        if result.get("result") and not result.get("result").startswith("Error"):
+
+        # Only cache successful results from live processing
+        if (
+            isinstance(result, dict)
+            and result.get("status") == "success"
+            and result.get("result")
+        ):
             query_cache[cache_key] = {
                 "result": result["result"],
                 "last_accessed": time.time()
             }
             # Clean old cache entries in background
             background_tasks.add_task(clean_cache)
-        
-        # Return response
-        return JSONResponse(content={
-            "result": result["result"],
-            "cached": False,
-            "status": "success"
-        })
+
+        # Return the result as-is (propagate status/cached)
+        return JSONResponse(content=result)
         
     except HTTPException:
         raise
@@ -234,6 +279,17 @@ async def query_endpoint(request: QueryRequest, background_tasks: BackgroundTask
             }
         )
 
+def start():
+    """Start the FastAPI server"""
+    uvicorn.run(
+        "src.api.main:app",
+        host=HOST,
+        port=PORT,
+        reload=True,  # Enable auto-reload
+        workers=1,    # Single worker for development
+        log_level="info"
+    )
+
 if __name__ == "__main__":
-    uvicorn.run(app, host=HOST, port=PORT)
-    print(f"Server running at http://{HOST}:{PORT}")
+    print(f"Starting server at http://{HOST}:{PORT}")
+    start()
