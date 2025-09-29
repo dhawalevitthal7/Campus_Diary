@@ -124,69 +124,25 @@ async def status():
 # Request body schema
 class QueryRequest(BaseModel):
     query: str
-    timeout_seconds: Optional[float] = None
 
-async def process_query(query: str, timeout_override: Optional[float] = None) -> dict:
-    """Process the query asynchronously with optimized timeout"""
+async def process_query(query: str) -> dict:
+    """Process the query asynchronously without request-level timeouts"""
     async def _process_with_timeout():
-        try:
-            # Use a background task for the processing
-            result = await asyncio.get_event_loop().run_in_executor(
-                None, finalretrieval, query
-            )
-            return result
-        except Exception as e:
-            print(f"Processing error: {str(e)}")
-            return None
+        # Use a background thread for CPU/network bound work
+        result = await asyncio.get_event_loop().run_in_executor(
+            None, finalretrieval, query
+        )
+        return result
 
+    # No request-level timeout; return result directly
     try:
-        # Allow more time on Render; default lower locally. Allow explicit override.
-        if isinstance(timeout_override, (int, float)) and timeout_override > 0:
-            timeout_s = float(timeout_override)
-        else:
-            timeout_s = 30.0 if os.getenv('IS_RENDER', 'false').lower() == 'true' else 12.0
-        result = await asyncio.wait_for(_process_with_timeout(), timeout=timeout_s)
-        
-        if not result:
-            return {
-                "result": "No matching results found. Please try different search terms.",
-                "cached": False,
-                "status": "no_results"
-            }
-        
+        result = await _process_with_timeout()
         if isinstance(result, str):
-            if any(err in result.lower() for err in ["error", "unable", "failed"]):
-                return {
-                    "result": "Please try rephrasing your search query.",
-                    "cached": False,
-                    "status": "error"
-                }
-            return {
-                "result": result,
-                "cached": False,
-                "status": "success"
-            }
-            
-        return {
-            "result": str(result),
-            "cached": False,
-            "status": "success"
-        }
-        
-    except asyncio.TimeoutError:
-        return {
-            "result": "Request timed out. Please try a more specific search.",
-            "cached": False,
-            "status": "timeout"
-        }
+            return {"result": result, "cached": False, "status": "success"}
+        return {"result": str(result), "cached": False, "status": "success"}
     except Exception as e:
         print(f"Query processing error: {str(e)}")
-        traceback.print_exc()
-        return {
-            "result": "Service is currently busy. Please retry in a few moments.",
-            "cached": False,
-            "status": "error"
-        }
+        return {"result": "An error occurred while processing your query.", "cached": False, "status": "error"}
 
 def clean_cache(max_age: int = 3600, max_size: int = 1000):
     """Clean old cache entries"""
@@ -253,7 +209,7 @@ async def query_endpoint(request: QueryRequest, background_tasks: BackgroundTask
             
         # Process query with timeout
         print(f"Processing query: {request.query}")
-        result = await process_query(request.query, timeout_override=request.timeout_seconds)
+        result = await process_query(request.query)
 
         # Only cache successful results from live processing
         if (
@@ -285,7 +241,7 @@ async def query_endpoint(request: QueryRequest, background_tasks: BackgroundTask
         )
 
 @app.get("/query")
-async def query_get(query: Optional[str] = None, q: Optional[str] = None, timeout: Optional[float] = None):
+async def query_get(query: Optional[str] = None, q: Optional[str] = None):
     """GET variant for /query to support simple URL-based calls on Render."""
     query_param = (query or q or "").strip()
     if not query_param:
@@ -297,7 +253,7 @@ async def query_get(query: Optional[str] = None, q: Optional[str] = None, timeou
             status_code=400
         )
     # Reuse async processing directly
-    result = await process_query(query_param, timeout_override=timeout)
+    result = await process_query(query_param)
     return JSONResponse(content=result)
 
 def start():
