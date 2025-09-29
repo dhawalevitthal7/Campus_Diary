@@ -139,8 +139,9 @@ async def process_query(query: str) -> dict:
             return None
 
     try:
-        # Set a shorter timeout for faster response
-        result = await asyncio.wait_for(_process_with_timeout(), timeout=8.0)
+        # Render cold starts can be slower; allow a bit more time in production
+        timeout_s = 15.0 if os.getenv('IS_RENDER', 'false').lower() == 'true' else 8.0
+        result = await asyncio.wait_for(_process_with_timeout(), timeout=timeout_s)
         
         if not result:
             return {
@@ -265,7 +266,7 @@ async def query_endpoint(request: QueryRequest, background_tasks: BackgroundTask
 
         # Return the result as-is (propagate status/cached)
         return JSONResponse(content=result)
-        
+    
     except HTTPException:
         raise
     except Exception as e:
@@ -278,6 +279,22 @@ async def query_endpoint(request: QueryRequest, background_tasks: BackgroundTask
                 "message": str(e)
             }
         )
+
+@app.get("/query")
+async def query_get(query: Optional[str] = None, q: Optional[str] = None):
+    """GET variant for /query to support simple URL-based calls on Render."""
+    query_param = (query or q or "").strip()
+    if not query_param:
+        return JSONResponse(
+            content={
+                "result": "Please provide a query via ?query= or ?q=",
+                "status": "error"
+            },
+            status_code=400
+        )
+    # Reuse async processing directly
+    result = await process_query(query_param)
+    return JSONResponse(content=result)
 
 def start():
     """Start the FastAPI server"""
