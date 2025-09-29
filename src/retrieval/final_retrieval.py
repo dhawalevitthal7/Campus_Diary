@@ -47,21 +47,22 @@ def finalretrieval(user_query: str):
     """Process user query combining metadata and embedding retrieval."""
     try:
         print(f"Processing query: {user_query}")
-        # Metadata-based search (fast path)
-        res1 = serialize_chroma_result(retriev(user_query))
-        print(f"Metadata search results: {len(res1.get('documents', []))} documents")
+        # Embedding-based search (priority)
+        res2 = serialize_chroma_result(generate_embedding(user_query))
+        print(f"Embedding search results: {len(res2.get('documents', []))} documents")
 
-        # Embedding-based search only if metadata is empty (faster)
-        res2 = {"ids": [], "documents": [], "metadatas": []}
-        if not res1.get("documents"):
-            res2 = serialize_chroma_result(generate_embedding(user_query))
+        # Metadata-based search only if embedding is empty (fallback)
+        res1 = {"ids": [], "documents": [], "metadatas": []}
+        if not res2.get("documents"):
+            res1 = serialize_chroma_result(retriev(user_query))
+            print(f"Metadata search results (fallback): {len(res1.get('documents', []))} documents")
         
         # Prepare results for response
         all_docs = []
         seen_docs = set()
         
-        # Combine unique results from both searches, prefer metadata ordering
-        for result in [res1, res2]:
+        # Combine unique results from both searches, prefer embedding ordering
+        for result in [res2, res1]:
             for doc, meta in zip(result.get("documents", []), result.get("metadatas", [])):
                 if doc and doc not in seen_docs:
                     seen_docs.add(doc)
@@ -94,7 +95,7 @@ def finalretrieval(user_query: str):
             with concurrent.futures.ThreadPoolExecutor(max_workers=1) as ex:
                 fut = ex.submit(_gen)
                 try:
-                    response = fut.result(timeout=6.0)
+                    response = fut.result(timeout=5.0)
                 except concurrent.futures.TimeoutError:
                     return "Here are the top matches based on the database search. The AI summary took too long; showing raw results instead.\n\n" + json.dumps(all_docs[:3], indent=2)
 
