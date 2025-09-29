@@ -72,35 +72,46 @@ class QueryRequest(BaseModel):
 async def process_query(query: str) -> dict:
     """Process the query asynchronously with shorter timeout"""
     try:
-        # Reduced timeout to 15 seconds for faster response
+        # Process query with a shorter timeout
         result = await asyncio.wait_for(
             asyncio.to_thread(finalretrieval, query),
-            timeout=15.0
+            timeout=10.0  # Reduced timeout for faster response
         )
         
-        if isinstance(result, str):
-            return {"result": result, "cached": False}
-            
-        # Ensure we have a valid response
         if not result:
             return {
                 "result": "No results found. Please try different keywords.",
-                "cached": False
+                "cached": False,
+                "status": "no_results"
+            }
+        
+        # Check if the result indicates an error
+        if isinstance(result, str) and ("error" in result.lower() or "unable to" in result.lower()):
+            return {
+                "result": "Unable to process query. Please try with different keywords.",
+                "cached": False,
+                "status": "error"
             }
             
-        return {"result": result, "cached": False}
+        return {
+            "result": result,
+            "cached": False,
+            "status": "success"
+        }
         
     except asyncio.TimeoutError:
         return {
-            "result": "Response taking too long. Please try a more specific query.",
-            "cached": False
+            "result": "Query taking too long. Please try a more specific search.",
+            "cached": False,
+            "status": "timeout"
         }
     except Exception as e:
         print(f"Error processing query: {str(e)}")
         traceback.print_exc()
         return {
-            "result": "An error occurred while processing your query. Please try again.",
-            "cached": False
+            "result": "System is temporarily busy. Please try again in a moment.",
+            "cached": False,
+            "status": "error"
         }
 
 def clean_cache(max_age: int = 3600, max_size: int = 1000):

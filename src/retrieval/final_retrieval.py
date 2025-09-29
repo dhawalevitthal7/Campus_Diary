@@ -34,11 +34,14 @@ def serialize_chroma_result(result):
 def finalretrieval(user_query: str):
     """Process user query and return relevant results quickly"""
     try:
+        print(f"Processing query: {user_query}")
         # First try metadata-based search as it's faster
         res1 = serialize_chroma_result(retriev(user_query))
+        print(f"Metadata search results: {len(res1.get('documents', []))} documents")
         
         # Only do embedding search if metadata search returns no results
         if not res1.get("documents"):
+            print("No metadata results, trying embedding search")
             res2 = serialize_chroma_result(generate_embedding(user_query))
         else:
             res2 = {"ids": [], "documents": [], "metadatas": []}
@@ -56,18 +59,36 @@ def finalretrieval(user_query: str):
         
         if not all_docs:
             return "No matching companies found for your query. Please try different keywords."
-            
-        # Create a concise instruction for faster processing
-        system_instruction = f"""
-        Analyze these {len(all_docs)} companies for query: '{user_query}'
-        Focus on most relevant matches for job criteria.
-        Key points: company names, CTC, locations, requirements.
-        Keep response clear and brief.
+        
+        print(f"Found {len(all_docs)} matching companies")
+        
+        # Create a concise prompt for the model
+        prompt = f"""
+        User Query: {user_query}
+        
+        Found {len(all_docs)} matching companies. Here are the details:
+        {json.dumps(all_docs, indent=2)}
+        
+        Please provide a clear, concise summary focusing on:
+        1. Most relevant companies matching the query
+        2. Key details (CTC, locations, requirements)
+        3. Any specific matches to user criteria
+        
+        Keep the response brief and informative.
         """
-        result = model.generate_content(
-            contents=[system_instruction, content]
-        )
-        return result.text  # Return the text content of the response
+        try:
+            # Generate response using the model
+            response = model.generate_content(prompt)
+            
+            if response and response.text:
+                return response.text.strip()
+            else:
+                return "Unable to generate response. Please try again."
+                
+        except Exception as model_error:
+            print(f"Error in generate_content: {str(model_error)}")
+            return f"Error processing results: {str(model_error)}"
+            
     except Exception as e:
-        print(f"Error in generate_content: {str(e)}")
-        raise  # Re-raise the exception to be caught by the API endpoint
+        print(f"Error in finalretrieval: {str(e)}")
+        return f"An error occurred while processing your query: {str(e)}"
