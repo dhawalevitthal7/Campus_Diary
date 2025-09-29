@@ -77,12 +77,12 @@ def finalretrieval(user_query: str):
         Found {len(all_docs)} matching companies. Here are the details:
         {json.dumps(all_docs, indent=2)}
         
-        Please provide a clear, concise summary focusing on:
+        Please provide a clear response focusing on:
         1. Most relevant companies matching the query
         2. Key details (CTC, locations, requirements)
         3. Any specific matches to user criteria
-        
-        Keep the response brief and informative.
+        4. make response according to {user_query}.
+        Keep the response informative.
         """
         try:
             # Generate response using the model
