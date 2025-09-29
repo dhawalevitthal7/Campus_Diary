@@ -70,20 +70,38 @@ class QueryRequest(BaseModel):
     query: str
 
 async def process_query(query: str) -> dict:
-    """Process the query asynchronously with timeout"""
+    """Process the query asynchronously with shorter timeout"""
     try:
-        # Set a timeout of 30 seconds for query processing
+        # Reduced timeout to 15 seconds for faster response
         result = await asyncio.wait_for(
             asyncio.to_thread(finalretrieval, query),
-            timeout=30.0
+            timeout=15.0
         )
+        
+        if isinstance(result, str):
+            return {"result": result, "cached": False}
+            
+        # Ensure we have a valid response
+        if not result:
+            return {
+                "result": "No results found. Please try different keywords.",
+                "cached": False
+            }
+            
         return {"result": result, "cached": False}
+        
     except asyncio.TimeoutError:
-        raise HTTPException(status_code=504, detail="Query processing timed out")
+        return {
+            "result": "Response taking too long. Please try a more specific query.",
+            "cached": False
+        }
     except Exception as e:
         print(f"Error processing query: {str(e)}")
         traceback.print_exc()
-        raise HTTPException(status_code=500, detail=str(e))
+        return {
+            "result": "An error occurred while processing your query. Please try again.",
+            "cached": False
+        }
 
 def clean_cache(max_age: int = 3600, max_size: int = 1000):
     """Clean old cache entries"""
@@ -109,58 +127,60 @@ def clean_cache(max_age: int = 3600, max_size: int = 1000):
 
 @app.post("/query")
 async def query_endpoint(request: QueryRequest, background_tasks: BackgroundTasks):
-    """Handle query requests with caching and async processing"""
+    """Handle query requests with caching and fast async processing"""
     try:
-        # Check cache first
+        # Validate and clean query
+        if not request.query or not request.query.strip():
+            return JSONResponse(content={
+                "result": "Please provide a valid search query.",
+                "status": "error"
+            })
+            
+        # Check cache first for instant response
         cache_key = request.query.strip().lower()
         cached_result = query_cache.get(cache_key)
         
         if cached_result:
-            # Update cache access time
+            # Return cached result immediately
             cached_result["last_accessed"] = time.time()
             return JSONResponse(content={
                 "result": cached_result["result"],
-                "cached": True
+                "cached": True,
+                "status": "success"
             })
             
-        # Initialize ChromaDB
+        # Initialize ChromaDB with connection pooling
         try:
-            client = get_chroma_client()
+            client = get_chroma_client()  # Uses singleton pattern
             collection = client.get_or_create_collection(name="companies")
-            doc_count = collection.count()
-            print(f"Connected to ChromaDB. Collection has {doc_count} documents.")
         except Exception as db_error:
             print(f"Database error: {str(db_error)}")
-            traceback.print_exc()
-            raise HTTPException(
-                status_code=500,
-                detail={
-                    "error": "Database connection failed",
-                    "message": str(db_error)
-                }
+            return JSONResponse(
+                content={
+                    "result": "Unable to connect to database. Please try again.",
+                    "status": "error"
+                },
+                status_code=503
             )
             
         # Process query with timeout
         print(f"Processing query: {request.query}")
         result = await process_query(request.query)
         
-        # Cache the result
-        query_cache[cache_key] = {
-            "result": result["result"],
-            "last_accessed": time.time()
-        }
+        # Only cache successful results
+        if result.get("result") and not result.get("result").startswith("Error"):
+            query_cache[cache_key] = {
+                "result": result["result"],
+                "last_accessed": time.time()
+            }
+            # Clean old cache entries in background
+            background_tasks.add_task(clean_cache)
         
-        # Clean old cache entries in background
-        background_tasks.add_task(clean_cache)
-        
-        # Return response with debug info
+        # Return response
         return JSONResponse(content={
             "result": result["result"],
             "cached": False,
-            "debug": {
-                "query": request.query,
-                "collection_size": doc_count
-            }
+            "status": "success"
         })
         
     except HTTPException:

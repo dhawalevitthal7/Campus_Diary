@@ -20,34 +20,50 @@ genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel('gemini-2.0-flash')
 
 
-def finalretrieval(user_query:str):
-    def serialize_chroma_result(result):
-        if isinstance(result, dict):
-            return {
-                "ids": result.get("ids", []),
-                "documents": result.get("documents", []),
-                "metadatas": result.get("metadatas", [])
-            }
-        return str(result)
-    
-    # Get results from both retrievers
-    res1 = serialize_chroma_result(retriev(user_query))
-    res2 = serialize_chroma_result(generate_embedding(user_query))
-    
-    system_instruction = f"""
-    Analyze the following search results and provide a user-friendly response 
-    that summarizes the most relevant information based on the user's query: '{user_query}'.
-    
-    Result 1 (Metadata-based search):
-    {json.dumps(res1, indent=2)}
-    
-    Result 2 (Embedding-based search):
-    {json.dumps(res2, indent=2)}
-    """
-    
-    content = user_query
+def serialize_chroma_result(result):
+    """Safely serialize ChromaDB results with optimization"""
+    if isinstance(result, dict):
+        # Limit to top 3 most relevant results to improve response time
+        return {
+            "ids": result.get("ids", [])[:3],
+            "documents": result.get("documents", [])[:3],
+            "metadatas": result.get("metadatas", [])[:3]
+        }
+    return str(result)
 
+def finalretrieval(user_query: str):
+    """Process user query and return relevant results quickly"""
     try:
+        # First try metadata-based search as it's faster
+        res1 = serialize_chroma_result(retriev(user_query))
+        
+        # Only do embedding search if metadata search returns no results
+        if not res1.get("documents"):
+            res2 = serialize_chroma_result(generate_embedding(user_query))
+        else:
+            res2 = {"ids": [], "documents": [], "metadatas": []}
+        
+        # Prepare results for response
+        all_docs = []
+        seen_docs = set()
+        
+        # Combine unique results from both searches
+        for result in [res1, res2]:
+            for doc, meta in zip(result.get("documents", []), result.get("metadatas", [])):
+                if doc and doc not in seen_docs:
+                    seen_docs.add(doc)
+                    all_docs.append({"document": doc, "metadata": meta})
+        
+        if not all_docs:
+            return "No matching companies found for your query. Please try different keywords."
+            
+        # Create a concise instruction for faster processing
+        system_instruction = f"""
+        Analyze these {len(all_docs)} companies for query: '{user_query}'
+        Focus on most relevant matches for job criteria.
+        Key points: company names, CTC, locations, requirements.
+        Keep response clear and brief.
+        """
         result = model.generate_content(
             contents=[system_instruction, content]
         )
