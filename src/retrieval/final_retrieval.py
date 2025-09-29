@@ -70,6 +70,19 @@ def prioritize_docs_for_query(all_docs, user_query: str):
         return s
     return sorted(all_docs, key=score, reverse=True)
 
+def filter_docs_by_company(all_docs, user_query: str):
+    """If a company name from docs appears in the user query, keep only those docs."""
+    uq = (user_query or "").lower()
+    if not uq:
+        return all_docs
+    matches = []
+    for item in all_docs:
+        meta = item.get("metadata", {}) or {}
+        name = (meta.get("name") or meta.get("company_name") or "").strip()
+        if name and name.lower() in uq:
+            matches.append(item)
+    return matches if matches else all_docs
+
 def finalretrieval(user_query: str):
     """Process user query combining metadata and embedding retrieval."""
     try:
@@ -109,6 +122,8 @@ def finalretrieval(user_query: str):
         print(f"Found {len(all_docs)} matching companies")
         
         ranked_docs = prioritize_docs_for_query(all_docs, user_query)
+        # If a specific company is mentioned, restrict to that company only
+        ranked_docs = filter_docs_by_company(ranked_docs, user_query)
         # Create a detailed prompt for accurate responses
         prompt = f"""
         User Query: {user_query}
@@ -117,6 +132,7 @@ def finalretrieval(user_query: str):
         {json.dumps(ranked_docs[:5], indent=2)}
         
         Instructions:
+        - If a specific company name is mentioned in the query, answer ONLY about that company.
         1. If the query asks "how can I be best fit" or preparation for a specific company:
            - Analyze the company's requirements from the retrieved data
            - Extract: required skills, CGPA/percent criteria, eligible branches, locations, CTC ranges
