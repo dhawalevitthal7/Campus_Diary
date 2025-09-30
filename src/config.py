@@ -26,7 +26,6 @@ os.makedirs(CHROMA_DB_PERSIST_DIRECTORY, exist_ok=True)
 
 print(f"📂 ChromaDB persistence directory: {CHROMA_DB_PERSIST_DIRECTORY}")
 
-# ChromaDB settings
 import chromadb
 
 _chroma_client = None
@@ -40,13 +39,8 @@ def get_chroma_client():
     global _chroma_client
     if _chroma_client is None:
         try:
-            # Use new PersistentClient API per Chroma migration guidance
+            # Use PersistentClient per current Chroma guidance
             _chroma_client = chromadb.PersistentClient(path=CHROMA_DB_PERSIST_DIRECTORY)
-            # Optional warm-up (not all clients expose heartbeat)
-            try:
-                _ = getattr(_chroma_client, "heartbeat", lambda: None)()
-            except Exception:
-                pass
             print("✅ ChromaDB PersistentClient initialized")
         except Exception as e:
             print(f"❌ Error connecting to ChromaDB: {str(e)}")

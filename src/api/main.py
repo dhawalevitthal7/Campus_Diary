@@ -97,7 +97,7 @@ async def root():
 @app.get("/status")
 async def status():
     try:
-        from src.config import get_chroma_client, CHROMA_DB_PERSIST_DIRECTORY
+        from src.config import get_chroma_client
         client = get_chroma_client()
         collection = client.get_collection(name="companies")
         
@@ -111,7 +111,7 @@ async def status():
             "environment": {
                 "chroma_path": os.getenv('CHROMA_DB_PATH', 'chroma_data'),
                 "is_render": os.getenv('IS_RENDER', 'false'),
-                "persistence_path": CHROMA_DB_PERSIST_DIRECTORY
+                "persistence_path": os.path.join(os.getenv('IS_RENDER', 'false') and '/data' or os.path.dirname(os.path.dirname(__file__)), os.getenv('CHROMA_DB_PATH', 'chroma_data'))
             }
         }
     except Exception as e:
@@ -126,23 +126,62 @@ class QueryRequest(BaseModel):
     query: str
 
 async def process_query(query: str) -> dict:
-    """Process the query asynchronously without request-level timeouts"""
+    """Process the query asynchronously with optimized timeout"""
     async def _process_with_timeout():
-        # Use a background thread for CPU/network bound work
-        result = await asyncio.get_event_loop().run_in_executor(
-            None, finalretrieval, query
-        )
-        return result
+        try:
+            # Use a background task for the processing
+            result = await asyncio.get_event_loop().run_in_executor(
+                None, finalretrieval, query
+            )
+            return result
+        except Exception as e:
+            print(f"Processing error: {str(e)}")
+            return None
 
-    # No request-level timeout; return result directly
     try:
-        result = await _process_with_timeout()
+        # Set a shorter timeout for faster response
+        result = await asyncio.wait_for(_process_with_timeout(), timeout=8.0)
+        
+        if not result:
+            return {
+                "result": "No matching results found. Please try different search terms.",
+                "cached": False,
+                "status": "no_results"
+            }
+        
         if isinstance(result, str):
-            return {"result": result, "cached": False, "status": "success"}
-        return {"result": str(result), "cached": False, "status": "success"}
+            if any(err in result.lower() for err in ["error", "unable", "failed"]):
+                return {
+                    "result": "Please try rephrasing your search query.",
+                    "cached": False,
+                    "status": "error"
+                }
+            return {
+                "result": result,
+                "cached": False,
+                "status": "success"
+            }
+            
+        return {
+            "result": str(result),
+            "cached": False,
+            "status": "success"
+        }
+        
+    except asyncio.TimeoutError:
+        return {
+            "result": "Request timed out. Please try a more specific search.",
+            "cached": False,
+            "status": "timeout"
+        }
     except Exception as e:
         print(f"Query processing error: {str(e)}")
-        return {"result": "An error occurred while processing your query.", "cached": False, "status": "error"}
+        traceback.print_exc()
+        return {
+            "result": "Service is currently busy. Please retry in a few moments.",
+            "cached": False,
+            "status": "error"
+        }
 
 def clean_cache(max_age: int = 3600, max_size: int = 1000):
     """Clean old cache entries"""
@@ -193,10 +232,10 @@ async def query_endpoint(request: QueryRequest, background_tasks: BackgroundTask
                 "status": "success"
             })
             
-        # Ensure ChromaDB is reachable (warm-up)
+        # Initialize ChromaDB with connection pooling
         try:
             client = get_chroma_client()  # Uses singleton pattern
-            _ = client.get_or_create_collection(name="companies")
+            collection = client.get_or_create_collection(name="companies")
         except Exception as db_error:
             print(f"Database error: {str(db_error)}")
             return JSONResponse(
@@ -210,23 +249,23 @@ async def query_endpoint(request: QueryRequest, background_tasks: BackgroundTask
         # Process query with timeout
         print(f"Processing query: {request.query}")
         result = await process_query(request.query)
-
-        # Only cache successful results from live processing
-        if (
-            isinstance(result, dict)
-            and result.get("status") == "success"
-            and result.get("result")
-        ):
+        
+        # Only cache successful results
+        if result.get("result") and not result.get("result").startswith("Error"):
             query_cache[cache_key] = {
                 "result": result["result"],
                 "last_accessed": time.time()
             }
             # Clean old cache entries in background
             background_tasks.add_task(clean_cache)
-
-        # Return the result as-is (propagate status/cached)
-        return JSONResponse(content=result)
-    
+        
+        # Return response
+        return JSONResponse(content={
+            "result": result["result"],
+            "cached": False,
+            "status": "success"
+        })
+        
     except HTTPException:
         raise
     except Exception as e:
@@ -239,22 +278,6 @@ async def query_endpoint(request: QueryRequest, background_tasks: BackgroundTask
                 "message": str(e)
             }
         )
-
-@app.get("/query")
-async def query_get(query: Optional[str] = None, q: Optional[str] = None):
-    """GET variant for /query to support simple URL-based calls on Render."""
-    query_param = (query or q or "").strip()
-    if not query_param:
-        return JSONResponse(
-            content={
-                "result": "Please provide a query via ?query= or ?q=",
-                "status": "error"
-            },
-            status_code=400
-        )
-    # Reuse async processing directly
-    result = await process_query(query_param)
-    return JSONResponse(content=result)
 
 def start():
     """Start the FastAPI server"""
