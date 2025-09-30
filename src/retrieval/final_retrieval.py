@@ -90,7 +90,7 @@ def finalretrieval(user_query: str):
         prompt = f"""
         User Query: {user_query}
         Context (concise): {json.dumps(compact, indent=2)}
-        Task: Write a medium length answer based only on the context. Include roles, CTC, locations, and eligibility if present. Keep it informative and helpful.
+        Task: Write a detailed answer based only on the context. Include roles, CTC, locations, and eligibility if present. Keep it informative and helpful.
         also modify your answer according to user query.
         """
         # Fast generation with a strict time cap; fall back to template if slow
